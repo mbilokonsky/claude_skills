@@ -1,5 +1,5 @@
 # Myk's Claude Skills
-This repo contains a few things I've been playing with. Each skill has its own top-level folder, the most recent build is in <skill_name>/dist/<skill_name>.skill. You can use them with a paid claude account - go into settings -> capabilities -> skills, upload a new skill, and upload the .skill file. From there you should be able to use them in claud conversations.
+This repo contains a few things I've been playing with. Each skill has its own top-level folder, the most recent build is in `<skill_name>/dist/<skill_name>.skill`. You can use them with a paid claude account - go into `settings` -> `capabilities` -> `skills`, upload a new skill, and upload the .skill file. From there you should be able to use them in claude conversations.
 
 ## [Domain-Agnostic Operational Composer](./daoc/dist/daoc.skill)
 This one is weird and powerful, but quite experimental. The basic idea is that there are all kinds of different domains of knowledge out there, each with its own "operations" -- think, like, the way software engineering has "unit testing", or music theory has "counterpoint", or math has "derivatives". The key insight behind the DAOC skill is that while we tend to think of operations as belonging to domains, any given operation is itself constrained not by the semantics of its domain but by the structure of its inputs.
