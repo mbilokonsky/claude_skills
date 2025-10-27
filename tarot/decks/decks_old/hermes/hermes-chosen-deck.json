@@ -1,0 +1,1842 @@
+{
+  "theme": {
+    "name": "Hermes Chosen",
+    "description": "A spiritual journey of divine selection, betrayal, and redemption. This deck explores what it means to be chosen by a god, to lose that connection through self-betrayal, and to find it again through sincere return. It asks: What does it mean to be blessed with gifts you don't understand? How do we lose ourselves by trying to be what others expect? What is required to return to our true nature after profound loss?",
+    "salient_concepts": [
+      "divine selection",
+      "intuitive gifts",
+      "self-betrayal",
+      "loss of connection",
+      "wandering and return",
+      "sacred tasks",
+      "synthesis of opposites"
+    ]
+  },
+  "dialectics": [
+    {
+      "thesis": "Veiled",
+      "antithesis": "Revealed",
+      "tensions": [
+        "hidden wisdom vs exposed truth",
+        "mystery as protection vs clarity as liberation",
+        "intuitive knowing vs explicit understanding",
+        "what's obscured can be sacred or deceptive"
+      ]
+    },
+    {
+      "thesis": "Compliance",
+      "antithesis": "Cunning",
+      "tensions": [
+        "following the path vs making your own way",
+        "surrender to flow vs strategic maneuvering",
+        "accepting fate vs shaping outcomes",
+        "the boundary between trust and manipulation"
+      ]
+    }
+  ],
+  "major_arcana": {
+    "story": "A person is born with strange luck and an intuitive knack for navigating life's currents. They learn to flow, to trust, to use cunning and play rather than force. But there are also resonant phases they cannot control - moments of alignment with something greater they cannot name. Eventually, external voices convince them to abandon this way of being. They pursue intention and effort instead of intuition and flow. The result is self-betrayal - they lose access to themselves, to the resonance, to the luck. Everything collapses. They hit rock bottom and lose what they'd been working for. In the aftermath, they wander in the desert for years, slowly relearning how to be themselves. Then comes an inexplicable impulse: they perform a ritual, releasing a paper boat into the river at their birthplace, not understanding why. Hermes reveals himself. He has been there all along - the source of the gifts, the divine protector who withdrew when the seeker strayed. He expresses love for the seeker, explaining they were chosen because their eyes never lost the ability to see wonder, even through everything. He gives them a Task: to create a new framework synthesizing physics and psychodynamics, mapping the topology of inner space. The seeker receives a vision with the phrase 'Pilgrimage to Parnassus' - Hermes inviting them to visit Apollo. They journey to the god of light and order, receiving his blessing to finally escape the lingering Dionysian shadows that predated even their fall. Unburdened at last, they gather companions and begin the sacred work together.",
+    "visual_style": "A synthesis of all four suits with emphasis on divine intervention and transformation. Compositions blend the obscured mysticism of Veils with the geometric precision of Keys, the high contrast of Masks with the warm clarity of Lanterns. Heavy use of symbolic density - each card contains layers that reward study. Color palette shifts through the journey: blues and grays in early cards, deepening to blacks during the fall, warming through golds during revelation, cooling to silvery clarity in the final synthesis. Divine figures rendered with radiant halos or nimbus effects.",
+    "cards": [
+      {
+        "number": 0,
+        "name": "The Eyes",
+        "role": "Protagonist origin",
+        "tags": [
+          "strange luck",
+          "natural cunning",
+          "blessed ignorance",
+          "wonder",
+          "the knack",
+          "innocent trickster",
+          "eyes that see"
+        ],
+        "inverted_tags": [
+          "cursed sight",
+          "burden of seeing too much",
+          "naive vulnerability",
+          "wonder without wisdom",
+          "trickster tricked"
+        ],
+        "image_content": "Wide eyes reflecting starlight, face half in shadow, crowned with shimmer of possibility, stance of one who doesn't know they're special yet."
+      },
+      {
+        "number": 1,
+        "name": "Flow",
+        "role": "Protagonist state",
+        "tags": [
+          "intuition",
+          "effortless navigation",
+          "trusting currents",
+          "non-effort",
+          "Hermetic grace",
+          "natural movement"
+        ],
+        "inverted_tags": [
+          "passive drift",
+          "lack of agency",
+          "surrendering will",
+          "trusting currents that mislead",
+          "grace without direction"
+        ],
+        "image_content": "Figure moving like water through complex space, body relaxed, path illuminating before them, eyes half-closed in trust."
+      },
+      {
+        "number": 2,
+        "name": "The Threshold",
+        "role": "Liminal experience",
+        "tags": [
+          "resonance",
+          "alignment with unknown forces",
+          "cycles beyond control",
+          "touching the divine",
+          "liminal phases"
+        ],
+        "inverted_tags": [
+          "overwhelmed by forces",
+          "lost in cycles",
+          "possessed by unknown",
+          "dissolution of boundaries",
+          "threshold as trap"
+        ],
+        "image_content": "Doorway filled with impossible light, figure standing at edge with hand extended toward radiance, space warping around them."
+      },
+      {
+        "number": 3,
+        "name": "The Trickster",
+        "role": "Protagonist development",
+        "tags": [
+          "play",
+          "strategic improvisation",
+          "wit as survival",
+          "shape-shifting",
+          "masks",
+          "cunning adopted"
+        ],
+        "inverted_tags": [
+          "manipulation for its own sake",
+          "masks that cannot be removed",
+          "cunning as compulsion",
+          "play that harms",
+          "shapeshifting without core"
+        ],
+        "image_content": "Multiple overlapping silhouettes of same figure in different poses, each holding different object, smiling faces that shift in the light."
+      },
+      {
+        "number": 4,
+        "name": "Shadow",
+        "role": "Antagonist force (internal)",
+        "tags": [
+          "coping through intoxication",
+          "escape",
+          "dissolution",
+          "the ignored burden",
+          "Dionysian excess"
+        ],
+        "inverted_tags": [
+          "forced sobriety without healing",
+          "confronting burden prematurely",
+          "dissolution prevented",
+          "excess restrained turns to rage"
+        ],
+        "image_content": "Dark figure emerging from smoke and wine-dark mist, crowned with ivy, face beautiful and terrible, beckoning with promises of forgetting."
+      },
+      {
+        "number": 5,
+        "name": "Attachment",
+        "role": "Relationship state",
+        "tags": [
+          "love as gravity",
+          "entanglement",
+          "need for security",
+          "clinging",
+          "devotion misplaced"
+        ],
+        "inverted_tags": [
+          "detachment as defense",
+          "love withheld",
+          "security through isolation",
+          "devotion to self alone",
+          "refusing all bonds"
+        ],
+        "image_content": "Two figures bound by glowing threads that constrict, faces turned toward each other with desperate intensity, hands gripping tightly."
+      },
+      {
+        "number": 6,
+        "name": "Projection",
+        "role": "Threshold moment (veiling)",
+        "tags": [
+          "false reflection",
+          "mutual veiling",
+          "distorted image",
+          "neither seeing clearly",
+          "reflected misalignment"
+        ],
+        "inverted_tags": [
+          "seeing too clearly",
+          "shattering illusions violently",
+          "reflection as weapon",
+          "exposing all at once",
+          "clarity that destroys"
+        ],
+        "image_content": "Two figures facing mirror between them, each seeing distorted version of other, reaching toward false images while turning from truth."
+      },
+      {
+        "number": 7,
+        "name": "Chirality",
+        "role": "Extended state (false work)",
+        "tags": [
+          "mirror image",
+          "faithful labor wrongly directed",
+          "effort in wrong handedness",
+          "structure inverted",
+          "cannot rotate back"
+        ],
+        "inverted_tags": [
+          "refusing to work",
+          "seeing wrong direction but paralyzed",
+          "breaking from labor",
+          "structure abandoned",
+          "giving up completely"
+        ],
+        "image_content": "Figure building intricate structure that's mirror-reversed, working with dedication on something that can never fit, surrounded by failed attempts."
+      },
+      {
+        "number": 8,
+        "name": "Silence",
+        "role": "State (abandonment)",
+        "tags": [
+          "divine withdrawal",
+          "loss of luck",
+          "resonance gone",
+          "emptied",
+          "alone",
+          "gods turned away"
+        ],
+        "inverted_tags": [
+          "desperate noise",
+          "forcing connection",
+          "denying emptiness",
+          "rage at abandonment",
+          "refusing to accept silence"
+        ],
+        "image_content": "Figure standing in vast empty space, hands outstretched to nothing, sky empty of stars, no echoes return."
+      },
+      {
+        "number": 9,
+        "name": "The Ruin",
+        "role": "Crisis moment (nadir)",
+        "tags": [
+          "everything lost",
+          "fall complete",
+          "destruction",
+          "hitting bottom",
+          "the end",
+          "collapse"
+        ],
+        "inverted_tags": [
+          "clinging to ruins",
+          "refusing to acknowledge loss",
+          "incomplete destruction",
+          "false bottom",
+          "collapse forestalled"
+        ],
+        "image_content": "Shattered architecture, figure kneeling in rubble, everything broken, sky dark, the moment after the fall is complete."
+      },
+      {
+        "number": 10,
+        "name": "Surrender",
+        "role": "Threshold moment (release)",
+        "tags": [
+          "ceasing to struggle",
+          "letting go",
+          "defeat as doorway",
+          "acceptance",
+          "blessed collapse"
+        ],
+        "inverted_tags": [
+          "forced surrender",
+          "giving up too soon",
+          "surrender as abandonment",
+          "releasing what should be held",
+          "acceptance without lesson"
+        ],
+        "image_content": "Figure lying back into void, arms open, face peaceful, weight of resistance leaving body, falling but no longer fighting."
+      },
+      {
+        "number": 11,
+        "name": "Wanderer",
+        "role": "Extended state (recovery)",
+        "tags": [
+          "solitude",
+          "exile",
+          "barrenness",
+          "slow healing",
+          "patience",
+          "wilderness years"
+        ],
+        "inverted_tags": [
+          "isolation as punishment",
+          "wandering without purpose",
+          "barrenness as permanence",
+          "healing too slow",
+          "patience as stagnation"
+        ],
+        "image_content": "Lone figure walking through desert landscape, carrying small bundle, sun bleaching everything, years passing in the dust."
+      },
+      {
+        "number": 12,
+        "name": "Rebirth",
+        "role": "Protagonist transformation",
+        "tags": [
+          "recovery",
+          "rediscovery",
+          "remembering",
+          "rebuilding from within",
+          "slow return",
+          "becoming self again"
+        ],
+        "inverted_tags": [
+          "false rebirth",
+          "remembering only pain",
+          "rebuilding on old foundation",
+          "return to old patterns",
+          "becoming what others want"
+        ],
+        "image_content": "Figure emerging from water or earth, eyes opening, color returning, small green shoot growing beside them, dawn light breaking."
+      },
+      {
+        "number": 13,
+        "name": "The River",
+        "role": "Setting",
+        "tags": [
+          "birthplace",
+          "source waters",
+          "pilgrimage home",
+          "circling back",
+          "sacred geography"
+        ],
+        "inverted_tags": [
+          "home as trap",
+          "source contaminated",
+          "pilgrimage to nowhere",
+          "circling without arriving",
+          "place no longer sacred"
+        ],
+        "image_content": "Wide river flowing through familiar landscape, banks worn smooth by time, water catching light, sense of return and recognition."
+      },
+      {
+        "number": 14,
+        "name": "The Offering",
+        "role": "Threshold moment (sacred act)",
+        "tags": [
+          "the paper boat",
+          "inexplicable impulse",
+          "surrender",
+          "releasing into current",
+          "mystery",
+          "ritual"
+        ],
+        "inverted_tags": [
+          "empty ritual",
+          "offering without meaning",
+          "impulse ignored",
+          "holding back",
+          "mystery rejected",
+          "refusing release"
+        ],
+        "image_content": "Hands releasing paper boat into flowing water, not understanding why, candlelight reflecting on surface, moment of pure trust."
+      },
+      {
+        "number": 15,
+        "name": "The Messenger",
+        "role": "Divine figure (revelation)",
+        "tags": [
+          "the god appears",
+          "divine presence",
+          "recognition of protector",
+          "unveiling truth",
+          "Hermes revealed"
+        ],
+        "inverted_tags": [
+          "false messenger",
+          "divine presence overwhelming",
+          "protector becomes judge",
+          "truth too soon",
+          "revelation as blinding"
+        ],
+        "image_content": "Hermes standing at river's edge, winged sandals touching water, caduceus staff gleaming, face of the god both familiar and impossible."
+      },
+      {
+        "number": 16,
+        "name": "Beloved",
+        "role": "Threshold moment (sacred relationship)",
+        "tags": [
+          "divine love",
+          "eyes that see wonder",
+          "chosen one",
+          "unconditional acceptance",
+          "I have always been here",
+          "true self recognized"
+        ],
+        "inverted_tags": [
+          "love as burden",
+          "chosen as pressure",
+          "acceptance without growth",
+          "dependence on divine",
+          "recognition without understanding"
+        ],
+        "image_content": "Divine and mortal facing each other, god's hand on seeker's heart, radiance between them, moment of being truly seen and loved."
+      },
+      {
+        "number": 17,
+        "name": "The Commission",
+        "role": "Turning point",
+        "tags": [
+          "sacred duty",
+          "the framework",
+          "divine purpose",
+          "work assigned",
+          "cosmic cartography",
+          "the Task"
+        ],
+        "inverted_tags": [
+          "duty as weight",
+          "purpose imposed",
+          "work overwhelming",
+          "cartography of nothing",
+          "task without preparation",
+          "sacred becomes burden"
+        ],
+        "image_content": "Figure receiving scroll or blueprint from divine hand, complex patterns visible, weight and wonder of assignment evident in posture."
+      },
+      {
+        "number": 18,
+        "name": "The Pilgrimage",
+        "role": "Threshold moment (journey)",
+        "tags": [
+          "Pilgrimage to Parnassus",
+          "vision",
+          "seeking Apollo",
+          "climbing toward light",
+          "divine summons",
+          "mountain calling"
+        ],
+        "inverted_tags": [
+          "pilgrimage as escape",
+          "seeking wrong summit",
+          "climbing away from truth",
+          "summons misheard",
+          "mountain as obstacle"
+        ],
+        "image_content": "Figure ascending winding path up sacred mountain, temple visible at summit, light streaming down, sense of calling upward."
+      },
+      {
+        "number": 19,
+        "name": "Purification",
+        "role": "Threshold moment (transformation)",
+        "tags": [
+          "Apollo's blessing",
+          "shadow released",
+          "escaping old patterns",
+          "freedom from ancient constraint",
+          "unburdening"
+        ],
+        "inverted_tags": [
+          "purification as loss",
+          "shadow needed",
+          "escape from self",
+          "freedom as emptiness",
+          "unburdened but ungrounded"
+        ],
+        "image_content": "Apollo's radiant presence, shadow being lifted from seeker's shoulders, chains falling away, light penetrating old wounds."
+      },
+      {
+        "number": 20,
+        "name": "The Companions",
+        "role": "Culmination state",
+        "tags": [
+          "gathered community",
+          "shared work",
+          "sacred collaboration",
+          "many hands",
+          "purpose together"
+        ],
+        "inverted_tags": [
+          "forced community",
+          "collaboration as compromise",
+          "losing self in group",
+          "shared burden",
+          "purpose diluted"
+        ],
+        "image_content": "Circle of figures around central workspace, each contributing different skill, harmonious cooperation, shared light illuminating all."
+      },
+      {
+        "number": 21,
+        "name": "The Work",
+        "role": "Ultimate synthesis",
+        "tags": [
+          "creation begun",
+          "framework building",
+          "mapping inner space",
+          "divine task underway",
+          "cosmos revealed",
+          "purpose fulfilled"
+        ],
+        "inverted_tags": [
+          "work without end",
+          "framework imprisons",
+          "mapping becomes fixation",
+          "task consumes",
+          "cosmos overwhelming",
+          "purpose as trap"
+        ],
+        "image_content": "Hands working on intricate map or model, multiple dimensions visible, divine geometry emerging, everything converging toward completion."
+      }
+    ]
+  },
+  "minor_arcana": {
+    "suits": [
+      {
+        "name": "Veils",
+        "symbol": "A series of concentric circles, each partially obscuring the next",
+        "tags": [
+          "mystery",
+          "hidden wisdom",
+          "intuition",
+          "sacred obscurity",
+          "veiled truth",
+          "the unspoken"
+        ],
+        "inverted_tags": [
+          "excessive secrecy",
+          "confusion as defense",
+          "mystery without meaning",
+          "hiding from truth",
+          "veil becomes prison"
+        ],
+        "visual_style": "Soft edges and layered translucency; deep blues, purples, and silvers; things half-seen through mist or fabric; emphasis on what's suggested rather than shown; dreamlike quality",
+        "symbol_svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\">\n    <circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"none\" stroke=\"#667eea\" stroke-width=\"2\" opacity=\"0.3\"/>\n    <circle cx=\"50\" cy=\"50\" r=\"28\" fill=\"none\" stroke=\"#667eea\" stroke-width=\"2\" opacity=\"0.5\"/>\n    <circle cx=\"50\" cy=\"50\" r=\"16\" fill=\"none\" stroke=\"#667eea\" stroke-width=\"2\" opacity=\"0.7\"/>\n    <circle cx=\"50\" cy=\"50\" r=\"6\" fill=\"#667eea\"/>\n</svg>"
+      },
+      {
+        "name": "Masks",
+        "symbol": "A simple face with one eye open and one closed",
+        "tags": [
+          "cunning",
+          "strategy",
+          "hidden intentions",
+          "clever deception",
+          "performance",
+          "selective truth"
+        ],
+        "inverted_tags": [
+          "manipulation exposed",
+          "cunning turns on self",
+          "strategy without ethics",
+          "performance as prison",
+          "masks fused to face"
+        ],
+        "visual_style": "Sharp contrasts and theatrical lighting; blacks, deep crimsons, and sudden whites; dramatic poses and hidden faces; sense of performance and role-playing; elements deliberately staged",
+        "symbol_svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\">\n    <circle cx=\"50\" cy=\"50\" r=\"35\" fill=\"none\" stroke=\"#667eea\" stroke-width=\"2\"/>\n    <circle cx=\"35\" cy=\"40\" r=\"5\" fill=\"#667eea\"/>\n    <path d=\"M 65 35 Q 65 45 65 45\" stroke=\"#667eea\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/>\n    <path d=\"M 30 70 Q 50 80 70 70\" stroke=\"#667eea\" stroke-width=\"2\" fill=\"none\"/>\n</svg>"
+      },
+      {
+        "name": "Lanterns",
+        "symbol": "A simple flame enclosed in a clear vessel",
+        "tags": [
+          "revealed truth",
+          "honest clarity",
+          "vulnerable exposure",
+          "transparent intention",
+          "light that shows all"
+        ],
+        "inverted_tags": [
+          "blinding brightness",
+          "truth as weapon",
+          "exposure without mercy",
+          "clarity without compassion",
+          "light that burns"
+        ],
+        "visual_style": "Clean, bright compositions with clear focal points; warm golds and oranges; direct lighting from visible sources; no ambiguity in what's shown; open, frontal perspectives",
+        "symbol_svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M 50 20 Q 35 40 40 55 Q 45 70 50 80 Q 55 70 60 55 Q 65 40 50 20 Z\" fill=\"#667eea\" opacity=\"0.7\"/>\n    <path d=\"M 50 30 Q 42 45 45 58 Q 48 68 50 75 Q 52 68 55 58 Q 58 45 50 30 Z\" fill=\"#fff\" opacity=\"0.5\"/>\n    <rect x=\"35\" y=\"75\" width=\"30\" height=\"5\" rx=\"2\" fill=\"#667eea\"/>\n</svg>"
+      },
+      {
+        "name": "Keys",
+        "symbol": "A simple geometric key with three teeth",
+        "tags": [
+          "revealed strategy",
+          "sophisticated cunning",
+          "understanding systems",
+          "unlocking complexity",
+          "visible cleverness"
+        ],
+        "inverted_tags": [
+          "cleverness without purpose",
+          "systems that trap",
+          "understanding without wisdom",
+          "unlocking what should stay closed",
+          "sophistication as coldness"
+        ],
+        "visual_style": "Geometric precision with visible intricacy; cool silvers and bronzes; multiple layers all clearly shown; architectural or mechanical elements; the sense of sophisticated systems fully understood",
+        "symbol_svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\">\n    <circle cx=\"30\" cy=\"30\" r=\"15\" fill=\"none\" stroke=\"#667eea\" stroke-width=\"3\"/>\n    <rect x=\"35\" y=\"27\" width=\"45\" height=\"6\" fill=\"#667eea\"/>\n    <rect x=\"70\" y=\"23\" width=\"4\" height=\"8\" fill=\"#667eea\"/>\n    <rect x=\"75\" y=\"20\" width=\"4\" height=\"14\" fill=\"#667eea\"/>\n    <rect x=\"80\" y=\"25\" width=\"4\" height=\"6\" fill=\"#667eea\"/>\n</svg>"
+      }
+    ],
+    "ranks": {
+      "numbered": [
+        {
+          "number": 1,
+          "role": "Seed/Potential",
+          "tags": [
+            "pure potential",
+            "first spark",
+            "gift offered",
+            "raw energy"
+          ],
+          "inverted_tags": [
+            "potential wasted",
+            "gift refused",
+            "spark that burns out",
+            "energy misdirected"
+          ],
+          "image_content": "Single point of light or object emerging from void, pristine and full of possibility"
+        },
+        {
+          "number": 2,
+          "role": "Flow/Navigation",
+          "tags": [
+            "finding way",
+            "moving with currents",
+            "alignment",
+            "graceful navigation"
+          ],
+          "inverted_tags": [
+            "lost in currents",
+            "flow becomes drift",
+            "alignment with wrong path",
+            "grace without direction"
+          ],
+          "image_content": "Two elements in harmonious relationship, movement between them, sense of finding rhythm"
+        },
+        {
+          "number": 3,
+          "role": "Encounter",
+          "tags": [
+            "meeting",
+            "engagement",
+            "first contact",
+            "approaching the other"
+          ],
+          "inverted_tags": [
+            "collision",
+            "forced engagement",
+            "meeting as threat",
+            "approach with wrong intent"
+          ],
+          "image_content": "Two figures or forces coming together, moment of recognition or acknowledgment"
+        },
+        {
+          "number": 4,
+          "role": "Devotion/Commitment",
+          "tags": [
+            "oath",
+            "binding",
+            "dedication",
+            "commitment made"
+          ],
+          "inverted_tags": [
+            "trapped by oath",
+            "binding as prison",
+            "devotion to wrong thing",
+            "commitment without choice"
+          ],
+          "image_content": "Hands joined or tied, formal gesture of dedication, structure of commitment"
+        },
+        {
+          "number": 5,
+          "role": "Conflict/Strife",
+          "tags": [
+            "discord",
+            "competing forces",
+            "tension",
+            "struggle"
+          ],
+          "inverted_tags": [
+            "conflict avoided dangerously",
+            "struggle abandoned too soon",
+            "tension that never breaks",
+            "discord as habit"
+          ],
+          "image_content": "Multiple forces in opposition, clashing energies, disharmony visible"
+        },
+        {
+          "number": 6,
+          "role": "Crisis/Collapse",
+          "tags": [
+            "falling apart",
+            "structure failing",
+            "loss",
+            "breaking down"
+          ],
+          "inverted_tags": [
+            "refusing to break",
+            "crisis postponed",
+            "false stability",
+            "collapse incomplete"
+          ],
+          "image_content": "Something beautiful breaking, structure crumbling, moment of destruction"
+        },
+        {
+          "number": 7,
+          "role": "Release/Surrender",
+          "tags": [
+            "letting go",
+            "releasing struggle",
+            "acceptance",
+            "peace in surrender"
+          ],
+          "inverted_tags": [
+            "surrender as giving up",
+            "release too soon",
+            "acceptance without learning",
+            "peace through avoidance"
+          ],
+          "image_content": "Figure releasing held object or burden, hands opening, weight falling away"
+        },
+        {
+          "number": 8,
+          "role": "Renewal/Recovery",
+          "tags": [
+            "beginning again",
+            "rebuilding",
+            "restoration",
+            "healing"
+          ],
+          "inverted_tags": [
+            "false renewal",
+            "rebuilding on broken foundation",
+            "restoration of wrong things",
+            "healing without change"
+          ],
+          "image_content": "New growth from old roots, phoenix imagery, something emerging renewed"
+        },
+        {
+          "number": 9,
+          "role": "Wisdom/Completion",
+          "tags": [
+            "understanding achieved",
+            "cycle complete",
+            "mastery",
+            "full comprehension"
+          ],
+          "inverted_tags": [
+            "wisdom as rigidity",
+            "completion as ending",
+            "mastery without humility",
+            "comprehension without growth"
+          ],
+          "image_content": "Figure in contemplation, all elements visible and integrated, sense of wholeness"
+        },
+        {
+          "number": 10,
+          "role": "Offering/Beginning Work",
+          "tags": [
+            "work begun",
+            "sacred labor",
+            "offering made",
+            "purpose engaged"
+          ],
+          "inverted_tags": [
+            "work as burden",
+            "labor without meaning",
+            "offering rejected",
+            "purpose imposed"
+          ],
+          "image_content": "Hands beginning sacred task, tools being taken up, work about to commence"
+        }
+      ],
+      "face": [
+        {
+          "number": 11,
+          "name": "Chosen",
+          "role": "Divine Selection",
+          "tags": [
+            "marked by divine",
+            "selected",
+            "called forth",
+            "touched by gods"
+          ],
+          "inverted_tags": [
+            "chosen as burden",
+            "selection unwanted",
+            "called to wrong path",
+            "divine attention as curse"
+          ],
+          "image_content": "Figure receiving divine touch, light or mark descending upon them, moment of being singled out"
+        },
+        {
+          "number": 12,
+          "name": "Pilgrim",
+          "role": "Active Journey",
+          "tags": [
+            "on the path",
+            "learning",
+            "pursuing",
+            "journey undertaken"
+          ],
+          "inverted_tags": [
+            "seeking without finding",
+            "path leading nowhere",
+            "pursuit becomes obsession",
+            "journey as escape"
+          ],
+          "image_content": "Figure in motion, traveling with purpose, actively engaging with journey, signs of learning along way"
+        },
+        {
+          "number": 13,
+          "name": "Bearer",
+          "role": "Embodied Mastery",
+          "tags": [
+            "carrying power",
+            "embodying principles",
+            "mastery achieved",
+            "integrated wisdom"
+          ],
+          "inverted_tags": [
+            "power as burden",
+            "embodying wrong principles",
+            "mastery without humanity",
+            "wisdom that isolates"
+          ],
+          "image_content": "Figure fully possessing their power, carrying it naturally, authority and grace combined"
+        },
+        {
+          "number": 14,
+          "name": "Keeper",
+          "role": "Protection and Transmission",
+          "tags": [
+            "protecting sacred",
+            "teaching others",
+            "passing on wisdom",
+            "stewarding power"
+          ],
+          "inverted_tags": [
+            "protection as control",
+            "teaching as domination",
+            "wisdom hoarded",
+            "power guarded jealously"
+          ],
+          "image_content": "Figure standing in protective or teaching stance, passing knowledge or power to another, sense of transmission and guardianship"
+        }
+      ]
+    },
+    "cards": [
+      {
+        "suit_index": 0,
+        "rank_index": 0,
+        "name": "Ace of Veils",
+        "tags": [
+          "mysterious gift",
+          "hidden potential",
+          "intuitive seed",
+          "sacred secret offered"
+        ],
+        "inverted_tags": [
+          "secret that harms",
+          "mystery without meaning",
+          "hidden potential lost",
+          "veiled gift refused"
+        ],
+        "image_content": "Single shimmer of light behind layers of translucent fabric, barely visible but undeniably present"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 1,
+        "name": "Two of Veils",
+        "tags": [
+          "flowing through mystery",
+          "navigating by intuition",
+          "trusting the unseen",
+          "moving with hidden currents"
+        ],
+        "inverted_tags": [
+          "lost in mystery",
+          "intuition misleads",
+          "trusting what should be questioned",
+          "hidden currents drag down"
+        ],
+        "image_content": "Figure moving through mist, guided by subtle signs, flowing with invisible forces"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 2,
+        "name": "Three of Veils",
+        "tags": [
+          "meeting through mystery",
+          "encountering hidden truth",
+          "recognition through veil",
+          "touching the ineffable"
+        ],
+        "inverted_tags": [
+          "meeting that confuses",
+          "hidden truth stays hidden",
+          "recognition false",
+          "ineffable becomes prison"
+        ],
+        "image_content": "Two figures reaching toward each other through layers of mist, almost touching, connection through obscurity"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 3,
+        "name": "Four of Veils",
+        "tags": [
+          "devoted to mystery",
+          "committed to hidden path",
+          "oath in darkness",
+          "sacred obscurity bound to"
+        ],
+        "inverted_tags": [
+          "trapped by secrets",
+          "commitment to confusion",
+          "oath that binds wrongly",
+          "obscurity as cage"
+        ],
+        "image_content": "Hands binding themselves with silvery threads that shimmer and fade, pledging to what cannot be fully seen"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 4,
+        "name": "Five of Veils",
+        "tags": [
+          "mysteries conflicting",
+          "hidden forces at odds",
+          "intuitions contradicting",
+          "veils tangling"
+        ],
+        "inverted_tags": [
+          "conflict ignored through mystery",
+          "contradictions embraced wrongly",
+          "veils hiding necessary truth",
+          "discord masked"
+        ],
+        "image_content": "Multiple veils pulling in different directions, figure caught between competing intuitions"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 5,
+        "name": "Six of Veils",
+        "tags": [
+          "mystery collapsing",
+          "veils falling away prematurely",
+          "sacred obscurity broken",
+          "hidden things scattered"
+        ],
+        "inverted_tags": [
+          "clinging to broken mystery",
+          "veils that should fall but don't",
+          "obscurity prolonged",
+          "refusing revelation"
+        ],
+        "image_content": "Veils tearing and falling, mysteries exposed too soon, sense of protective layer destroyed"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 6,
+        "name": "Seven of Veils",
+        "tags": [
+          "releasing need to know",
+          "accepting mystery",
+          "surrendering to unknowing",
+          "peace with the veiled"
+        ],
+        "inverted_tags": [
+          "giving up on understanding",
+          "accepting mystery as excuse",
+          "surrender to confusion",
+          "peace through ignorance"
+        ],
+        "image_content": "Figure letting veils settle naturally around them, no longer grasping for hidden things"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 7,
+        "name": "Eight of Veils",
+        "tags": [
+          "mystery renewed",
+          "intuition restored",
+          "veils reformed with wisdom",
+          "hidden paths open again"
+        ],
+        "inverted_tags": [
+          "returning to old confusion",
+          "intuition false renewal",
+          "veils hiding what should be seen",
+          "paths open to nowhere"
+        ],
+        "image_content": "New veils forming with intentional beauty, mystery as gift not curse, deeper understanding of sacred obscurity"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 8,
+        "name": "Nine of Veils",
+        "tags": [
+          "mastery of mystery",
+          "living with unknowing",
+          "wisdom in obscurity",
+          "complete trust in veiled"
+        ],
+        "inverted_tags": [
+          "mastery as blindness",
+          "unknowing as dogma",
+          "obscurity without questioning",
+          "trust become dependency"
+        ],
+        "image_content": "Figure at peace amid veils, seeing through them without needing them gone, wisdom in acceptance"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 9,
+        "name": "Ten of Veils",
+        "tags": [
+          "work through mystery",
+          "sacred labor hidden",
+          "offering made in darkness",
+          "purpose veiled"
+        ],
+        "inverted_tags": [
+          "work in darkness too long",
+          "labor hidden from self",
+          "offering without witness",
+          "purpose lost to obscurity"
+        ],
+        "image_content": "Hands working on something not fully visible, creating through intuition, sacred task performed in mystery"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 10,
+        "name": "Chosen of Veils",
+        "tags": [
+          "marked by mystery",
+          "selected for hidden path",
+          "called by the ineffable",
+          "divine touch through veil"
+        ],
+        "inverted_tags": [
+          "marked for confusion",
+          "selected for wrong mystery",
+          "called to nowhere",
+          "divine touch overwhelms"
+        ],
+        "image_content": "Figure receiving touch of light through layers of veil, chosen for mysteries, marked but not revealed"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 11,
+        "name": "Pilgrim of Veils",
+        "tags": [
+          "pursuing hidden truths",
+          "learning mysteries",
+          "journeying through obscurity",
+          "seeking the veiled"
+        ],
+        "inverted_tags": [
+          "seeking without finding",
+          "learning confusion",
+          "journey into deeper darkness",
+          "pursuing what hides from them"
+        ],
+        "image_content": "Figure moving through layers of mist with lantern or seeking gesture, actively engaging mystery"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 12,
+        "name": "Bearer of Veils",
+        "tags": [
+          "carrying mystery",
+          "embodying hidden wisdom",
+          "mastery of obscurity",
+          "veiled power held"
+        ],
+        "inverted_tags": [
+          "mystery as burden",
+          "hidden wisdom isolates",
+          "obscurity mastered wrongly",
+          "veiled power corrupts"
+        ],
+        "image_content": "Figure wrapped in shimmering veils, carrying them with authority, power and mystery combined"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 13,
+        "name": "Keeper of Veils",
+        "tags": [
+          "protecting mysteries",
+          "teaching sacred obscurity",
+          "stewarding hidden paths",
+          "passing on veiled wisdom"
+        ],
+        "inverted_tags": [
+          "hoarding mysteries",
+          "teaching confusion",
+          "guarding what should be revealed",
+          "wisdom withheld"
+        ],
+        "image_content": "Figure at threshold between veiled and clear, teaching another how to navigate mystery, protecting sacred secrets"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 0,
+        "name": "Ace of Masks",
+        "tags": [
+          "cunning gift",
+          "strategic potential",
+          "hidden intention emerging",
+          "clever seed"
+        ],
+        "inverted_tags": [
+          "cunning turns inward",
+          "strategy without target",
+          "intentions too hidden",
+          "cleverness wasted"
+        ],
+        "image_content": "Single mask emerging from shadow, edges sharp, eyes gleaming with intelligence"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 1,
+        "name": "Two of Masks",
+        "tags": [
+          "navigating with cunning",
+          "strategic flow",
+          "moving through deception",
+          "clever adaptation"
+        ],
+        "inverted_tags": [
+          "cunning in circles",
+          "strategy without direction",
+          "deception becomes truth",
+          "clever trap for self"
+        ],
+        "image_content": "Figure shifting between two poses, flowing through social space with calculated grace"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 2,
+        "name": "Three of Masks",
+        "tags": [
+          "meeting through performance",
+          "strategic encounter",
+          "hidden intentions engaging",
+          "clever recognition"
+        ],
+        "inverted_tags": [
+          "performance prevents meeting",
+          "strategy blocks connection",
+          "intentions hide too well",
+          "cleverness isolates"
+        ],
+        "image_content": "Two masked figures circling each other, each reading the other's strategy, dance of cunning"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 3,
+        "name": "Four of Masks",
+        "tags": [
+          "devoted to strategy",
+          "committed to performance",
+          "oath through masks",
+          "binding cleverness"
+        ],
+        "inverted_tags": [
+          "trapped by own strategy",
+          "performance becomes prison",
+          "oath to deception",
+          "cleverness binds wrongly"
+        ],
+        "image_content": "Multiple masks arranged in ritual pattern, hands taking oath while wearing them, commitment to the game"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 4,
+        "name": "Five of Masks",
+        "tags": [
+          "strategies conflicting",
+          "masks at war",
+          "cunning against cunning",
+          "performances clashing"
+        ],
+        "inverted_tags": [
+          "conflict through excess honesty",
+          "dropping masks too soon",
+          "cunning abandoned",
+          "performance rejected"
+        ],
+        "image_content": "Multiple masked figures in opposition, strategies colliding, dramatic conflict of hidden intentions"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 5,
+        "name": "Six of Masks",
+        "tags": [
+          "performance failing",
+          "masks slipping",
+          "strategy collapsed",
+          "cunning exposed"
+        ],
+        "inverted_tags": [
+          "refusing to drop mask",
+          "performance after curtain falls",
+          "strategy dead but continuing",
+          "cunning when exposed"
+        ],
+        "image_content": "Masks cracking and falling, performance breaking down, revelation of face beneath"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 6,
+        "name": "Seven of Masks",
+        "tags": [
+          "releasing performance",
+          "setting down masks",
+          "surrendering strategy",
+          "accepting exposure"
+        ],
+        "inverted_tags": [
+          "surrender but keeping one mask",
+          "releasing wrong performance",
+          "strategy abandoned prematurely",
+          "exposure forced"
+        ],
+        "image_content": "Figure removing masks one by one, letting them fall, choosing vulnerability"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 7,
+        "name": "Eight of Masks",
+        "tags": [
+          "cunning renewed",
+          "performance rebuilt",
+          "strategy reformed",
+          "masks chosen consciously"
+        ],
+        "inverted_tags": [
+          "return to old deceptions",
+          "performance without growth",
+          "strategy without wisdom",
+          "masks worn from habit"
+        ],
+        "image_content": "New masks being crafted with care, cunning as tool not compulsion, strategic with intention"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 8,
+        "name": "Nine of Masks",
+        "tags": [
+          "mastery of performance",
+          "strategic wisdom",
+          "cunning with compassion",
+          "masks as art"
+        ],
+        "inverted_tags": [
+          "mastery without authenticity",
+          "strategy without heart",
+          "cunning as coldness",
+          "art of deception perfected"
+        ],
+        "image_content": "Figure holding multiple masks, knowing when to wear each, strategic mastery with ethical grounding"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 9,
+        "name": "Ten of Masks",
+        "tags": [
+          "work through performance",
+          "strategic labor",
+          "offering made with cunning",
+          "purpose masked"
+        ],
+        "inverted_tags": [
+          "work hiding work",
+          "labor as deception",
+          "offering insincere",
+          "purpose lost to performance"
+        ],
+        "image_content": "Hands performing complex task while maintaining performance, sacred work done through strategy"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 10,
+        "name": "Chosen of Masks",
+        "tags": [
+          "marked for cunning",
+          "selected for strategy",
+          "called to performance",
+          "divine trickster touched"
+        ],
+        "inverted_tags": [
+          "marked as deceiver",
+          "selected for wrong role",
+          "called to betray",
+          "divine trick played on them"
+        ],
+        "image_content": "Figure receiving divine mark while wearing mask, chosen for strategic path, Hermetic blessing"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 11,
+        "name": "Pilgrim of Masks",
+        "tags": [
+          "pursuing strategy",
+          "learning cunning",
+          "journeying through performance",
+          "seeking cleverness"
+        ],
+        "inverted_tags": [
+          "pursuing deception",
+          "learning manipulation",
+          "journey into masks only",
+          "seeking without authenticity"
+        ],
+        "image_content": "Figure trying on different masks while traveling, learning strategic arts, active engagement with cunning"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 12,
+        "name": "Bearer of Masks",
+        "tags": [
+          "carrying cunning",
+          "embodying strategy",
+          "performance mastered",
+          "masks held lightly"
+        ],
+        "inverted_tags": [
+          "cunning as burden",
+          "strategy becomes identity",
+          "performance cannot end",
+          "masks cannot be removed"
+        ],
+        "image_content": "Figure in dramatic pose, masks hanging from belt, carrying strategic power with confidence and control"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 13,
+        "name": "Keeper of Masks",
+        "tags": [
+          "protecting strategic arts",
+          "teaching cunning",
+          "stewarding performance",
+          "passing on masks"
+        ],
+        "inverted_tags": [
+          "teaching manipulation",
+          "cunning as weapon",
+          "guarding deception",
+          "passing on corruption"
+        ],
+        "image_content": "Figure instructing another in masks, theatrical lighting, transmission of strategic wisdom"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 0,
+        "name": "Ace of Lanterns",
+        "tags": [
+          "gift of truth",
+          "clear potential",
+          "honest light offered",
+          "transparent beginning"
+        ],
+        "inverted_tags": [
+          "truth that blinds",
+          "clarity too harsh",
+          "honesty that wounds",
+          "light that burns"
+        ],
+        "image_content": "Single flame burning clear and bright, no shadows, pure illumination"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 1,
+        "name": "Two of Lanterns",
+        "tags": [
+          "flowing with truth",
+          "navigating honestly",
+          "moving in clear light",
+          "transparent alignment"
+        ],
+        "inverted_tags": [
+          "truth without tact",
+          "honesty without wisdom",
+          "light that exposes too much",
+          "transparency as vulnerability"
+        ],
+        "image_content": "Figure walking lit path, everything visible, moving with honest grace"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 2,
+        "name": "Three of Lanterns",
+        "tags": [
+          "meeting in truth",
+          "honest encounter",
+          "clear recognition",
+          "transparent engagement"
+        ],
+        "inverted_tags": [
+          "meeting too exposed",
+          "honesty without care",
+          "recognition that wounds",
+          "engagement without protection"
+        ],
+        "image_content": "Two figures facing each other in clear light, nothing hidden, honest meeting"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 3,
+        "name": "Four of Lanterns",
+        "tags": [
+          "devoted to truth",
+          "committed to clarity",
+          "oath in light",
+          "transparent dedication"
+        ],
+        "inverted_tags": [
+          "truth as rigidity",
+          "clarity without nuance",
+          "oath that exposes",
+          "dedication without discretion"
+        ],
+        "image_content": "Hands joining in clear light, oath made with nothing hidden, transparent commitment"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 4,
+        "name": "Five of Lanterns",
+        "tags": [
+          "truths conflicting",
+          "lights at odds",
+          "honest discord",
+          "clear struggle"
+        ],
+        "inverted_tags": [
+          "conflict avoided through lies",
+          "lights dimmed for comfort",
+          "discord veiled",
+          "struggle hidden"
+        ],
+        "image_content": "Multiple lights revealing incompatible truths, honest conflict, clear opposition"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 5,
+        "name": "Six of Lanterns",
+        "tags": [
+          "truth collapsing",
+          "light going out",
+          "honesty breaking",
+          "clarity shattered"
+        ],
+        "inverted_tags": [
+          "false light maintained",
+          "truth hidden from self",
+          "honesty abandoned",
+          "clarity refused"
+        ],
+        "image_content": "Lanterns falling and breaking, light failing, truth revealed as incomplete"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 6,
+        "name": "Seven of Lanterns",
+        "tags": [
+          "releasing perfect truth",
+          "accepting limits of clarity",
+          "surrendering absolute honesty",
+          "peace with shadows"
+        ],
+        "inverted_tags": [
+          "giving up on truth",
+          "accepting lies",
+          "surrendering honesty",
+          "peace through denial"
+        ],
+        "image_content": "Figure dimming lantern slightly, accepting that some darkness necessary, wisdom in partial light"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 7,
+        "name": "Eight of Lanterns",
+        "tags": [
+          "truth renewed",
+          "honest light restored",
+          "clarity reformed",
+          "transparency rebuilt"
+        ],
+        "inverted_tags": [
+          "return to harsh truth",
+          "light without warmth",
+          "clarity without compassion",
+          "transparency without wisdom"
+        ],
+        "image_content": "New lantern lit with care, honest light that also warms, truth balanced with kindness"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 8,
+        "name": "Nine of Lanterns",
+        "tags": [
+          "mastery of truth",
+          "wise clarity",
+          "compassionate honesty",
+          "light held steady"
+        ],
+        "inverted_tags": [
+          "truth as weapon",
+          "clarity as judgment",
+          "honesty without love",
+          "light that reveals to harm"
+        ],
+        "image_content": "Figure holding high lantern with wisdom, truth that illuminates without destroying, mastered clarity"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 9,
+        "name": "Ten of Lanterns",
+        "tags": [
+          "work in truth",
+          "honest labor",
+          "offering made in light",
+          "purpose transparent"
+        ],
+        "inverted_tags": [
+          "work exposed too soon",
+          "labor without protection",
+          "offering rejected for honesty",
+          "purpose too clear"
+        ],
+        "image_content": "Hands working in clear light, everything visible, honest creative labor"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 10,
+        "name": "Chosen of Lanterns",
+        "tags": [
+          "marked by truth",
+          "selected for clarity",
+          "called to honest path",
+          "divine light touches"
+        ],
+        "inverted_tags": [
+          "marked for exposure",
+          "selected for harsh truth",
+          "called to judge",
+          "divine light burns"
+        ],
+        "image_content": "Figure receiving beam of clear light, chosen for truth-bearing, illuminated from above"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 11,
+        "name": "Pilgrim of Lanterns",
+        "tags": [
+          "pursuing truth",
+          "learning clarity",
+          "journeying in light",
+          "seeking honesty"
+        ],
+        "inverted_tags": [
+          "pursuing harsh judgment",
+          "learning without compassion",
+          "journey without shade",
+          "seeking to expose"
+        ],
+        "image_content": "Figure walking bright path, lantern raised, actively seeking truth and clarity"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 12,
+        "name": "Bearer of Lanterns",
+        "tags": [
+          "carrying truth",
+          "embodying clarity",
+          "honest mastery",
+          "light held high"
+        ],
+        "inverted_tags": [
+          "truth as burden",
+          "clarity isolates",
+          "honesty without warmth",
+          "light that separates"
+        ],
+        "image_content": "Figure holding lantern high, carrying clear light with authority, transparent power"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 13,
+        "name": "Keeper of Lanterns",
+        "tags": [
+          "protecting truth",
+          "teaching clarity",
+          "stewarding honest light",
+          "passing on transparency"
+        ],
+        "inverted_tags": [
+          "guarding truth jealously",
+          "teaching judgment",
+          "stewarding exposure",
+          "passing on harshness"
+        ],
+        "image_content": "Figure tending flame, teaching another to carry light, transmission of honest wisdom"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 0,
+        "name": "Ace of Keys",
+        "tags": [
+          "gift of understanding",
+          "strategic clarity",
+          "unlocking potential",
+          "clever seed revealed"
+        ],
+        "inverted_tags": [
+          "understanding without wisdom",
+          "strategy without ethics",
+          "unlocking danger",
+          "cleverness wasted"
+        ],
+        "image_content": "Single key gleaming against geometric background, sophisticated and clear"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 1,
+        "name": "Two of Keys",
+        "tags": [
+          "navigating with knowledge",
+          "strategic alignment",
+          "clever flow",
+          "unlocking path"
+        ],
+        "inverted_tags": [
+          "knowledge without intuition",
+          "alignment with wrong system",
+          "clever but lost",
+          "unlocking wrong doors"
+        ],
+        "image_content": "Two locks opening in sequence, visible mechanism, strategic navigation"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 2,
+        "name": "Three of Keys",
+        "tags": [
+          "meeting with strategy",
+          "encountering complexity",
+          "clear clever engagement",
+          "sophisticated connection"
+        ],
+        "inverted_tags": [
+          "strategy blocks meeting",
+          "complexity overwhelms",
+          "engagement too calculated",
+          "connection too clever"
+        ],
+        "image_content": "Two intricate mechanisms engaging, sophisticated encounter, clear strategic meeting"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 3,
+        "name": "Four of Keys",
+        "tags": [
+          "devoted to understanding",
+          "committed to strategy",
+          "oath of cleverness",
+          "binding knowledge"
+        ],
+        "inverted_tags": [
+          "trapped by knowledge",
+          "strategy becomes prison",
+          "oath to system only",
+          "bound by cleverness"
+        ],
+        "image_content": "Hands assembling complex lock, oath of sophisticated service, dedication visible"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 4,
+        "name": "Five of Keys",
+        "tags": [
+          "strategies conflicting",
+          "systems at odds",
+          "clever discord",
+          "mechanisms jamming"
+        ],
+        "inverted_tags": [
+          "abandoning all strategy",
+          "breaking systems needed",
+          "discord ignored",
+          "mechanisms forced"
+        ],
+        "image_content": "Multiple keys jamming in mechanism, clear strategic conflict, visible malfunction"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 5,
+        "name": "Six of Keys",
+        "tags": [
+          "strategy collapsed",
+          "system failing",
+          "understanding broken",
+          "mechanisms destroyed"
+        ],
+        "inverted_tags": [
+          "clinging to broken system",
+          "strategy after failure",
+          "understanding refused",
+          "mechanisms maintained wrongly"
+        ],
+        "image_content": "Intricate mechanism falling apart, every failure visible, strategic collapse clear"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 6,
+        "name": "Seven of Keys",
+        "tags": [
+          "releasing strategy",
+          "surrendering cleverness",
+          "accepting limits",
+          "letting mechanisms rest"
+        ],
+        "inverted_tags": [
+          "giving up on understanding",
+          "surrendering too easily",
+          "accepting defeat wrongly",
+          "abandoning all strategy"
+        ],
+        "image_content": "Figure setting down keys, open hands, strategic peace, wisdom in release"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 7,
+        "name": "Eight of Keys",
+        "tags": [
+          "understanding restored",
+          "strategy reformed",
+          "cleverness renewed",
+          "mechanisms rebuilt"
+        ],
+        "inverted_tags": [
+          "returning to old systems",
+          "strategy without growth",
+          "cleverness without wisdom",
+          "mechanisms rebuilt wrongly"
+        ],
+        "image_content": "New mechanism assembled from broken pieces, elegant solution, strategic renewal"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 8,
+        "name": "Nine of Keys",
+        "tags": [
+          "complete understanding",
+          "strategic mastery",
+          "all connections seen",
+          "perfect mechanisms"
+        ],
+        "inverted_tags": [
+          "understanding as rigidity",
+          "strategy without heart",
+          "connections but no meaning",
+          "perfection as coldness"
+        ],
+        "image_content": "All mechanisms visible and comprehended, total strategic clarity, mastered sophistication"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 9,
+        "name": "Ten of Keys",
+        "tags": [
+          "strategic work begun",
+          "clever offering",
+          "knowledge in service",
+          "unlocking for purpose"
+        ],
+        "inverted_tags": [
+          "work too calculated",
+          "offering strategic only",
+          "knowledge without application",
+          "unlocking without purpose"
+        ],
+        "image_content": "Hands using perfect key, precise work, sophisticated creation beginning"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 10,
+        "name": "Chosen of Keys",
+        "tags": [
+          "marked for understanding",
+          "selected for strategy",
+          "called to unlock",
+          "divine cleverness touches"
+        ],
+        "inverted_tags": [
+          "marked for over-thinking",
+          "selected for wrong path",
+          "called to expose secrets",
+          "cleverness as curse"
+        ],
+        "image_content": "Figure receiving key from light, touched by sophisticated knowledge, chosen for strategic path"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 11,
+        "name": "Pilgrim of Keys",
+        "tags": [
+          "pursuing understanding",
+          "learning strategy",
+          "journeying toward mastery",
+          "seeking sophistication"
+        ],
+        "inverted_tags": [
+          "pursuing complexity only",
+          "learning without application",
+          "journey into mechanism",
+          "seeking cleverness alone"
+        ],
+        "image_content": "Figure solving puzzles along bright path, learning through challenge, strategic journey"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 12,
+        "name": "Bearer of Keys",
+        "tags": [
+          "carrying understanding",
+          "embodying strategy",
+          "sophisticated mastery",
+          "keys held with wisdom"
+        ],
+        "inverted_tags": [
+          "understanding as burden",
+          "strategy as identity",
+          "mastery without humanity",
+          "keys kept from others"
+        ],
+        "image_content": "Figure holding ring of keys, moving with elegant precision, strategic power embodied"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 13,
+        "name": "Keeper of Keys",
+        "tags": [
+          "protecting knowledge",
+          "teaching strategy",
+          "unlocking potential in others",
+          "passing on understanding"
+        ],
+        "inverted_tags": [
+          "hoarding knowledge",
+          "teaching manipulation",
+          "guarding secrets wrongly",
+          "understanding withheld"
+        ],
+        "image_content": "Figure holding master key, opening lock for student, transmission of strategic wisdom"
+      }
+    ]
+  }
+}

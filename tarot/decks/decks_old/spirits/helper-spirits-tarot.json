@@ -1,0 +1,1969 @@
+{
+  "theme": {
+    "name": "Mischievous Helper Spirits",
+    "description": "A tarot deck exploring the theme of mischievous helper spirits, where seekers learn to work with well-meaning but often chaotic spirit helpers. This deck examines the journey from initial summoning through misunderstandings and mishaps to eventual integration and partnership.",
+    "salient_concepts": [
+      "mutual learning",
+      "communication across differences",
+      "intention vs. execution",
+      "embracing beneficial chaos",
+      "partnership through misunderstanding"
+    ]
+  },
+  "dialectics": [
+    {
+      "thesis": "Helpful",
+      "antithesis": "Chaotic",
+      "tensions": [
+        "helpful intentions with chaotic outcomes",
+        "balance between helpful and chaotic qualities",
+        "when helpful meets chaotic"
+      ]
+    },
+    {
+      "thesis": "Understanding",
+      "antithesis": "Misunderstanding",
+      "tensions": [
+        "understanding intentions with misunderstanding outcomes",
+        "balance between understanding and misunderstanding qualities",
+        "when understanding meets misunderstanding"
+      ]
+    }
+  ],
+  "major_arcana": {
+    "story": "A person (the Seeker) discovers they can call upon helper spirits, or perhaps the spirits simply arrive uninvited. What begins as a simple desire for assistance becomes a transformative journey of mutual learning. The spirits arrive with boundless enthusiasm but wildly different logic. Early attempts at helping range from perfect to catastrophic. The Seeker must learn what they actually need versus what they think they want, while the spirits begin to grasp the strange rules of the human world. The Seeker and spirits develop a shared language\u2014not of words, but of intention and trust. Both parties face tests: the Seeker must surrender control and accept help that doesn't look like they expected; the spirits must navigate the gap between their brilliant insights and the Seeker's reality. Mistakes compound but so does understanding. Helper and helped become something new together. The spirits' idiosyncratic logic proves essential rather than problematic. The Seeker learns to see through spirit-eyes, finding solutions in sideways thinking. The journey completes not with mastery but with integration\u2014a recognition that the best help comes from perspectives that don't quite match our own.",
+    "visual_style": "Soft, luminous watercolor-like textures with clean linework for the spirits (making them feel ethereal yet present); warm, inviting color palette that shifts through the journey\u2014early cards use gentle pastels and golds, middle cards introduce richer jewel tones and complex color interactions, final cards achieve a harmonious blend of all suit colors. Compositions always include both human and spirit elements in dialogue\u2014hands reaching, gazes meeting, gestures mirroring. The spirits themselves are abstract-cute: simplified forms with personality, never frightening. Symbolic elements float freely in the space around the main figures, creating a sense of multiple simultaneous realities. Overall feeling: storybook illustration meets mystical diagram, whimsical but never saccharine, with emotional depth through color and gesture rather than photorealism.",
+    "cards": [
+      {
+        "number": 0,
+        "name": "The Summoning",
+        "role": "Threshold/Beginning",
+        "tags": [
+          "anticipation",
+          "invitation",
+          "unknowing",
+          "openness",
+          "potential"
+        ],
+        "image_content": "A seeker standing at a threshold with hands outstretched, empty space before them glowing with soft possibility",
+        "inverted_tags": [
+          "misdirected anticipation",
+          "misdirected invitation",
+          "misdirected unknowing",
+          "misdirected openness",
+          "misdirected potential"
+        ]
+      },
+      {
+        "number": 1,
+        "name": "The Arrival",
+        "role": "Catalyst",
+        "tags": [
+          "first contact",
+          "wonder",
+          "bewilderment",
+          "presence",
+          "initiation"
+        ],
+        "image_content": "Spirits materializing for the first time as translucent forms, the seeker's expression showing equal parts delight and confusion",
+        "inverted_tags": [
+          "misdirected first contact",
+          "misdirected wonder",
+          "misdirected bewilderment",
+          "misdirected presence",
+          "misdirected initiation"
+        ]
+      },
+      {
+        "number": 2,
+        "name": "The Request",
+        "role": "Statement of Intent",
+        "tags": [
+          "desire",
+          "articulation",
+          "assumptions",
+          "asking",
+          "hope"
+        ],
+        "image_content": "The seeker speaking or gesturing clearly while spirits lean in attentively, thought bubbles or symbols representing the stated need",
+        "inverted_tags": [
+          "misdirected desire",
+          "misdirected articulation",
+          "misdirected assumptions",
+          "misdirected asking",
+          "misdirected hope"
+        ]
+      },
+      {
+        "number": 3,
+        "name": "The Perfect Gift",
+        "role": "Promise/Possibility",
+        "tags": [
+          "alignment",
+          "success",
+          "validation",
+          "ease",
+          "grace"
+        ],
+        "image_content": "A perfectly executed moment of help, everything flowing smoothly, seeker and spirit in perfect harmony, golden star symbols",
+        "inverted_tags": [
+          "rigid perfectionism",
+          "hollow victory",
+          "seeking external approval",
+          "complacency",
+          "artificial smoothness"
+        ]
+      },
+      {
+        "number": 4,
+        "name": "The Glorious Mishap",
+        "role": "First Challenge",
+        "tags": [
+          "confusion",
+          "comedy",
+          "good intentions",
+          "learning",
+          "humility"
+        ],
+        "image_content": "Chaos erupting from well-meaning spirit actions, seeker bewildered but spirits beaming proudly, spiral and knot symbols appearing",
+        "inverted_tags": [
+          "paralysis by confusion",
+          "dismissing lessons as jokes",
+          "intentions without action",
+          "endless preparation without doing",
+          "false modesty"
+        ]
+      },
+      {
+        "number": 5,
+        "name": "The Trickster's Wisdom",
+        "role": "Hidden Teacher",
+        "tags": [
+          "insight",
+          "mischief",
+          "deeper truth",
+          "disruption",
+          "revelation"
+        ],
+        "image_content": "An impish spirit with a knowing expression revealing something the seeker hadn't realized, eye symbol glowing, hidden patterns visible",
+        "inverted_tags": [
+          "paralysis by analysis",
+          "destructive chaos",
+          "uncomfortable revelations",
+          "disruption for its own sake",
+          "blinding insight"
+        ]
+      },
+      {
+        "number": 6,
+        "name": "The Translation Gap",
+        "role": "Crisis of Understanding",
+        "tags": [
+          "miscommunication",
+          "frustration",
+          "difference",
+          "challenge",
+          "reality check"
+        ],
+        "image_content": "Seeker and spirits both gesturing emphatically, symbols and languages not matching, visible gap between their worlds",
+        "inverted_tags": [
+          "misdirected miscommunication",
+          "misdirected frustration",
+          "misdirected difference",
+          "misdirected challenge",
+          "misdirected reality check"
+        ]
+      },
+      {
+        "number": 7,
+        "name": "The Choice to Continue",
+        "role": "Commitment",
+        "tags": [
+          "determination",
+          "trust",
+          "vulnerability",
+          "partnership",
+          "courage"
+        ],
+        "image_content": "Seeker and spirit reaching toward each other across the communication gap, choosing to continue despite uncertainty",
+        "inverted_tags": [
+          "misdirected determination",
+          "blind trust",
+          "misdirected vulnerability",
+          "codependency",
+          "misdirected courage"
+        ]
+      },
+      {
+        "number": 8,
+        "name": "The Slow Learning",
+        "role": "Development/Growth",
+        "tags": [
+          "patience",
+          "observation",
+          "gradual change",
+          "effort",
+          "practice"
+        ],
+        "image_content": "Multiple small scenes showing repeated attempts and slow progress, spirits and seeker both adjusting their approaches",
+        "inverted_tags": [
+          "stagnation disguised as patience",
+          "passive watching without engagement",
+          "imperceptible drift",
+          "exhausting striving",
+          "repetition without growth"
+        ]
+      },
+      {
+        "number": 9,
+        "name": "The Spirit Mirror",
+        "role": "Reflection/Revelation",
+        "tags": [
+          "new perspective",
+          "self-knowledge",
+          "strangeness",
+          "recognition",
+          "disorientation"
+        ],
+        "image_content": "The seeker seeing their own reflection through spirit-eyes, familiar made strange, double vision effect",
+        "inverted_tags": [
+          "misdirected new perspective",
+          "misdirected self-knowledge",
+          "misdirected strangeness",
+          "misdirected recognition",
+          "misdirected disorientation"
+        ]
+      },
+      {
+        "number": 10,
+        "name": "The Wheel of Chaos",
+        "role": "Turning Point",
+        "tags": [
+          "chance",
+          "unexpected order",
+          "cycles",
+          "surrender to process",
+          "luck"
+        ],
+        "image_content": "Spirits and random events swirling in a wheel pattern, chaos revealing underlying structure, all suit symbols present",
+        "inverted_tags": [
+          "misdirected chance",
+          "misdirected unexpected order",
+          "misdirected cycles",
+          "misdirected surrender to process",
+          "misdirected luck"
+        ]
+      },
+      {
+        "number": 11,
+        "name": "The Negotiation",
+        "role": "Mediation/Balance",
+        "tags": [
+          "communication",
+          "adaptation",
+          "middle way",
+          "mutual adjustment",
+          "bridge-building"
+        ],
+        "image_content": "Seeker and spirits finding common ground, gestures meeting in the middle, symbols translating between worlds",
+        "inverted_tags": [
+          "talking without listening",
+          "losing core identity",
+          "compromising all principles",
+          "misdirected mutual adjustment",
+          "misdirected bridge-building"
+        ]
+      },
+      {
+        "number": 12,
+        "name": "The Suspension",
+        "role": "Surrender",
+        "tags": [
+          "release",
+          "trust fall",
+          "inversion",
+          "new angle",
+          "letting spirits lead"
+        ],
+        "image_content": "The seeker suspended or inverted, held safely by spirits, everything upside down but peaceful",
+        "inverted_tags": [
+          "misdirected release",
+          "misdirected trust fall",
+          "misdirected inversion",
+          "misdirected new angle",
+          "misdirected letting spirits lead"
+        ]
+      },
+      {
+        "number": 13,
+        "name": "The Cascade",
+        "role": "Crisis/Death of Old Ways",
+        "tags": [
+          "disaster",
+          "transformation",
+          "breakdown",
+          "release of tension",
+          "necessary chaos"
+        ],
+        "image_content": "Everything coming apart spectacularly, knot symbols everywhere, but spirits remain cheerful, clearing space for new growth",
+        "inverted_tags": [
+          "misdirected disaster",
+          "misdirected transformation",
+          "misdirected breakdown",
+          "misdirected release of tension",
+          "misdirected necessary chaos"
+        ]
+      },
+      {
+        "number": 14,
+        "name": "The Breakthrough",
+        "role": "Integration/Revelation",
+        "tags": [
+          "synthesis",
+          "aha moment",
+          "harmony",
+          "shared language",
+          "connection"
+        ],
+        "image_content": "Seeker and spirits in perfect understanding, light dawning between them, all suit symbols integrated beautifully",
+        "inverted_tags": [
+          "forced unity",
+          "misdirected aha moment",
+          "misdirected harmony",
+          "misdirected shared language",
+          "misdirected connection"
+        ]
+      },
+      {
+        "number": 15,
+        "name": "The Shadow Chorus",
+        "role": "Shadow Integration",
+        "tags": [
+          "acceptance",
+          "complexity",
+          "paradox",
+          "embracing chaos",
+          "wholeness"
+        ],
+        "image_content": "The difficult spirits embraced alongside the helpful ones, accepting the full spectrum, shadow and light together",
+        "inverted_tags": [
+          "passive acceptance of harm",
+          "unnecessary complication",
+          "misdirected paradox",
+          "misdirected embracing chaos",
+          "undifferentiated blur"
+        ]
+      },
+      {
+        "number": 16,
+        "name": "The Joyful Demolition",
+        "role": "Upheaval/Liberation",
+        "tags": [
+          "liberation",
+          "upheaval",
+          "gleeful destruction",
+          "clearing space",
+          "change"
+        ],
+        "image_content": "Old structures joyfully demolished by playful spirits, seeker laughing amid the destruction, space opening up",
+        "inverted_tags": [
+          "misdirected liberation",
+          "misdirected upheaval",
+          "misdirected gleeful destruction",
+          "misdirected clearing space",
+          "misdirected change"
+        ]
+      },
+      {
+        "number": 17,
+        "name": "The Shimmer",
+        "role": "Hope/Vision",
+        "tags": [
+          "hope",
+          "dual vision",
+          "potential",
+          "inspiration",
+          "guidance"
+        ],
+        "image_content": "Spirits glowing like stars, showing the way forward, seeker seeing possibility in both worlds simultaneously",
+        "inverted_tags": [
+          "misdirected hope",
+          "misdirected dual vision",
+          "misdirected potential",
+          "misdirected inspiration",
+          "misdirected guidance"
+        ]
+      },
+      {
+        "number": 18,
+        "name": "The Dream Logic",
+        "role": "Mystery/Liminal Space",
+        "tags": [
+          "intuition",
+          "non-rational knowing",
+          "dream sense",
+          "fluidity",
+          "trust"
+        ],
+        "image_content": "Operating by spirit logic in the human world, dream-like quality, everything fluid and transforming, eye symbols watching",
+        "inverted_tags": [
+          "misdirected intuition",
+          "misdirected non-rational knowing",
+          "misdirected dream sense",
+          "misdirected fluidity",
+          "blind trust"
+        ]
+      },
+      {
+        "number": 19,
+        "name": "The Celebration",
+        "role": "Joy/Vitality",
+        "tags": [
+          "delight",
+          "friendship",
+          "playfulness",
+          "warmth",
+          "mutual appreciation"
+        ],
+        "image_content": "Pure celebration, spirits and seeker dancing or playing together, radiant happiness, all symbols present in festive arrangement",
+        "inverted_tags": [
+          "misdirected delight",
+          "misdirected friendship",
+          "misdirected playfulness",
+          "misdirected warmth",
+          "misdirected mutual appreciation"
+        ]
+      },
+      {
+        "number": 20,
+        "name": "The Recognition",
+        "role": "Awakening/Judgment",
+        "tags": [
+          "self-awareness",
+          "transformation",
+          "calling",
+          "seeing clearly",
+          "completion"
+        ],
+        "image_content": "Seeker seeing themselves transformed, spirits witnessing, recognition of how far they've come together",
+        "inverted_tags": [
+          "misdirected self-awareness",
+          "misdirected transformation",
+          "misdirected calling",
+          "misdirected seeing clearly",
+          "misdirected completion"
+        ]
+      },
+      {
+        "number": 21,
+        "name": "The Weaving",
+        "role": "Completion/Unity",
+        "tags": [
+          "integration",
+          "wholeness",
+          "accomplishment",
+          "new beginning",
+          "synthesis"
+        ],
+        "image_content": "Seeker and spirits woven together inseparably, all suit symbols integrated into a unified whole, completion and new potential",
+        "inverted_tags": [
+          "misdirected integration",
+          "undifferentiated blur",
+          "misdirected accomplishment",
+          "misdirected new beginning",
+          "forced unity"
+        ]
+      }
+    ]
+  },
+  "minor_arcana": {
+    "suits": [
+      {
+        "name": "Gifts",
+        "symbol": "A star (five-pointed, clean lines)",
+        "tags": [
+          "effective aid",
+          "serendipity",
+          "clarity",
+          "aligned assistance",
+          "moments of grace",
+          "competent magic"
+        ],
+        "visual_style": "Warm golden light, smooth rounded forms, gentle gestures; spirits depicted with satisfied expressions and deliberate movements; compositions feel balanced and harmonious with subtle whimsy",
+        "inverted_tags": [
+          "misdirected effective aid",
+          "misdirected serendipity",
+          "misdirected clarity",
+          "misdirected aligned assistance",
+          "misdirected moments of grace",
+          "misdirected competent magic"
+        ],
+        "symbol_svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M50 15 L60 40 L85 45 L65 62 L70 88 L50 75 L30 88 L35 62 L15 45 L40 40 Z\" fill=\"currentColor\"/></svg>"
+      },
+      {
+        "name": "Boons",
+        "symbol": "A spiral (single continuous curve winding outward)",
+        "tags": [
+          "lateral solutions",
+          "serendipitous innovation",
+          "solving the real problem",
+          "misunderstood requests with better outcomes",
+          "accidental genius",
+          "wait that's actually perfect"
+        ],
+        "visual_style": "Bright, optimistic colors (yellows, soft oranges, sky blues) with surprising elements that shouldn't work together but do; spirits look pleased and slightly confused by their own success; compositions where the 'wrong' answer creates unexpected harmony",
+        "inverted_tags": [
+          "misdirected lateral solutions",
+          "misdirected serendipitous innovation",
+          "misdirected solving the real problem",
+          "misdirected misunderstood requests with better outcomes",
+          "misdirected accidental genius",
+          "misdirected wait that's actually perfect"
+        ],
+        "symbol_svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"35\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\"/><circle cx=\"50\" cy=\"50\" r=\"8\" fill=\"currentColor\"/></svg>"
+      },
+      {
+        "name": "Tricks",
+        "symbol": "An eye (simple almond shape with a dot)",
+        "tags": [
+          "insightful disruption",
+          "playful wisdom",
+          "necessary mischief",
+          "teaching through chaos",
+          "seeing what others miss",
+          "strategic nonsense"
+        ],
+        "visual_style": "Jewel tones and iridescent effects; clever visual puns and optical illusions; spirits depicted as knowing and impish; asymmetrical compositions with hidden patterns",
+        "inverted_tags": [
+          "misdirected insightful disruption",
+          "misdirected playful wisdom",
+          "misdirected necessary mischief",
+          "misdirected teaching through chaos",
+          "misdirected seeing what others miss",
+          "misdirected strategic nonsense"
+        ],
+        "symbol_svg": "<svg viewBox=\"0 0 100 100\"><ellipse cx=\"50\" cy=\"50\" rx=\"40\" ry=\"25\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\"/><circle cx=\"50\" cy=\"50\" r=\"12\" fill=\"currentColor\"/></svg>"
+      },
+      {
+        "name": "Tangles",
+        "symbol": "A knot (figure-eight or trefoil, basic interlaced loops)",
+        "tags": [
+          "pure mayhem",
+          "cascading confusion",
+          "comedy of errors",
+          "exponential misunderstanding",
+          "chaotic sincerity",
+          "beautiful disasters"
+        ],
+        "visual_style": "Vibrant clashing colors, overlapping forms, everything slightly off-kilter; spirits look delighted amid total pandemonium; maximalist compositions where nothing quite connects logically",
+        "inverted_tags": [
+          "misdirected pure mayhem",
+          "misdirected cascading confusion",
+          "misdirected comedy of errors",
+          "misdirected exponential misunderstanding",
+          "suppressed chaotic sincerity",
+          "misdirected beautiful disasters"
+        ],
+        "symbol_svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M20 30 Q40 20 60 30 T90 50 Q80 70 60 70 T30 70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\"/><path d=\"M30 40 Q50 50 70 40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\"/></svg>"
+      }
+    ],
+    "ranks": {
+      "numbered": [
+        {
+          "number": 1,
+          "role": "Initiation",
+          "tags": [
+            "summoning",
+            "potential",
+            "invitation",
+            "first impulse",
+            "raw need"
+          ],
+          "image_content": "Abstract visual: Initiation",
+          "inverted_tags": [
+            "misdirected summoning",
+            "misdirected potential",
+            "misdirected invitation",
+            "misdirected first impulse",
+            "misdirected raw need"
+          ]
+        },
+        {
+          "number": 2,
+          "role": "First Contact",
+          "tags": [
+            "encounter",
+            "duality",
+            "recognition",
+            "initial connection",
+            "two perspectives"
+          ],
+          "image_content": "Abstract visual: First Contact",
+          "inverted_tags": [
+            "misdirected encounter",
+            "misdirected duality",
+            "misdirected recognition",
+            "misdirected initial connection",
+            "misdirected two perspectives"
+          ]
+        },
+        {
+          "number": 3,
+          "role": "Initial Action",
+          "tags": [
+            "experimentation",
+            "first try",
+            "creative effort",
+            "nascent collaboration",
+            "beginning to work"
+          ],
+          "image_content": "Abstract visual: Initial Action",
+          "inverted_tags": [
+            "misdirected experimentation",
+            "misdirected first try",
+            "misdirected creative effort",
+            "misdirected nascent collaboration",
+            "misdirected beginning to work"
+          ]
+        },
+        {
+          "number": 4,
+          "role": "Establishment",
+          "tags": [
+            "routine",
+            "foundation",
+            "pattern",
+            "comfort zone",
+            "how we do things"
+          ],
+          "image_content": "Abstract visual: Establishment",
+          "inverted_tags": [
+            "misdirected routine",
+            "misdirected foundation",
+            "misdirected pattern",
+            "misdirected comfort zone",
+            "misdirected how we do things"
+          ]
+        },
+        {
+          "number": 5,
+          "role": "Disruption",
+          "tags": [
+            "unexpected",
+            "deviation",
+            "challenge to pattern",
+            "something's off",
+            "productive chaos"
+          ],
+          "image_content": "Abstract visual: Disruption",
+          "inverted_tags": [
+            "misdirected unexpected",
+            "misdirected deviation",
+            "misdirected challenge to pattern",
+            "misdirected something's off",
+            "misdirected productive chaos"
+          ]
+        },
+        {
+          "number": 6,
+          "role": "Recovery/Adaptation",
+          "tags": [
+            "recalibration",
+            "learning",
+            "new understanding",
+            "flow restored",
+            "mutual correction"
+          ],
+          "image_content": "Abstract visual: Recovery/Adaptation",
+          "inverted_tags": [
+            "misdirected recalibration",
+            "endless preparation without doing",
+            "misdirected new understanding",
+            "misdirected flow restored",
+            "misdirected mutual correction"
+          ]
+        },
+        {
+          "number": 7,
+          "role": "Reflection",
+          "tags": [
+            "consideration",
+            "crossroads",
+            "taking stock",
+            "wondering",
+            "strategic pause"
+          ],
+          "image_content": "Abstract visual: Reflection",
+          "inverted_tags": [
+            "misdirected consideration",
+            "misdirected crossroads",
+            "misdirected taking stock",
+            "misdirected wondering",
+            "misdirected strategic pause"
+          ]
+        },
+        {
+          "number": 8,
+          "role": "Skillful Action",
+          "tags": [
+            "mastery",
+            "complex coordination",
+            "practiced partnership",
+            "grace in motion",
+            "expertise"
+          ],
+          "image_content": "Abstract visual: Skillful Action",
+          "inverted_tags": [
+            "misdirected mastery",
+            "misdirected complex coordination",
+            "misdirected practiced partnership",
+            "misdirected grace in motion",
+            "misdirected expertise"
+          ]
+        },
+        {
+          "number": 9,
+          "role": "Fulfillment",
+          "tags": [
+            "peak expression",
+            "richness",
+            "near-completion",
+            "harvest",
+            "fullness"
+          ],
+          "image_content": "Abstract visual: Fulfillment",
+          "inverted_tags": [
+            "misdirected peak expression",
+            "misdirected richness",
+            "misdirected near-completion",
+            "misdirected harvest",
+            "misdirected fullness"
+          ]
+        },
+        {
+          "number": 10,
+          "role": "Completion/Renewal",
+          "tags": [
+            "cycle complete",
+            "full circle",
+            "ending-beginning",
+            "integration",
+            "ready to start again"
+          ],
+          "image_content": "Abstract visual: Completion/Renewal",
+          "inverted_tags": [
+            "misdirected cycle complete",
+            "misdirected full circle",
+            "misdirected ending-beginning",
+            "misdirected integration",
+            "misdirected ready to start again"
+          ]
+        }
+      ],
+      "face": [
+        {
+          "number": 11,
+          "name": "The Visitor",
+          "role": "First Appearance",
+          "tags": [
+            "fresh arrival",
+            "curiosity",
+            "potential",
+            "tentative approach",
+            "new spirit"
+          ],
+          "image_content": "The Visitor archetype",
+          "inverted_tags": [
+            "misdirected fresh arrival",
+            "misdirected curiosity",
+            "misdirected potential",
+            "misdirected tentative approach",
+            "misdirected new spirit"
+          ]
+        },
+        {
+          "number": 12,
+          "name": "The Helper",
+          "role": "Enthusiastic Action",
+          "tags": [
+            "boundless energy",
+            "maximum effort",
+            "overwhelming helpfulness",
+            "motion",
+            "exuberance"
+          ],
+          "image_content": "The Helper archetype",
+          "inverted_tags": [
+            "misdirected boundless energy",
+            "misdirected maximum effort",
+            "excessive overwhelming helpfulness",
+            "misdirected motion",
+            "misdirected exuberance"
+          ]
+        },
+        {
+          "number": 13,
+          "name": "The Guide",
+          "role": "Wise Insight",
+          "tags": [
+            "deep understanding",
+            "clarity",
+            "seeing truly",
+            "wisdom",
+            "illumination"
+          ],
+          "image_content": "The Guide archetype",
+          "inverted_tags": [
+            "misdirected deep understanding",
+            "misdirected clarity",
+            "misdirected seeing truly",
+            "misdirected wisdom",
+            "misdirected illumination"
+          ]
+        },
+        {
+          "number": 14,
+          "name": "The Partner",
+          "role": "Integrated Partner",
+          "tags": [
+            "full partnership",
+            "unity",
+            "steadfast presence",
+            "mutual trust",
+            "complete bond"
+          ],
+          "image_content": "The Partner archetype",
+          "inverted_tags": [
+            "misdirected full partnership",
+            "misdirected unity",
+            "misdirected steadfast presence",
+            "misdirected mutual trust",
+            "misdirected complete bond"
+          ]
+        }
+      ]
+    },
+    "cards": [
+      {
+        "suit_index": 0,
+        "rank_index": 0,
+        "name": "Ace of Gifts",
+        "tags": [
+          "perfect potential",
+          "aligned invitation",
+          "grace at the start",
+          "clear need",
+          "ready to help"
+        ],
+        "image_content": "A single glowing star symbol appearing in response to a clear call, pure and bright",
+        "inverted_tags": [
+          "misdirected perfect potential",
+          "misdirected aligned invitation",
+          "misdirected grace at the start",
+          "misdirected clear need",
+          "misdirected ready to help"
+        ]
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 1,
+        "name": "Two of Gifts",
+        "tags": [
+          "mutual recognition",
+          "perfect pairing",
+          "aligned understanding",
+          "balanced exchange",
+          "synchronicity"
+        ],
+        "image_content": "Two stars or two figures (spirit and seeker) mirroring each other perfectly, balanced composition",
+        "inverted_tags": [
+          "misdirected mutual recognition",
+          "misdirected perfect pairing",
+          "misdirected aligned understanding",
+          "misdirected balanced exchange",
+          "misdirected synchronicity"
+        ]
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 2,
+        "name": "Three of Gifts",
+        "tags": [
+          "collaborative creation",
+          "effective teamwork",
+          "gifts multiply",
+          "productive harmony",
+          "nascent success"
+        ],
+        "image_content": "Three spirits working together smoothly, their efforts creating something beautiful, stars appearing from their cooperation",
+        "inverted_tags": [
+          "misdirected collaborative creation",
+          "misdirected effective teamwork",
+          "misdirected gifts multiply",
+          "misdirected productive harmony",
+          "misdirected nascent success"
+        ]
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 3,
+        "name": "Four of Gifts",
+        "tags": [
+          "reliable help",
+          "established support",
+          "comfort zone of assistance",
+          "stable magic",
+          "predictable grace"
+        ],
+        "image_content": "Four stars arranged in a stable square, spirits maintaining a steady helpful rhythm, everything in its place",
+        "inverted_tags": [
+          "misdirected reliable help",
+          "misdirected established support",
+          "misdirected comfort zone of assistance",
+          "misdirected stable magic",
+          "misdirected predictable grace"
+        ]
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 4,
+        "name": "Five of Gifts",
+        "tags": [
+          "help interrupted",
+          "grace challenged",
+          "misalignment emerging",
+          "questioning what worked",
+          "adjustment needed"
+        ],
+        "image_content": "Five stars with one out of alignment, spirits showing concern, established patterns disrupted",
+        "inverted_tags": [
+          "misdirected help interrupted",
+          "misdirected grace challenged",
+          "misdirected misalignment emerging",
+          "misdirected questioning what worked",
+          "misdirected adjustment needed"
+        ]
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 5,
+        "name": "Six of Gifts",
+        "tags": [
+          "restored clarity",
+          "generosity flowing",
+          "giving and receiving",
+          "help finds new form",
+          "grace returns"
+        ],
+        "image_content": "Six stars in harmonious flow, spirits distributing gifts evenly, balance restored and improved",
+        "inverted_tags": [
+          "misdirected restored clarity",
+          "misdirected generosity flowing",
+          "misdirected giving and receiving",
+          "misdirected help finds new form",
+          "misdirected grace returns"
+        ]
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 6,
+        "name": "Seven of Gifts",
+        "tags": [
+          "choosing how to help",
+          "assessing gifts offered",
+          "strategic kindness",
+          "which grace to accept",
+          "reflective generosity"
+        ],
+        "image_content": "Seven stars, each representing different forms of help, spirit and seeker considering which to pursue",
+        "inverted_tags": [
+          "misdirected choosing how to help",
+          "misdirected assessing gifts offered",
+          "misdirected strategic kindness",
+          "misdirected which grace to accept",
+          "misdirected reflective generosity"
+        ]
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 7,
+        "name": "Eight of Gifts",
+        "tags": [
+          "masterful assistance",
+          "skilled grace",
+          "coordinated help",
+          "practiced gifting",
+          "expert support"
+        ],
+        "image_content": "Eight stars weaving in complex but graceful patterns, spirits demonstrating refined helpful magic",
+        "inverted_tags": [
+          "misdirected masterful assistance",
+          "misdirected skilled grace",
+          "misdirected coordinated help",
+          "misdirected practiced gifting",
+          "misdirected expert support"
+        ]
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 8,
+        "name": "Nine of Gifts",
+        "tags": [
+          "abundance of grace",
+          "help overflowing",
+          "peak assistance",
+          "gifts complete",
+          "generosity fulfilled"
+        ],
+        "image_content": "Nine stars radiating outward, spirits surrounded by successful gifts, everything provided beautifully",
+        "inverted_tags": [
+          "misdirected abundance of grace",
+          "misdirected help overflowing",
+          "misdirected peak assistance",
+          "misdirected gifts complete",
+          "misdirected generosity fulfilled"
+        ]
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 9,
+        "name": "Ten of Gifts",
+        "tags": [
+          "help fulfilled",
+          "cycle of grace complete",
+          "perfect assistance rendered",
+          "ready for new needs",
+          "gifts coming full circle"
+        ],
+        "image_content": "Ten stars in a complete circle, spirits and seeker at peace, one cycle of help ending as another begins",
+        "inverted_tags": [
+          "misdirected help fulfilled",
+          "misdirected cycle of grace complete",
+          "misdirected perfect assistance rendered",
+          "misdirected ready for new needs",
+          "misdirected gifts coming full circle"
+        ]
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 10,
+        "name": "The Visitor of Gifts",
+        "tags": [
+          "new helper arriving",
+          "tentative grace",
+          "curious kindness",
+          "potential for perfect help",
+          "fresh assistance"
+        ],
+        "image_content": "A translucent spirit just appearing with a star symbol, reaching out cautiously to help for the first time",
+        "inverted_tags": [
+          "misdirected new helper arriving",
+          "misdirected tentative grace",
+          "misdirected curious kindness",
+          "misdirected potential for perfect help",
+          "misdirected fresh assistance"
+        ]
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 11,
+        "name": "The Helper of Gifts",
+        "tags": [
+          "enthusiastic assistance",
+          "overwhelming kindness",
+          "energetic grace",
+          "help in motion",
+          "exuberant giving"
+        ],
+        "image_content": "A spirit rushing to help, stars multiplying from their energetic movements, perhaps almost too much assistance",
+        "inverted_tags": [
+          "misdirected enthusiastic assistance",
+          "misdirected overwhelming kindness",
+          "misdirected energetic grace",
+          "misdirected help in motion",
+          "misdirected exuberant giving"
+        ]
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 12,
+        "name": "The Guide of Gifts",
+        "tags": [
+          "wise assistance",
+          "illuminated giving",
+          "knowing exactly what's needed",
+          "grace with understanding",
+          "perfect guidance"
+        ],
+        "image_content": "A luminous spirit offering help with complete clarity, stars arranged in perfect understanding",
+        "inverted_tags": [
+          "misdirected wise assistance",
+          "misdirected illuminated giving",
+          "misdirected knowing exactly what's needed",
+          "misdirected grace with understanding",
+          "misdirected perfect guidance"
+        ]
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 13,
+        "name": "The Partner of Gifts",
+        "tags": [
+          "steadfast support",
+          "unified assistance",
+          "grace as partnership",
+          "complete trust in help",
+          "bonded service"
+        ],
+        "image_content": "Spirit and seeker intertwined, helping as one being, stars woven through both of them",
+        "inverted_tags": [
+          "misdirected steadfast support",
+          "misdirected unified assistance",
+          "misdirected grace as partnership",
+          "misdirected complete trust in help",
+          "misdirected bonded service"
+        ]
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 0,
+        "name": "Ace of Boons",
+        "tags": [
+          "accidental potential",
+          "sideways beginning",
+          "unexpected invitation",
+          "the wrong thing that's right",
+          "surprise seed"
+        ],
+        "image_content": "A single spiral symbol appearing from an unexpected direction, glowing with promise",
+        "inverted_tags": [
+          "misdirected accidental potential",
+          "misdirected sideways beginning",
+          "misdirected unexpected invitation",
+          "misdirected the wrong thing that's right",
+          "misdirected surprise seed"
+        ]
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 1,
+        "name": "Two of Boons",
+        "tags": [
+          "creative misunderstanding",
+          "two interpretations",
+          "complementary confusion",
+          "different but aligned",
+          "productive miscommunication"
+        ],
+        "image_content": "Two spirals spinning in different directions but creating harmony, spirit and seeker both confused but pleased",
+        "inverted_tags": [
+          "misdirected creative misunderstanding",
+          "misdirected two interpretations",
+          "misdirected complementary confusion",
+          "misdirected different but aligned",
+          "misdirected productive miscommunication"
+        ]
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 2,
+        "name": "Three of Boons",
+        "tags": [
+          "lateral innovation",
+          "three ways of being wrong that work",
+          "experimental surprise",
+          "unexpected collaboration",
+          "creative accidents"
+        ],
+        "image_content": "Three spirals interweaving unexpectedly, spirits creating something unintended but delightful",
+        "inverted_tags": [
+          "misdirected lateral innovation",
+          "misdirected three ways of being wrong that work",
+          "misdirected experimental surprise",
+          "misdirected unexpected collaboration",
+          "misdirected creative accidents"
+        ]
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 3,
+        "name": "Four of Boons",
+        "tags": [
+          "routine serendipity",
+          "comfortable surprises",
+          "established chaos that works",
+          "stability through accidents",
+          "reliable lateral solutions"
+        ],
+        "image_content": "Four spirals in a foundation, wrong solutions that have become the new normal, spirits content with the unexpected system",
+        "inverted_tags": [
+          "misdirected routine serendipity",
+          "misdirected comfortable surprises",
+          "misdirected established chaos that works",
+          "misdirected stability through accidents",
+          "misdirected reliable lateral solutions"
+        ]
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 4,
+        "name": "Five of Boons",
+        "tags": [
+          "productive deviation",
+          "challenge breeds invention",
+          "disruption of serendipity",
+          "when accidents stop working",
+          "creative crisis"
+        ],
+        "image_content": "Five spirals, one spinning wildly off pattern, the accidental system disrupted",
+        "inverted_tags": [
+          "misdirected productive deviation",
+          "misdirected challenge breeds invention",
+          "misdirected disruption of serendipity",
+          "misdirected when accidents stop working",
+          "misdirected creative crisis"
+        ]
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 5,
+        "name": "Six of Boons",
+        "tags": [
+          "recalibrated surprise",
+          "new accidents that work",
+          "restored serendipity",
+          "learning from mistakes",
+          "adjusted innovation"
+        ],
+        "image_content": "Six spirals finding new patterns of productive confusion, spirits and seeker adapting their misunderstandings",
+        "inverted_tags": [
+          "misdirected recalibrated surprise",
+          "misdirected new accidents that work",
+          "misdirected restored serendipity",
+          "misdirected learning from mistakes",
+          "misdirected adjusted innovation"
+        ]
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 6,
+        "name": "Seven of Boons",
+        "tags": [
+          "considering accidents",
+          "which surprise to pursue",
+          "reflecting on serendipity",
+          "choosing creative paths",
+          "pondering the unexpected"
+        ],
+        "image_content": "Seven spirals, each a different possibility, spirit and seeker wondering which accidental solution to follow",
+        "inverted_tags": [
+          "misdirected considering accidents",
+          "misdirected which surprise to pursue",
+          "misdirected reflecting on serendipity",
+          "misdirected choosing creative paths",
+          "misdirected pondering the unexpected"
+        ]
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 7,
+        "name": "Eight of Boons",
+        "tags": [
+          "mastery of accidents",
+          "skilled serendipity",
+          "expert lateral thinking",
+          "coordinated surprises",
+          "practiced innovation"
+        ],
+        "image_content": "Eight spirals weaving in sophisticated accidental patterns, spirits orchestrating beautiful chaos",
+        "inverted_tags": [
+          "misdirected mastery of accidents",
+          "misdirected skilled serendipity",
+          "misdirected expert lateral thinking",
+          "misdirected coordinated surprises",
+          "misdirected practiced innovation"
+        ]
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 8,
+        "name": "Nine of Boons",
+        "tags": [
+          "abundance of surprises",
+          "peak serendipity",
+          "accidents overflowing",
+          "lateral solutions complete",
+          "innovation fulfilled"
+        ],
+        "image_content": "Nine spirals multiplying outward, more unexpected solutions than needed, everything working in sideways ways",
+        "inverted_tags": [
+          "misdirected abundance of surprises",
+          "misdirected peak serendipity",
+          "misdirected accidents overflowing",
+          "misdirected lateral solutions complete",
+          "misdirected innovation fulfilled"
+        ]
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 9,
+        "name": "Ten of Boons",
+        "tags": [
+          "serendipity complete",
+          "accident cycle fulfilled",
+          "surprise comes full circle",
+          "ready for new confusion",
+          "lateral solution perfected"
+        ],
+        "image_content": "Ten spirals forming a complete cycle, what was accident has become mastery, ready to begin misunderstanding anew",
+        "inverted_tags": [
+          "misdirected serendipity complete",
+          "misdirected accident cycle fulfilled",
+          "misdirected surprise comes full circle",
+          "misdirected ready for new confusion",
+          "misdirected lateral solution perfected"
+        ]
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 10,
+        "name": "The Visitor of Boons",
+        "tags": [
+          "curious accident",
+          "tentative misunderstanding",
+          "new spirit of surprise",
+          "potential for serendipity",
+          "fresh confusion"
+        ],
+        "image_content": "A translucent spirit arriving with a spiral, already getting something adorably wrong",
+        "inverted_tags": [
+          "misdirected curious accident",
+          "misdirected tentative misunderstanding",
+          "misdirected new spirit of surprise",
+          "misdirected potential for serendipity",
+          "misdirected fresh confusion"
+        ]
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 11,
+        "name": "The Helper of Boons",
+        "tags": [
+          "enthusiastic confusion",
+          "energetic accidents",
+          "overwhelming serendipity",
+          "help that misses the mark beautifully",
+          "exuberant surprise"
+        ],
+        "image_content": "A spirit racing to help with spirals spinning everywhere, getting everything wrong in the best possible way",
+        "inverted_tags": [
+          "misdirected enthusiastic confusion",
+          "misdirected energetic accidents",
+          "misdirected overwhelming serendipity",
+          "misdirected help that misses the mark beautifully",
+          "misdirected exuberant surprise"
+        ]
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 12,
+        "name": "The Guide of Boons",
+        "tags": [
+          "wise accidents",
+          "knowing the real problem",
+          "illuminated serendipity",
+          "understanding what's actually needed",
+          "lateral wisdom"
+        ],
+        "image_content": "A luminous spirit offering the wrong thing that turns out to be exactly right, spirals glowing with understanding",
+        "inverted_tags": [
+          "misdirected wise accidents",
+          "misdirected knowing the real problem",
+          "misdirected illuminated serendipity",
+          "misdirected understanding what's actually needed",
+          "misdirected lateral wisdom"
+        ]
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 13,
+        "name": "The Partner of Boons",
+        "tags": [
+          "partnership in serendipity",
+          "unified accidents",
+          "bonded surprise",
+          "mutual lateral thinking",
+          "complete creative confusion"
+        ],
+        "image_content": "Spirit and seeker as one being of productive misunderstanding, spirals woven through them both",
+        "inverted_tags": [
+          "misdirected partnership in serendipity",
+          "misdirected unified accidents",
+          "misdirected bonded surprise",
+          "misdirected mutual lateral thinking",
+          "misdirected complete creative confusion"
+        ]
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 0,
+        "name": "Ace of Tricks",
+        "tags": [
+          "insight spark",
+          "potential for mischief",
+          "seeing what's hidden",
+          "invitation to disruption",
+          "pure clever potential"
+        ],
+        "image_content": "A single glowing eye symbol appearing, seeing through to hidden truth, full of playful promise",
+        "inverted_tags": [
+          "misdirected insight spark",
+          "misdirected potential for mischief",
+          "misdirected seeing what's hidden",
+          "misdirected invitation to disruption",
+          "misdirected pure clever potential"
+        ]
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 1,
+        "name": "Two of Tricks",
+        "tags": [
+          "dual perspective",
+          "teaching through contrast",
+          "two ways of seeing",
+          "playful tension",
+          "wisdom partnership"
+        ],
+        "image_content": "Two eyes seeing different truths, spirit showing seeker another angle, clever visual pun",
+        "inverted_tags": [
+          "misdirected dual perspective",
+          "misdirected teaching through contrast",
+          "misdirected two ways of seeing",
+          "misdirected playful tension",
+          "misdirected wisdom partnership"
+        ]
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 2,
+        "name": "Three of Tricks",
+        "tags": [
+          "strategic chaos",
+          "creative disruption begins",
+          "three ways to see",
+          "playful collaboration",
+          "nascent mischievous wisdom"
+        ],
+        "image_content": "Three eyes or three spirits creating optical illusions together, teaching through play",
+        "inverted_tags": [
+          "misdirected strategic chaos",
+          "misdirected creative disruption begins",
+          "misdirected three ways to see",
+          "misdirected playful collaboration",
+          "misdirected nascent mischievous wisdom"
+        ]
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 3,
+        "name": "Four of Tricks",
+        "tags": [
+          "established insight",
+          "reliable disruption",
+          "comfortable mischief",
+          "pattern of clever help",
+          "stable trickery"
+        ],
+        "image_content": "Four eyes arranged in stable but impish formation, spirits maintaining playful wisdom as routine",
+        "inverted_tags": [
+          "misdirected established insight",
+          "misdirected reliable disruption",
+          "misdirected comfortable mischief",
+          "misdirected pattern of clever help",
+          "misdirected stable trickery"
+        ]
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 4,
+        "name": "Five of Tricks",
+        "tags": [
+          "mischief disrupted",
+          "when tricks fail",
+          "insight challenged",
+          "chaos of chaos",
+          "strategic confusion"
+        ],
+        "image_content": "Five eyes with one winking at wrong moment, the tricksters tricked, strategic nonsense becoming actual nonsense",
+        "inverted_tags": [
+          "misdirected mischief disrupted",
+          "misdirected when tricks fail",
+          "misdirected insight challenged",
+          "misdirected chaos of chaos",
+          "misdirected strategic confusion"
+        ]
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 5,
+        "name": "Six of Tricks",
+        "tags": [
+          "restored play",
+          "wisdom flows again",
+          "teaching clarity",
+          "mischief recalibrated",
+          "insight harmonized"
+        ],
+        "image_content": "Six eyes in playful harmony, spirits adjusting their tricks to teach better, illusions becoming revelation",
+        "inverted_tags": [
+          "misdirected restored play",
+          "misdirected wisdom flows again",
+          "misdirected teaching clarity",
+          "misdirected mischief recalibrated",
+          "misdirected insight harmonized"
+        ]
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 6,
+        "name": "Seven of Tricks",
+        "tags": [
+          "pondering which trick",
+          "choosing strategic mischief",
+          "reflecting on disruption",
+          "considering insights",
+          "strategic pause in play"
+        ],
+        "image_content": "Seven eyes each seeing different possibilities, impish spirit considering which disruption will teach best",
+        "inverted_tags": [
+          "misdirected pondering which trick",
+          "misdirected choosing strategic mischief",
+          "misdirected reflecting on disruption",
+          "misdirected considering insights",
+          "misdirected strategic pause in play"
+        ]
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 7,
+        "name": "Eight of Tricks",
+        "tags": [
+          "masterful mischief",
+          "coordinated tricks",
+          "expert disruption",
+          "skilled playful wisdom",
+          "graceful chaos"
+        ],
+        "image_content": "Eight eyes weaving sophisticated optical patterns, spirits demonstrating mastery of strategic nonsense",
+        "inverted_tags": [
+          "misdirected masterful mischief",
+          "misdirected coordinated tricks",
+          "misdirected expert disruption",
+          "misdirected skilled playful wisdom",
+          "misdirected graceful chaos"
+        ]
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 8,
+        "name": "Nine of Tricks",
+        "tags": [
+          "peak mischief",
+          "wisdom overflowing",
+          "abundance of insight",
+          "tricks complete",
+          "perfect disruption"
+        ],
+        "image_content": "Nine eyes radiating insights, every trick revealing deeper truth, playful wisdom at its fullest",
+        "inverted_tags": [
+          "misdirected peak mischief",
+          "misdirected wisdom overflowing",
+          "misdirected abundance of insight",
+          "misdirected tricks complete",
+          "misdirected perfect disruption"
+        ]
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 9,
+        "name": "Ten of Tricks",
+        "tags": [
+          "mischief complete",
+          "cycle of tricks fulfilled",
+          "insight comes full circle",
+          "ready for new play",
+          "disruption perfected"
+        ],
+        "image_content": "Ten eyes in a complete circle, what was chaos has become wisdom, trick and truth united",
+        "inverted_tags": [
+          "misdirected mischief complete",
+          "misdirected cycle of tricks fulfilled",
+          "misdirected insight comes full circle",
+          "misdirected ready for new play",
+          "misdirected disruption perfected"
+        ]
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 10,
+        "name": "The Visitor of Tricks",
+        "tags": [
+          "curious trickster",
+          "tentative mischief",
+          "new insight",
+          "potential for play",
+          "fresh disruption"
+        ],
+        "image_content": "A translucent spirit arriving with a single bright eye, already seeing what others miss, trying first trick",
+        "inverted_tags": [
+          "misdirected curious trickster",
+          "misdirected tentative mischief",
+          "misdirected new insight",
+          "misdirected potential for play",
+          "misdirected fresh disruption"
+        ]
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 11,
+        "name": "The Helper of Tricks",
+        "tags": [
+          "enthusiastic chaos",
+          "energetic trickery",
+          "overwhelming mischief",
+          "playful motion",
+          "exuberant disruption"
+        ],
+        "image_content": "A spirit racing through tricks, eyes multiplying, optical illusions everywhere, teaching through delightful pandemonium",
+        "inverted_tags": [
+          "misdirected enthusiastic chaos",
+          "misdirected energetic trickery",
+          "misdirected overwhelming mischief",
+          "misdirected playful motion",
+          "misdirected exuberant disruption"
+        ]
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 12,
+        "name": "The Guide of Tricks",
+        "tags": [
+          "wise mischief",
+          "perfect disruption",
+          "illuminated play",
+          "knowing which trick teaches",
+          "strategic wisdom"
+        ],
+        "image_content": "A luminous spirit with ancient eyes, playing the exact trick needed, chaos that reveals all",
+        "inverted_tags": [
+          "misdirected wise mischief",
+          "misdirected perfect disruption",
+          "misdirected illuminated play",
+          "misdirected knowing which trick teaches",
+          "misdirected strategic wisdom"
+        ]
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 13,
+        "name": "The Partner of Tricks",
+        "tags": [
+          "partnership in play",
+          "unified mischief",
+          "bonded disruption",
+          "mutual trickery",
+          "complete playful wisdom"
+        ],
+        "image_content": "Spirit and seeker as one trickster being, eyes woven through both, playing with reality together",
+        "inverted_tags": [
+          "misdirected partnership in play",
+          "misdirected unified mischief",
+          "misdirected bonded disruption",
+          "misdirected mutual trickery",
+          "misdirected complete playful wisdom"
+        ]
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 0,
+        "name": "Ace of Tangles",
+        "tags": [
+          "pure chaos potential",
+          "first knot",
+          "raw confusion",
+          "invitation to mayhem",
+          "sincere disaster seed"
+        ],
+        "image_content": "A single knot symbol appearing, already impossibly complex for one loop, glowing with chaotic promise",
+        "inverted_tags": [
+          "misdirected pure chaos potential",
+          "misdirected first knot",
+          "misdirected raw confusion",
+          "misdirected invitation to mayhem",
+          "misdirected sincere disaster seed"
+        ]
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 1,
+        "name": "Two of Tangles",
+        "tags": [
+          "double confusion",
+          "exponential misunderstanding",
+          "two sincere disasters",
+          "chaos meeting chaos",
+          "compound confusion"
+        ],
+        "image_content": "Two knots tangling together, spirits and seeker both confused in opposite directions, delightful pandemonium beginning",
+        "inverted_tags": [
+          "misdirected double confusion",
+          "misdirected exponential misunderstanding",
+          "misdirected two sincere disasters",
+          "misdirected chaos meeting chaos",
+          "misdirected compound confusion"
+        ]
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 2,
+        "name": "Three of Tangles",
+        "tags": [
+          "creative catastrophe",
+          "three-way confusion",
+          "collaborative disaster",
+          "chaos multiplying",
+          "joyful mayhem emerging"
+        ],
+        "image_content": "Three knots attempting to work together, making everything wonderfully worse, spirits delighted by the mess",
+        "inverted_tags": [
+          "misdirected creative catastrophe",
+          "misdirected three-way confusion",
+          "misdirected collaborative disaster",
+          "misdirected chaos multiplying",
+          "misdirected joyful mayhem emerging"
+        ]
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 3,
+        "name": "Four of Tangles",
+        "tags": [
+          "established chaos",
+          "reliable disaster",
+          "comfortable confusion",
+          "routine mayhem",
+          "stable pandemonium"
+        ],
+        "image_content": "Four knots in a foundation that makes no sense but somehow persists, spirits maintaining their beautiful disasters",
+        "inverted_tags": [
+          "misdirected established chaos",
+          "misdirected reliable disaster",
+          "misdirected comfortable confusion",
+          "misdirected routine mayhem",
+          "misdirected stable pandemonium"
+        ]
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 4,
+        "name": "Five of Tangles",
+        "tags": [
+          "chaos disrupted",
+          "disaster of disasters",
+          "mayhem challenged",
+          "confusion confused",
+          "exponential tangles"
+        ],
+        "image_content": "Five knots with everything going impossibly wrong, even the chaos is chaotic, spirits bewildered by their own confusion",
+        "inverted_tags": [
+          "misdirected chaos disrupted",
+          "misdirected disaster of disasters",
+          "misdirected mayhem challenged",
+          "misdirected confusion confused",
+          "misdirected exponential tangles"
+        ]
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 5,
+        "name": "Six of Tangles",
+        "tags": [
+          "chaos flowing",
+          "balanced disasters",
+          "mayhem harmonized",
+          "confusion restored",
+          "beautiful mess renewed"
+        ],
+        "image_content": "Six knots in flowing disarray, spirits and seeker learning to surf the chaos together",
+        "inverted_tags": [
+          "misdirected chaos flowing",
+          "misdirected balanced disasters",
+          "misdirected mayhem harmonized",
+          "misdirected confusion restored",
+          "misdirected beautiful mess renewed"
+        ]
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 6,
+        "name": "Seven of Tangles",
+        "tags": [
+          "considering disasters",
+          "pondering which chaos",
+          "reflecting on confusion",
+          "choosing mayhem",
+          "strategic pandemonium pause"
+        ],
+        "image_content": "Seven knots, each a different flavor of disaster, spirit wondering which beautiful mess to create next",
+        "inverted_tags": [
+          "misdirected considering disasters",
+          "misdirected pondering which chaos",
+          "misdirected reflecting on confusion",
+          "misdirected choosing mayhem",
+          "misdirected strategic pandemonium pause"
+        ]
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 7,
+        "name": "Eight of Tangles",
+        "tags": [
+          "masterful chaos",
+          "expert confusion",
+          "coordinated disasters",
+          "skilled mayhem",
+          "graceful pandemonium"
+        ],
+        "image_content": "Eight knots weaving sophisticated disasters, spirits demonstrating mastery of beautiful chaos",
+        "inverted_tags": [
+          "misdirected masterful chaos",
+          "misdirected expert confusion",
+          "misdirected coordinated disasters",
+          "misdirected skilled mayhem",
+          "misdirected graceful pandemonium"
+        ]
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 8,
+        "name": "Nine of Tangles",
+        "tags": [
+          "peak chaos",
+          "confusion complete",
+          "abundant disasters",
+          "mayhem fulfilled",
+          "maximum tangles"
+        ],
+        "image_content": "Nine knots creating total joyful pandemonium, chaos at its most beautiful and complete",
+        "inverted_tags": [
+          "misdirected peak chaos",
+          "misdirected confusion complete",
+          "misdirected abundant disasters",
+          "misdirected mayhem fulfilled",
+          "misdirected maximum tangles"
+        ]
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 9,
+        "name": "Ten of Tangles",
+        "tags": [
+          "chaos complete",
+          "disaster cycle fulfilled",
+          "confusion comes full circle",
+          "ready for new mayhem",
+          "beautiful pandemonium perfected"
+        ],
+        "image_content": "Ten knots forming a complete chaos mandala, what was disaster has become art, ready to untangle and retangle anew",
+        "inverted_tags": [
+          "misdirected chaos complete",
+          "misdirected disaster cycle fulfilled",
+          "misdirected confusion comes full circle",
+          "misdirected ready for new mayhem",
+          "misdirected beautiful pandemonium perfected"
+        ]
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 10,
+        "name": "The Visitor of Tangles",
+        "tags": [
+          "curious chaos",
+          "tentative disaster",
+          "new confusion",
+          "potential mayhem",
+          "fresh sincere mistakes"
+        ],
+        "image_content": "A translucent spirit arriving with a knot already forming, making its first beautiful mistake",
+        "inverted_tags": [
+          "misdirected curious chaos",
+          "misdirected tentative disaster",
+          "misdirected new confusion",
+          "misdirected potential mayhem",
+          "misdirected fresh sincere mistakes"
+        ]
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 11,
+        "name": "The Helper of Tangles",
+        "tags": [
+          "enthusiastic disasters",
+          "energetic chaos",
+          "overwhelming confusion",
+          "motion creating mayhem",
+          "exuberant tangles"
+        ],
+        "image_content": "A spirit racing through disasters, knots multiplying everywhere, creating glorious confusion at top speed",
+        "inverted_tags": [
+          "misdirected enthusiastic disasters",
+          "misdirected energetic chaos",
+          "misdirected overwhelming confusion",
+          "misdirected motion creating mayhem",
+          "misdirected exuberant tangles"
+        ]
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 12,
+        "name": "The Guide of Tangles",
+        "tags": [
+          "wise chaos",
+          "knowing disaster",
+          "illuminated confusion",
+          "understanding the mayhem",
+          "strategic tangles"
+        ],
+        "image_content": "A luminous spirit creating the exact right disaster, chaos that teaches, beautiful confusion with purpose",
+        "inverted_tags": [
+          "misdirected wise chaos",
+          "misdirected knowing disaster",
+          "misdirected illuminated confusion",
+          "misdirected understanding the mayhem",
+          "misdirected strategic tangles"
+        ]
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 13,
+        "name": "The Partner of Tangles",
+        "tags": [
+          "partnership in chaos",
+          "unified disaster",
+          "bonded confusion",
+          "mutual mayhem",
+          "complete beautiful mess together"
+        ],
+        "image_content": "Spirit and seeker as one being of joyful chaos, knots woven through both, perfect partners in pandemonium",
+        "inverted_tags": [
+          "misdirected partnership in chaos",
+          "misdirected unified disaster",
+          "misdirected bonded confusion",
+          "misdirected mutual mayhem",
+          "misdirected complete beautiful mess together"
+        ]
+      }
+    ]
+  }
+}

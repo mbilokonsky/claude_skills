@@ -1,0 +1,814 @@
+{
+  "theme": {
+    "name": "Crows",
+    "description": "Crows exist at the intersection of wild nature and human civilization, navigating both worlds with remarkable intelligence. They represent the corvid mind—problem-solving, memory, social complexity, and adaptation. Crows are simultaneously death omens and life-affirming survivors, tricksters and teachers, solitary hunters and communal roosters. They transform refuse into sustenance, observe from the edges, and remember faces across years. A crow tarot explores how intelligence manifests in different forms: instinct and reasoning, isolation and community, observation and action, the raw and the refined.",
+    "salient_concepts": [
+      "Collective intelligence vs individual cunning",
+      "Transformation through scavenging/repurposing",
+      "Memory and recognition",
+      "Liminality (edges, thresholds, between-spaces)",
+      "The shadow side as wisdom",
+      "Urban-wild duality"
+    ]
+  },
+  "dialectics": [
+    {
+      "thesis": "Wild",
+      "antithesis": "Urban",
+      "tensions": [
+        "untamed instinct vs adaptation to human structures",
+        "natural habitat vs scavenged civilization",
+        "freedom of flight vs navigating constraints"
+      ]
+    },
+    {
+      "thesis": "Individual",
+      "antithesis": "Murder",
+      "tensions": [
+        "lone intelligence vs swarm wisdom",
+        "personal cunning vs communal memory",
+        "solitary problem-solving vs group decisions"
+      ]
+    }
+  ],
+  "major_arcana": {
+    "story": "A fledgling crow falls from the nest into a world split between ancient forest and sprawling city. Through encounters with other crows, predators, humans, and the liminal spaces between worlds, the crow develops intelligence, learns the Murder's traditions, faces mortality, and ultimately becomes a keeper of memory—one who bridges wild instinct and urban adaptation, individual insight and collective knowledge.",
+    "visual_style": "Atmospheric and cinematic. Rich blacks with selective color—dawn golds, dusk purples, urban neon glints, blood reds. Each card captures a moment of transformation with the crow as protagonist. Mix of close-up details and sweeping landscapes. Strong use of light and shadow to create drama and meaning.",
+    "cards": [
+      {
+        "number": 0,
+        "name": "The Fledgling",
+        "role": "Beginning/Innocence",
+        "tags": ["new beginnings", "untested potential", "innocent curiosity", "first flight", "vulnerability", "open possibility"],
+        "inverted_tags": ["reckless naivety", "unpreparedness", "false start", "refusing to leave nest", "overwhelming vulnerability"],
+        "image_content": "A young crow teetering on the edge of a nest, wings partially spread, eyes wide with wonder and fear, the world vast below"
+      },
+      {
+        "number": 1,
+        "name": "The Cache",
+        "role": "Manifestation/Discovery",
+        "tags": ["first discovery", "gathering resources", "learning to hide", "abundance found", "claiming treasures", "potential realized"],
+        "inverted_tags": ["hoarding", "greed without purpose", "stolen goods", "inability to let go", "pointless accumulation"],
+        "image_content": "A crow discovering a glittering cache of objects—buttons, foil, coins—secreting them away in a hidden spot"
+      },
+      {
+        "number": 2,
+        "name": "The Mirror",
+        "role": "Self-Recognition/Awareness",
+        "tags": ["self-awareness", "recognition", "intelligence awakening", "seeing oneself truly", "consciousness", "the examined self"],
+        "inverted_tags": ["narcissism", "inability to see beyond self", "false reflection", "denial of truth", "distorted self-image"],
+        "image_content": "A crow encountering its reflection in glass or water, the moment of recognition, seeing itself as separate and real"
+      },
+      {
+        "number": 3,
+        "name": "The Roost",
+        "role": "Belonging/Sanctuary",
+        "tags": ["finding home", "first belonging", "sanctuary", "acceptance", "shelter", "collective warmth"],
+        "inverted_tags": ["false sanctuary", "smothering comfort", "dependence", "losing self in group", "sanctuary as prison"],
+        "image_content": "A crow settling into a communal roost at dusk, dozens of black forms roosting together in an ancient tree"
+      },
+      {
+        "number": 4,
+        "name": "The Sentinel",
+        "role": "Authority/Boundaries",
+        "tags": ["boundaries established", "authority encountered", "the old guard", "territorial claims", "structure", "order maintained"],
+        "inverted_tags": ["tyranny", "rigid boundaries", "fear-based authority", "oppressive order", "stifling structure"],
+        "image_content": "A large, scarred crow standing guard on a high perch, commanding presence, watching all approaches with fierce authority"
+      },
+      {
+        "number": 5,
+        "name": "The Teaching",
+        "role": "Tradition/Knowledge Transfer",
+        "tags": ["learning the calls", "ancestral knowledge", "tradition passed down", "cultural memory", "elder wisdom", "belonging through knowledge"],
+        "inverted_tags": ["dogma", "rigid tradition", "knowledge hoarded", "outdated wisdom", "forced conformity to old ways"],
+        "image_content": "An elder crow teaching a younger one the complex vocalizations, calls echoing between them, communication as inheritance"
+      },
+      {
+        "number": 6,
+        "name": "The Offering",
+        "role": "Choice/Alliance",
+        "tags": ["gift exchange", "forming bonds", "choosing alliances", "reciprocity", "trust offered", "connection made"],
+        "inverted_tags": ["manipulation through gifts", "false alliance", "obligation chains", "transactional love", "gifts with hooks"],
+        "image_content": "Two crows exchanging objects—a ritual offering, one crow presenting a shiny token to another, pact being formed"
+      },
+      {
+        "number": 7,
+        "name": "The Dive",
+        "role": "Commitment/Action",
+        "tags": ["bold flight", "commitment to action", "decisive moment", "controlled descent", "courage", "will enacted"],
+        "inverted_tags": ["reckless plunge", "loss of control", "commitment without thought", "forced action", "desperation dive"],
+        "image_content": "A crow in full dive, wings tucked, absolute commitment to the fall, target locked, moment of no return"
+      },
+      {
+        "number": 8,
+        "name": "The Hunt",
+        "role": "Persistence/Endurance",
+        "tags": ["patience in pursuit", "persistence", "endurance", "quiet strength", "waiting for the right moment", "sustained effort"],
+        "inverted_tags": ["exhaustion", "futile persistence", "inability to give up losing battles", "stubborn beyond reason"],
+        "image_content": "A crow watching prey intently through long hours, muscles coiled, waiting with infinite patience for the perfect moment"
+      },
+      {
+        "number": 9,
+        "name": "The Ledge",
+        "role": "Observation/Perspective",
+        "tags": ["withdrawal to observe", "perspective from edges", "solitude chosen", "seeing clearly from distance", "liminal wisdom"],
+        "inverted_tags": ["isolation as avoidance", "lonely disconnection", "observer who never acts", "paralyzed on threshold"],
+        "image_content": "A solitary crow perched on a building ledge between city and sky, neither fully in either world, gaining perspective"
+      },
+      {
+        "number": 10,
+        "name": "The Wheel",
+        "role": "Cycles/Destiny",
+        "tags": ["seasons turning", "migration", "cycles recognized", "destiny", "karma", "returns inevitable"],
+        "inverted_tags": ["trapped in cycles", "unable to break patterns", "meaningless repetition", "destiny as prison"],
+        "image_content": "Crows wheeling in circular flight patterns, seasons changing around them, the eternal return made visible"
+      },
+      {
+        "number": 11,
+        "name": "The Reckoning",
+        "role": "Cause/Effect",
+        "tags": ["consequences faced", "justice", "balance", "cause and effect understood", "accountability", "truth revealed"],
+        "inverted_tags": ["harsh judgment", "unfair consequences", "cold justice", "revenge disguised as fairness"],
+        "image_content": "A crow facing the results of its actions, perhaps at a crime scene of its own making, understanding dawning"
+      },
+      {
+        "number": 12,
+        "name": "The Caught",
+        "role": "Suspension/New View",
+        "tags": ["trapped or suspended", "enforced stillness", "seeing from new angle", "surrender", "pause that teaches"],
+        "inverted_tags": ["true imprisonment", "victimhood", "giving up too easily", "refusing the lesson of stillness"],
+        "image_content": "A crow tangled in something—wire, net, branches—held in an uncomfortable position that forces new perspective"
+      },
+      {
+        "number": 13,
+        "name": "The Molting",
+        "role": "Death/Transformation",
+        "tags": ["shedding the old", "transformation through loss", "death of former self", "renewal", "necessary ending"],
+        "inverted_tags": ["resisting change", "clinging to dead forms", "transformation feared", "rotting rather than releasing"],
+        "image_content": "A crow mid-molt, old feathers falling away, new ones emerging, the painful beauty of becoming something new"
+      },
+      {
+        "number": 14,
+        "name": "The Balance",
+        "role": "Harmony/Integration",
+        "tags": ["wild and urban integrated", "instinct and wisdom harmonized", "balance achieved", "moderation", "purpose found"],
+        "inverted_tags": ["forced compromise", "lukewarm middle", "balance as stagnation", "lost between worlds"],
+        "image_content": "A crow perched perfectly between natural branch and human structure, equally at home in both, integration embodied"
+      },
+      {
+        "number": 15,
+        "name": "The Carrion",
+        "role": "Shadow/Necessity",
+        "tags": ["feeding on death", "shadow work", "necessity of darkness", "scavenger's wisdom", "accepting the grim", "transformation through consumption"],
+        "inverted_tags": ["consumed by shadow", "addiction to darkness", "unnecessary cruelty", "reveling in decay"],
+        "image_content": "A crow at carrion, doing the necessary work of consuming death, the shadow made sacred through acceptance"
+      },
+      {
+        "number": 16,
+        "name": "The Strike",
+        "role": "Upheaval/Revelation",
+        "tags": ["sudden change", "predator encounter", "structure shattered", "lightning revelation", "comfortable world destroyed"],
+        "inverted_tags": ["unnecessary destruction", "change as violence", "revelation that destroys", "chaos without purpose"],
+        "image_content": "A hawk striking a crow mid-flight, the moment of impact, everything changed in an instant, old certainties shattered"
+      },
+      {
+        "number": 17,
+        "name": "The Glimmer",
+        "role": "Hope/Shine",
+        "tags": ["hope in darkness", "finding beauty in refuse", "the shine in discarded things", "faith", "renewal", "seeing potential"],
+        "inverted_tags": ["false hope", "distracted by shine", "shallow optimism", "ignoring real darkness"],
+        "image_content": "A crow finding something beautiful in a dumpster, morning light catching on glass, hope found in unlikely places"
+      },
+      {
+        "number": 18,
+        "name": "The Fog",
+        "role": "Uncertainty/Instinct",
+        "tags": ["navigating by instinct", "vision obscured", "trusting feeling over sight", "mystery", "the unknown", "finding way in darkness"],
+        "inverted_tags": ["lost in confusion", "instinct failed", "fear of unknown", "paralyzed by uncertainty"],
+        "image_content": "A crow flying through dense fog, unable to see, relying on ancient instinct and feel of air, trusting without knowing"
+      },
+      {
+        "number": 19,
+        "name": "The Clear Sky",
+        "role": "Joy/Clarity",
+        "tags": ["clarity achieved", "soaring in full light", "joy of flight", "success", "vitality", "everything visible"],
+        "inverted_tags": ["harsh exposure", "joy without depth", "clarity that blinds", "success without meaning"],
+        "image_content": "A crow soaring in brilliant sunlight, perfect blue sky, every detail visible, pure freedom and mastery of flight"
+      },
+      {
+        "number": 20,
+        "name": "The Gathering",
+        "role": "Judgment/Recognition",
+        "tags": ["the murder assembles", "collective judgment", "recognition by community", "trial", "acceptance or rejection", "being seen fully"],
+        "inverted_tags": ["mob judgment", "unfair trial", "exclusion", "being seen but misunderstood", "judgment without mercy"],
+        "image_content": "Hundreds of crows gathering, all eyes on one individual, the weight of collective attention, recognition or condemnation"
+      },
+      {
+        "number": 21,
+        "name": "The Memory",
+        "role": "Completion/Legacy",
+        "tags": ["keeper of culture", "faces remembered", "completion", "legacy", "wisdom holder", "the cycle complete", "elder achieved"],
+        "inverted_tags": ["trapped in past", "memory as burden", "unable to move forward", "living only through others"],
+        "image_content": "An old crow surrounded by younger ones, teaching, remembering, holding all the faces and stories, completion embodied"
+      }
+    ]
+  },
+  "minor_arcana": {
+    "suits": [
+      {
+        "name": "Feathers",
+        "symbol": "A single flight feather, sleek and curved",
+        "symbol_svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M50 10 Q 45 30 45 50 Q 45 80 48 95 Q 52 80 55 50 Q 55 30 50 10 M 45 30 L 35 35 M 45 40 L 30 43 M 45 50 L 28 52 M 45 60 L 30 61 M 45 70 L 33 70 M 55 30 L 65 35 M 55 40 L 70 43 M 55 50 L 72 52 M 55 60 L 70 61 M 55 70 L 67 70\" stroke=\"currentColor\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+        "tags": ["solitude", "instinct", "freedom", "raw survival", "untamed intelligence", "primal self"],
+        "inverted_tags": ["isolation", "feral regression", "aimless wandering", "antisocial withdrawal", "untempered wildness", "lost to instinct"],
+        "visual_style": "Stark black and white with deep forest greens. Imagery features lone crows in natural settings—mountain peaks, deep woods, windswept cliffs. Minimal composition emphasizing negative space, sharp contrasts, and the solitary figure against vast landscapes. Raw, unadorned aesthetic."
+      },
+      {
+        "name": "Reflections",
+        "symbol": "A single eye with a glint, representing intelligence and observation",
+        "symbol_svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"50\" cy=\"50\" rx=\"35\" ry=\"25\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"50\" cy=\"50\" r=\"12\" fill=\"white\"/><circle cx=\"54\" cy=\"46\" r=\"5\" fill=\"white\"/></svg>",
+        "tags": ["cunning", "adaptation", "strategy", "problem-solving", "resourcefulness", "clever navigation"],
+        "inverted_tags": ["manipulation", "over-calculation", "paranoia", "exploitative cleverness", "lonely scheming", "sterile intellect"],
+        "visual_style": "Urban textures—concrete, glass, metal—rendered in blacks, grays, and iridescent blues/purples. Single crows interact with human artifacts: mirrors, tools, discarded objects. Tight framing, sharp focus on details, reflective surfaces. Emphasis on the crow's interaction with manufactured objects."
+      },
+      {
+        "name": "Calls",
+        "symbol": "Three sound waves radiating outward, representing collective vocalization",
+        "symbol_svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"><path d=\"M 25 50 Q 30 35 40 30 Q 30 65 40 70\"/><path d=\"M 40 50 Q 45 30 58 23 Q 45 70 58 77\"/><path d=\"M 58 50 Q 63 25 78 18 Q 63 75 78 82\"/></g></svg>",
+        "tags": ["instinct-driven community", "wild synchrony", "natural hierarchy", "flock wisdom", "territorial unity", "ancestral patterns"],
+        "inverted_tags": ["mob mentality", "chaotic swarm", "loss of self in crowd", "instinct without thought", "brutal hierarchy", "regressive tribalism"],
+        "visual_style": "Dynamic compositions of multiple crows in natural motion—roosting in ancient trees, wheeling across storm skies, gathering at carcasses. Deep blacks with warm browns and rust tones. Emphasis on movement, pattern, and the organic choreography of many bodies acting as one."
+      },
+      {
+        "name": "Structures",
+        "symbol": "An interlocking grid or scaffold pattern, representing social architecture",
+        "symbol_svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"currentColor\"><rect x=\"20\" y=\"20\" width=\"15\" height=\"15\"/><rect x=\"42.5\" y=\"20\" width=\"15\" height=\"15\"/><rect x=\"65\" y=\"20\" width=\"15\" height=\"15\"/><rect x=\"20\" y=\"42.5\" width=\"15\" height=\"15\"/><rect x=\"65\" y=\"42.5\" width=\"15\" height=\"15\"/><rect x=\"20\" y=\"65\" width=\"15\" height=\"15\"/><rect x=\"42.5\" y=\"65\" width=\"15\" height=\"15\"/><rect x=\"65\" y=\"65\" width=\"15\" height=\"15\"/></g></svg>",
+        "tags": ["social intelligence", "collective memory", "learned culture", "coordinated action", "urban adaptation", "communal knowledge"],
+        "inverted_tags": ["oppressive conformity", "hive-mind loss", "surveillance state", "cold efficiency", "erasure of individuality", "mechanical cooperation"],
+        "visual_style": "Urban murder scenes—power lines heavy with roosting crows, parking lot gatherings, rooftop assemblies. Geometric compositions with strong lines and architectural elements. Silvers, slate grays, and glossy blacks with occasional warning yellows/reds. Emphasis on pattern, repetition, and the intelligence of coordinated behavior in human spaces."
+      }
+    ],
+    "ranks": {
+      "numbered": [
+        {
+          "number": 1,
+          "role": "Spark",
+          "tags": ["beginning", "instinct", "impulse", "raw energy", "seed", "initiation"],
+          "inverted_tags": ["false start", "misdirected energy", "impulse without purpose", "wasted potential"],
+          "image_content": "A single decisive moment, the first impulse, raw and unformed energy at its source"
+        },
+        {
+          "number": 2,
+          "role": "Pair",
+          "tags": ["duality", "choice", "balance", "partnership", "tension", "decision"],
+          "inverted_tags": ["indecision", "imbalance", "conflict", "stalemate", "forced choice", "false partnership"],
+          "image_content": "Two forces facing each other, moment of decision, balanced tension between opposing or complementary elements"
+        },
+        {
+          "number": 3,
+          "role": "Triad",
+          "tags": ["creation", "collaboration", "emergence", "growth", "synthesis", "birth"],
+          "inverted_tags": ["chaos", "discord", "creative block", "three-way conflict", "failed collaboration"],
+          "image_content": "Three elements coming together, creative tension producing something new, first manifestation of potential"
+        },
+        {
+          "number": 4,
+          "role": "Foundation",
+          "tags": ["stability", "structure", "territory", "foundation", "security", "consolidation"],
+          "inverted_tags": ["rigidity", "stagnation", "fortress mentality", "false security", "structure as cage"],
+          "image_content": "A stable structure established, boundaries marked, solid foundation laid, secure but potentially limiting"
+        },
+        {
+          "number": 5,
+          "role": "Disruption",
+          "tags": ["conflict", "challenge", "disruption", "testing", "struggle", "competition"],
+          "inverted_tags": ["unnecessary conflict", "defeat", "surrender", "chaos embraced", "destructive fighting"],
+          "image_content": "Order challenged, conflict arising, the comfortable structure tested by opposing forces"
+        },
+        {
+          "number": 6,
+          "role": "Flow",
+          "tags": ["harmony", "exchange", "flow", "communication", "resolution", "giving and receiving"],
+          "inverted_tags": ["blocked flow", "one-sided exchange", "surface harmony", "debt", "forced balance"],
+          "image_content": "Movement restored, exchange happening, harmony after conflict, reciprocal flow between elements"
+        },
+        {
+          "number": 7,
+          "role": "Assessment",
+          "tags": ["assessment", "strategy", "crossroads", "evaluation", "planning", "patience"],
+          "inverted_tags": ["paralysis by analysis", "poor judgment", "evasion", "cowardice", "overthinking"],
+          "image_content": "A pause to take stock, multiple paths visible, strategic moment of choice before next move"
+        },
+        {
+          "number": 8,
+          "role": "Momentum",
+          "tags": ["momentum", "mastery", "swift action", "skill", "focus", "breakthrough"],
+          "inverted_tags": ["rushed action", "loss of control", "scattered energy", "burnout", "motion without purpose"],
+          "image_content": "Rapid movement, skill in action, mastery applied with precision, energy channeled effectively"
+        },
+        {
+          "number": 9,
+          "role": "Culmination",
+          "tags": ["culmination", "fulfillment", "achievement", "wisdom", "maturity", "readiness"],
+          "inverted_tags": ["paranoia", "defensive isolation", "holding too tight", "fear of loss", "peak anxiety"],
+          "image_content": "Near completion, fullness achieved, standing at the peak with hard-won wisdom, almost ready"
+        },
+        {
+          "number": 10,
+          "role": "Cycle Complete",
+          "tags": ["completion", "transformation", "overflow", "legacy", "ending and beginning", "burden and gift"],
+          "inverted_tags": ["collapse", "excessive burden", "refusal to let go", "stagnation at peak", "unable to begin anew"],
+          "image_content": "The cycle complete, overflow into new beginnings, culmination that becomes seed for next journey"
+        }
+      ],
+      "face": [
+        {
+          "number": 11,
+          "name": "The Watcher",
+          "role": "Observer/Student",
+          "tags": ["observation", "curiosity", "learning", "attention", "reconnaissance", "youth"],
+          "inverted_tags": ["voyeurism", "passivity", "fear of engagement", "timid watching", "observer who never acts"],
+          "image_content": "Young crow perched at edges, wide-eyed, attentive, gathering information before acting",
+          "visual_content": "A juvenile crow in observational stance, alert and curious, positioned to see without being fully engaged"
+        },
+        {
+          "number": 12,
+          "name": "The Messenger",
+          "role": "Communicator/Connector",
+          "tags": ["communication", "swift movement", "message-bearer", "connection", "action", "zeal"],
+          "inverted_tags": ["gossip", "miscommunication", "reckless flight", "lost message", "words without meaning"],
+          "image_content": "Crow in dynamic flight, carrying something, purpose-driven motion between locations or individuals",
+          "visual_content": "A crow mid-flight with something in its beak or talons, moving with clear intent and direction"
+        },
+        {
+          "number": 13,
+          "name": "The Guardian",
+          "role": "Protector/Defender",
+          "tags": ["protection", "nurturing", "fierce defense", "wisdom-in-action", "sovereignty", "care"],
+          "inverted_tags": ["overprotection", "aggressive territoriality", "smothering", "paranoid defense", "protection as control"],
+          "image_content": "Crow with spread wings, protective stance, watchful intensity, defending what matters",
+          "visual_content": "A crow in defensive posture, wings spread, body language conveying fierce protection and boundaries"
+        },
+        {
+          "number": 14,
+          "name": "The Elder",
+          "role": "Master/Teacher",
+          "tags": ["mastery", "memory", "leadership", "accumulated wisdom", "authority", "legacy"],
+          "inverted_tags": ["tyranny", "outdated knowledge", "rigid authority", "hoarding wisdom", "elder as tyrant"],
+          "image_content": "Weathered crow, commanding presence, scars of experience visible, embodying full mastery",
+          "visual_content": "An old crow with visible signs of age and experience, posture conveying authority and deep knowledge"
+        }
+      ]
+    },
+    "cards": [
+      {
+        "suit_index": 0,
+        "rank_index": 0,
+        "name": "Ace of Feathers",
+        "tags": ["primal instinct awakened", "wild impulse", "raw freedom", "untamed beginning", "pure survival drive"],
+        "inverted_tags": ["feral chaos", "instinct without direction", "wild impulse destroying self", "lost to base nature"],
+        "image_content": "A single black feather falling through forest light, the spark of wild instinct, beginning of solitary journey in untamed places"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 1,
+        "name": "Two of Feathers",
+        "tags": ["choosing between territories", "wild partnership", "balance between solitude and connection", "duality in nature"],
+        "inverted_tags": ["territorial conflict", "unable to choose path", "false wilderness partnership", "instincts at war"],
+        "image_content": "Two lone crows on separate mountain peaks, vast wilderness between them, moment of decision about connection or continued isolation"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 2,
+        "name": "Three of Feathers",
+        "tags": ["wild collaboration", "hunting party forms", "instinctual teamwork", "temporary alliance in nature"],
+        "inverted_tags": ["pack turns chaotic", "predators competing", "failed wild cooperation", "instinct-driven discord"],
+        "image_content": "Three crows working together in deep forest, hunting or foraging, natural cooperation without structure"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 3,
+        "name": "Four of Feathers",
+        "tags": ["wild territory claimed", "natural home secured", "instinctual boundaries", "primal foundation established"],
+        "inverted_tags": ["trapped in wilderness", "wild isolation complete", "territory as prison", "rigid natural boundaries"],
+        "image_content": "A solitary crow's territory marked in ancient forest, solid foundation in untamed world, secure but potentially isolating"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 4,
+        "name": "Five of Feathers",
+        "tags": ["nature's challenge", "predator conflict", "wild struggle", "survival tested in raw world"],
+        "inverted_tags": ["defeated by wild", "surrendering to predators", "nature's cruelty embraced", "pointless wilderness battle"],
+        "image_content": "Conflict in wilderness—crow facing predator or harsh elements, natural world testing survival, raw struggle"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 5,
+        "name": "Six of Feathers",
+        "tags": ["flowing through forest", "natural harmony restored", "wild balance achieved", "movement through untamed spaces"],
+        "inverted_tags": ["stagnant in wilderness", "false natural peace", "flow blocked by wild", "harmony without meaning"],
+        "image_content": "Crow gliding effortlessly through forest canopy, natural harmony after struggle, flow restored in wild places"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 6,
+        "name": "Seven of Feathers",
+        "tags": ["surveying wilderness", "wild strategic pause", "choosing natural path", "patience in primal world"],
+        "inverted_tags": ["paralyzed by nature's scale", "lost in wilderness", "unable to choose wild path", "cowardice before raw world"],
+        "image_content": "Crow perched on high cliff, surveying multiple wilderness paths, strategic moment in untamed landscape"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 7,
+        "name": "Eight of Feathers",
+        "tags": ["wild mastery", "swift flight through nature", "instinct perfected", "primal skill unleashed"],
+        "inverted_tags": ["reckless wilderness flight", "wild skill turns destructive", "instinct without control", "burnout in nature"],
+        "image_content": "Crow in perfect flight through challenging wilderness terrain, mastery of natural movement, primal skill at peak"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 8,
+        "name": "Nine of Feathers",
+        "tags": ["wilderness wisdom achieved", "primal fulfillment", "wild maturity", "solitary mastery complete"],
+        "inverted_tags": ["paranoid isolation in wild", "hoarding wilderness resources", "defensive wild creature", "fear of losing primal self"],
+        "image_content": "Seasoned crow alone in perfect wilderness territory, wisdom of wild years visible, near completion of solitary mastery"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 9,
+        "name": "Ten of Feathers",
+        "tags": ["wild cycle complete", "wilderness legacy", "primal wisdom overflowing", "transformation from pure instinct"],
+        "inverted_tags": ["wilderness burden crushing", "wild past imprisoning", "unable to leave nature behind", "overflow of primal chaos"],
+        "image_content": "Ancient crow in deep wilderness, carrying all the wisdom of untamed years, cycle complete, ready for transformation"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 10,
+        "name": "The Watcher of Feathers",
+        "tags": ["observing from wilderness edges", "learning wild ways", "curious about primal world", "young wilderness scout"],
+        "inverted_tags": ["afraid of wild", "watching wilderness from safe distance", "timid in nature", "observer never entering wild"],
+        "image_content": "Young crow at forest edge, watching deeper wilderness, learning natural ways through careful observation"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 11,
+        "name": "The Messenger of Feathers",
+        "tags": ["swift through wilderness", "carrying wild messages", "connecting natural territories", "primal courier"],
+        "inverted_tags": ["lost in wilderness flight", "wild message scattered", "reckless through nature", "communication with wild fails"],
+        "image_content": "Crow flying swiftly through forest, carrying something natural, connecting distant wild territories"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 12,
+        "name": "The Guardian of Feathers",
+        "tags": ["protecting wild territory", "fierce natural defender", "nurturing wilderness space", "primal sovereignty"],
+        "inverted_tags": ["viciously territorial in wild", "smothering natural space", "paranoid wilderness guardian", "wild defense becomes tyranny"],
+        "image_content": "Crow with spread wings defending natural territory, fierce protection of wild space, primal guardian stance"
+      },
+      {
+        "suit_index": 0,
+        "rank_index": 13,
+        "name": "The Elder of Feathers",
+        "tags": ["wilderness master", "primal memory keeper", "wild wisdom embodied", "nature's elder"],
+        "inverted_tags": ["tyrannical wild elder", "outdated natural knowledge", "rigid wilderness ways", "hoarding primal wisdom"],
+        "image_content": "Weathered crow commanding deep wilderness, embodying all wild wisdom, master of primal territories"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 0,
+        "name": "Ace of Reflections",
+        "tags": ["spark of cunning", "clever insight begins", "individual strategy born", "resourceful impulse"],
+        "inverted_tags": ["manipulative impulse", "cunning without ethics", "selfish calculation begins", "clever scheme fails"],
+        "image_content": "A crow's eye catching first glint of understanding in urban glass, moment of individual intelligence awakening"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 1,
+        "name": "Two of Reflections",
+        "tags": ["strategic choice", "balancing options cleverly", "adaptive decision", "cunning partnership"],
+        "inverted_tags": ["calculating stalemate", "over-thinking choice", "manipulative partnership", "clever conflict"],
+        "image_content": "Crow facing its own reflection in window, choosing between two urban strategies, moment of calculated decision"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 2,
+        "name": "Three of Reflections",
+        "tags": ["problem-solving collaboration", "clever teamwork", "urban strategy created", "resourceful synthesis"],
+        "inverted_tags": ["scheming group", "manipulative collaboration", "clever chaos", "three-way manipulation"],
+        "image_content": "Single crow working with tools and objects, solving urban puzzle through creativity and intelligence"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 3,
+        "name": "Four of Reflections",
+        "tags": ["strategic territory", "clever foundation", "urban nest secured", "resourceful stability"],
+        "inverted_tags": ["paranoid stronghold", "over-calculated security", "rigid clever structure", "false urban safety"],
+        "image_content": "Crow establishing secure place in urban environment through clever use of human structures, strategic foundation"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 4,
+        "name": "Five of Reflections",
+        "tags": ["outsmarting opponents", "clever conflict", "strategic struggle", "resourceful challenge"],
+        "inverted_tags": ["manipulation backfires", "too-clever defeat", "scheming collapses", "clever chaos embraced"],
+        "image_content": "Crow in urban conflict using intelligence and strategy, clever maneuvering against challenges"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 5,
+        "name": "Six of Reflections",
+        "tags": ["clever exchange", "strategic harmony", "urban flow restored", "intelligent cooperation"],
+        "inverted_tags": ["manipulative exchange", "calculated false peace", "surface cleverness", "strategic debt"],
+        "image_content": "Crow navigating urban environment smoothly, clever solutions flowing, strategic harmony with city"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 6,
+        "name": "Seven of Reflections",
+        "tags": ["strategic assessment", "clever evaluation", "urban crossroads", "calculated patience"],
+        "inverted_tags": ["paralyzed by options", "over-calculating", "clever evasion", "strategic cowardice"],
+        "image_content": "Crow surveying multiple urban opportunities from high perch, calculating next clever move, strategic pause"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 7,
+        "name": "Eight of Reflections",
+        "tags": ["clever mastery", "strategic breakthrough", "urban skill perfected", "intelligent momentum"],
+        "inverted_tags": ["too-clever burnout", "manipulation losing control", "rushed scheming", "strategic chaos"],
+        "image_content": "Crow moving swiftly through urban environment with perfect strategy, clever mastery in action"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 8,
+        "name": "Nine of Reflections",
+        "tags": ["strategic wisdom", "clever fulfillment", "urban mastery achieved", "intelligent peak"],
+        "inverted_tags": ["paranoid cleverness", "hoarding strategies", "defensive calculation", "fear of losing cunning"],
+        "image_content": "Crow at height of individual urban intelligence, clever territory perfected, strategic maturity visible"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 9,
+        "name": "Ten of Reflections",
+        "tags": ["strategic legacy", "clever cycle complete", "urban wisdom overflowing", "intelligence transformed"],
+        "inverted_tags": ["calculation crushing", "manipulation burden", "clever past imprisoning", "strategic overflow chaos"],
+        "image_content": "Crow embodying complete urban intelligence, strategic wisdom ready to pass on, clever cycle complete"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 10,
+        "name": "The Watcher of Reflections",
+        "tags": ["observing cleverly", "learning urban strategies", "curious intelligence", "young scout of city"],
+        "inverted_tags": ["voyeuristic watching", "timid observation", "clever spying", "afraid to act on intelligence"],
+        "image_content": "Young crow watching urban life intently, learning clever strategies through careful observation"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 11,
+        "name": "The Messenger of Reflections",
+        "tags": ["carrying clever solutions", "strategic communication", "urban courier", "intelligent connection"],
+        "inverted_tags": ["spreading manipulation", "clever gossip", "lost strategic message", "reckless with intelligence"],
+        "image_content": "Crow moving swiftly through city carrying clever solution, strategic messenger between urban spaces"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 12,
+        "name": "The Guardian of Reflections",
+        "tags": ["protecting clever territory", "fierce strategic defense", "nurturing intelligence", "urban sovereignty"],
+        "inverted_tags": ["paranoid protection", "manipulative defense", "smothering with strategy", "clever tyranny"],
+        "image_content": "Crow defending urban territory with intelligence and strategy, fierce guardian of clever space"
+      },
+      {
+        "suit_index": 1,
+        "rank_index": 13,
+        "name": "The Elder of Reflections",
+        "tags": ["master strategist", "urban wisdom embodied", "clever memory keeper", "intelligent authority"],
+        "inverted_tags": ["manipulative elder", "outdated urban strategies", "rigid cleverness", "hoarding intelligence"],
+        "image_content": "Weathered crow commanding urban territory with perfect strategic intelligence, master of clever ways"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 0,
+        "name": "Ace of Calls",
+        "tags": ["first call together", "wild collective impulse", "instinctual unity begins", "flock spark"],
+        "inverted_tags": ["mob forms", "chaotic group impulse", "mindless following begins", "collective without thought"],
+        "image_content": "First wild call echoing through trees, natural gathering beginning, instinctual unity sparking"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 1,
+        "name": "Two of Calls",
+        "tags": ["call and response", "wild partnership", "natural balance in group", "instinct in dialogue"],
+        "inverted_tags": ["competing calls", "wild group conflict", "instinctual imbalance", "forced natural partnership"],
+        "image_content": "Two crows calling to each other in wilderness, wild partnership forming through instinctual communication"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 2,
+        "name": "Three of Calls",
+        "tags": ["wild chorus begins", "natural collaboration", "instinct-driven creation", "flock forming"],
+        "inverted_tags": ["wild cacophony", "instinct creates chaos", "mob forming", "natural group discord"],
+        "image_content": "Three crows calling together in natural setting, wild collaboration through instinctual vocalization"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 3,
+        "name": "Four of Calls",
+        "tags": ["wild territory claimed together", "natural hierarchy stable", "instinctual boundaries", "flock foundation"],
+        "inverted_tags": ["rigid wild hierarchy", "natural group stagnant", "brutal pecking order", "instinctual prison"],
+        "image_content": "Murder establishing wild territory through calls, natural hierarchy settling, instinctual foundation secure"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 4,
+        "name": "Five of Calls",
+        "tags": ["wild group conflict", "natural challenge to hierarchy", "instinctual testing", "flock struggle"],
+        "inverted_tags": ["mob violence", "wild chaos embraced", "instinct-driven destruction", "natural group collapse"],
+        "image_content": "Conflict in wild murder, natural hierarchy challenged, instinctual struggle for position"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 5,
+        "name": "Six of Calls",
+        "tags": ["wild harmony restored", "natural flow in group", "instinctual communication flowing", "flock balance"],
+        "inverted_tags": ["surface wild unity", "forced natural harmony", "flow blocked in group", "instinctual debt"],
+        "image_content": "Murder moving in natural harmony through wilderness, calls flowing between them, wild balance restored"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 6,
+        "name": "Seven of Calls",
+        "tags": ["assessing wild group", "natural strategic pause", "instinctual evaluation", "flock at crossroads"],
+        "inverted_tags": ["wild group paralyzed", "poor instinctual judgment", "natural evasion", "flock cowardice"],
+        "image_content": "Murder pausing in wilderness, assessing multiple natural paths, instinctual group decision point"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 7,
+        "name": "Eight of Calls",
+        "tags": ["wild synchrony", "natural group mastery", "instinct perfected together", "flock momentum"],
+        "inverted_tags": ["wild mob rushing", "instinct without control", "natural group chaos", "flock burnout"],
+        "image_content": "Murder moving with perfect wild synchrony, instinctual mastery in group motion, natural momentum"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 8,
+        "name": "Nine of Calls",
+        "tags": ["wild group wisdom", "natural flock maturity", "instinctual fulfillment together", "murder peak"],
+        "inverted_tags": ["wild paranoid group", "natural mob mentality", "flock defending too fiercely", "instinctual group fear"],
+        "image_content": "Mature murder in perfect wild territory, natural group wisdom visible, instinctual fulfillment achieved"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 9,
+        "name": "Ten of Calls",
+        "tags": ["wild legacy passing", "natural cycle complete in group", "instinctual overflow", "murder transformation"],
+        "inverted_tags": ["wild mob crushing", "natural group burden", "instinct imprisoning flock", "unable to evolve together"],
+        "image_content": "Ancient murder completing natural cycle, wild wisdom overflowing to next generation, instinctual transformation"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 10,
+        "name": "The Watcher of Calls",
+        "tags": ["listening to wild group", "learning natural calls", "observing flock patterns", "young to murder"],
+        "inverted_tags": ["afraid of wild group", "timid observer of flock", "unable to join calls", "watching murder from distance"],
+        "image_content": "Young crow at edge of wild murder, listening and learning natural calls, observing group patterns"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 11,
+        "name": "The Messenger of Calls",
+        "tags": ["carrying wild group messages", "connecting natural murders", "swift instinctual communication", "flock courier"],
+        "inverted_tags": ["wild message lost", "instinctual miscommunication", "reckless group messenger", "calls scattered"],
+        "image_content": "Crow flying between wild groups, carrying calls and messages, connecting natural murders"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 12,
+        "name": "The Guardian of Calls",
+        "tags": ["defending wild murder", "fierce natural group protector", "nurturing flock", "instinctual guardian"],
+        "inverted_tags": ["wild mob enforcer", "brutal hierarchy defender", "smothering flock", "paranoid group protector"],
+        "image_content": "Crow fiercely defending wild murder, protective stance over natural group, instinctual guardian"
+      },
+      {
+        "suit_index": 2,
+        "rank_index": 13,
+        "name": "The Elder of Calls",
+        "tags": ["wild group master", "natural murder wisdom", "instinctual authority", "flock memory keeper"],
+        "inverted_tags": ["wild tyrant", "rigid natural hierarchy", "outdated flock ways", "hoarding group wisdom"],
+        "image_content": "Ancient crow leading wild murder, embodying natural group wisdom, master of instinctual calls"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 0,
+        "name": "Ace of Structures",
+        "tags": ["urban collective begins", "social intelligence sparks", "learned culture starts", "coordinated impulse"],
+        "inverted_tags": ["conformity impulse", "hive-mind begins", "mechanical cooperation starts", "surveillance spark"],
+        "image_content": "First coordinated gathering in urban space, social intelligence beginning, learned culture sparked"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 1,
+        "name": "Two of Structures",
+        "tags": ["coordinated choice", "social intelligence balancing", "learned partnership", "urban group decision"],
+        "inverted_tags": ["forced group choice", "social conflict", "mechanical partnership", "urban collective stalemate"],
+        "image_content": "Two parts of urban murder coordinating decision, social intelligence in dialogue, learned balance"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 2,
+        "name": "Three of Structures",
+        "tags": ["urban culture created", "social collaboration", "coordinated emergence", "learned synthesis"],
+        "inverted_tags": ["oppressive coordination", "forced urban culture", "mechanical collaboration", "hive-mind forming"],
+        "image_content": "Murder creating urban culture together, coordinated action in city space, social intelligence emerging"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 3,
+        "name": "Four of Structures",
+        "tags": ["urban territory secured together", "social foundation", "coordinated stability", "learned structure solid"],
+        "inverted_tags": ["rigid group structure", "mechanical foundation", "urban collective trapped", "surveillance structure"],
+        "image_content": "Murder establishing secure urban territory through coordination, social foundation built, structure stable"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 4,
+        "name": "Five of Structures",
+        "tags": ["challenging urban order", "social intelligence tested", "coordinated conflict", "learned culture disrupted"],
+        "inverted_tags": ["group conformity breaking", "mechanical conflict", "urban collective chaos", "structure destroying itself"],
+        "image_content": "Conflict within urban murder, social structure challenged, coordinated response to disruption"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 5,
+        "name": "Six of Structures",
+        "tags": ["urban flow restored", "social harmony", "coordinated exchange", "learned culture flowing"],
+        "inverted_tags": ["mechanical flow", "surface coordination", "forced urban harmony", "hive-mind exchange"],
+        "image_content": "Murder moving in urban harmony, coordinated exchange flowing, social intelligence balanced"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 6,
+        "name": "Seven of Structures",
+        "tags": ["urban group assessing", "social strategic pause", "coordinated evaluation", "learned culture choosing"],
+        "inverted_tags": ["collective paralysis", "group overthinking", "mechanical evaluation", "urban murder stuck"],
+        "image_content": "Murder pausing to assess urban opportunities, social intelligence evaluating, coordinated decision point"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 7,
+        "name": "Eight of Structures",
+        "tags": ["coordinated mastery", "social intelligence perfected", "urban momentum together", "learned culture flowing"],
+        "inverted_tags": ["mechanical efficiency", "cold coordination", "hive-mind rushing", "urban collective burnout"],
+        "image_content": "Murder moving with perfect urban coordination, social mastery in action, learned culture at peak"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 8,
+        "name": "Nine of Structures",
+        "tags": ["urban collective wisdom", "social fulfillment", "coordinated achievement", "learned culture mature"],
+        "inverted_tags": ["surveillance peak", "hive-mind complete", "urban collective paranoid", "mechanical group fear"],
+        "image_content": "Murder at height of urban coordination, social wisdom visible, learned culture fulfilled"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 9,
+        "name": "Ten of Structures",
+        "tags": ["urban legacy complete", "social memory overflowing", "coordinated transformation", "learned culture passing on"],
+        "inverted_tags": ["collective burden crushing", "mechanical cycle ending", "hive-mind unable to evolve", "urban structure collapsing"],
+        "image_content": "Murder completing urban cycle, social intelligence ready to transform, learned culture becoming legacy"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 10,
+        "name": "The Watcher of Structures",
+        "tags": ["observing urban group", "learning social patterns", "curious about coordination", "young to collective"],
+        "inverted_tags": ["surveillance youth", "timid social observer", "afraid of group", "watching collective from outside"],
+        "image_content": "Young crow watching urban murder, learning coordinated patterns, observing social intelligence"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 11,
+        "name": "The Messenger of Structures",
+        "tags": ["coordinated communication", "social intelligence courier", "urban group connector", "learned culture carrier"],
+        "inverted_tags": ["mechanical messenger", "hive-mind communication", "cold coordination spreading", "surveillance courier"],
+        "image_content": "Crow carrying information between urban groups, coordinated communication, social intelligence in motion"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 12,
+        "name": "The Guardian of Structures",
+        "tags": ["defending urban collective", "fierce social protector", "nurturing coordination", "learned culture guardian"],
+        "inverted_tags": ["enforcing conformity", "mechanical defender", "surveillance guardian", "group defense as tyranny"],
+        "image_content": "Crow defending urban murder fiercely, protecting social structure, coordinated group guardian"
+      },
+      {
+        "suit_index": 3,
+        "rank_index": 13,
+        "name": "The Elder of Structures",
+        "tags": ["urban collective master", "social memory keeper", "coordinated wisdom embodied", "learned culture authority"],
+        "inverted_tags": ["hive-mind controller", "mechanical elder", "rigid coordination", "surveillance master"],
+        "image_content": "Ancient crow leading urban murder, embodying complete social intelligence, master of learned culture"
+      }
+    ]
+  }
+}
