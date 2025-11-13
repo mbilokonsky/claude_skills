@@ -290,5 +290,123 @@
       },
       "visual_content": "Elements fulfilled - circle closing, journey's end, fruit ripened, the full expression, arrival at destination, wholeness"
     }
+  ],
+  "face_ranks": [
+    {
+      "index": 10,
+      "arcana": "minor",
+      "numeric_value": 11,
+      "name": "Singer",
+      "symbol": "S",
+      "slug": "10",
+      "quadrant": "Authentic/Creative",
+      "description": "The archetype of authentic creative expression. The Singer embodies spontaneous voice, genuine self-expression, creating from the source. This is the one who sings because they must, whose voice emerges naturally, who creates without calculation. The Singer knows their song and sings it freely.",
+      "meaning": {
+        "upright": [
+          "Authentic expression",
+          "Creative voice",
+          "Spontaneous creation",
+          "Singing your truth",
+          "Unfiltered self",
+          "Joy made audible"
+        ],
+        "inverted": [
+          "Lost voice",
+          "Singing others' songs",
+          "Expression stifled",
+          "Authentic performance",
+          "Voice as mask",
+          "Creative block"
+        ]
+      },
+      "visual_content": "A figure in the act of expression - singing, creating, voicing forth, arms wide or voice lifted, embodying spontaneous authentic creativity"
+    },
+    {
+      "index": 11,
+      "arcana": "minor",
+      "numeric_value": 12,
+      "name": "Goatherd",
+      "symbol": "G",
+      "slug": "11",
+      "quadrant": "Authentic/Transmissive",
+      "description": "The archetype of authentic stewardship and transmission. The Goatherd tends the flock, knows the mountain paths, carries forward ancient practices with care. This is the shepherd who guides without controlling, who preserves by living the tradition, who transmits through presence and care. The Goatherd has walked these mountains as goatherds have for a thousand years.",
+      "meaning": {
+        "upright": [
+          "Stewardship",
+          "Authentic guidance",
+          "Tending with care",
+          "Living tradition",
+          "Knowing the paths",
+          "Shepherd's wisdom"
+        ],
+        "inverted": [
+          "Neglectful guardian",
+          "Tradition without understanding",
+          "Abandoned flock",
+          "Lost on the mountain",
+          "Stewardship as control",
+          "Dead preservation"
+        ]
+      },
+      "visual_content": "A figure tending and guiding - shepherd with flock on mountain paths, caring presence, embodying stewardship and authentic transmission"
+    },
+    {
+      "index": 12,
+      "arcana": "minor",
+      "numeric_value": 13,
+      "name": "Puppeteer",
+      "symbol": "P",
+      "slug": "12",
+      "quadrant": "Instrumental/Creative",
+      "description": "The archetype of purposeful creation and skillful staging. The Puppeteer designs, choreographs, constructs with intention. This is the maker who works strings, who teaches through constructed narrative, who creates spectacle for purpose. The Puppeteer's craft can enchant or manipulate, delight or control - the same hands that create the Lonely Goatherd show can stage propaganda.",
+      "meaning": {
+        "upright": [
+          "Skillful craft",
+          "Strategic creation",
+          "Teaching through art",
+          "Purposeful staging",
+          "Choreographed beauty",
+          "Maker's wisdom"
+        ],
+        "inverted": [
+          "Manipulation",
+          "Pulling strings",
+          "Control disguised as art",
+          "Propaganda",
+          "Craft as weapon",
+          "Spectacle replacing truth"
+        ]
+      },
+      "visual_content": "A figure creating and directing - hands on strings, staging a scene, purposeful construction, embodying instrumental creativity"
+    },
+    {
+      "index": 13,
+      "arcana": "minor",
+      "numeric_value": 14,
+      "name": "Officer",
+      "symbol": "O",
+      "slug": "13",
+      "quadrant": "Instrumental/Transmissive",
+      "description": "The archetype of disciplined order and transmitted structure. The Officer maintains discipline, enforces code, transmits institutional wisdom through training. This is the one who knows the rules, who upholds structure, who passes forward the established order. The Officer's whistle can protect through clear command or oppress through rigid control - the same discipline that keeps children safe can enforce fascist order.",
+      "meaning": {
+        "upright": [
+          "Necessary discipline",
+          "Protective structure",
+          "Clear authority",
+          "Trained precision",
+          "Institutional wisdom",
+          "Order that serves"
+        ],
+        "inverted": [
+          "Rigid oppression",
+          "Rules over life",
+          "Authority as tyranny",
+          "Discipline that crushes",
+          "Structure without soul",
+          "Order as violence"
+        ]
+      },
+      "visual_content": "A figure enforcing order - in uniform, whistle or command, embodying discipline and transmitted structure, authority visible"
+    }
   ]
 }
