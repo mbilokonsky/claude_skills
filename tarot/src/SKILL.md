@@ -9,12 +9,6 @@ description: Design thematically coherent custom tarot decks by identifying dial
 
 This skill guides the creation of structurally sound, thematically rich custom tarot decks. It maintains the 78-card structure of traditional tarot while reimagining dialectics, suits, Major Arcana story, and Minor Arcana meanings to fit any given theme. The process is collaborative and iterative, with user feedback solicited at each major stage.
 
-**CRITICAL: Output Directory Policy**
-- ALL generated files (JSON decks, merged viewers, exports) MUST be written to `/mnt/user-data/outputs/`
-- NEVER modify files in `/mnt/skills/user/custom-tarot-designer/` unless explicitly instructed
-- The skill directory contains immutable templates and tools
-- The outputs directory is the user's workspace for all generated content
-
 ## Design Philosophy
 
 Custom tarot design is fundamentally about **structural transposition**: taking the deep architecture of traditional tarot and mapping it onto new thematic territory. The goal is not novelty for its own sake, but rather archetypal resonance—creating decks where the structure amplifies the theme and the theme illuminates the structure.
@@ -65,7 +59,7 @@ Given the articulated theme, identify 4-6 possible dialectics that capture impor
 - **Context**: How specifically does this dialectic relate to the theme? How might it inform a tarot deck?
 
 **Dialectic selection criteria:**
-- Each pole should represent a genuine axis of tension or difference within the theme
+- Each dialectic should represent a genuine axis of tension or difference within the theme
 - Dialectics should cover different facets of the theme
 - When combined in pairs, they should suggest natural, distinct quadrants
 
@@ -109,7 +103,7 @@ For each suit, develop:
    - ViewBox should be "0 0 100 100" for consistency
    - **CRITICAL VISIBILITY REQUIREMENTS**:
      - **TRANSPARENCY VIA SVG MASKS ONLY**: Use SVG `<mask>` elements for cut-outs (eye holes, etc.), NOT white fills or multiple colors
-       - Good: `<mask id="m"><rect fill="white"/><circle fill="black"/></mask>` applied to main shape
+       - Good: `<mask id="m"><rect fill="currentColor"/><circle fill="currentColor"/></mask>` applied to main shape
        - Bad: Using `fill="#fff"` for "holes" - these become solid white when symbol is recolored
      - **NO PARTIAL OPACITY**: Avoid opacity values between 0.1-0.9 on symbol elements
        - Partial opacity creates muddy, unclear symbols at small sizes
@@ -140,7 +134,7 @@ For each suit, develop:
 **Example for "Individual+Technology" in Cyberpunk:**
 - Name: "Programs"
 - Symbol: "A circuit node with radiating connections"
-- Symbol SVG: '<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><!-- Central node --><circle cx="50" cy="50" r="8" fill="black"/><!-- Radiating connection lines --><line x1="50" y1="50" x2="50" y2="15" stroke="black" stroke-width="3"/><line x1="50" y1="50" x2="85" y2="50" stroke="black" stroke-width="3"/><line x1="50" y1="50" x2="50" y2="85" stroke="black" stroke-width="3"/><line x1="50" y1="50" x2="15" y2="50" stroke="black" stroke-width="3"/><!-- Diagonal connections --><line x1="50" y1="50" x2="75" y2="25" stroke="black" stroke-width="3"/><line x1="50" y1="50" x2="75" y2="75" stroke="black" stroke-width="3"/><line x1="50" y1="50" x2="25" y2="75" stroke="black" stroke-width="3"/><line x1="50" y1="50" x2="25" y2="25" stroke="black" stroke-width="3"/><!-- Endpoint nodes --><circle cx="50" cy="15" r="4" fill="black"/><circle cx="85" cy="50" r="4" fill="black"/><circle cx="50" cy="85" r="4" fill="black"/><circle cx="15" cy="50" r="4" fill="black"/><circle cx="75" cy="25" r="4" fill="black"/><circle cx="75" cy="75" r="4" fill="black"/><circle cx="25" cy="75" r="4" fill="black"/><circle cx="25" cy="25" r="4" fill="black"/></svg>'
+- Symbol SVG: '<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><!-- Central node --><circle cx="50" cy="50" r="8" fill="currentColor"/><!-- Radiating connection lines --><line x1="50" y1="50" x2="50" y2="15" stroke="currentColor" stroke-width="3"/><line x1="50" y1="50" x2="85" y2="50" stroke="currentColor" stroke-width="3"/><line x1="50" y1="50" x2="50" y2="85" stroke="currentColor" stroke-width="3"/><line x1="50" y1="50" x2="15" y2="50" stroke="currentColor" stroke-width="3"/><!-- Diagonal connections --><line x1="50" y1="50" x2="75" y2="25" stroke="currentColor" stroke-width="3"/><line x1="50" y1="50" x2="75" y2="75" stroke="currentColor" stroke-width="3"/><line x1="50" y1="50" x2="25" y2="75" stroke="currentColor" stroke-width="3"/><line x1="50" y1="50" x2="25" y2="25" stroke="currentColor" stroke-width="3"/><!-- Endpoint nodes --><circle cx="50" cy="15" r="4" fill="currentColor"/><circle cx="85" cy="50" r="4" fill="currentColor"/><circle cx="50" cy="85" r="4" fill="currentColor"/><circle cx="15" cy="50" r="4" fill="currentColor"/><circle cx="75" cy="25" r="4" fill="currentColor"/><circle cx="75" cy="75" r="4" fill="currentColor"/><circle cx="25" cy="75" r="4" fill="currentColor"/><circle cx="25" cy="25" r="4" fill="currentColor"/></svg>'
 - Upright Meanings: ["individual agency", "technical mastery", "composable specialization", "personal power", "crafted solutions"]
 - Inverted Meanings: ["isolated expertise", "over-optimization", "inadequacy to the task", "tools become chains", "solution seeking problems"]
 - Visual Style: "Neon wireframes (pink, green, blue, red for errors) over dark backgrounds; close-up views of interfaces; angular, precise compositions"
@@ -158,7 +152,7 @@ Develop an archetypal narrative that:
 - Makes evenly distributed use (directly or indirectly) of all four suits
 - Follows a recognizable pattern rather than a completely novel structure
 
-The story should be archetypal—not unique or surprising, but rather a canonical or emblematic version of narratives within this theme. Think of it as the "Hero's Journey" of this particular domain.
+The story should be archetypal—not unique or surprising, but rather a canonical or emblematic version of narratives within this theme. Think of it as the "Hero's Journey" of this particular domain. Depending on the theme, an existing story may present itself. For instance, a Lord of the Rings themed deck might simply use the plot of Tolkien's trilogy *as* its story. But also consider the way that a more abstract theme may lend itself to a non-linear "story" - for instance, a deck about deleuzian philosophy might resist collapse into linear narrative, it's "story" manifesting as a series of unordered "plateaus". The key here is to be open to creative and theme-appropriate ways to back the Major Arcana.
 
 **Structural guidance:**
 - Consider a three-act structure (similar to traditional tarot: Awareness → Integration → Transcendence), but also consider tuning or replacing that based on the needs of the theme and the emergent properties of the chosen dialectics and suits.
@@ -174,9 +168,9 @@ From the standpoint of `visual_style`, the major arcana functions as a sort of s
 ##### A note on symbols
 Note that the Major Arcana may optionally define its own symbol, like any other suit. If you can come up with a symbol that feels appropriate, feel free to include one, but this may prove challenging and so feel free not to. If you do include one, adhere to the guidance above for suit symbol generation.
 
-#### 3c: Defining the 22 Ranks
+#### 3c: Defining the Major Arcana Ranks
 
-Step through the story sequentially to identify 22 distinct aspects that will become ranks behind the Major Arcana cards, numbered 0-21. Each aspect should:
+In general, your major arcana should have 22 cards. However, in some cases it may make sense to have more or fewer than 22 - for instance, a deck themed around Joyce's Ulysses may simply opt to treat each of the 19 episodes in the text as a Major Arcana rank. Variation here is okay if appropriate. Step through the story sequentially to identify X (22 or whatever) distinct aspects that will become ranks behind the Major Arcana cards, numbered 0 to X-1. Each aspect should:
 
 - Include a descriptive `name`
 - Should define a `description` which identifies which aspect of the story this rank represents
@@ -184,31 +178,36 @@ Step through the story sequentially to identify 22 distinct aspects that will be
   - Have its own thematic weight beyond just advancing the plot
 - Identify meanings (upright and inverted) as per rank, but remember that Major Arcana ranks are 1:1 with cards so the meanings you come up with will only be applied once and can be more specific.
 
-Present the 22 ranks to the user for feedback. Allow reordering, renaming, or thematic adjustment.
+Present the ranks to the user for feedback. Allow reordering, renaming, or thematic adjustment.
 
 #### 3d: Create the Major Arcana cards
 For each rank of the major arcana, go ahead and generate the card. Take a look at the notes at the end of `schema.md` for information on how to integrate the meanings and visual guidance from the rank and the suit (in this case, the major arcana is the suit, and has no meanings of its own).
 
 ### Stage 4: Constructing Minor Arcana
 
-The Minor Arcana is created by projecting abstract narrative frameworks through the four suits. This stage has three substages:
+The Minor Arcana is created by projecting each of the four suits through each of the 14 ranks (10 numbered ranks, 4 face ranks). It's helpful here to understand how a rank is defined. There are various ways to think about this, but what we want is deep structural interconnectivity such that all cards of rank X have some significant thing in common. There should be a thematic progression upward through the ranks, but there should also be a rich structural paralleax between cards of the same rank through suit space. The way in which ranks relate should generally be thematically-informed, but as a general principle you may consider the following guidance:
+
+1. Numbered ranks (Ace through 10) each represent a specific *question* that is applied to the associated *suit* on a card. You don't have to reuse this list of ranks, but you may, and you may draw inspiration from it:
+  - Ace: "Under what conditions does SUIT emerge?"
+  - Two: "What is SUIT's relationship to duality?"
+  - Three: "In what ways does SUIT relate to systemic complexity?"
+  - Four: "What stabilizes SUIT?"
+  - Five: "What may emerge from SUIT?"
+  - Six: "What threatens SUIT?"
+  - Seven: "How does SUIT factionalize or decompose?"
+  - Eight: "What is a stable SUIT capable of?"
+  - Nine: "What is the Teleology of SUIT?"
+  - Ten: "What does it mean for SUIT to complete?"
+2. Face Cards work a bit differently. These are intended to represent four archetypes from the major arcana but projected through suit space rather than generalized. Face cards may be hierarchical, rhizomatic, cyclic, distributed - the important thing is that between them you capture some important aspect of the major arcana and show how it applies on a suit-by-suit basis.
+
+This stage has three substages:
 
 #### 4a: Defining Numbered Ranks (1-10)
 
-First, consult the reference for the traditional numbered rank structure:
-
-```bash
-view references/tarot_structure.md
-```
-
-Identify ten sequential abstract "steps" or "phases" that capture the underlying structure of the Major Arcana story. These are NOT simply cards 0-9 of the Major Arcana; rather, they are an abstracted, cyclical framework that could be applied to any journey within this theme.
-
-**Examples of abstraction:**
-- Traditional tarot: Ace = Pure Potential, Two = Choice, Three = Growth, etc.
-- Cyberpunk deck might have: 1 = Connection, 2 = Protocol, 3 = Exploit, 4 = System, 5 = Glitch, etc.
+First, decide on a list of numbered ranks.
 
 For each numbered rank (1-10), define:
-- **Description**: Describe the chosen abstraction in general terms that can be broadly applied but which respect the specific narrative role this rank represents.
+- **Description**: Name the question this rank asks. Describe the chosen abstraction in general terms that can be broadly applied but which respect the specific narrative role this rank represents.
 - **Meaning**: 3-6 upright and 3-6 inverted meanings for this rank. Consider the description, the theme in which we're operating, the nature of the major arcana story and the dialectical tensions we're drawing from to generate a list of creative, generative concepts. See the guidance for generating meaning for suits.
 - **Visual content description**: Abstract imagery that represents this phase (e.g., "two paths diverging" or "a structure under construction"). This should be specific enough that a generated visual could be recognized as an instance of this rank, but also general enough that the card itself has room to interpret the guidance through the meaning of the suit and other context.
 
@@ -222,6 +221,8 @@ Identify four face ranks that represent archetypal characters or roles within th
 - NOT simply copy traditional Page/Knight/Queen/King unless that structure genuinely fits the theme
 
 See `schema.md` to understand the required properties of face ranks. One constraint to keep in mind is that each face rank's name should start with a different letter, because we need to be able to generate an abbreviate symbol (think "K" for "King", "Q" for Queen etc)
+
+*Note*: Due to the way we are structurally echoing and reflecting the same concepts through our little semantic space, it's easy to accidentally reuse terms and concepts. For instance, be careful to ensure that you aren't reusing suit names or cards from the Major Arcana as face card names, etc.
 
 The progression from rank 11 to 14 should itself encode meaning. Consider the wide range of meanings available to you in this step. A non-exhaustive list might include things like:
 - Traditional hierarchy: Student → Warrior → Nurturing Ruler → Commanding Ruler
