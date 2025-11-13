@@ -380,6 +380,10 @@
                 <div class="modal-section" id="visualSection">
                     <h3>Visual Elements</h3>
                     <div class="visual-guidance">
+                        <h4>Image Description</h4>
+                        <p id="modalDetailedDescription"></p>
+                    </div>
+                    <div class="visual-guidance">
                         <h4>Style Guidance</h4>
                         <p id="modalStyleGuidance"></p>
                     </div>
@@ -522,6 +526,8 @@
             const visualSection = document.getElementById('visualSection');
             if (cardData.visuals && cardData.visuals.instructions) {
                 visualSection.style.display = 'block';
+                document.getElementById('modalDetailedDescription').textContent =
+                    cardData.visuals.instructions.detailed_description || 'N/A';
                 document.getElementById('modalStyleGuidance').textContent =
                     cardData.visuals.instructions.style_guidance || 'N/A';
                 document.getElementById('modalContentGuidance').textContent =
