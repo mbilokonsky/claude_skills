@@ -75,77 +75,85 @@ def generate_major_arcana_progression():
     return img
 
 
+def generate_suit_vibe_board(suit_name, palette):
+    """Generate a landscape-oriented vibe board for a suit (includes symbol)"""
+    width = 1000
+    height = 400
+    img = Image.new('RGB', (width, height), palette.get('primary', (255, 255, 255)))
+    draw = ImageDraw.Draw(img)
+
+    if suit_name == 'structures':
+        # Grid pattern background
+        bvt.draw_grid_pattern(draw, (50, 50, width - 50, height - 50),
+                              40, palette['grid'])
+
+        # Geometric buildings across the landscape
+        bvt.example_building(img, 100, 100, 120, 220, palette)
+        bvt.example_building(img, 280, 140, 110, 200, palette)
+        bvt.example_building(img, 520, 80, 140, 240, palette)
+        bvt.example_building(img, 760, 120, 130, 210, palette)
+
+        # Suit symbol in upper right
+        symbol = bvt.render_suit_symbol_structures(96)
+        img.paste(symbol, (width - 130, 30), symbol if symbol.mode == 'RGBA' else None)
+
+    elif suit_name == 'rivers':
+        # Organic layered flow patterns
+        for i in range(6):
+            y_base = 80 + i * 50
+            wavelength = 70 + i * 15
+            amplitude = 25 - i * 3
+            bvt.draw_flow_pattern(draw, (30, y_base, width - 30, y_base + 40),
+                                  wavelength, amplitude, palette['flow'])
+
+        # Suit symbol in upper left
+        symbol = bvt.render_suit_symbol_rivers(96)
+        img.paste(symbol, (30, 30), symbol if symbol.mode == 'RGBA' else None)
+
+    elif suit_name == 'curiosity':
+        # Bright optimistic gradient
+        for y in range(height):
+            t = y / height
+            r = int(palette['secondary'][0] + (palette['primary'][0] - palette['secondary'][0]) * t)
+            g = int(palette['secondary'][1] + (palette['primary'][1] - palette['secondary'][1]) * t)
+            b = int(palette['secondary'][2] + (palette['primary'][2] - palette['secondary'][2]) * t)
+            draw.line([(0, y), (width, y)], fill=(r, g, b))
+
+        # Geometric shapes suggesting open dialogue spaces
+        draw.rectangle([120, 100, 240, 180], fill=palette['accent'])
+        draw.rectangle([300, 150, 420, 230], fill=palette['accent'])
+        draw.rectangle([500, 80, 620, 160], fill=palette['accent'])
+        draw.rectangle([680, 140, 800, 220], fill=palette['accent'])
+
+        # Suit symbol centered at top
+        symbol = bvt.render_suit_symbol_curiosity(128)
+        img.paste(symbol, (width // 2 - 64, 20), symbol if symbol.mode == 'RGBA' else None)
+
+    elif suit_name == 'dance':
+        # Radial energy from center
+        bvt.radial_gradient(draw, width // 2, height // 2, 300,
+                            palette['heat'], palette['shadow'])
+
+        # Figures in motion at various positions
+        bvt.example_figure_simple(img, 250, height - 60, palette, posture='moving', scale=1.0)
+        bvt.example_figure_simple(img, 500, height - 70, palette, posture='moving', scale=1.3)
+        bvt.example_figure_simple(img, 750, height - 55, palette, posture='moving', scale=0.9)
+
+        # Suit symbol in upper right
+        symbol = bvt.render_suit_symbol_dance(96)
+        img.paste(symbol, (width - 130, 30), symbol if symbol.mode == 'RGBA' else None)
+
+    return img
+
+
 def generate_suit_examples():
-    """Generate example scenes for each suit"""
+    """Generate vibe board examples for each suit"""
     examples = {}
 
-    # STRUCTURES - geometric, architectural
-    canvas = bvt.create_canvas(bvt.SuitColors.STRUCTURES['primary'])
-    draw = ImageDraw.Draw(canvas)
-
-    # Grid background
-    bvt.draw_grid_pattern(draw, (40, 40, bvt.CARD_WIDTH - 40, bvt.CARD_HEIGHT - 40),
-                          30, bvt.SuitColors.STRUCTURES['grid'])
-
-    # A simple building
-    bvt.example_building(canvas, 80, 100, 120, 200, bvt.SuitColors.STRUCTURES)
-
-    # Frame
-    draw.rectangle([20, 20, bvt.CARD_WIDTH - 20, bvt.CARD_HEIGHT - 20],
-                   outline=bvt.SuitColors.STRUCTURES['frame'], width=3)
-
-    examples['structures'] = canvas
-
-    # RIVERS - organic, flowing
-    canvas = bvt.create_canvas(bvt.SuitColors.RIVERS['primary'])
-    draw = ImageDraw.Draw(canvas)
-
-    # Flow patterns
-    for i in range(5):
-        y_offset = i * 80
-        bvt.draw_flow_pattern(draw,
-                              (20, 40 + y_offset, bvt.CARD_WIDTH - 20, 80 + y_offset),
-                              60 + i * 10, 15 - i * 2,
-                              bvt.SuitColors.RIVERS['flow'])
-
-    examples['rivers'] = canvas
-
-    # CURIOSITY - bright, open, conversational
-    canvas = bvt.create_canvas(bvt.SuitColors.CURIOSITY['dialogue'])
-    draw = ImageDraw.Draw(canvas)
-
-    # Bright optimistic gradient
-    for y in range(bvt.CARD_HEIGHT):
-        t = y / bvt.CARD_HEIGHT
-        r = int(bvt.SuitColors.CURIOSITY['secondary'][0] +
-                (bvt.SuitColors.CURIOSITY['primary'][0] - bvt.SuitColors.CURIOSITY['secondary'][0]) * t)
-        g = int(bvt.SuitColors.CURIOSITY['secondary'][1] +
-                (bvt.SuitColors.CURIOSITY['primary'][1] - bvt.SuitColors.CURIOSITY['secondary'][1]) * t)
-        b = int(bvt.SuitColors.CURIOSITY['secondary'][2] +
-                (bvt.SuitColors.CURIOSITY['primary'][2] - bvt.SuitColors.CURIOSITY['secondary'][2]) * t)
-        draw.line([(0, y), (bvt.CARD_WIDTH, y)], fill=(r, g, b))
-
-    # Some geometric shapes suggesting dialogue/open space
-    draw.rectangle([40, 80, 120, 140], fill=bvt.SuitColors.CURIOSITY['accent'])
-    draw.rectangle([160, 120, 240, 180], fill=bvt.SuitColors.CURIOSITY['accent'])
-    draw.rectangle([80, 200, 200, 260], fill=bvt.SuitColors.CURIOSITY['accent'])
-
-    examples['curiosity'] = canvas
-
-    # DANCE - warm, dynamic, embodied
-    canvas = bvt.create_canvas(bvt.SuitColors.DANCE['shadow'])
-    draw = ImageDraw.Draw(canvas)
-
-    # Radial energy bursts
-    bvt.radial_gradient(draw, bvt.CARD_WIDTH // 2, bvt.CARD_HEIGHT // 2, 180,
-                        bvt.SuitColors.DANCE['heat'],
-                        bvt.SuitColors.DANCE['shadow'])
-
-    # A figure in motion
-    bvt.example_figure_simple(canvas, bvt.CARD_WIDTH // 2, bvt.CARD_HEIGHT - 60,
-                              bvt.SuitColors.DANCE, posture='moving', scale=1.2)
-
-    examples['dance'] = canvas
+    examples['structures'] = generate_suit_vibe_board('structures', bvt.SuitColors.STRUCTURES)
+    examples['rivers'] = generate_suit_vibe_board('rivers', bvt.SuitColors.RIVERS)
+    examples['curiosity'] = generate_suit_vibe_board('curiosity', bvt.SuitColors.CURIOSITY)
+    examples['dance'] = generate_suit_vibe_board('dance', bvt.SuitColors.DANCE)
 
     return examples
 
@@ -154,7 +162,7 @@ def generate_figure_postures():
     """Show various postures"""
     width = 1200
     height = 420
-    img = Image.new('RGB', (width, height), (240, 240, 240))
+    img = Image.new('RGB', (width, height), (255, 255, 255))
     draw = ImageDraw.Draw(img)
 
     draw.text((10, 10), "Posture Variations", fill=(0, 0, 0))
@@ -163,10 +171,7 @@ def generate_figure_postures():
     for i, posture in enumerate(postures):
         x = 150 + i * 280
 
-        # Background
-        draw.rectangle([x - 100, 50, x + 100, 400], fill=(200, 210, 220))
-
-        # Figure
+        # Figure (no background container)
         bvt.example_figure_simple(img, x, 380, bvt.MajorArcanaColors.EARLY,
                                   posture=posture, scale=1.3)
 
@@ -180,26 +185,23 @@ def generate_figure_scales():
     """Show scale/distance variations"""
     width = 1000
     height = 420
-    img = Image.new('RGB', (width, height), (240, 240, 240))
+    img = Image.new('RGB', (width, height), (255, 255, 255))
     draw = ImageDraw.Draw(img)
 
     draw.text((10, 10), "Scale Variations (distance/presence)", fill=(0, 0, 0))
 
     # Small/distant figure (observed)
     draw.text((80, 50), "Distant/Observed", fill=(60, 60, 60))
-    draw.rectangle([50, 80, 250, 400], fill=(200, 210, 220))
     bvt.example_figure_simple(img, 150, 380, bvt.MajorArcanaColors.EARLY,
                               posture='neutral', scale=0.5)
 
     # Medium figure
     draw.text((380, 50), "Medium", fill=(60, 60, 60))
-    draw.rectangle([320, 80, 520, 400], fill=(200, 210, 220))
     bvt.example_figure_simple(img, 420, 380, bvt.MajorArcanaColors.MIDDLE,
                               posture='neutral', scale=1.0)
 
     # Large/present figure
     draw.text((680, 50), "Present/Engaged", fill=(60, 60, 60))
-    draw.rectangle([600, 80, 900, 400], fill=(200, 210, 220))
     bvt.example_figure_simple(img, 750, 380, bvt.MajorArcanaColors.LATE,
                               posture='moving', scale=1.8)
 
@@ -207,83 +209,61 @@ def generate_figure_scales():
 
 
 def generate_byrne_big_suit():
-    """Show the Big Suit Byrne character - using same no-legs approach"""
+    """Show Byrne with the Big Suit - focus on head/body ratio and polygon expressiveness"""
     width = 800
     height = 500
-    img = Image.new('RGB', (width, height), (240, 240, 240))
+    img = Image.new('RGB', (width, height), (255, 255, 255))
     draw = ImageDraw.Draw(img)
 
-    draw.text((10, 10), "The Big Suit - Byrne Character", fill=(0, 0, 0))
+    draw.text((10, 10), "The Big Suit - Head/Body Ratio Progression", fill=(0, 0, 0))
 
-    # Early Byrne (stiff, boxy, upright)
-    draw.text((100, 50), "Early: Stiff/Boxy", fill=(60, 60, 60))
-    draw.rectangle([60, 80, 280, 480], fill=(200, 210, 220))
+    # Early Byrne - normal head, big suit
+    draw.text((100, 50), "Early: Normal Head", fill=(60, 60, 60))
 
     head_x, head_y = 170, 140
 
-    # Head
+    # Head (normal size)
     draw.ellipse([head_x-15, head_y, head_x+15, head_y+30],
                  fill=bvt.MajorArcanaColors.EARLY['secondary'])
 
-    # The BIG SUIT - massively oversized boxy jacket polygon
-    # No separate legs - the jacket polygon tapers to suggest legs inside
+    # Big suit polygon - massively oversized, boxy shape
     jacket_color = (70, 80, 90)
     big_suit_shape = [
         (head_x, head_y+28),           # neck
-        (head_x-90, head_y+45),        # left shoulder (HUGE)
-        (head_x-85, head_y+120),       # left mid-jacket
-        (head_x-70, head_y+250),       # left lower jacket
-        (head_x-25, head_y+320),       # left foot area
-        (head_x+25, head_y+320),       # right foot area
-        (head_x+70, head_y+250),       # right lower jacket
-        (head_x+85, head_y+120),       # right mid-jacket
-        (head_x+90, head_y+45),        # right shoulder (HUGE)
+        (head_x-90, head_y+50),        # left shoulder (HUGE)
+        (head_x-85, head_y+130),       # left mid
+        (head_x-70, head_y+260),       # left lower
+        (head_x-25, head_y+340),       # left foot area
+        (head_x+25, head_y+340),       # right foot area
+        (head_x+70, head_y+260),       # right lower
+        (head_x+85, head_y+130),       # right mid
+        (head_x+90, head_y+50),        # right shoulder (HUGE)
     ]
     draw.polygon(big_suit_shape, fill=jacket_color)
 
-    # Lapels (darker for depth)
-    lapel_color = (50, 60, 70)
-    draw.polygon([
-        (head_x, head_y+28), (head_x-25, head_y+45),
-        (head_x-20, head_y+150), (head_x-5, head_y+120)
-    ], fill=lapel_color)
-    draw.polygon([
-        (head_x, head_y+28), (head_x+25, head_y+45),
-        (head_x+20, head_y+150), (head_x+5, head_y+120)
-    ], fill=lapel_color)
+    # Late Byrne - SMALLER head, even bigger suit, expressive posture
+    draw.text((520, 50), "Late: Smaller Head", fill=(60, 60, 60))
 
-    # Late Byrne (still big, but with flow and tilt)
-    draw.text((500, 50), "Late: Big Suit Dancing", fill=(60, 60, 60))
-    draw.rectangle([460, 80, 680, 480], fill=(220, 200, 180))
+    head_x, head_y = 570, 150
 
-    head_x, head_y = 570, 140
-
-    # Head (tilted for motion)
-    draw.ellipse([head_x-12, head_y+5, head_x+18, head_y+35],
+    # Head (SMALLER - escaping cognitive prison)
+    draw.ellipse([head_x-9, head_y, head_x+9, head_y+18],
                  fill=bvt.MajorArcanaColors.LATE['secondary'])
 
-    # The BIG SUIT in motion - still huge, but tilted and dynamic
-    # Arms INSIDE jacket - the whole jacket shape shows movement
+    # Even bigger suit with dynamic expressive polygon shape
     jacket_color = (200, 100, 80)
-    moving_suit_shape = [
-        (head_x+5, head_y+30),         # neck (tilted)
-        (head_x-85, head_y+55),        # left shoulder/arm (back extended)
-        (head_x-90, head_y+140),       # left arm extended
-        (head_x-65, head_y+250),       # left lower
-        (head_x-20, head_y+320),       # left foot
-        (head_x+30, head_y+325),       # right foot (forward)
-        (head_x+75, head_y+260),       # right lower (forward)
-        (head_x+100, head_y+150),      # right arm extended forward
-        (head_x+95, head_y+60),        # right shoulder (forward)
+    expressive_suit_shape = [
+        (head_x, head_y+16),           # neck
+        (head_x-95, head_y+40),        # left shoulder (EVEN BIGGER)
+        (head_x-100, head_y+140),      # left extended
+        (head_x-70, head_y+270),       # left lower
+        (head_x-20, head_y+350),       # left foot
+        (head_x+30, head_y+355),       # right foot (asymmetric)
+        (head_x+80, head_y+280),       # right lower (forward)
+        (head_x+110, head_y+150),      # right extended forward
+        (head_x+100, head_y+45),       # right shoulder
     ]
-    draw.polygon(moving_suit_shape, fill=jacket_color)
-
-    # Lapel showing tilt
-    lapel_color = (160, 80, 60)
-    draw.polygon([
-        (head_x+5, head_y+30), (head_x-20, head_y+55),
-        (head_x-15, head_y+160), (head_x+10, head_y+130)
-    ], fill=lapel_color)
+    draw.polygon(expressive_suit_shape, fill=jacket_color)
 
     return img
 
@@ -825,7 +805,8 @@ def generate_html():
 
         <h3>The Big Suit - Byrne as Character</h3>
         <img src="byrne_big_suit.png" alt="Byrne Big Suit">
-        <p>When Byrne appears as a character, the oversized boxy jacket is the key identifier. Early cards show it stiff and angular; late cards show it flowing and dynamic.</p>
+        <p>When Byrne appears as a character, the oversized boxy jacket is the key identifier. <strong>Purpose:</strong> The big suit makes the head smaller relative to the body—representing escape from cognitive prison (less head dominance, more embodied presence).</p>
+        <p><strong>Key technique:</strong> As Byrne progresses through the deck, the head gets smaller and/or the suit polygon gets bigger, changing the head-to-body ratio. The polygon shape itself conveys posture and movement—boxy and upright (early) to dynamic and expressive (late).</p>
 
         <h3>Crowds and Groups</h3>
         <img src="crowd_examples.png" alt="Crowd Examples">
