@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Byrne Journey Tarot - Complete Deck</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #1a1a1a;
+            color: #e0e0e0;
+            padding: 40px 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+            color: #f0f0f0;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #a0a0a0;
+        }
+
+        .deck-section {
+            max-width: 1400px;
+            margin: 0 auto 60px auto;
+        }
+
+        .section-header {
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #444;
+        }
+
+        .section-title {
+            font-size: 2em;
+            color: #f0f0f0;
+            margin-bottom: 8px;
+        }
+
+        .section-description {
+            font-size: 1.1em;
+            color: #a0a0a0;
+            font-style: italic;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 25px;
+        }
+
+        .card-item {
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background: #2a2a2a;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .card-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+        }
+
+        .card-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            aspect-ratio: 2/3;
+            object-fit: cover;
+        }
+
+        .card-title {
+            padding: 12px;
+            text-align: center;
+        }
+
+        .card-number {
+            font-size: 0.85em;
+            color: #888;
+            font-weight: 600;
+        }
+
+        .card-name {
+            font-size: 0.95em;
+            margin-top: 4px;
+            color: #f0f0f0;
+        }
+
+        /* Suit colors for section headers */
+        .structures-header { border-bottom-color: #6b8ca8; }
+        .rivers-header { border-bottom-color: #a87d6b; }
+        .curiosity-header { border-bottom-color: #e8c468; }
+        .dance-header { border-bottom-color: #d87d5a; }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            overflow-y: auto;
+        }
+
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .modal-content {
+            background: #2a2a2a;
+            border-radius: 12px;
+            max-width: 1200px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .modal-left {
+            flex: 0 0 400px;
+            background: #1a1a1a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .modal-card-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-right {
+            flex: 1;
+            padding: 40px;
+            overflow-y: auto;
+            max-height: 80vh;
+        }
+
+        .modal-header {
+            margin-bottom: 30px;
+        }
+
+        .modal-arcana-type {
+            font-size: 0.85em;
+            color: #888;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .modal-title {
+            font-size: 2em;
+            color: #f0f0f0;
+            margin-top: 8px;
+            margin-bottom: 12px;
+        }
+
+        .modal-description {
+            font-size: 1.1em;
+            color: #b0b0b0;
+            font-style: italic;
+        }
+
+        .modal-section {
+            margin-top: 30px;
+        }
+
+        .modal-section h3 {
+            font-size: 1.3em;
+            color: #f0f0f0;
+            margin-bottom: 12px;
+            border-bottom: 2px solid #444;
+            padding-bottom: 8px;
+        }
+
+        .modal-section p {
+            color: #d0d0d0;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .meaning-box {
+            background: #1a1a1a;
+            border-left: 4px solid #4a9eff;
+            padding: 15px 20px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+        }
+
+        .meaning-box.inverted {
+            border-left-color: #ff6b6b;
+        }
+
+        .meaning-box h4 {
+            color: #f0f0f0;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-size: 40px;
+            font-weight: bold;
+            color: #888;
+            cursor: pointer;
+            transition: color 0.3s;
+            line-height: 1;
+            z-index: 10;
+        }
+
+        .close:hover {
+            color: #f0f0f0;
+        }
+
+        .visual-guidance {
+            background: #1a1a1a;
+            border: 1px solid #444;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        .visual-guidance h4 {
+            color: #4a9eff;
+            margin-bottom: 10px;
+            font-size: 1em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .visual-guidance p {
+            color: #c0c0c0;
+            font-size: 0.95em;
+        }
+
+        @media (max-width: 900px) {
+            .modal-content {
+                flex-direction: column;
+            }
+
+            .modal-left {
+                flex: 0 0 auto;
+                padding: 30px;
+            }
+
+            .modal-right {
+                max-height: none;
+            }
+
+            .card-grid {
+                grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+                gap: 20px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .card-grid {
+                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+                gap: 15px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .section-title {
+                font-size: 1.5em;
+            }
+
+            .modal-title {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>The Byrne Journey Tarot</h1>
+        <p class="subtitle">Complete Deck • 78 Cards • Click any card to explore</p>
+    </div>
+
+    <!-- Major Arcana Section -->
+    <div class="deck-section">
+        <div class="section-header">
+            <h2 class="section-title">Major Arcana</h2>
+            <p class="section-description">The journey from anxious observation to embodied joy • 22 cards</p>
+        </div>
+        <div class="card-grid" id="majorArcanaGrid"></div>
+    </div>
+
+    <!-- Structures Suit Section -->
+    <div class="deck-section">
+        <div class="section-header structures-header">
+            <h2 class="section-title">Structures</h2>
+            <p class="section-description">Observation, analysis, blueprints, containment • 14 cards</p>
+        </div>
+        <div class="card-grid" id="structuresGrid"></div>
+    </div>
+
+    <!-- Rivers Suit Section -->
+    <div class="deck-section">
+        <div class="section-header rivers-header">
+            <h2 class="section-title">Rivers</h2>
+            <p class="section-description">Cycles, patterns, rhythm, natural systems • 14 cards</p>
+        </div>
+        <div class="card-grid" id="riversGrid"></div>
+    </div>
+
+    <!-- Curiosity Suit Section -->
+    <div class="deck-section">
+        <div class="section-header curiosity-header">
+            <h2 class="section-title">Curiosity</h2>
+            <p class="section-description">Inquiry, civic engagement, dialogue, reasons to be cheerful • 14 cards</p>
+        </div>
+        <div class="card-grid" id="curiosityGrid"></div>
+    </div>
+
+    <!-- Dance Suit Section -->
+    <div class="deck-section">
+        <div class="section-header dance-header">
+            <h2 class="section-title">Dance</h2>
+            <p class="section-description">Embodied joy, movement, groove, presence • 14 cards</p>
+        </div>
+        <div class="card-grid" id="danceGrid"></div>
+    </div>
+
+    <!-- Modal -->
+    <div id="cardModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-left">
+                <img id="modalCardImage" class="modal-card-image" src="" alt="">
+            </div>
+            <div class="modal-right">
+                <div class="modal-header">
+                    <div class="modal-arcana-type" id="modalArcanaType"></div>
+                    <h2 class="modal-title" id="modalTitle"></h2>
+                    <p class="modal-description" id="modalDescription"></p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Meanings</h3>
+                    <div class="meaning-box">
+                        <h4>Upright</h4>
+                        <p id="modalUpright"></p>
+                    </div>
+                    <div class="meaning-box inverted">
+                        <h4>Inverted / Shadow</h4>
+                        <p id="modalInverted"></p>
+                    </div>
+                </div>
+
+                <div class="modal-section" id="visualSection">
+                    <h3>Visual Elements</h3>
+                    <div class="visual-guidance">
+                        <h4>Style Guidance</h4>
+                        <p id="modalStyleGuidance"></p>
+                    </div>
+                    <div class="visual-guidance">
+                        <h4>Content Guidance</h4>
+                        <p id="modalContentGuidance"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let deckData = null;
+
+        async function loadDeckData() {
+            try {
+                const response = await fetch('byrne-journey-tarot.json');
+                deckData = await response.json();
+                renderAllCards();
+            } catch (error) {
+                console.error('Error loading deck data:', error);
+                document.body.innerHTML = '<p style="color: #ff6b6b; text-align: center; padding: 40px;">Error loading deck data. Please ensure byrne-journey-tarot.json is in the same directory.</p>';
+            }
+        }
+
+        function renderAllCards() {
+            if (!deckData) return;
+
+            // Render Major Arcana
+            renderMajorArcana();
+
+            // Render each suit
+            renderSuit('structures', 'structuresGrid');
+            renderSuit('rivers', 'riversGrid');
+            renderSuit('curiosity', 'curiosityGrid');
+            renderSuit('dance', 'danceGrid');
+        }
+
+        function renderMajorArcana() {
+            const grid = document.getElementById('majorArcanaGrid');
+            grid.innerHTML = '';
+
+            for (let i = 0; i <= 21; i++) {
+                const cardKey = `major-${i}`;
+                const cardData = deckData.cards[cardKey];
+                if (!cardData) continue;
+
+                const cardItem = createCardElement(
+                    `cards/major-${String(i).padStart(2, '0')}.png`,
+                    cardData.name,
+                    `Card ${i}`,
+                    cardData,
+                    'major',
+                    i
+                );
+
+                grid.appendChild(cardItem);
+            }
+        }
+
+        function renderSuit(suitName, gridId) {
+            const grid = document.getElementById(gridId);
+            grid.innerHTML = '';
+
+            for (let rank = 0; rank <= 13; rank++) {
+                const cardKey = `${suitName}-${rank}`;
+                const cardData = deckData.cards[cardKey];
+                if (!cardData) continue;
+
+                const rankLabel = rank === 0 ? 'Ace' :
+                                 rank <= 9 ? `${rank + 1}` :
+                                 ['Observer', 'Pretender', 'Exile', 'Giant'][rank - 10];
+
+                const cardItem = createCardElement(
+                    `cards/${suitName}-${String(rank).padStart(2, '0')}.png`,
+                    cardData.name,
+                    rankLabel,
+                    cardData,
+                    suitName,
+                    rank
+                );
+
+                grid.appendChild(cardItem);
+            }
+        }
+
+        function createCardElement(imageSrc, cardName, cardNumber, cardData, type, index) {
+            const cardItem = document.createElement('div');
+            cardItem.className = 'card-item';
+            cardItem.onclick = () => openModal(imageSrc, cardData, type, index);
+
+            const cardImage = document.createElement('img');
+            cardImage.className = 'card-image';
+            cardImage.src = imageSrc;
+            cardImage.alt = cardName;
+            cardImage.loading = 'lazy';
+
+            const cardTitle = document.createElement('div');
+            cardTitle.className = 'card-title';
+
+            const cardNumberDiv = document.createElement('div');
+            cardNumberDiv.className = 'card-number';
+            cardNumberDiv.textContent = cardNumber;
+
+            const cardNameDiv = document.createElement('div');
+            cardNameDiv.className = 'card-name';
+            cardNameDiv.textContent = cardName;
+
+            cardTitle.appendChild(cardNumberDiv);
+            cardTitle.appendChild(cardNameDiv);
+            cardItem.appendChild(cardImage);
+            cardItem.appendChild(cardTitle);
+
+            return cardItem;
+        }
+
+        function openModal(imageSrc, cardData, type, index) {
+            const modal = document.getElementById('cardModal');
+
+            // Set image
+            document.getElementById('modalCardImage').src = imageSrc;
+
+            // Set header info
+            let arcanaType = '';
+            if (type === 'major') {
+                arcanaType = `Major Arcana ${index}`;
+            } else {
+                arcanaType = `${capitalizeFirst(type)} Suit`;
+            }
+            document.getElementById('modalArcanaType').textContent = arcanaType;
+            document.getElementById('modalTitle').textContent = cardData.name;
+            document.getElementById('modalDescription').textContent = cardData.description || '';
+
+            // Set meanings
+            document.getElementById('modalUpright').textContent = cardData.meaning.upright;
+            document.getElementById('modalInverted').textContent = cardData.meaning.inverted;
+
+            // Set visual guidance (if available)
+            const visualSection = document.getElementById('visualSection');
+            if (cardData.visuals && cardData.visuals.instructions) {
+                visualSection.style.display = 'block';
+                document.getElementById('modalStyleGuidance').textContent =
+                    cardData.visuals.instructions.style_guidance || 'N/A';
+                document.getElementById('modalContentGuidance').textContent =
+                    cardData.visuals.instructions.content_guidance || 'N/A';
+            } else {
+                visualSection.style.display = 'none';
+            }
+
+            modal.classList.add('active');
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('cardModal');
+            modal.classList.remove('active');
+        }
+
+        function capitalizeFirst(str) {
+            return str.charAt(0).toUpperCase() + str.slice(1);
+        }
+
+        // Event listeners
+        document.querySelector('.close').onclick = closeModal;
+
+        document.getElementById('cardModal').onclick = function(event) {
+            if (event.target === this) {
+                closeModal();
+            }
+        };
+
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeModal();
+            }
+        });
+
+        // Load data on page load
+        loadDeckData();
+    </script>
+</body>
+</html>
