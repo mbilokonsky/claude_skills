@@ -18,8 +18,8 @@ import os
 OUTPUT_DIR = '/home/user/claude_skills/tarot/decks/byrne/visuals'
 
 
-def create_palette_swatch(palette, name, width=400, height=100):
-    """Create a visual swatch showing a color palette"""
+def create_palette_swatch(palette, name, width=600, height=80):
+    """Create a visual swatch showing a color palette (no text, just colors)"""
     img = Image.new('RGB', (width, height), (255, 255, 255))
     draw = ImageDraw.Draw(img)
 
@@ -37,16 +37,7 @@ def create_palette_swatch(palette, name, width=400, height=100):
     for i, key in enumerate(available_keys):
         x = i * swatch_width
         color = palette[key]
-        draw.rectangle([x, 0, x + swatch_width, height - 30], fill=color)
-
-        # Label
-        label = key
-        # Simple text positioning (PIL font handling can be tricky)
-        text_x = x + swatch_width // 2 - len(label) * 3
-        draw.text((text_x, height - 20), label, fill=(0, 0, 0))
-
-    # Title at bottom
-    draw.text((10, height - 20), name, fill=(0, 0, 0))
+        draw.rectangle([x, 0, x + swatch_width, height], fill=color)
 
     return img
 
@@ -190,6 +181,46 @@ def generate_figure_examples():
     return img
 
 
+def generate_common_elements():
+    """Show common visual building blocks"""
+    width = 1000
+    height = 500
+    img = Image.new('RGB', (width, height), (240, 240, 240))
+    draw = ImageDraw.Draw(img)
+
+    # Title
+    draw.text((10, 10), "Common Visual Elements", fill=(0, 0, 0))
+
+    # Buildings
+    draw.text((30, 50), "Buildings", fill=(60, 60, 60))
+    bvt.example_urban_building(draw, 30, 80, 80, 160, bvt.SuitColors.STRUCTURES, style='simple')
+    bvt.example_urban_building(draw, 130, 80, 90, 160, bvt.SuitColors.STRUCTURES, style='geometric')
+
+    # Grid
+    draw.text((260, 50), "Grid/Blueprint", fill=(60, 60, 60))
+    bvt.example_grid_structure(draw, (260, 80, 440, 240), bvt.SuitColors.STRUCTURES, style='blueprint')
+
+    # Doorway/Threshold
+    draw.text((30, 260), "Doorway/Threshold", fill=(60, 60, 60))
+    bvt.example_doorway_threshold(draw, 30, 290, 120, 180, bvt.MajorArcanaColors.EARLY)
+
+    # Stage elements
+    draw.text((480, 50), "Stage/Performance", fill=(60, 60, 60))
+    bvt.example_stage_elements(draw, 480, 200, 480, bvt.SuitColors.DANCE)
+
+    # Musical elements
+    draw.text((200, 260), "Musical Elements", fill=(60, 60, 60))
+    for i in range(3):
+        bvt.example_musical_elements(img, 200 + i * 40, 290, bvt.SuitColors.DANCE)
+
+    # Flow patterns
+    draw.text((480, 260), "Flow Patterns", fill=(60, 60, 60))
+    bvt.draw_flow_pattern(draw, (480, 290, 950, 350), 50, 20, bvt.SuitColors.RIVERS['flow'])
+    bvt.draw_flow_pattern(draw, (480, 360, 950, 420), 40, 15, bvt.SuitColors.RIVERS['secondary'])
+
+    return img
+
+
 def main():
     """Generate all style guide images"""
     print("Generating Byrne Journey Tarot Style Guide...")
@@ -252,6 +283,32 @@ def main():
     print("  - Figure variations...")
     figures = generate_figure_examples()
     figures.save(os.path.join(OUTPUT_DIR, 'figure_examples.png'))
+
+    # 7. Common visual elements
+    print("  - Common visual elements...")
+    elements = generate_common_elements()
+    elements.save(os.path.join(OUTPUT_DIR, 'common_elements.png'))
+
+    # 8. Setting types
+    print("  - Setting type examples...")
+    setting_types = ['city_street', 'stage', 'aerial', 'interior', 'natural', 'collaborative']
+    for setting in setting_types:
+        # Use appropriate palette for each setting
+        if setting == 'city_street':
+            pal = bvt.SuitColors.STRUCTURES
+        elif setting == 'stage':
+            pal = bvt.SuitColors.DANCE
+        elif setting == 'aerial':
+            pal = bvt.MajorArcanaColors.EARLY
+        elif setting == 'interior':
+            pal = bvt.SuitColors.STRUCTURES
+        elif setting == 'natural':
+            pal = bvt.SuitColors.RIVERS
+        else:  # collaborative
+            pal = bvt.SuitColors.CURIOSITY
+
+        setting_img = bvt.generate_setting_example(setting, pal)
+        setting_img.save(os.path.join(OUTPUT_DIR, f'setting_{setting}.png'))
 
     print("Style guide images generated!")
     print(f"Output directory: {OUTPUT_DIR}")
@@ -390,6 +447,7 @@ def generate_html():
             <strong>Themes:</strong> Observation, alienation, anxious self-awareness, systems as comfort
         </p>
         <img src="palette_early.png" alt="Early Era Palette">
+        <p><small>Colors (left to right): primary, secondary, accent, highlight, shadow, ground</small></p>
 
         <h3>Middle Era (Cards 8-14)</h3>
         <p>
@@ -398,6 +456,7 @@ def generate_html():
             <strong>Themes:</strong> Discovery, polyrhythm, beginning to connect, systems observed in motion
         </p>
         <img src="palette_middle.png" alt="Middle Era Palette">
+        <p><small>Colors (left to right): primary, secondary, accent, highlight, shadow, ground</small></p>
 
         <h3>Late Era (Cards 15-21)</h3>
         <p>
@@ -406,6 +465,7 @@ def generate_html():
             <strong>Themes:</strong> Joy, presence, collective movement, sincere participation
         </p>
         <img src="palette_late.png" alt="Late Era Palette">
+        <p><small>Colors (left to right): primary, secondary, accent, highlight, shadow, ground</small></p>
     </div>
 
     <div class="section">
@@ -419,6 +479,7 @@ def generate_html():
             <div class="card-item">
                 <h3>Structures</h3>
                 <img src="palette_structures.png" alt="Structures Palette">
+                <p><small>Colors: primary, secondary, accent, grid, shadow, frame</small></p>
                 <img src="example_structures.png" alt="Structures Example">
                 <p>
                     <strong>Keywords:</strong> Observation, analysis, blueprints, containment<br>
@@ -430,6 +491,7 @@ def generate_html():
             <div class="card-item">
                 <h3>Rivers</h3>
                 <img src="palette_rivers.png" alt="Rivers Palette">
+                <p><small>Colors: primary, secondary, accent, flow, shadow, pattern</small></p>
                 <img src="example_rivers.png" alt="Rivers Example">
                 <p>
                     <strong>Keywords:</strong> Cycles, patterns, rhythm, natural systems<br>
@@ -441,6 +503,7 @@ def generate_html():
             <div class="card-item">
                 <h3>Curiosity</h3>
                 <img src="palette_curiosity.png" alt="Curiosity Palette">
+                <p><small>Colors: primary, secondary, accent, dialogue, shadow, text</small></p>
                 <img src="example_curiosity.png" alt="Curiosity Example">
                 <p>
                     <strong>Keywords:</strong> Inquiry, civic engagement, dialogue, reasons to be cheerful<br>
@@ -452,6 +515,7 @@ def generate_html():
             <div class="card-item">
                 <h3>Dance</h3>
                 <img src="palette_dance.png" alt="Dance Palette">
+                <p><small>Colors: primary, secondary, accent, electric, shadow, heat</small></p>
                 <img src="example_dance.png" alt="Dance Example">
                 <p>
                     <strong>Keywords:</strong> Embodied joy, collective movement, groove, presence<br>
@@ -494,24 +558,114 @@ def generate_html():
     </div>
 
     <div class="section">
-        <h2>Reusable Visual Elements</h2>
+        <h2>Representing Humans</h2>
         <p>
-            These are example implementations showing how certain visual concepts might be rendered.
-            Each card will interpret these concepts uniquely, but these provide reference points.
+            How people appear in this deck carries meaning. Body language, scale, and detail level
+            all communicate the relationship between observer and observed, self and other.
         </p>
 
-        <h3>Figure Variations</h3>
-        <p>
-            Figures can be rendered with different postures and at different scales.
-            These examples show the <em>concept</em> of posture variation, not fixed templates.
-        </p>
+        <h3>General Principles</h3>
+        <ul>
+            <li><strong>Body language carries meaning:</strong> rigid/geometric → fluid/organic reflects the journey</li>
+            <li><strong>Simplified but expressive:</strong> Faces are minimal—the body tells the story</li>
+            <li><strong>Scale indicates relationship:</strong> Small figures = observed from distance, large = present and engaged</li>
+        </ul>
+
+        <h3>Specific Characters</h3>
+        <p><strong>Byrne (when depicted as himself):</strong></p>
+        <ul>
+            <li><strong>The Big Suit:</strong> Oversized boxy jacket, especially in later cards</li>
+            <li><strong>Posture evolution:</strong> Stiff/angular (early) → loose/dancing (late)</li>
+            <li>Often in performance stance, conducting, presenting, or mid-gesture</li>
+        </ul>
+
+        <p><strong>Audience/Crowd:</strong></p>
+        <ul>
+            <li>Geometric patterns (early: observed) or organic groups (late: felt presence)</li>
+            <li>Repetition with variation</li>
+            <li>May be abstracted to dots, shapes, or simplified figures</li>
+        </ul>
+
+        <h3>Visual Shortcuts</h3>
+        <ul>
+            <li>Big boxy jacket = Byrne</li>
+            <li>Suit and tie = formal/structured self</li>
+            <li>Loose clothing = relaxed/authentic self</li>
+            <li>Multiple identical figures = pattern observation</li>
+            <li>Varied figures together = genuine community</li>
+        </ul>
+
+        <h3>Figure Examples</h3>
         <img src="figure_examples.png" alt="Figure Examples">
+        <p><em>These show posture concepts, not fixed templates. Each card will render figures uniquely.</em></p>
+    </div>
 
-        <div class="note">
-            <strong>Note on Reusability:</strong> The visual toolkit provides helper functions for
-            common tasks (drawing grids, flow patterns, figures, buildings), but each card should
-            use these as <em>starting points</em> for unique compositions. Think of these as an
-            artist's reference sketches, not as clip-art to assemble.
+    <div class="section">
+        <h2>Common Visual Elements</h2>
+        <p>
+            Reusable building blocks for constructing card scenes. These are tools and reference examples,
+            not templates to copy-paste. Each use should be adapted to the specific card's needs.
+        </p>
+        <img src="common_elements.png" alt="Common Visual Elements">
+        <ul>
+            <li><strong>Buildings:</strong> Simple and geometric styles for urban scenes</li>
+            <li><strong>Grids/Blueprints:</strong> Structured patterns for Structures suit</li>
+            <li><strong>Doorways/Thresholds:</strong> Recurring transition motif</li>
+            <li><strong>Stage Elements:</strong> Performance spaces, speakers, equipment</li>
+            <li><strong>Musical Elements:</strong> Notes, rhythmic symbols</li>
+            <li><strong>Flow Patterns:</strong> Organic waves and rhythms for Rivers suit</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Setting Types</h2>
+        <p>
+            Common kinds of spaces that recur across the deck. Not specific places, but spatial
+            archetypes that carry meaning.
+        </p>
+
+        <div class="card-grid">
+            <div class="card-item">
+                <h4>City Street</h4>
+                <img src="setting_city_street.png" alt="City Street">
+                <p>Urban observation, geometric perspective, people as patterns.<br>
+                <strong>Used in:</strong> Early cards, Structures suit</p>
+            </div>
+
+            <div class="card-item">
+                <h4>Performance Stage</h4>
+                <img src="setting_stage.png" alt="Performance Stage">
+                <p>Raised platform, lighting, equipment, audience space.<br>
+                <strong>Used in:</strong> Late cards, Dance suit</p>
+            </div>
+
+            <div class="card-item">
+                <h4>Aerial View</h4>
+                <img src="setting_aerial.png" alt="Aerial View">
+                <p>Looking down on patterns, detached observation, systems visible.<br>
+                <strong>Used in:</strong> Early-mid cards, "The Big Country"</p>
+            </div>
+
+            <div class="card-item">
+                <h4>Interior Domestic</h4>
+                <img src="setting_interior.png" alt="Interior">
+                <p>Rooms with objects, organized space, windows looking out.<br>
+                <strong>Used in:</strong> "Don't Worry About the Government", Structures</p>
+            </div>
+
+            <div class="card-item">
+                <h4>Natural Landscape</h4>
+                <img src="setting_natural.png" alt="Natural Landscape">
+                <p>Rivers, organic flows, patterns in nature, earth tones.<br>
+                <strong>Used in:</strong> Rivers suit, transition cards</p>
+            </div>
+
+            <div class="card-item">
+                <h4>Collaborative Space</h4>
+                <img src="setting_collaborative.png" alt="Collaborative Space">
+                <p>Open inclusive composition, bright and welcoming.<br>
+                <strong>Used in:</strong> Late cards, Curiosity and Dance suits</p>
+            </div>
         </div>
     </div>
 

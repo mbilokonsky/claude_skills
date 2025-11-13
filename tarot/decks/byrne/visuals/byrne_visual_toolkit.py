@@ -341,12 +341,14 @@ def render_suit_symbol_curiosity(size=64):
     color = SuitColors.CURIOSITY['primary']
     s = size / 100
 
-    # Question mark curve
-    draw.arc([30*s, 15*s, 70*s, 50*s], 0, 180, fill=color, width=int(8*s))
-    draw.line([(50*s, 50*s), (50*s, 65*s)], fill=color, width=int(8*s))
+    # Question mark - proper curve shape
+    # Top curve (like a backward C)
+    draw.arc([35*s, 15*s, 65*s, 45*s], 0, 270, fill=color, width=int(10*s))
+    # Vertical stem coming down from curve
+    draw.line([(50*s, 45*s), (50*s, 65*s)], fill=color, width=int(10*s))
 
-    # Dot
-    draw.ellipse([44*s, 75*s, 56*s, 87*s], fill=color)
+    # Dot at bottom
+    draw.ellipse([44*s, 73*s, 56*s, 85*s], fill=color)
 
     return img
 
@@ -378,3 +380,280 @@ def render_suit_symbol_dance(size=64):
     draw.ellipse([60*s, 83*s, 70*s, 90*s], fill=color)
 
     return img
+
+
+# =============================================================================
+# HUMAN FIGURE PRINCIPLES
+# =============================================================================
+
+"""
+REPRESENTING HUMANS IN THE BYRNE JOURNEY TAROT
+
+General Principles:
+- Body language carries meaning: rigid/geometric → fluid/organic reflects the journey
+- Figures are simplified but expressive
+- Scale indicates relationship to environment (small = observed, large = present)
+- Faces are minimal - the body tells the story
+
+Specific Characters:
+
+BYRNE (when depicted as himself):
+- The Big Suit: Oversized boxy jacket, especially in later cards
+- Posture evolution: Stiff/angular (early) → loose/dancing (late)
+- Often in performance stance or mid-gesture
+- May be conducting, presenting, or moving
+
+AUDIENCE/CROWD:
+- Can be geometric (early: observed patterns) or organic (late: felt presence)
+- Repetition with variation
+- May be abstracted to dots, shapes, or simplified figures
+
+GENERIC FIGURES:
+- Match the era's aesthetic (geometric vs organic)
+- Posture reflects card meaning
+- Can be silhouettes or more detailed depending on focus
+
+Visual Shortcuts:
+- Big boxy jacket = Byrne
+- Suit and tie = formal/structured self
+- Loose clothing = relaxed/authentic self
+- Multiple identical figures = pattern observation
+- Varied figures together = genuine community
+"""
+
+
+# =============================================================================
+# COMMON VISUAL ELEMENTS
+# =============================================================================
+
+def example_urban_building(draw, x, y, width, height, palette, style='simple'):
+    """
+    Urban building - various styles
+    style: 'simple', 'detailed', 'geometric'
+    """
+    if style == 'geometric':
+        # Very clean, architectural
+        draw.rectangle([x, y, x + width, y + height],
+                       fill=palette.get('secondary', (120, 120, 120)),
+                       outline=palette.get('grid', (100, 100, 100)), width=2)
+        # Grid windows
+        for wy in range(y + 20, y + height - 10, 30):
+            for wx in range(x + 15, x + width - 10, 25):
+                draw.rectangle([wx, wy, wx + 10, wy + 15],
+                             fill=palette.get('accent', (80, 90, 100)))
+    else:
+        # Simple building
+        draw.rectangle([x, y, x + width, y + height],
+                       fill=palette.get('secondary', (120, 120, 120)))
+        # Scattered windows
+        window_color = palette.get('accent', (80, 90, 100))
+        for wy in range(y + 15, y + height, 25):
+            for wx in range(x + 10, x + width - 10, 20):
+                draw.rectangle([wx, wy, wx + 8, wy + 12], fill=window_color)
+
+
+def example_stage_elements(draw, x, y, width, palette):
+    """
+    Performance stage elements - lights, speakers, etc.
+    """
+    # Stage floor
+    draw.rectangle([x, y, x + width, y + 40],
+                   fill=palette.get('ground', (100, 100, 100)))
+
+    # Speakers (boxes with grills)
+    speaker_color = palette.get('shadow', (40, 40, 40))
+    # Left speaker
+    draw.rectangle([x + 10, y - 60, x + 40, y], fill=speaker_color)
+    # Grill
+    for i in range(5):
+        draw.line([(x + 15, y - 50 + i*10), (x + 35, y - 50 + i*10)],
+                  fill=palette.get('secondary', (80, 80, 80)), width=2)
+
+    # Right speaker
+    draw.rectangle([x + width - 40, y - 60, x + width - 10, y], fill=speaker_color)
+    for i in range(5):
+        draw.line([(x + width - 35, y - 50 + i*10), (x + width - 15, y - 50 + i*10)],
+                  fill=palette.get('secondary', (80, 80, 80)), width=2)
+
+
+def example_musical_elements(canvas, x, y, palette):
+    """
+    Musical notation elements - notes, staves, etc.
+    These are symbols, not literal sheet music
+    """
+    draw = ImageDraw.Draw(canvas)
+
+    # Musical note
+    note_color = palette.get('primary', (50, 50, 50))
+
+    # Note head (filled circle)
+    draw.ellipse([x, y + 15, x + 12, y + 25], fill=note_color)
+
+    # Stem
+    draw.line([(x + 11, y + 20), (x + 11, y - 10)], fill=note_color, width=2)
+
+    # Flag (eighth note)
+    draw.arc([x + 11, y - 15, x + 25, y], 180, 360, fill=note_color, width=3)
+
+
+def example_grid_structure(draw, bounds, palette, style='blueprint'):
+    """
+    Structural grids - useful for Structures suit
+    style: 'blueprint', 'loose', 'perspective'
+    """
+    x1, y1, x2, y2 = bounds
+
+    if style == 'blueprint':
+        # Precise grid
+        grid_color = palette.get('grid', (120, 140, 160))
+        spacing = 30
+        # Vertical
+        for x in range(x1, x2, spacing):
+            draw.line([(x, y1), (x, y2)], fill=grid_color, width=1)
+        # Horizontal
+        for y in range(y1, y2, spacing):
+            draw.line([(x1, y), (x2, y)], fill=grid_color, width=1)
+
+        # Thicker lines every 90px
+        for x in range(x1, x2, 90):
+            draw.line([(x, y1), (x, y2)], fill=grid_color, width=2)
+        for y in range(y1, y2, 90):
+            draw.line([(x1, y), (x2, y)], fill=grid_color, width=2)
+
+
+def example_doorway_threshold(draw, x, y, width, height, palette):
+    """
+    Doorway/threshold - recurring motif for transitions
+    """
+    frame_color = palette.get('shadow', (40, 40, 40))
+    light_color = palette.get('highlight', (220, 220, 200))
+
+    # Light beyond doorway
+    draw.rectangle([x + 15, y, x + width - 15, y + height],
+                   fill=light_color)
+
+    # Doorframe
+    # Top
+    draw.rectangle([x, y, x + width, y + 15], fill=frame_color)
+    # Left
+    draw.rectangle([x, y, x + 15, y + height], fill=frame_color)
+    # Right
+    draw.rectangle([x + width - 15, y, x + width, y + height], fill=frame_color)
+
+
+# =============================================================================
+# SETTING TYPES
+# =============================================================================
+
+"""
+COMMON SETTINGS IN THE BYRNE JOURNEY TAROT
+
+CITY STREET (urban observation):
+- Buildings framing sides
+- Geometric perspective
+- Pavement/sidewalk
+- People as patterns or individuals
+- Used in: Early cards, Structures suit
+
+PERFORMANCE STAGE:
+- Raised platform
+- Lighting elements
+- Speakers/equipment
+- Audience space
+- Used in: Late cards, Dance suit
+
+AERIAL VIEW (detached observation):
+- Looking down on patterns
+- Geographic/map-like
+- Small figures, large systems visible
+- Used in: Early-mid cards, "The Big Country"
+
+INTERIOR DOMESTIC:
+- Rooms with furniture/objects
+- Windows looking out
+- Organized/controlled space
+- Used in: "Don't Worry About the Government", Structures
+
+NATURAL LANDSCAPE:
+- Rivers, patterns in nature
+- Organic flows and curves
+- Earth tones
+- Used in: Rivers suit, transition cards
+
+COLLABORATIVE SPACE:
+- Open, inclusive composition
+- Multiple figures with room to move
+- Bright, welcoming
+- Used in: Late cards, Curiosity suit, Dance suit
+"""
+
+
+def generate_setting_example(setting_type, palette):
+    """
+    Generate example of a setting type
+    Returns an image showing that kind of space
+    """
+    canvas = create_canvas(palette.get('primary', (200, 200, 200)))
+    draw = ImageDraw.Draw(canvas)
+
+    if setting_type == 'city_street':
+        # Buildings on sides
+        example_urban_building(draw, 20, 80, 80, 300, palette)
+        example_urban_building(draw, CARD_WIDTH - 100, 60, 80, 320, palette)
+        # Street in middle
+        draw.rectangle([100, 0, CARD_WIDTH - 100, CARD_HEIGHT],
+                       fill=palette.get('ground', (140, 140, 140)))
+
+    elif setting_type == 'stage':
+        # Stage platform
+        draw.polygon([
+            (40, CARD_HEIGHT - 150),
+            (CARD_WIDTH - 40, CARD_HEIGHT - 150),
+            (CARD_WIDTH - 20, CARD_HEIGHT),
+            (20, CARD_HEIGHT)
+        ], fill=palette.get('secondary', (100, 80, 60)))
+        # Equipment
+        example_stage_elements(draw, 40, CARD_HEIGHT - 150, CARD_WIDTH - 80, palette)
+
+    elif setting_type == 'aerial':
+        # Grid pattern suggesting map/overview
+        example_grid_structure(draw, (20, 20, CARD_WIDTH - 20, CARD_HEIGHT - 20),
+                             palette, style='blueprint')
+        # Some geometric shapes suggesting buildings/features from above
+        draw.rectangle([60, 100, 120, 180], fill=palette.get('secondary', (120, 120, 120)))
+        draw.rectangle([150, 150, 200, 250], fill=palette.get('secondary', (120, 120, 120)))
+
+    elif setting_type == 'interior':
+        # Room frame
+        draw.rectangle([30, 40, CARD_WIDTH - 30, CARD_HEIGHT - 40],
+                       outline=palette.get('frame', (80, 80, 80)), width=3)
+        # Window
+        draw.rectangle([CARD_WIDTH - 100, 60, CARD_WIDTH - 50, 140],
+                       fill=palette.get('highlight', (220, 230, 240)))
+        # Simple furniture
+        draw.rectangle([50, CARD_HEIGHT - 120, 110, CARD_HEIGHT - 60],
+                       fill=palette.get('secondary', (100, 90, 80)))
+
+    elif setting_type == 'natural':
+        # Organic flowing landscape
+        draw_flow_pattern(draw, (20, 100, CARD_WIDTH - 20, 200),
+                         40, 20, palette.get('flow', (100, 140, 160)))
+        draw_flow_pattern(draw, (20, 220, CARD_WIDTH - 20, 320),
+                         50, 15, palette.get('secondary', (120, 140, 120)))
+
+    elif setting_type == 'collaborative':
+        # Open bright space
+        for y in range(CARD_HEIGHT):
+            t = y / CARD_HEIGHT
+            bright = palette.get('highlight', (240, 240, 220))
+            base = palette.get('dialogue', (200, 210, 220))
+            r = int(bright[0] + (base[0] - bright[0]) * t)
+            g = int(bright[1] + (base[1] - bright[1]) * t)
+            b = int(bright[2] + (base[2] - bright[2]) * t)
+            draw.line([(0, y), (CARD_WIDTH, y)], fill=(r, g, b))
+        # Simple circular gathering space
+        draw.ellipse([CARD_WIDTH//2 - 80, CARD_HEIGHT//2 - 60,
+                     CARD_WIDTH//2 + 80, CARD_HEIGHT//2 + 60],
+                    outline=palette.get('accent', (180, 180, 180)), width=3)
+
+    return canvas
