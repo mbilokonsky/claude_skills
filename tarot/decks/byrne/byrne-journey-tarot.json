@@ -1,0 +1,2128 @@
+{
+  "name": "The Byrne Journey Tarot",
+  "slug": "byrne-journey-tarot",
+  "version": "1.0.0",
+  "theme": {
+    "name": "The Byrne Journey",
+    "description": "This theme explores David Byrne's evolution as an artist and thinker from the late 1970s through the present. Beginning with the neurotic alienation and anxious self-observation of early Talking Heads, it traces his movement through world music collaboration and polyrhythmic joy, followed by electronic introspection and examinations of power systems, arriving at mature civic optimism and embodied participation. The deck captures Byrne's transformation from an artist singing about being unable to connect to one actively building bridges - from 'I'm just an advertisement for a version of myself' to genuinely entertaining, engaging, and believing in collective possibility.",
+    "creator": "Myk"
+  },
+  "suits": {
+    "structures": {
+      "name": "Structures",
+      "slug": "structures",
+      "description": "observation analysis blueprints studied behavior containment",
+      "symbol": {
+        "name": "Simple house shape with triangular roof",
+        "description": "Simple house shape with triangular roof",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 50 15 L 20 40 L 20 85 L 80 85 L 80 40 Z\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linejoin=\"miter\"/><rect x=\"40\" y=\"60\" width=\"20\" height=\"25\" fill=\"currentColor\"/><rect x=\"30\" y=\"45\" width=\"12\" height=\"12\" fill=\"#fff\"/><rect x=\"58\" y=\"45\" width=\"12\" height=\"12\" fill=\"#fff\"/></svg>"
+      },
+      "meaning": {
+        "upright": [
+          "observation",
+          "analysis",
+          "blueprints",
+          "studied behavior",
+          "containment",
+          "architecture of thought",
+          "mapping the self"
+        ],
+        "inverted": [
+          "over-analysis",
+          "paralysis by observation",
+          "trapped in frameworks",
+          "emotional sterility",
+          "disconnection from experience",
+          "theory without practice"
+        ]
+      },
+      "visual_style": "Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in."
+    },
+    "rivers": {
+      "name": "Rivers",
+      "slug": "rivers",
+      "description": "cycles patterns rhythm observed natural systems repetition",
+      "symbol": {
+        "name": "Vertical flowing water",
+        "description": "Vertical flowing water",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 10 Q 20 30, 30 50 T 30 90 L 70 90 Q 80 70, 70 50 T 70 10 Z\" fill=\"currentColor\"/></svg>"
+      },
+      "meaning": {
+        "upright": [
+          "cycles",
+          "patterns",
+          "rhythm observed",
+          "natural systems",
+          "repetition",
+          "flow witnessed",
+          "same as it ever was",
+          "biomechanics"
+        ],
+        "inverted": [
+          "stuck in loops",
+          "mechanical repetition without meaning",
+          "dissociation from the pattern",
+          "observing life without living it",
+          "drowning in cycles",
+          "locked grooves"
+        ]
+      },
+      "visual_style": "Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered."
+    },
+    "curiosity": {
+      "name": "Curiosity",
+      "slug": "curiosity",
+      "description": "inquiry civic engagement applied thinking dialogue reasons to be cheerful",
+      "symbol": {
+        "name": "Question mark",
+        "description": "Question mark",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 35 25 C 35 15, 42 10, 50 10 C 58 10, 70 15, 70 30 C 70 42, 62 48, 54 54 C 50 57, 48 60, 48 65 L 48 72\" stroke=\"currentColor\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/><circle cx=\"48\" cy=\"88\" r=\"6\" fill=\"currentColor\"/></svg>"
+      },
+      "meaning": {
+        "upright": [
+          "inquiry",
+          "civic engagement",
+          "applied thinking",
+          "dialogue",
+          "reasons to be cheerful",
+          "problem-solving through participation",
+          "sincere questions",
+          "collaborative intelligence"
+        ],
+        "inverted": [
+          "endless questioning without action",
+          "doubt that paralyzes",
+          "interrogation rather than conversation",
+          "performative curiosity",
+          "using questions as shields",
+          "analysis that delays doing"
+        ]
+      },
+      "visual_style": "Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering."
+    },
+    "dance": {
+      "name": "Dance",
+      "slug": "dance",
+      "description": "embodied joy collective movement groove choreography presence without self-consciousness",
+      "symbol": {
+        "name": "Dancing figure",
+        "description": "Dancing figure",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"50\" cy=\"18\" rx=\"14\" ry=\"14\" fill=\"currentColor\"/><line x1=\"50\" y1=\"32\" x2=\"50\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"9\" stroke-linecap=\"round\"/><path d=\"M 50 55 L 30 95 M 50 55 L 70 95\" stroke=\"currentColor\" stroke-width=\"9\" stroke-linecap=\"round\" fill=\"none\"/><path d=\"M 45 38 L 15 48 M 55 38 L 85 26\" stroke=\"currentColor\" stroke-width=\"8\" stroke-linecap=\"round\" fill=\"none\"/><circle cx=\"30\" cy=\"95\" r=\"7\" fill=\"currentColor\"/><circle cx=\"70\" cy=\"95\" r=\"7\" fill=\"currentColor\"/></svg>"
+      },
+      "meaning": {
+        "upright": [
+          "embodied joy",
+          "collective movement",
+          "groove",
+          "choreography",
+          "presence without self-consciousness",
+          "rhythmic surrender",
+          "the body knowing",
+          "polyrhythmic communion"
+        ],
+        "inverted": [
+          "frantic motion without center",
+          "performing joy rather than feeling it",
+          "exhaustion from constant movement",
+          "losing oneself entirely",
+          "chaotic energy",
+          "dance as escape rather than expression"
+        ]
+      },
+      "visual_style": "Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove."
+    }
+  },
+  "ranks": {
+    "0": {
+      "index": 0,
+      "arcana": "minor",
+      "numeric_value": 1,
+      "name": "Ace",
+      "symbol": "A",
+      "slug": "0",
+      "description": "The Spark",
+      "meaning": {
+        "upright": [
+          "beginning",
+          "pure energy",
+          "unformed possibility",
+          "the initial yes",
+          "ignition"
+        ],
+        "inverted": [
+          "false start",
+          "refusing to begin",
+          "potential wasted",
+          "spark that won't catch"
+        ]
+      },
+      "visual_content": "A single point of light or energy, the moment before anything happens, concentrated potential"
+    },
+    "1": {
+      "index": 1,
+      "arcana": "minor",
+      "numeric_value": 2,
+      "name": "Two",
+      "symbol": "II",
+      "slug": "1",
+      "description": "The Split",
+      "meaning": {
+        "upright": [
+          "decision",
+          "partnership",
+          "dialogue",
+          "balance",
+          "two paths",
+          "the fork"
+        ],
+        "inverted": [
+          "paralysis",
+          "false binary",
+          "stuck between",
+          "inability to choose",
+          "severed connection"
+        ]
+      },
+      "visual_content": "Two elements in relationship - mirroring, opposing, or dancing with each other"
+    },
+    "2": {
+      "index": 2,
+      "arcana": "minor",
+      "numeric_value": 3,
+      "name": "Three",
+      "symbol": "III",
+      "slug": "2",
+      "description": "The Emergence",
+      "meaning": {
+        "upright": [
+          "creation",
+          "growth",
+          "expression",
+          "making it visible",
+          "here it is",
+          "collaboration"
+        ],
+        "inverted": [
+          "premature reveal",
+          "scattered energy",
+          "three that won't cohere",
+          "excess before foundation"
+        ]
+      },
+      "visual_content": "Something taking shape, initial form, the sketch becoming visible, three points creating space"
+    },
+    "3": {
+      "index": 3,
+      "arcana": "minor",
+      "numeric_value": 4,
+      "name": "Four",
+      "symbol": "IV",
+      "slug": "3",
+      "description": "The Structure",
+      "meaning": {
+        "upright": [
+          "foundation",
+          "order",
+          "consolidation",
+          "it works",
+          "system established",
+          "four corners"
+        ],
+        "inverted": [
+          "rigidity",
+          "over-structure",
+          "trapped in the frame",
+          "stability that stagnates",
+          "the box"
+        ]
+      },
+      "visual_content": "A solid form, four-square architecture, the thing that holds itself up, containment"
+    },
+    "4": {
+      "index": 4,
+      "arcana": "minor",
+      "numeric_value": 5,
+      "name": "Five",
+      "symbol": "V",
+      "slug": "4",
+      "description": "The Disruption",
+      "meaning": {
+        "upright": [
+          "conflict",
+          "questioning",
+          "instability",
+          "the wrench in the works",
+          "necessary trouble",
+          "growth pain"
+        ],
+        "inverted": [
+          "destructive chaos",
+          "refusing challenge",
+          "collapse without learning",
+          "stuck in crisis"
+        ]
+      },
+      "visual_content": "The stable thing encountering force, tension, cracks appearing, the moment of test"
+    },
+    "5": {
+      "index": 5,
+      "arcana": "minor",
+      "numeric_value": 6,
+      "name": "Six",
+      "symbol": "VI",
+      "slug": "5",
+      "description": "The Adjustment",
+      "meaning": {
+        "upright": [
+          "resolution",
+          "adaptation",
+          "flow restored",
+          "communication",
+          "synthesis",
+          "now we're getting somewhere"
+        ],
+        "inverted": [
+          "false peace",
+          "papering over cracks",
+          "harmony without addressing the problem",
+          "premature resolution"
+        ]
+      },
+      "visual_content": "Elements finding new arrangement, restored flow with more complexity, negotiation, the dance of adjustment"
+    },
+    "6": {
+      "index": 6,
+      "arcana": "minor",
+      "numeric_value": 7,
+      "name": "Seven",
+      "symbol": "VII",
+      "slug": "6",
+      "description": "The Reflection",
+      "meaning": {
+        "upright": [
+          "evaluation",
+          "crossroads",
+          "introspection",
+          "what have we learned",
+          "strategic pause",
+          "perspective"
+        ],
+        "inverted": [
+          "overthinking",
+          "analysis paralysis",
+          "looking back instead of forward",
+          "getting lost in assessment"
+        ]
+      },
+      "visual_content": "A figure or system examining itself, the view from the middle, maps and options visible"
+    },
+    "7": {
+      "index": 7,
+      "arcana": "minor",
+      "numeric_value": 8,
+      "name": "Eight",
+      "symbol": "VIII",
+      "slug": "7",
+      "description": "The Application",
+      "meaning": {
+        "upright": [
+          "movement",
+          "action",
+          "implementation",
+          "let's do this",
+          "competence",
+          "purposeful change"
+        ],
+        "inverted": [
+          "motion without direction",
+          "skill deployed badly",
+          "hasty action",
+          "changing for change's sake"
+        ]
+      },
+      "visual_content": "Active transformation, the thing in process, energy directed with purpose, work being done"
+    },
+    "8": {
+      "index": 8,
+      "arcana": "minor",
+      "numeric_value": 9,
+      "name": "Nine",
+      "symbol": "IX",
+      "slug": "8",
+      "description": "The Fullness",
+      "meaning": {
+        "upright": [
+          "fulfillment",
+          "integration",
+          "richness",
+          "we made it",
+          "satisfaction",
+          "the fruits visible"
+        ],
+        "inverted": [
+          "clinging to completion",
+          "can't let go",
+          "fullness becoming burden",
+          "refusing the next cycle"
+        ]
+      },
+      "visual_content": "Abundance, the thing fully realized, nine elements in completion, wealth of result"
+    },
+    "9": {
+      "index": 9,
+      "arcana": "minor",
+      "numeric_value": 10,
+      "name": "Ten",
+      "symbol": "X",
+      "slug": "9",
+      "description": "The Overflow",
+      "meaning": {
+        "upright": [
+          "culmination",
+          "excess",
+          "ending that opens",
+          "what's next",
+          "legacy",
+          "the full circle"
+        ],
+        "inverted": [
+          "burnout",
+          "exhaustion",
+          "can't stop",
+          "overflow as drowning",
+          "ending refused"
+        ]
+      },
+      "visual_content": "Ten elements spilling over, the cup running over, completion that becomes burden or gift, the wheel turning"
+    },
+    "10": {
+      "index": 10,
+      "arcana": "minor",
+      "numeric_value": 11,
+      "name": "Observer",
+      "symbol": "O",
+      "slug": "10",
+      "description": "The one who watches and documents",
+      "meaning": {
+        "upright": [
+          "documentation",
+          "analysis",
+          "witnessing",
+          "learning the rules",
+          "the anthropologist of everyday life",
+          "studied distance"
+        ],
+        "inverted": [
+          "paralysis by observation",
+          "voyeurism",
+          "refusing to participate",
+          "analysis that never becomes action",
+          "permanent outsider"
+        ]
+      },
+      "visual_content": "A figure with camera or notebook, standing apart from activity, watching carefully, the posture of attention without engagement"
+    },
+    "11": {
+      "index": 11,
+      "arcana": "minor",
+      "numeric_value": 12,
+      "name": "Pretender",
+      "symbol": "P",
+      "slug": "11",
+      "description": "The one who performs confidence",
+      "meaning": {
+        "upright": [
+          "performance",
+          "confidence real or faked",
+          "larger than life",
+          "theatrical presence",
+          "acting natural",
+          "the big gesture"
+        ],
+        "inverted": [
+          "performance replacing substance",
+          "the mask that won't come off",
+          "exhaustion from pretending",
+          "fraudulence exposed"
+        ]
+      },
+      "visual_content": "A figure in an oversized suit or dramatic costume, mid-performance, commanding attention through sheer audacity, the studied gesture that works"
+    },
+    "12": {
+      "index": 12,
+      "arcana": "minor",
+      "numeric_value": 13,
+      "name": "Exile",
+      "symbol": "E",
+      "slug": "12",
+      "description": "The one in the wilderness",
+      "meaning": {
+        "upright": [
+          "isolation",
+          "introspection",
+          "darkness",
+          "the long walk alone",
+          "facing yourself",
+          "necessary solitude",
+          "the desert"
+        ],
+        "inverted": [
+          "self-imposed isolation",
+          "refusing to return",
+          "wallowing in exile",
+          "making a home in suffering"
+        ]
+      },
+      "visual_content": "A solitary figure in empty space, carrying baggage or casting it off, the long shadow, the hard reckoning"
+    },
+    "13": {
+      "index": 13,
+      "arcana": "minor",
+      "numeric_value": 14,
+      "name": "Giant",
+      "symbol": "G",
+      "slug": "13",
+      "description": "The one who stands tall in authentic presence",
+      "meaning": {
+        "upright": [
+          "authentic power",
+          "collaboration",
+          "convening",
+          "genuine authority",
+          "standing in your full size",
+          "Love This Giant",
+          "communal leadership"
+        ],
+        "inverted": [
+          "dominating rather than elevating",
+          "taking up all space",
+          "false gigantism",
+          "ego replacing presence"
+        ]
+      },
+      "visual_content": "A figure at full height with others around them, orchestrating or conducting but part of the group, authentic size, collaborative grandeur"
+    }
+  },
+  "major_arcana": {
+    "story": "The major arcana traces the implicit journey of the Byrnian protagonist, an aggregate meta-character inferred from the lyrics of Byrne's songs from the Talking Heads era through his later solo work. This is a journey of individuation, undiagnosed autism, trauma recovery, alienation, healing and acceptance that plays out over a body of work created over decades. The Major Arcana cards are named after songs, ordered chronologically by album (but not necessarily in track order within an album), and take us from an uncertain beginning through a false self, a period of exile and finally into authentic being.",
+    "visual_style": "The Major Arcana cards blend documentary aesthetics with symbolic imagery, drawing from concert footage, album art, urban landscapes, and performance stills across five decades. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. The progression is visible in body language: from rigid observation to fluid movement."
+  },
+  "cards": {
+    "major-0": {
+      "name": "Uh-Oh, Love Comes to Town",
+      "number": "0",
+      "slug": "major-0",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "0",
+      "description": "Innocence, arrival, na\u00efve entry",
+      "meaning": {
+        "upright": "Innocence, arrival, na\u00efve entry. Themes: innocence, arrival, na\u00efve entry, first encounter, stepping into the unknown",
+        "inverted": "Shadow: false start, retreat before beginning, refusing the journey, staying home, fear of arrival"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "A figure stepping through a doorway into bright light, slightly awkward posture, carrying a suitcase, the city visible ahead",
+          "detailed_description": "Uh-Oh, Love Comes to Town - Innocence, arrival, na\u00efve entry. A figure stepping through a doorway into bright light, slightly awkward posture, carrying a suitcase, the city visible ahead"
+        }
+      }
+    },
+    "major-1": {
+      "name": "Psycho Killer",
+      "number": "1",
+      "slug": "major-1",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "1",
+      "description": "The voice in your head, self-observation taken to extreme",
+      "meaning": {
+        "upright": "The voice in your head, self-observation taken to extreme. Themes: the voice in your head, self-observation taken to extreme, the watcher and the watched, paranoia as hyperawareness, I can't seem to face up to the facts",
+        "inverted": "Shadow: silencing the inner voice entirely, denial of the observing self, refusal to see what's happening"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "A mirror reflecting a face that's slightly off, eyes watching eyes, the doubling of consciousness",
+          "detailed_description": "Psycho Killer - The voice in your head, self-observation taken to extreme. A mirror reflecting a face that's slightly off, eyes watching eyes, the doubling of consciousness"
+        }
+      }
+    },
+    "major-2": {
+      "name": "Don't Worry About the Government",
+      "number": "2",
+      "slug": "major-2",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "2",
+      "description": "Systems as comfort, rules for living",
+      "meaning": {
+        "upright": "Systems as comfort, rules for living. Themes: systems as comfort, rules for living, finding structure, I've got my own construction, frameworks that contain anxiety",
+        "inverted": "Shadow: over-reliance on systems, trapped by self-made rules, bureaucracy replacing life, structure becoming prison"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "A neat house with visible blueprints overlaid, orderly streets, everything in its place, a sense of safety through organization",
+          "detailed_description": "Don't Worry About the Government - Systems as comfort, rules for living. A neat house with visible blueprints overlaid, orderly streets, everything in its place, a sense of safety through organization"
+        }
+      }
+    },
+    "major-3": {
+      "name": "The Big Country",
+      "number": "3",
+      "slug": "major-3",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "3",
+      "description": "The view from above, detached observation",
+      "meaning": {
+        "upright": "The view from above, detached observation. Themes: the view from above, detached observation, seeing patterns from distance, I wouldn't live there if you paid me to, looking down on life",
+        "inverted": "Shadow: inability to land, perpetual distance, judgment from safety, never touching ground"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "An airplane window view, the landscape geometrically arranged below, the observer removed from what's observed",
+          "detailed_description": "The Big Country - The view from above, detached observation. An airplane window view, the landscape geometrically arranged below, the observer removed from what's observed"
+        }
+      }
+    },
+    "major-4": {
+      "name": "Life During Wartime",
+      "number": "4",
+      "slug": "major-4",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "4",
+      "description": "Intensity, urgency, survival mode",
+      "meaning": {
+        "upright": "Intensity, urgency, survival mode. Themes: intensity, urgency, this ain't no party, survival mode, heightened awareness",
+        "inverted": "Shadow: exhaustion, burnout, perpetual emergency, inability to rest, paranoia consuming everything"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "Dense urban environment, moving through crowds with purpose, tension and energy, the feeling of something about to happen",
+          "detailed_description": "Life During Wartime - Intensity, urgency, survival mode. Dense urban environment, moving through crowds with purpose, tension and energy, the feeling of something about to happen"
+        }
+      }
+    },
+    "major-5": {
+      "name": "Heaven",
+      "number": "5",
+      "slug": "major-5",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "5",
+      "description": "Perfection anxiety, stasis",
+      "meaning": {
+        "upright": "Perfection anxiety, stasis. Themes: perfection anxiety, a place where nothing ever happens, stasis, the fear of satisfaction, heaven as trap",
+        "inverted": "Shadow: embracing stasis, giving up on change, settling into numbness, the relief of stopping"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "A still, perfect room with a band playing on endless repeat, beautiful and suffocating, everyone smiling but frozen",
+          "detailed_description": "Heaven - Perfection anxiety, stasis. A still, perfect room with a band playing on endless repeat, beautiful and suffocating, everyone smiling but frozen"
+        }
+      }
+    },
+    "major-6": {
+      "name": "Houses in Motion",
+      "number": "6",
+      "slug": "major-6",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "6",
+      "description": "Beginning to move, bodies entering",
+      "meaning": {
+        "upright": "Beginning to move, bodies entering. Themes: beginning to move, my house is out of the ordinary, bodies entering the picture, rhythm awakening, patterns that pulse with life",
+        "inverted": "Shadow: directionless motion, houses collapsing, instability mistaken for freedom, chaos without center"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "Buildings that seem to breathe, architectural forms in flux, the suggestion of dance in structure, movement where there was stasis",
+          "detailed_description": "Houses in Motion - Beginning to move, bodies entering. Buildings that seem to breathe, architectural forms in flux, the suggestion of dance in structure, movement where there was stasis"
+        }
+      }
+    },
+    "major-7": {
+      "name": "Once in a Lifetime",
+      "number": "7",
+      "slug": "major-7",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "7",
+      "description": "The recognition moment",
+      "meaning": {
+        "upright": "The recognition moment. Themes: the recognition moment, how did I get here, looking at your life from outside, same as it ever was, the shock of awareness",
+        "inverted": "Shadow: refusing recognition, living on autopilot forever, never asking the question, accepting without seeing"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "A figure looking at their reflection in water, surprised expression, the world familiar but strange, questioning gesture",
+          "detailed_description": "Once in a Lifetime - The recognition moment. A figure looking at their reflection in water, surprised expression, the world familiar but strange, questioning gesture"
+        }
+      }
+    },
+    "major-8": {
+      "name": "Road to Nowhere",
+      "number": "8",
+      "slug": "major-8",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "8",
+      "description": "Acceptance of aimlessness, joy in not knowing",
+      "meaning": {
+        "upright": "Acceptance of aimlessness, joy in not knowing. Themes: acceptance of aimlessness, we're on a road to nowhere come on inside, joy in not knowing the destination, traveling together",
+        "inverted": "Shadow: nihilism, despair disguised as acceptance, lost without hope, the road as trap not freedom"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "An open highway disappearing into light, travelers dancing as they walk, movement without destination but with purpose",
+          "detailed_description": "Road to Nowhere - Acceptance of aimlessness, joy in not knowing. An open highway disappearing into light, travelers dancing as they walk, movement without destination but with purpose"
+        }
+      }
+    },
+    "major-9": {
+      "name": "Burning Down the House",
+      "number": "9",
+      "slug": "major-9",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "9",
+      "description": "Destruction, transformation through fire",
+      "meaning": {
+        "upright": "Destruction, transformation through fire. Themes: destruction, transformation through fire, hold tight we're in for nasty weather, necessary endings, everything changing at once",
+        "inverted": "Shadow: destructive rage, burning without building, chaos for its own sake, losing everything including yourself"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "Flames consuming a structure, but inside there's dancing, destruction that looks like celebration, heat and light",
+          "detailed_description": "Burning Down the House - Destruction, transformation through fire. Flames consuming a structure, but inside there's dancing, destruction that looks like celebration, heat and light"
+        }
+      }
+    },
+    "major-10": {
+      "name": "This Must Be the Place (Naive Melody)",
+      "number": "10",
+      "slug": "major-10",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "10",
+      "description": "Home found, love as anchor",
+      "meaning": {
+        "upright": "Home found, love as anchor. Themes: home found, love as anchor, out of all those kinds of people you got a face with a view, belonging, the end of wandering",
+        "inverted": "Shadow: false home, mistaking comfort for love, settling out of fear, losing yourself in another"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "Two figures in an embrace, domestic space that feels earned not given, simple objects made sacred by presence",
+          "detailed_description": "This Must Be the Place (Naive Melody) - Home found, love as anchor. Two figures in an embrace, domestic space that feels earned not given, simple objects made sacred by presence"
+        }
+      }
+    },
+    "major-11": {
+      "name": "(Nothing But) Flowers",
+      "number": "11",
+      "slug": "major-11",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "11",
+      "description": "The end of certainty, civilization questioned",
+      "meaning": {
+        "upright": "The end of certainty, civilization questioned. Themes: the end of certainty, civilization questioned, there was a shopping mall now it's all covered with flowers, collapse into something else, nostalgia for the artificial",
+        "inverted": "Shadow: clinging to the old world, refusing nature, fighting inevitable change, mourning what should die"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "Vines overtaking a Pizza Hut, nature reclaiming parking lots, beauty in decay, the future looking backward",
+          "detailed_description": "(Nothing But) Flowers - The end of certainty, civilization questioned. Vines overtaking a Pizza Hut, nature reclaiming parking lots, beauty in decay, the future looking backward"
+        }
+      }
+    },
+    "major-12": {
+      "name": "Something Ain't Right",
+      "number": "12",
+      "slug": "major-12",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "12",
+      "description": "Recognition that the old way no longer works",
+      "meaning": {
+        "upright": "Recognition that the old way no longer works. Themes: recognition that the old way no longer works, intuition of wrongness, the beginning of unraveling, I can feel it",
+        "inverted": "Shadow: ignoring warning signs, pushing through when you should stop, refusing to acknowledge something's broken"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "A figure in a familiar place that now feels off, shadows where there weren't shadows, subtle wrongness everywhere",
+          "detailed_description": "Something Ain't Right - Recognition that the old way no longer works. A figure in a familiar place that now feels off, shadows where there weren't shadows, subtle wrongness everywhere"
+        }
+      }
+    },
+    "major-13": {
+      "name": "The Civil Wars",
+      "number": "13",
+      "slug": "major-13",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "13",
+      "description": "Internal conflict, battle with yourself",
+      "meaning": {
+        "upright": "Internal conflict, battle with yourself. Themes: internal conflict, the story of love is a long sad tale, battle with yourself, divided loyalties, no clear victor",
+        "inverted": "Shadow: war without end, inability to make peace with yourself, endless self-punishment, no resolution"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "A figure facing their own shadow, battlefield imagery but intimate scale, the war fought in the heart",
+          "detailed_description": "The Civil Wars - Internal conflict, battle with yourself. A figure facing their own shadow, battlefield imagery but intimate scale, the war fought in the heart"
+        }
+      }
+    },
+    "major-14": {
+      "name": "A Self-Made Man",
+      "number": "14",
+      "slug": "major-14",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "14",
+      "description": "Confronting what you've constructed",
+      "meaning": {
+        "upright": "Confronting what you've constructed. Themes: confronting what you've constructed, I'm a self-made man, examining your own design, pride and its consequences, taking responsibility",
+        "inverted": "Shadow: credit without accountability, blaming others for your construction, refusing to see your own hand in things"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "A figure looking at their own blueprint, or at a statue of themselves, recognition of authorship with uncertain emotion",
+          "detailed_description": "A Self-Made Man - Confronting what you've constructed. A figure looking at their own blueprint, or at a statue of themselves, recognition of authorship with uncertain emotion"
+        }
+      }
+    },
+    "major-15": {
+      "name": "Broken Things",
+      "number": "15",
+      "slug": "major-15",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "15",
+      "description": "Acceptance of limitation, death, endings",
+      "meaning": {
+        "upright": "Acceptance of limitation, death, endings. Themes: acceptance of limitation, death, endings, broken things will all be mended, beauty in damage",
+        "inverted": "Shadow: clinging to broken things, refusing repair or release, wounds kept open on purpose, decay as identity"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "Shattered objects arranged beautifully, a figure holding pieces, light through cracks, the aesthetic of the incomplete",
+          "detailed_description": "Broken Things - Acceptance of limitation, death, endings. Shattered objects arranged beautifully, a figure holding pieces, light through cracks, the aesthetic of the incomplete"
+        }
+      }
+    },
+    "major-16": {
+      "name": "Tiny Apocalypse",
+      "number": "16",
+      "slug": "major-16",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "16",
+      "description": "Personal catastrophe, the tower moment",
+      "meaning": {
+        "upright": "Personal catastrophe, the tower moment. Themes: personal catastrophe, the tower moment, tiny apocalypse now, small-scale destruction that changes everything, the floor falling away",
+        "inverted": "Shadow: making everything catastrophic, drama without substance, claiming apocalypse to avoid smaller truths"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "A room mid-collapse, furniture floating, domestic disaster, the intimate scale of total change",
+          "detailed_description": "Tiny Apocalypse - Personal catastrophe, the tower moment. A room mid-collapse, furniture floating, domestic disaster, the intimate scale of total change"
+        }
+      }
+    },
+    "major-17": {
+      "name": "One Fine Day",
+      "number": "17",
+      "slug": "major-17",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "17",
+      "description": "Hope returns, the star after darkness",
+      "meaning": {
+        "upright": "Hope returns, the star after darkness. Themes: hope returns, the star after darkness, one fine day we're gonna get out of here, future orientation, belief restored",
+        "inverted": "Shadow: false hope, delaying presence for promised future, one fine day as excuse for inaction now"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "Dawn breaking, a figure looking toward horizon, road ahead visible, posture of readiness not just waiting",
+          "detailed_description": "One Fine Day - Hope returns, the star after darkness. Dawn breaking, a figure looking toward horizon, road ahead visible, posture of readiness not just waiting"
+        }
+      }
+    },
+    "major-18": {
+      "name": "Lazarus",
+      "number": "18",
+      "slug": "major-18",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "18",
+      "description": "Resurrection, return from death",
+      "meaning": {
+        "upright": "Resurrection, return from death. Themes: resurrection, return from death, collaboration, the dead will rise again, renewal",
+        "inverted": "Shadow: unable to let the dead rest, resurrection as curse, coming back wrong, rising without healing"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "A figure standing from prone position, light from above or below, gospel imagery, the moment of return to life",
+          "detailed_description": "Lazarus - Resurrection, return from death. A figure standing from prone position, light from above or below, gospel imagery, the moment of return to life"
+        }
+      }
+    },
+    "major-19": {
+      "name": "I Dance Like This",
+      "number": "19",
+      "slug": "major-19",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "19",
+      "description": "Embodied declaration, authenticity found",
+      "meaning": {
+        "upright": "Embodied declaration, authenticity found. Themes: embodied declaration, I dance like this because it feels so damn good, authenticity found through movement, body knowing, unapologetic presence",
+        "inverted": "Shadow: performing authenticity, dancing for approval, like this as rigid rule, spontaneity replaced by formula"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "A body mid-dance, suit jacket flying, feet off ground, face unselfconscious, the choreography of being yourself",
+          "detailed_description": "I Dance Like This - Embodied declaration, authenticity found. A body mid-dance, suit jacket flying, feet off ground, face unselfconscious, the choreography of being yourself"
+        }
+      }
+    },
+    "major-20": {
+      "name": "Every Day Is a Miracle",
+      "number": "20",
+      "slug": "major-20",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "20",
+      "description": "Joy in the present, embodied wonder",
+      "meaning": {
+        "upright": "Joy in the present, embodied wonder. Themes: joy in the present, embodied wonder, seeing the sacred in the ordinary, judgment and reckoning, arriving fully",
+        "inverted": "Shadow: forced positivity, denying real problems, miracle-talk as avoidance, wonder as performance not experience"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "Ordinary objects made luminous, light pouring from the everyday, a figure pointing at something simple with genuine awe",
+          "detailed_description": "Every Day Is a Miracle - Joy in the present, embodied wonder. Ordinary objects made luminous, light pouring from the everyday, a figure pointing at something simple with genuine awe"
+        }
+      }
+    },
+    "major-21": {
+      "name": "Everybody Laughs",
+      "number": "21",
+      "slug": "major-21",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "21",
+      "description": "Completion, collective joy",
+      "meaning": {
+        "upright": "Completion, collective joy. Themes: completion, collective joy, the world renewed, everybody laughs and everybody smiles, communion",
+        "inverted": "Shadow: laughing alone, forced collective, performing joy, the pressure to smile, community as conformity"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Blend documentary aesthetics with symbolic imagery. Early cards use cooler palettes and static compositions; later cards become warmer, more dynamic, more colorful. Progression visible in body language: from rigid observation to fluid movement.",
+          "content_guidance": "A crowd all moving together, faces genuinely lit, overlapping bodies in joyful chaos, American Utopia finale energy, everyone laughing",
+          "detailed_description": "Everybody Laughs - Completion, collective joy. A crowd all moving together, faces genuinely lit, overlapping bodies in joyful chaos, American Utopia finale energy, everyone laughing"
+        }
+      }
+    },
+    "structures-0": {
+      "name": "Ace of Structures",
+      "number": "1",
+      "slug": "structures-0",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "0",
+      "suit_slug": "structures",
+      "description": "the seed of analysis, pure observational potential, the first blueprint, initial framework, beginning to map",
+      "meaning": {
+        "upright": "Ace of Structures: the seed of analysis, pure observational potential, the first blueprint, initial framework, beginning to map",
+        "inverted": "Shadow of Ace of Structures: analysis before experience, premature systematizing, the first box that traps"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in.",
+          "content_guidance": "A single clean line on white space, the first mark of order, concentrated architectural potential",
+          "detailed_description": "Ace of Structures: the seed of analysis, pure observational potential, the first blueprint, initial framework, beginning to map. A single clean line on white space, the first mark of order, concentrated architectural potential. Style: Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in."
+        }
+      }
+    },
+    "structures-1": {
+      "name": "Two of Structures",
+      "number": "2",
+      "slug": "structures-1",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "1",
+      "suit_slug": "structures",
+      "description": "choosing between frameworks, dual perspectives, comparing systems, dialogue between methods, binary thinking",
+      "meaning": {
+        "upright": "Two of Structures: choosing between frameworks, dual perspectives, comparing systems, dialogue between methods, binary thinking",
+        "inverted": "Shadow of Two of Structures: paralyzed by options, either/or trap, frameworks that won't integrate, analysis vs action split"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in.",
+          "content_guidance": "Two architectural plans side by side, two windows looking out at different views, the moment of methodological choice",
+          "detailed_description": "Two of Structures: choosing between frameworks, dual perspectives, comparing systems, dialogue between methods, binary thinking. Two architectural plans side by side, two windows looking out at different views, the moment of methodological choice. Style: Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in."
+        }
+      }
+    },
+    "structures-2": {
+      "name": "Three of Structures",
+      "number": "3",
+      "slug": "structures-2",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "2",
+      "suit_slug": "structures",
+      "description": "taxonomy emerging, categories forming, organized thinking visible, the shape of knowledge, collaborative mapping",
+      "meaning": {
+        "upright": "Three of Structures: taxonomy emerging, categories forming, organized thinking visible, the shape of knowledge, collaborative mapping",
+        "inverted": "Shadow of Three of Structures: premature categorization, forcing order too soon, three systems competing"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in.",
+          "content_guidance": "Three architectural elements forming initial structure, the sketch of organization, categories beginning to cohere",
+          "detailed_description": "Three of Structures: taxonomy emerging, categories forming, organized thinking visible, the shape of knowledge, collaborative mapping. Three architectural elements forming initial structure, the sketch of organization, categories beginning to cohere. Style: Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in."
+        }
+      }
+    },
+    "structures-3": {
+      "name": "Four of Structures",
+      "number": "4",
+      "slug": "structures-3",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "3",
+      "suit_slug": "structures",
+      "description": "stable system, the framework complete, containment achieved, analysis solidified, four walls standing, the reliable method",
+      "meaning": {
+        "upright": "Four of Structures: stable system, the framework complete, containment achieved, analysis solidified, four walls standing, the reliable method",
+        "inverted": "Shadow of Four of Structures: trapped in your own system, the box complete, framework becoming prison, observation replacing experience"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in.",
+          "content_guidance": "A complete architectural structure, four-square and stable, windows looking out but figure looking in",
+          "detailed_description": "Four of Structures: stable system, the framework complete, containment achieved, analysis solidified, four walls standing, the reliable method. A complete architectural structure, four-square and stable, windows looking out but figure looking in. Style: Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in."
+        }
+      }
+    },
+    "structures-4": {
+      "name": "Five of Structures",
+      "number": "5",
+      "slug": "structures-4",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "4",
+      "suit_slug": "structures",
+      "description": "framework challenged, cracks in the system, analysis confronting anomaly, the thing that doesn't fit, blueprint questioned",
+      "meaning": {
+        "upright": "Five of Structures: framework challenged, cracks in the system, analysis confronting anomaly, the thing that doesn't fit, blueprint questioned",
+        "inverted": "Shadow of Five of Structures: defending broken systems, ignoring evidence, analysis paralyzed by exception, refusing to revise"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in.",
+          "content_guidance": "Architectural plans with elements that don't align, cracks in clean walls, the moment when order encounters disorder",
+          "detailed_description": "Five of Structures: framework challenged, cracks in the system, analysis confronting anomaly, the thing that doesn't fit, blueprint questioned. Architectural plans with elements that don't align, cracks in clean walls, the moment when order encounters disorder. Style: Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in."
+        }
+      }
+    },
+    "structures-5": {
+      "name": "Six of Structures",
+      "number": "6",
+      "slug": "structures-5",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "5",
+      "suit_slug": "structures",
+      "description": "revised framework, adaptive system, analysis incorporating feedback, restored order at higher level, the new blueprint",
+      "meaning": {
+        "upright": "Six of Structures: revised framework, adaptive system, analysis incorporating feedback, restored order at higher level, the new blueprint",
+        "inverted": "Shadow of Six of Structures: superficial adjustment, patching without understanding, premature resolution of structural problems"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in.",
+          "content_guidance": "Architectural elements rearranged into new configuration, more complex but coherent, negotiated structure",
+          "detailed_description": "Six of Structures: revised framework, adaptive system, analysis incorporating feedback, restored order at higher level, the new blueprint. Architectural elements rearranged into new configuration, more complex but coherent, negotiated structure. Style: Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in."
+        }
+      }
+    },
+    "structures-6": {
+      "name": "Seven of Structures",
+      "number": "7",
+      "slug": "structures-6",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "6",
+      "suit_slug": "structures",
+      "description": "examining the system, meta-analysis, studying the map itself, questioning methods, crossroads of approach",
+      "meaning": {
+        "upright": "Seven of Structures: examining the system, meta-analysis, studying the map itself, questioning methods, crossroads of approach",
+        "inverted": "Shadow of Seven of Structures: lost in meta-thinking, analyzing analysis, unable to act for examining, map replacing territory entirely"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in.",
+          "content_guidance": "A figure examining multiple blueprints, floor plans spread out, the view from meta-level, decision point visible",
+          "detailed_description": "Seven of Structures: examining the system, meta-analysis, studying the map itself, questioning methods, crossroads of approach. A figure examining multiple blueprints, floor plans spread out, the view from meta-level, decision point visible. Style: Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in."
+        }
+      }
+    },
+    "structures-7": {
+      "name": "Eight of Structures",
+      "number": "8",
+      "slug": "structures-7",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "7",
+      "suit_slug": "structures",
+      "description": "implementing the plan, analysis in action, blueprint executed, systematic change, method deployed with purpose",
+      "meaning": {
+        "upright": "Eight of Structures: implementing the plan, analysis in action, blueprint executed, systematic change, method deployed with purpose",
+        "inverted": "Shadow of Eight of Structures: rigid execution, following plan despite reality, method crushing spontaneity, building the wrong thing well"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in.",
+          "content_guidance": "Architectural plans being actively built, systematic transformation in progress, theory becoming practice",
+          "detailed_description": "Eight of Structures: implementing the plan, analysis in action, blueprint executed, systematic change, method deployed with purpose. Architectural plans being actively built, systematic transformation in progress, theory becoming practice. Style: Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in."
+        }
+      }
+    },
+    "structures-8": {
+      "name": "Nine of Structures",
+      "number": "9",
+      "slug": "structures-8",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "8",
+      "suit_slug": "structures",
+      "description": "comprehensive system, analysis fulfilled, the complete map, observational mastery, framework functioning fully",
+      "meaning": {
+        "upright": "Nine of Structures: comprehensive system, analysis fulfilled, the complete map, observational mastery, framework functioning fully",
+        "inverted": "Shadow of Nine of Structures: over-systematized life, map so complete it replaces living, analytical perfection that isolates"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in.",
+          "content_guidance": "Nine architectural elements in complete harmony, the total system visible, comprehensive documentation",
+          "detailed_description": "Nine of Structures: comprehensive system, analysis fulfilled, the complete map, observational mastery, framework functioning fully. Nine architectural elements in complete harmony, the total system visible, comprehensive documentation. Style: Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in."
+        }
+      }
+    },
+    "structures-9": {
+      "name": "Ten of Structures",
+      "number": "10",
+      "slug": "structures-9",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "9",
+      "suit_slug": "structures",
+      "description": "system at its limit, framework overflowing, analysis exhausted, the catalog complete, too much structure, time to leave the blueprint",
+      "meaning": {
+        "upright": "Ten of Structures: system at its limit, framework overflowing, analysis exhausted, the catalog complete, too much structure, time to leave the blueprint",
+        "inverted": "Shadow of Ten of Structures: crushed by own systems, unable to stop organizing, framework collapse under its own weight"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in.",
+          "content_guidance": "Ten architectural elements spilling beyond containment, blueprints covering every surface, the moment when order becomes chaos",
+          "detailed_description": "Ten of Structures: system at its limit, framework overflowing, analysis exhausted, the catalog complete, too much structure, time to leave the blueprint. Ten architectural elements spilling beyond containment, blueprints covering every surface, the moment when order becomes chaos. Style: Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in."
+        }
+      }
+    },
+    "structures-10": {
+      "name": "The Observer of Structures",
+      "number": "11",
+      "slug": "structures-10",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "10",
+      "suit_slug": "structures",
+      "description": "the architect as witness, documenting human systems, learning social blueprints, studying from outside, mapping normalcy",
+      "meaning": {
+        "upright": "The Observer of Structures: the architect as witness, documenting human systems, learning social blueprints, studying from outside, mapping normalcy",
+        "inverted": "Shadow of The Observer of Structures: voyeuristic analysis, permanent outsider to structures, studying instead of building, observer who never enters"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in.",
+          "content_guidance": "A figure with notebook watching people in buildings, documenting behavior through windows, architectural anthropology",
+          "detailed_description": "The Observer of Structures: the architect as witness, documenting human systems, learning social blueprints, studying from outside, mapping normalcy. A figure with notebook watching people in buildings, documenting behavior through windows, architectural anthropology. Style: Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in."
+        }
+      }
+    },
+    "structures-11": {
+      "name": "The Pretender of Structures",
+      "number": "12",
+      "slug": "structures-11",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "11",
+      "suit_slug": "structures",
+      "description": "performing systematic knowledge, confident blueprints, theatrical architecture, the big system gesture, fake it till you make it engineering",
+      "meaning": {
+        "upright": "The Pretender of Structures: performing systematic knowledge, confident blueprints, theatrical architecture, the big system gesture, fake it till you make it engineering",
+        "inverted": "Shadow of The Pretender of Structures: structures that are all facade, systems that look good but don't work, exhaustion from maintaining the blueprint"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in.",
+          "content_guidance": "A figure in oversized architect's clothes, grand gestures over impressive but untested plans, commanding attention through structural audacity",
+          "detailed_description": "The Pretender of Structures: performing systematic knowledge, confident blueprints, theatrical architecture, the big system gesture, fake it till you make it engineering. A figure in oversized architect's clothes, grand gestures over impressive but untested plans, commanding attention through structural audacity. Style: Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in."
+        }
+      }
+    },
+    "structures-12": {
+      "name": "The Exile of Structures",
+      "number": "13",
+      "slug": "structures-12",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "12",
+      "suit_slug": "structures",
+      "description": "alone with failed systems, frameworks collapsing, blueprint in the desert, confronting your own architectural choices, the map that led nowhere",
+      "meaning": {
+        "upright": "The Exile of Structures: alone with failed systems, frameworks collapsing, blueprint in the desert, confronting your own architectural choices, the map that led nowhere",
+        "inverted": "Shadow of The Exile of Structures: clinging to broken systems, exile as permanent state, refusing to leave failed frameworks"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in.",
+          "content_guidance": "A solitary figure amid ruins of structures they built, carrying collapsed blueprints, the hard reckoning with system failure",
+          "detailed_description": "The Exile of Structures: alone with failed systems, frameworks collapsing, blueprint in the desert, confronting your own architectural choices, the map that led nowhere. A solitary figure amid ruins of structures they built, carrying collapsed blueprints, the hard reckoning with system failure. Style: Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in."
+        }
+      }
+    },
+    "structures-13": {
+      "name": "The Giant of Structures",
+      "number": "14",
+      "slug": "structures-13",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "13",
+      "suit_slug": "structures",
+      "description": "authentic architectural vision, collaborative building, systems that serve humans, frameworks that elevate, genuine systematic wisdom",
+      "meaning": {
+        "upright": "The Giant of Structures: authentic architectural vision, collaborative building, systems that serve humans, frameworks that elevate, genuine systematic wisdom",
+        "inverted": "Shadow of The Giant of Structures: systems that dominate, architecture that crushes, framework as control not service"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in.",
+          "content_guidance": "A figure at full height designing with others visible, collaborative blueprints, structures that contain without confining",
+          "detailed_description": "The Giant of Structures: authentic architectural vision, collaborative building, systems that serve humans, frameworks that elevate, genuine systematic wisdom. A figure at full height designing with others visible, collaborative blueprints, structures that contain without confining. Style: Clean geometric compositions, architectural drawings, white and cool grays with sparse accent colors, precise lines and grids, measured spaces, the aesthetic of documentation and taxonomy. Images suggest watching from windows, floor plans, organizational charts, the view from outside looking in."
+        }
+      }
+    },
+    "rivers-0": {
+      "name": "Ace of Rivers",
+      "number": "1",
+      "slug": "rivers-0",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "0",
+      "suit_slug": "rivers",
+      "description": "the first pulse, rhythm spark, pattern potential, initial flow, the loop begins",
+      "meaning": {
+        "upright": "Ace of Rivers: the first pulse, rhythm spark, pattern potential, initial flow, the loop begins",
+        "inverted": "Shadow of Ace of Rivers: flow that won't start, rhythm refused, stuck before the pattern"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered.",
+          "content_guidance": "A single wave or pulse, the first beat, concentrated rhythmic potential, flow about to begin",
+          "detailed_description": "Ace of Rivers: the first pulse, rhythm spark, pattern potential, initial flow, the loop begins. A single wave or pulse, the first beat, concentrated rhythmic potential, flow about to begin. Style: Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered."
+        }
+      }
+    },
+    "rivers-1": {
+      "name": "Two of Rivers",
+      "number": "2",
+      "slug": "rivers-1",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "1",
+      "suit_slug": "rivers",
+      "description": "polyrhythm emerging, two patterns interact, dialogue of flows, cycles in conversation, rhythm choice",
+      "meaning": {
+        "upright": "Two of Rivers: polyrhythm emerging, two patterns interact, dialogue of flows, cycles in conversation, rhythm choice",
+        "inverted": "Shadow of Two of Rivers: rhythms that clash, unable to sync, patterns competing not conversing, split flow"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered.",
+          "content_guidance": "Two water streams meeting, two rhythm patterns overlaid, flows mirroring or opposing",
+          "detailed_description": "Two of Rivers: polyrhythm emerging, two patterns interact, dialogue of flows, cycles in conversation, rhythm choice. Two water streams meeting, two rhythm patterns overlaid, flows mirroring or opposing. Style: Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered."
+        }
+      }
+    },
+    "rivers-2": {
+      "name": "Three of Rivers",
+      "number": "3",
+      "slug": "rivers-2",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "2",
+      "suit_slug": "rivers",
+      "description": "complex pattern forming, polyrhythmic structure, flows braiding, I Zimbra energy, rhythm becoming visible",
+      "meaning": {
+        "upright": "Three of Rivers: complex pattern forming, polyrhythmic structure, flows braiding, I Zimbra energy, rhythm becoming visible",
+        "inverted": "Shadow of Three of Rivers: rhythms scattering, too many patterns too soon, flows that won't braid"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered.",
+          "content_guidance": "Three streams weaving together, polyrhythmic notation, the pattern becoming complex and visible",
+          "detailed_description": "Three of Rivers: complex pattern forming, polyrhythmic structure, flows braiding, I Zimbra energy, rhythm becoming visible. Three streams weaving together, polyrhythmic notation, the pattern becoming complex and visible. Style: Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered."
+        }
+      }
+    },
+    "rivers-3": {
+      "name": "Four of Rivers",
+      "number": "4",
+      "slug": "rivers-3",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "3",
+      "suit_slug": "rivers",
+      "description": "stable rhythm, pattern established, same as it ever was, the groove set, cycle dependable, four-beat foundation",
+      "meaning": {
+        "upright": "Four of Rivers: stable rhythm, pattern established, same as it ever was, the groove set, cycle dependable, four-beat foundation",
+        "inverted": "Shadow of Four of Rivers: locked in the loop, rhythm becoming rote, trapped in the cycle, pattern ossified"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered.",
+          "content_guidance": "Four streams in stable flow, perfect loop, the established rhythm diagram, dependable cycle",
+          "detailed_description": "Four of Rivers: stable rhythm, pattern established, same as it ever was, the groove set, cycle dependable, four-beat foundation. Four streams in stable flow, perfect loop, the established rhythm diagram, dependable cycle. Style: Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered."
+        }
+      }
+    },
+    "rivers-4": {
+      "name": "Five of Rivers",
+      "number": "5",
+      "slug": "rivers-4",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "4",
+      "suit_slug": "rivers",
+      "description": "rhythm disrupted, pattern challenged, flow encountering obstacle, syncopation, the beat broken",
+      "meaning": {
+        "upright": "Five of Rivers: rhythm disrupted, pattern challenged, flow encountering obstacle, syncopation, the beat broken",
+        "inverted": "Shadow of Five of Rivers: chaos in the rhythm, refusing the new pattern, stuck at the break point"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered.",
+          "content_guidance": "Flows encountering rocks, rhythm notation with rupture, the moment pattern meets disruption",
+          "detailed_description": "Five of Rivers: rhythm disrupted, pattern challenged, flow encountering obstacle, syncopation, the beat broken. Flows encountering rocks, rhythm notation with rupture, the moment pattern meets disruption. Style: Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered."
+        }
+      }
+    },
+    "rivers-5": {
+      "name": "Six of Rivers",
+      "number": "6",
+      "slug": "rivers-5",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "5",
+      "suit_slug": "rivers",
+      "description": "rhythm restored, new pattern integrated, flow finding new channel, polyrhythm balanced, the groove adapted",
+      "meaning": {
+        "upright": "Six of Rivers: rhythm restored, new pattern integrated, flow finding new channel, polyrhythm balanced, the groove adapted",
+        "inverted": "Shadow of Six of Rivers: false rhythm, pattern forced, flow that papers over disruption"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered.",
+          "content_guidance": "Streams finding new arrangement around obstacles, rhythm adapted, more complex flow restored",
+          "detailed_description": "Six of Rivers: rhythm restored, new pattern integrated, flow finding new channel, polyrhythm balanced, the groove adapted. Streams finding new arrangement around obstacles, rhythm adapted, more complex flow restored. Style: Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered."
+        }
+      }
+    },
+    "rivers-6": {
+      "name": "Seven of Rivers",
+      "number": "7",
+      "slug": "rivers-6",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "6",
+      "suit_slug": "rivers",
+      "description": "studying the pattern, rhythm analysis, examining cycles, meta-view of flow, choosing which current",
+      "meaning": {
+        "upright": "Seven of Rivers: studying the pattern, rhythm analysis, examining cycles, meta-view of flow, choosing which current",
+        "inverted": "Shadow of Seven of Rivers: analyzing instead of flowing, rhythm awareness that stops the dance, paralyzed by pattern-watching"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered.",
+          "content_guidance": "Aerial view of multiple streams, rhythm patterns mapped out, the meta-perspective on flow",
+          "detailed_description": "Seven of Rivers: studying the pattern, rhythm analysis, examining cycles, meta-view of flow, choosing which current. Aerial view of multiple streams, rhythm patterns mapped out, the meta-perspective on flow. Style: Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered."
+        }
+      }
+    },
+    "rivers-7": {
+      "name": "Eight of Rivers",
+      "number": "8",
+      "slug": "rivers-7",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "7",
+      "suit_slug": "rivers",
+      "description": "rhythm applied, flow in purposeful motion, pattern deployed, the dance executed, systematic movement",
+      "meaning": {
+        "upright": "Eight of Rivers: rhythm applied, flow in purposeful motion, pattern deployed, the dance executed, systematic movement",
+        "inverted": "Shadow of Eight of Rivers: mechanical rhythm, pattern without feeling, flow that's forced"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered.",
+          "content_guidance": "Streams actively carving new channels, rhythm in transformative motion, purposeful flow",
+          "detailed_description": "Eight of Rivers: rhythm applied, flow in purposeful motion, pattern deployed, the dance executed, systematic movement. Streams actively carving new channels, rhythm in transformative motion, purposeful flow. Style: Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered."
+        }
+      }
+    },
+    "rivers-8": {
+      "name": "Nine of Rivers",
+      "number": "9",
+      "slug": "rivers-8",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "8",
+      "suit_slug": "rivers",
+      "description": "complex pattern mastered, polyrhythmic abundance, flow fulfilled, rhythm richness, the full current",
+      "meaning": {
+        "upright": "Nine of Rivers: complex pattern mastered, polyrhythmic abundance, flow fulfilled, rhythm richness, the full current",
+        "inverted": "Shadow of Nine of Rivers: overwhelmed by rhythm, too many patterns, drowning in the flow"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered.",
+          "content_guidance": "Nine streams in elaborate interweaving, complex rhythm fully expressed, abundant flow",
+          "detailed_description": "Nine of Rivers: complex pattern mastered, polyrhythmic abundance, flow fulfilled, rhythm richness, the full current. Nine streams in elaborate interweaving, complex rhythm fully expressed, abundant flow. Style: Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered."
+        }
+      }
+    },
+    "rivers-9": {
+      "name": "Ten of Rivers",
+      "number": "10",
+      "slug": "rivers-9",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "9",
+      "suit_slug": "rivers",
+      "description": "pattern at overflow, rhythm exhausted, same as it ever was forever, cycle complete and beginning, flow beyond containment",
+      "meaning": {
+        "upright": "Ten of Rivers: pattern at overflow, rhythm exhausted, same as it ever was forever, cycle complete and beginning, flow beyond containment",
+        "inverted": "Shadow of Ten of Rivers: drowned in repetition, unable to leave the loop, rhythm as prison"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered.",
+          "content_guidance": "Ten streams overflowing boundaries, rhythm patterns filling all space, the cycle at its limit",
+          "detailed_description": "Ten of Rivers: pattern at overflow, rhythm exhausted, same as it ever was forever, cycle complete and beginning, flow beyond containment. Ten streams overflowing boundaries, rhythm patterns filling all space, the cycle at its limit. Style: Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered."
+        }
+      }
+    },
+    "rivers-10": {
+      "name": "The Observer of Rivers",
+      "number": "11",
+      "slug": "rivers-10",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "10",
+      "suit_slug": "rivers",
+      "description": "watching patterns, documenting rhythms, studying flow from outside, learning cycles, witness to the dance",
+      "meaning": {
+        "upright": "The Observer of Rivers: watching patterns, documenting rhythms, studying flow from outside, learning cycles, witness to the dance",
+        "inverted": "Shadow of The Observer of Rivers: observing instead of moving, analysis of rhythm without participation, permanent audience"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered.",
+          "content_guidance": "A figure watching rivers flow, documenting rhythm patterns, studying dance without dancing",
+          "detailed_description": "The Observer of Rivers: watching patterns, documenting rhythms, studying flow from outside, learning cycles, witness to the dance. A figure watching rivers flow, documenting rhythm patterns, studying dance without dancing. Style: Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered."
+        }
+      }
+    },
+    "rivers-11": {
+      "name": "The Pretender of Rivers",
+      "number": "12",
+      "slug": "rivers-11",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "11",
+      "suit_slug": "rivers",
+      "description": "performing rhythm, theatrical flow, confident pattern, the big gesture of movement, simulating natural grace",
+      "meaning": {
+        "upright": "The Pretender of Rivers: performing rhythm, theatrical flow, confident pattern, the big gesture of movement, simulating natural grace",
+        "inverted": "Shadow of The Pretender of Rivers: rhythm as pure performance, flow that's all show, dancing without feeling the beat"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered.",
+          "content_guidance": "A figure making grand rhythmic gestures, dramatic costume, performing flow with audacious confidence",
+          "detailed_description": "The Pretender of Rivers: performing rhythm, theatrical flow, confident pattern, the big gesture of movement, simulating natural grace. A figure making grand rhythmic gestures, dramatic costume, performing flow with audacious confidence. Style: Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered."
+        }
+      }
+    },
+    "rivers-12": {
+      "name": "The Exile of Rivers",
+      "number": "13",
+      "slug": "rivers-12",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "12",
+      "suit_slug": "rivers",
+      "description": "alone with broken rhythms, pattern dissolved, flow dried up, confronting lost cycles, the beat alone",
+      "meaning": {
+        "upright": "The Exile of Rivers: alone with broken rhythms, pattern dissolved, flow dried up, confronting lost cycles, the beat alone",
+        "inverted": "Shadow of The Exile of Rivers: refusing rhythm entirely, stuck in broken pattern, exile from all flow"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered.",
+          "content_guidance": "A solitary figure by dried riverbeds, silent rhythm, the hard reckoning with lost patterns",
+          "detailed_description": "The Exile of Rivers: alone with broken rhythms, pattern dissolved, flow dried up, confronting lost cycles, the beat alone. A solitary figure by dried riverbeds, silent rhythm, the hard reckoning with lost patterns. Style: Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered."
+        }
+      }
+    },
+    "rivers-13": {
+      "name": "The Giant of Rivers",
+      "number": "14",
+      "slug": "rivers-13",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "13",
+      "suit_slug": "rivers",
+      "description": "authentic rhythm mastery, collaborative flow, conducting the collective pattern, genuine groove leadership, swimming with others",
+      "meaning": {
+        "upright": "The Giant of Rivers: authentic rhythm mastery, collaborative flow, conducting the collective pattern, genuine groove leadership, swimming with others",
+        "inverted": "Shadow of The Giant of Rivers: dominating the rhythm, flow that drowns others, pattern as control"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered.",
+          "content_guidance": "A figure at full height conducting polyrhythm with others visible, collaborative flow, shared current",
+          "detailed_description": "The Giant of Rivers: authentic rhythm mastery, collaborative flow, conducting the collective pattern, genuine groove leadership, swimming with others. A figure at full height conducting polyrhythm with others visible, collaborative flow, shared current. Style: Organic patterns and repetitive structures, loops and spirals, polyrhythmic layering, visual representations of sound waves and traffic flows, warm earth tones with rhythmic color variations. Images suggest systems in motion viewed from above\u2014rivers, crowds, data visualizations, the dance seen but not entered."
+        }
+      }
+    },
+    "curiosity-0": {
+      "name": "Ace of Curiosity",
+      "number": "1",
+      "slug": "curiosity-0",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "0",
+      "suit_slug": "curiosity",
+      "description": "the first question, pure inquiry spark, initial wondering, the question mark appears, beginning to ask",
+      "meaning": {
+        "upright": "Ace of Curiosity: the first question, pure inquiry spark, initial wondering, the question mark appears, beginning to ask",
+        "inverted": "Shadow of Ace of Curiosity: question refused, inquiry shut down, curiosity killed before starting"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering.",
+          "content_guidance": "A single question mark glowing, the first wonder, concentrated inquiry potential",
+          "detailed_description": "Ace of Curiosity: the first question, pure inquiry spark, initial wondering, the question mark appears, beginning to ask. A single question mark glowing, the first wonder, concentrated inquiry potential. Style: Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering."
+        }
+      }
+    },
+    "curiosity-1": {
+      "name": "Two of Curiosity",
+      "number": "2",
+      "slug": "curiosity-1",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "1",
+      "suit_slug": "curiosity",
+      "description": "dialogue begins, mutual inquiry, questions in conversation, two perspectives wondering together, collaborative curiosity",
+      "meaning": {
+        "upright": "Two of Curiosity: dialogue begins, mutual inquiry, questions in conversation, two perspectives wondering together, collaborative curiosity",
+        "inverted": "Shadow of Two of Curiosity: interrogation not dialogue, questions opposing not exploring, inquiry as competition"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering.",
+          "content_guidance": "Two question marks facing each other, speech bubbles interweaving, the beginning of genuine conversation",
+          "detailed_description": "Two of Curiosity: dialogue begins, mutual inquiry, questions in conversation, two perspectives wondering together, collaborative curiosity. Two question marks facing each other, speech bubbles interweaving, the beginning of genuine conversation. Style: Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering."
+        }
+      }
+    },
+    "curiosity-2": {
+      "name": "Three of Curiosity",
+      "number": "3",
+      "slug": "curiosity-2",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "2",
+      "suit_slug": "curiosity",
+      "description": "inquiry developing, questions multiplying productively, collaborative investigation, curiosity made visible, the conversation deepens",
+      "meaning": {
+        "upright": "Three of Curiosity: inquiry developing, questions multiplying productively, collaborative investigation, curiosity made visible, the conversation deepens",
+        "inverted": "Shadow of Three of Curiosity: questions scattering, inquiry without focus, too many directions"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering.",
+          "content_guidance": "Three figures or three question marks forming investigation, the sketch of collaborative wondering",
+          "detailed_description": "Three of Curiosity: inquiry developing, questions multiplying productively, collaborative investigation, curiosity made visible, the conversation deepens. Three figures or three question marks forming investigation, the sketch of collaborative wondering. Style: Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering."
+        }
+      }
+    },
+    "curiosity-3": {
+      "name": "Four of Curiosity",
+      "number": "4",
+      "slug": "curiosity-3",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "3",
+      "suit_slug": "curiosity",
+      "description": "inquiry framework stable, questions organized, civic structure formed, the town hall stands, investigation grounded",
+      "meaning": {
+        "upright": "Four of Curiosity: inquiry framework stable, questions organized, civic structure formed, the town hall stands, investigation grounded",
+        "inverted": "Shadow of Four of Curiosity: curiosity bureaucratized, questions trapped in form, inquiry system replacing actual wondering"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering.",
+          "content_guidance": "Four corners of a public forum, organized inquiry space, stable question framework",
+          "detailed_description": "Four of Curiosity: inquiry framework stable, questions organized, civic structure formed, the town hall stands, investigation grounded. Four corners of a public forum, organized inquiry space, stable question framework. Style: Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering."
+        }
+      }
+    },
+    "curiosity-4": {
+      "name": "Five of Curiosity",
+      "number": "5",
+      "slug": "curiosity-4",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "4",
+      "suit_slug": "curiosity",
+      "description": "inquiry challenged, hard questions arrive, curiosity meeting resistance, the disrupting question, investigation tested",
+      "meaning": {
+        "upright": "Five of Curiosity: inquiry challenged, hard questions arrive, curiosity meeting resistance, the disrupting question, investigation tested",
+        "inverted": "Shadow of Five of Curiosity: questions as weapons, inquiry destroying not building, doubt paralyzing"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering.",
+          "content_guidance": "Question marks clashing, difficult inquiry, the moment when wondering gets hard",
+          "detailed_description": "Five of Curiosity: inquiry challenged, hard questions arrive, curiosity meeting resistance, the disrupting question, investigation tested. Question marks clashing, difficult inquiry, the moment when wondering gets hard. Style: Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering."
+        }
+      }
+    },
+    "curiosity-5": {
+      "name": "Six of Curiosity",
+      "number": "6",
+      "slug": "curiosity-5",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "5",
+      "suit_slug": "curiosity",
+      "description": "dialogue restored, inquiry finding new ground, questions adapted, civic conversation flowing, curiosity balanced",
+      "meaning": {
+        "upright": "Six of Curiosity: dialogue restored, inquiry finding new ground, questions adapted, civic conversation flowing, curiosity balanced",
+        "inverted": "Shadow of Six of Curiosity: false resolution, curiosity curtailed prematurely, questions answered too easily"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering.",
+          "content_guidance": "Question marks in new arrangement, conversation restored with more depth, adapted inquiry",
+          "detailed_description": "Six of Curiosity: dialogue restored, inquiry finding new ground, questions adapted, civic conversation flowing, curiosity balanced. Question marks in new arrangement, conversation restored with more depth, adapted inquiry. Style: Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering."
+        }
+      }
+    },
+    "curiosity-6": {
+      "name": "Seven of Curiosity",
+      "number": "7",
+      "slug": "curiosity-6",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "6",
+      "suit_slug": "curiosity",
+      "description": "examining the questions, meta-inquiry, wondering about wondering, choosing which curiosity to follow, crossroads of investigation",
+      "meaning": {
+        "upright": "Seven of Curiosity: examining the questions, meta-inquiry, wondering about wondering, choosing which curiosity to follow, crossroads of investigation",
+        "inverted": "Shadow of Seven of Curiosity: lost in questioning, inquiry about inquiry forever, unable to act for asking"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering.",
+          "content_guidance": "A figure examining multiple questions, inquiry paths mapped out, meta-curiosity visible",
+          "detailed_description": "Seven of Curiosity: examining the questions, meta-inquiry, wondering about wondering, choosing which curiosity to follow, crossroads of investigation. A figure examining multiple questions, inquiry paths mapped out, meta-curiosity visible. Style: Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering."
+        }
+      }
+    },
+    "curiosity-7": {
+      "name": "Eight of Curiosity",
+      "number": "8",
+      "slug": "curiosity-7",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "7",
+      "suit_slug": "curiosity",
+      "description": "inquiry in action, questions implemented, doing the right thing, curiosity deployed purposefully, civic work in motion",
+      "meaning": {
+        "upright": "Eight of Curiosity: inquiry in action, questions implemented, doing the right thing, curiosity deployed purposefully, civic work in motion",
+        "inverted": "Shadow of Eight of Curiosity: action without inquiry, questions ignored in execution, curiosity abandoned for doing"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering.",
+          "content_guidance": "Questions actively being investigated, inquiry transforming reality, purposeful wondering",
+          "detailed_description": "Eight of Curiosity: inquiry in action, questions implemented, doing the right thing, curiosity deployed purposefully, civic work in motion. Questions actively being investigated, inquiry transforming reality, purposeful wondering. Style: Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering."
+        }
+      }
+    },
+    "curiosity-8": {
+      "name": "Nine of Curiosity",
+      "number": "9",
+      "slug": "curiosity-8",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "8",
+      "suit_slug": "curiosity",
+      "description": "rich inquiry, deep investigation fulfilled, collaborative intelligence flowering, reasons to be cheerful multiplying, curiosity abundant",
+      "meaning": {
+        "upright": "Nine of Curiosity: rich inquiry, deep investigation fulfilled, collaborative intelligence flowering, reasons to be cheerful multiplying, curiosity abundant",
+        "inverted": "Shadow of Nine of Curiosity: drowning in questions, inquiry without end, curiosity as avoidance"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering.",
+          "content_guidance": "Nine question marks in beautiful conversation, abundant investigation, rich collaborative wondering",
+          "detailed_description": "Nine of Curiosity: rich inquiry, deep investigation fulfilled, collaborative intelligence flowering, reasons to be cheerful multiplying, curiosity abundant. Nine question marks in beautiful conversation, abundant investigation, rich collaborative wondering. Style: Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering."
+        }
+      }
+    },
+    "curiosity-9": {
+      "name": "Ten of Curiosity",
+      "number": "10",
+      "slug": "curiosity-9",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "9",
+      "suit_slug": "curiosity",
+      "description": "inquiry at overflow, questions exhausted or exhausting, curiosity complete, investigation at its limit, time to move from asking to being",
+      "meaning": {
+        "upright": "Ten of Curiosity: inquiry at overflow, questions exhausted or exhausting, curiosity complete, investigation at its limit, time to move from asking to being",
+        "inverted": "Shadow of Ten of Curiosity: endless questioning, inquiry that never concludes, curiosity paralysis"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering.",
+          "content_guidance": "Ten question marks filling all space, inquiry at maximum, the point where wondering must transform",
+          "detailed_description": "Ten of Curiosity: inquiry at overflow, questions exhausted or exhausting, curiosity complete, investigation at its limit, time to move from asking to being. Ten question marks filling all space, inquiry at maximum, the point where wondering must transform. Style: Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering."
+        }
+      }
+    },
+    "curiosity-10": {
+      "name": "The Observer of Curiosity",
+      "number": "11",
+      "slug": "curiosity-10",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "10",
+      "suit_slug": "curiosity",
+      "description": "watching others ask, documenting inquiry, studying questions from outside, learning dialogue, witness to wondering",
+      "meaning": {
+        "upright": "The Observer of Curiosity: watching others ask, documenting inquiry, studying questions from outside, learning dialogue, witness to wondering",
+        "inverted": "Shadow of The Observer of Curiosity: observing instead of asking, curiosity about curiosity without engaging, permanent audience to inquiry"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering.",
+          "content_guidance": "A figure watching town hall meeting, documenting others' questions, studying dialogue without participating",
+          "detailed_description": "The Observer of Curiosity: watching others ask, documenting inquiry, studying questions from outside, learning dialogue, witness to wondering. A figure watching town hall meeting, documenting others' questions, studying dialogue without participating. Style: Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering."
+        }
+      }
+    },
+    "curiosity-11": {
+      "name": "The Pretender of Curiosity",
+      "number": "12",
+      "slug": "curiosity-11",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "11",
+      "suit_slug": "curiosity",
+      "description": "performing inquiry, theatrical questioning, confident wondering, the big question gesture, simulating genuine curiosity",
+      "meaning": {
+        "upright": "The Pretender of Curiosity: performing inquiry, theatrical questioning, confident wondering, the big question gesture, simulating genuine curiosity",
+        "inverted": "Shadow of The Pretender of Curiosity: questions as performance, fake curiosity, inquiry for show not understanding"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering.",
+          "content_guidance": "A figure making grand questioning gestures, dramatic presentation of inquiry, performing curiosity with audacity",
+          "detailed_description": "The Pretender of Curiosity: performing inquiry, theatrical questioning, confident wondering, the big question gesture, simulating genuine curiosity. A figure making grand questioning gestures, dramatic presentation of inquiry, performing curiosity with audacity. Style: Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering."
+        }
+      }
+    },
+    "curiosity-12": {
+      "name": "The Exile of Curiosity",
+      "number": "13",
+      "slug": "curiosity-12",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "12",
+      "suit_slug": "curiosity",
+      "description": "alone with hard questions, inquiry in isolation, wondering without community, confronting your own questioning, the questions that drove you out",
+      "meaning": {
+        "upright": "The Exile of Curiosity: alone with hard questions, inquiry in isolation, wondering without community, confronting your own questioning, the questions that drove you out",
+        "inverted": "Shadow of The Exile of Curiosity: refusing all questions, stuck in one inquiry, exile from dialogue"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering.",
+          "content_guidance": "A solitary figure with question marks in empty space, isolated inquiry, the hard reckoning with wondering alone",
+          "detailed_description": "The Exile of Curiosity: alone with hard questions, inquiry in isolation, wondering without community, confronting your own questioning, the questions that drove you out. A solitary figure with question marks in empty space, isolated inquiry, the hard reckoning with wondering alone. Style: Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering."
+        }
+      }
+    },
+    "curiosity-13": {
+      "name": "The Giant of Curiosity",
+      "number": "14",
+      "slug": "curiosity-13",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "13",
+      "suit_slug": "curiosity",
+      "description": "authentic inquiry leadership, convening questions, collaborative wondering, genuine civic curiosity, asking that elevates",
+      "meaning": {
+        "upright": "The Giant of Curiosity: authentic inquiry leadership, convening questions, collaborative wondering, genuine civic curiosity, asking that elevates",
+        "inverted": "Shadow of The Giant of Curiosity: interrogation disguised as curiosity, questions that dominate, inquiry as control"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering.",
+          "content_guidance": "A figure at full height facilitating dialogue with others visible, collaborative inquiry, genuine wondering together",
+          "detailed_description": "The Giant of Curiosity: authentic inquiry leadership, convening questions, collaborative wondering, genuine civic curiosity, asking that elevates. A figure at full height facilitating dialogue with others visible, collaborative inquiry, genuine wondering together. Style: Open, conversational compositions with text and imagery in dialogue, bright optimistic palettes with yellows and sky blues, infographics that invite rather than lecture, collaborative spaces and town halls. Images suggest asking and listening\u2014interviews, public forums, whiteboards mid-discussion, the posture of genuine wondering."
+        }
+      }
+    },
+    "dance-0": {
+      "name": "Ace of Dance",
+      "number": "1",
+      "slug": "dance-0",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "0",
+      "suit_slug": "dance",
+      "description": "the first move, pure movement potential, rhythm spark in the body, initial impulse to dance, the body says yes",
+      "meaning": {
+        "upright": "Ace of Dance: the first move, pure movement potential, rhythm spark in the body, initial impulse to dance, the body says yes",
+        "inverted": "Shadow of Ace of Dance: movement refused, body saying no, the dance that won't start"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove.",
+          "content_guidance": "A single gesture beginning, the first movement impulse, concentrated kinetic potential",
+          "detailed_description": "Ace of Dance: the first move, pure movement potential, rhythm spark in the body, initial impulse to dance, the body says yes. A single gesture beginning, the first movement impulse, concentrated kinetic potential. Style: Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove."
+        }
+      }
+    },
+    "dance-1": {
+      "name": "Two of Dance",
+      "number": "2",
+      "slug": "dance-1",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "1",
+      "suit_slug": "dance",
+      "description": "dancing together, movement dialogue, bodies in conversation, partner rhythm, the duet begins",
+      "meaning": {
+        "upright": "Two of Dance: dancing together, movement dialogue, bodies in conversation, partner rhythm, the duet begins",
+        "inverted": "Shadow of Two of Dance: dancers out of sync, movement clashing, partnership that doesn't flow"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove.",
+          "content_guidance": "Two bodies in motion together, mirroring or complementing, dance as dialogue",
+          "detailed_description": "Two of Dance: dancing together, movement dialogue, bodies in conversation, partner rhythm, the duet begins. Two bodies in motion together, mirroring or complementing, dance as dialogue. Style: Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove."
+        }
+      }
+    },
+    "dance-2": {
+      "name": "Three of Dance",
+      "number": "3",
+      "slug": "dance-2",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "2",
+      "suit_slug": "dance",
+      "description": "choreography emerging, group movement forming, dance becoming visible, three bodies one rhythm, collaboration in motion",
+      "meaning": {
+        "upright": "Three of Dance: choreography emerging, group movement forming, dance becoming visible, three bodies one rhythm, collaboration in motion",
+        "inverted": "Shadow of Three of Dance: dancers scattering, movement without cohesion, three that won't move together"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove.",
+          "content_guidance": "Three dancers finding formation, initial choreography, movement taking shape",
+          "detailed_description": "Three of Dance: choreography emerging, group movement forming, dance becoming visible, three bodies one rhythm, collaboration in motion. Three dancers finding formation, initial choreography, movement taking shape. Style: Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove."
+        }
+      }
+    },
+    "dance-3": {
+      "name": "Four of Dance",
+      "number": "4",
+      "slug": "dance-3",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "3",
+      "suit_slug": "dance",
+      "description": "choreography stable, movement established, the routine set, dance structure solid, four bodies grounded",
+      "meaning": {
+        "upright": "Four of Dance: choreography stable, movement established, the routine set, dance structure solid, four bodies grounded",
+        "inverted": "Shadow of Four of Dance: movement rigid, choreography as prison, dance without spontaneity, trapped in steps"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove.",
+          "content_guidance": "Four dancers in formation, stable choreography, movement structure that holds",
+          "detailed_description": "Four of Dance: choreography stable, movement established, the routine set, dance structure solid, four bodies grounded. Four dancers in formation, stable choreography, movement structure that holds. Style: Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove."
+        }
+      }
+    },
+    "dance-4": {
+      "name": "Five of Dance",
+      "number": "5",
+      "slug": "dance-4",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "4",
+      "suit_slug": "dance",
+      "description": "choreography disrupted, unexpected movement, dance challenged, improvisation forced, the pattern breaks",
+      "meaning": {
+        "upright": "Five of Dance: choreography disrupted, unexpected movement, dance challenged, improvisation forced, the pattern breaks",
+        "inverted": "Shadow of Five of Dance: chaotic motion, refusing improvisation, stuck at the break, dance falling apart"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove.",
+          "content_guidance": "Dancers encountering obstacle, choreography meeting disruption, the moment movement must adapt",
+          "detailed_description": "Five of Dance: choreography disrupted, unexpected movement, dance challenged, improvisation forced, the pattern breaks. Dancers encountering obstacle, choreography meeting disruption, the moment movement must adapt. Style: Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove."
+        }
+      }
+    },
+    "dance-5": {
+      "name": "Six of Dance",
+      "number": "6",
+      "slug": "dance-5",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "5",
+      "suit_slug": "dance",
+      "description": "movement restored, new choreography, improvisation integrated, dance flowing again, adapted rhythm",
+      "meaning": {
+        "upright": "Six of Dance: movement restored, new choreography, improvisation integrated, dance flowing again, adapted rhythm",
+        "inverted": "Shadow of Six of Dance: false harmony, movement forced, dance that papers over discord"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove.",
+          "content_guidance": "Dancers in new formation, choreography adapted, more complex movement restored",
+          "detailed_description": "Six of Dance: movement restored, new choreography, improvisation integrated, dance flowing again, adapted rhythm. Dancers in new formation, choreography adapted, more complex movement restored. Style: Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove."
+        }
+      }
+    },
+    "dance-6": {
+      "name": "Seven of Dance",
+      "number": "7",
+      "slug": "dance-6",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "6",
+      "suit_slug": "dance",
+      "description": "examining the movement, choreography review, choosing which dance, watching yourself move, crossroads of rhythm",
+      "meaning": {
+        "upright": "Seven of Dance: examining the movement, choreography review, choosing which dance, watching yourself move, crossroads of rhythm",
+        "inverted": "Shadow of Seven of Dance: self-consciousness stopping dance, analyzing instead of moving, paralyzed by watching"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove.",
+          "content_guidance": "A dancer watching themselves in mirrors, multiple choreographies visible, choosing which movement",
+          "detailed_description": "Seven of Dance: examining the movement, choreography review, choosing which dance, watching yourself move, crossroads of rhythm. A dancer watching themselves in mirrors, multiple choreographies visible, choosing which movement. Style: Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove."
+        }
+      }
+    },
+    "dance-7": {
+      "name": "Eight of Dance",
+      "number": "8",
+      "slug": "dance-7",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "7",
+      "suit_slug": "dance",
+      "description": "dance in full motion, choreography executed, I dance like this, movement mastery, embodied action",
+      "meaning": {
+        "upright": "Eight of Dance: dance in full motion, choreography executed, I dance like this, movement mastery, embodied action",
+        "inverted": "Shadow of Eight of Dance: mechanical movement, dance without feeling, motion for motion's sake"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove.",
+          "content_guidance": "Dancers in active transformation, choreography fully deployed, purposeful movement",
+          "detailed_description": "Eight of Dance: dance in full motion, choreography executed, I dance like this, movement mastery, embodied action. Dancers in active transformation, choreography fully deployed, purposeful movement. Style: Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove."
+        }
+      }
+    },
+    "dance-8": {
+      "name": "Nine of Dance",
+      "number": "9",
+      "slug": "dance-8",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "8",
+      "suit_slug": "dance",
+      "description": "dance fulfilled, choreography abundant, movement richness, bodies in full expression, rhythm satisfaction",
+      "meaning": {
+        "upright": "Nine of Dance: dance fulfilled, choreography abundant, movement richness, bodies in full expression, rhythm satisfaction",
+        "inverted": "Shadow of Nine of Dance: exhausted from dancing, too much movement, lost in the dance"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove.",
+          "content_guidance": "Nine dancers in complex harmony, abundant choreography, movement fully realized",
+          "detailed_description": "Nine of Dance: dance fulfilled, choreography abundant, movement richness, bodies in full expression, rhythm satisfaction. Nine dancers in complex harmony, abundant choreography, movement fully realized. Style: Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove."
+        }
+      }
+    },
+    "dance-9": {
+      "name": "Ten of Dance",
+      "number": "10",
+      "slug": "dance-9",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "9",
+      "suit_slug": "dance",
+      "description": "dance at overflow, movement beyond limit, choreography exhausted or exhausting, everybody's dancing, the finale",
+      "meaning": {
+        "upright": "Ten of Dance: dance at overflow, movement beyond limit, choreography exhausted or exhausting, everybody's dancing, the finale",
+        "inverted": "Shadow of Ten of Dance: can't stop moving, dance as compulsion, rhythm drowning, movement collapse"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove.",
+          "content_guidance": "Ten dancers filling all space, choreography at maximum, American Utopia finale energy",
+          "detailed_description": "Ten of Dance: dance at overflow, movement beyond limit, choreography exhausted or exhausting, everybody's dancing, the finale. Ten dancers filling all space, choreography at maximum, American Utopia finale energy. Style: Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove."
+        }
+      }
+    },
+    "dance-10": {
+      "name": "The Observer of Dance",
+      "number": "11",
+      "slug": "dance-10",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "10",
+      "suit_slug": "dance",
+      "description": "watching the dance, documenting movement, studying rhythm from outside, learning choreography, audience member",
+      "meaning": {
+        "upright": "The Observer of Dance: watching the dance, documenting movement, studying rhythm from outside, learning choreography, audience member",
+        "inverted": "Shadow of The Observer of Dance: never dancing only watching, movement analysis replacing participation, permanent wallflower"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove.",
+          "content_guidance": "A figure watching dancers, documenting choreography, studying movement without moving",
+          "detailed_description": "The Observer of Dance: watching the dance, documenting movement, studying rhythm from outside, learning choreography, audience member. A figure watching dancers, documenting choreography, studying movement without moving. Style: Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove."
+        }
+      }
+    },
+    "dance-11": {
+      "name": "The Pretender of Dance",
+      "number": "12",
+      "slug": "dance-11",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "11",
+      "suit_slug": "dance",
+      "description": "performing movement, theatrical dance, confident choreography, the big suit gesture, acting like you're dancing",
+      "meaning": {
+        "upright": "The Pretender of Dance: performing movement, theatrical dance, confident choreography, the big suit gesture, acting like you're dancing",
+        "inverted": "Shadow of The Pretender of Dance: dance as pure performance, movement without feeling, choreography that's all show"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove.",
+          "content_guidance": "A figure in oversized suit making dramatic dance moves, theatrical performance, movement with audacious confidence",
+          "detailed_description": "The Pretender of Dance: performing movement, theatrical dance, confident choreography, the big suit gesture, acting like you're dancing. A figure in oversized suit making dramatic dance moves, theatrical performance, movement with audacious confidence. Style: Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove."
+        }
+      }
+    },
+    "dance-12": {
+      "name": "The Exile of Dance",
+      "number": "13",
+      "slug": "dance-12",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "12",
+      "suit_slug": "dance",
+      "description": "dancing alone, movement in isolation, rhythm without community, confronting your own body, solo in the desert",
+      "meaning": {
+        "upright": "The Exile of Dance: dancing alone, movement in isolation, rhythm without community, confronting your own body, solo in the desert",
+        "inverted": "Shadow of The Exile of Dance: refusing to dance, stuck in one movement, exile from rhythm"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove.",
+          "content_guidance": "A solitary figure dancing in empty space, isolated movement, the hard reckoning with dancing alone",
+          "detailed_description": "The Exile of Dance: dancing alone, movement in isolation, rhythm without community, confronting your own body, solo in the desert. A solitary figure dancing in empty space, isolated movement, the hard reckoning with dancing alone. Style: Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove."
+        }
+      }
+    },
+    "dance-13": {
+      "name": "The Giant of Dance",
+      "number": "14",
+      "slug": "dance-13",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "13",
+      "suit_slug": "dance",
+      "description": "authentic movement power, choreographing with others, collaborative dance, genuine rhythm leadership, dancing together at full size",
+      "meaning": {
+        "upright": "The Giant of Dance: authentic movement power, choreographing with others, collaborative dance, genuine rhythm leadership, dancing together at full size",
+        "inverted": "Shadow of The Giant of Dance: dominating the dance floor, movement that crushes, choreography as control"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove.",
+          "content_guidance": "A figure at full height dancing with others visible, collaborative choreography, shared movement at authentic scale",
+          "detailed_description": "The Giant of Dance: authentic movement power, choreographing with others, collaborative dance, genuine rhythm leadership, dancing together at full size. A figure at full height dancing with others visible, collaborative choreography, shared movement at authentic scale. Style: Dynamic motion blur and vibrant colors, bodies in space together, layered choreographic patterns, warm reds, oranges, and golds with electric accents, energy and heat visible. Images suggest the experience of moving\u2014sweating dancers, bicycle wheels spinning, feet on stages, the view from inside the groove."
+        }
+      }
+    }
+  }
+}
