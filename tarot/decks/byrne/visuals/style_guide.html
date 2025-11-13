@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Byrne Journey Tarot - Visual Style Guide</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #f5f5f5;
+            color: #333;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.2em;
+            color: #2c3e50;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 2em;
+            margin-bottom: 0.5em;
+            color: #34495e;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 0.3em;
+        }
+        h3 {
+            font-size: 1.3em;
+            margin-top: 1.5em;
+            color: #555;
+        }
+        .intro {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin: 20px 0;
+            display: block;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+        .card-item {
+            text-align: center;
+        }
+        .card-item h4 {
+            margin-top: 10px;
+            color: #555;
+        }
+        .note {
+            background: #fff8dc;
+            border-left: 4px solid #f39c12;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .symbols {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .symbol-item {
+            text-align: center;
+            flex: 0 1 200px;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Byrne Journey Tarot</h1>
+    <div class="intro">
+        <h2>Visual Style Guide</h2>
+        <p>
+            This style guide establishes the visual identity for the Byrne Journey Tarot deck.
+            It documents color palettes, visual approaches, and reusable elements while allowing
+            each card to be uniquely interpreted.
+        </p>
+        <p>
+            <strong>Theme:</strong> David Byrne's evolution from anxious observation (early Talking Heads)
+            to embodied joy and civic participation (American Utopia era). The visual language
+            progresses from cool/static/geometric to warm/dynamic/organic.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Major Arcana: Color Progression</h2>
+        <p>
+            The Major Arcana (22 cards, numbered 0-21) follows a color journey from cool documentary
+            grays and blues to warm, vibrant oranges and reds. This mirrors Byrne's artistic evolution.
+        </p>
+        <img src="major_arcana_progression.png" alt="Major Arcana Color Progression">
+
+        <h3>Early Era (Cards 0-7)</h3>
+        <p>
+            <strong>Aesthetic:</strong> Cool palettes, static compositions, documentary feel<br>
+            <strong>Reference:</strong> Talking Heads 77, Fear of Music, Remain in Light (early)<br>
+            <strong>Themes:</strong> Observation, alienation, anxious self-awareness, systems as comfort
+        </p>
+        <img src="palette_early.png" alt="Early Era Palette">
+
+        <h3>Middle Era (Cards 8-14)</h3>
+        <p>
+            <strong>Aesthetic:</strong> Transitional, warmer tones emerging, more complexity<br>
+            <strong>Reference:</strong> Remain in Light (late), Speaking in Tongues, world music collaborations<br>
+            <strong>Themes:</strong> Discovery, polyrhythm, beginning to connect, systems observed in motion
+        </p>
+        <img src="palette_middle.png" alt="Middle Era Palette">
+
+        <h3>Late Era (Cards 15-21)</h3>
+        <p>
+            <strong>Aesthetic:</strong> Warm, vibrant, dynamic, embodied<br>
+            <strong>Reference:</strong> American Utopia, civic engagement, optimistic collaboration<br>
+            <strong>Themes:</strong> Joy, presence, collective movement, sincere participation
+        </p>
+        <img src="palette_late.png" alt="Late Era Palette">
+    </div>
+
+    <div class="section">
+        <h2>Minor Arcana: Suit Visual Languages</h2>
+        <p>
+            Each suit represents a distinct visual world with its own complete aesthetic.
+            These are not variations on a theme—they are separate approaches to seeing.
+        </p>
+
+        <div class="card-grid">
+            <div class="card-item">
+                <h3>Structures</h3>
+                <img src="palette_structures.png" alt="Structures Palette">
+                <img src="example_structures.png" alt="Structures Example">
+                <p>
+                    <strong>Keywords:</strong> Observation, analysis, blueprints, containment<br>
+                    <strong>Visual Style:</strong> Clean geometric compositions, architectural drawings,
+                    grids, measured spaces, documentation aesthetic
+                </p>
+            </div>
+
+            <div class="card-item">
+                <h3>Rivers</h3>
+                <img src="palette_rivers.png" alt="Rivers Palette">
+                <img src="example_rivers.png" alt="Rivers Example">
+                <p>
+                    <strong>Keywords:</strong> Cycles, patterns, rhythm, natural systems<br>
+                    <strong>Visual Style:</strong> Organic patterns, polyrhythmic layering,
+                    warm earth tones, systems in motion viewed from above
+                </p>
+            </div>
+
+            <div class="card-item">
+                <h3>Curiosity</h3>
+                <img src="palette_curiosity.png" alt="Curiosity Palette">
+                <img src="example_curiosity.png" alt="Curiosity Example">
+                <p>
+                    <strong>Keywords:</strong> Inquiry, civic engagement, dialogue, reasons to be cheerful<br>
+                    <strong>Visual Style:</strong> Bright optimistic palettes (yellows, sky blues),
+                    conversational compositions, open inviting spaces
+                </p>
+            </div>
+
+            <div class="card-item">
+                <h3>Dance</h3>
+                <img src="palette_dance.png" alt="Dance Palette">
+                <img src="example_dance.png" alt="Dance Example">
+                <p>
+                    <strong>Keywords:</strong> Embodied joy, collective movement, groove, presence<br>
+                    <strong>Visual Style:</strong> Dynamic motion, vibrant warm colors (reds, oranges, golds),
+                    energy and heat visible, the view from inside the groove
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Suit Symbols</h2>
+        <p>
+            Each suit has a symbol that can be incorporated into cards as needed.
+            These can be rendered in different styles and scales depending on the card.
+        </p>
+
+        <div class="symbols">
+            <div class="symbol-item">
+                <img src="symbol_structures.png" alt="Structures Symbol">
+                <h4>Structures</h4>
+                <p>Simple house with triangular roof</p>
+            </div>
+            <div class="symbol-item">
+                <img src="symbol_rivers.png" alt="Rivers Symbol">
+                <h4>Rivers</h4>
+                <p>Vertical flowing water</p>
+            </div>
+            <div class="symbol-item">
+                <img src="symbol_curiosity.png" alt="Curiosity Symbol">
+                <h4>Curiosity</h4>
+                <p>Question mark</p>
+            </div>
+            <div class="symbol-item">
+                <img src="symbol_dance.png" alt="Dance Symbol">
+                <h4>Dance</h4>
+                <p>Dancing figure</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Reusable Visual Elements</h2>
+        <p>
+            These are example implementations showing how certain visual concepts might be rendered.
+            Each card will interpret these concepts uniquely, but these provide reference points.
+        </p>
+
+        <h3>Figure Variations</h3>
+        <p>
+            Figures can be rendered with different postures and at different scales.
+            These examples show the <em>concept</em> of posture variation, not fixed templates.
+        </p>
+        <img src="figure_examples.png" alt="Figure Examples">
+
+        <div class="note">
+            <strong>Note on Reusability:</strong> The visual toolkit provides helper functions for
+            common tasks (drawing grids, flow patterns, figures, buildings), but each card should
+            use these as <em>starting points</em> for unique compositions. Think of these as an
+            artist's reference sketches, not as clip-art to assemble.
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Using This Style Guide</h2>
+        <p>
+            When creating a card:
+        </p>
+        <ol>
+            <li>Read the card's meaning and visual instructions from the deck JSON</li>
+            <li>Reference this style guide to understand:
+                <ul>
+                    <li>Which color palette to use (major arcana number or suit)</li>
+                    <li>What visual style is appropriate</li>
+                    <li>What reusable elements might be helpful</li>
+                </ul>
+            </li>
+            <li>Use the toolkit (<code>byrne_visual_toolkit.py</code>) as a helper library</li>
+            <li>Create a unique composition interpreting the card's specific meaning</li>
+        </ol>
+
+        <div class="note">
+            <strong>Remember:</strong> This is a <em>visual vocabulary</em>, not a template system.
+            Each card should feel cohesive with the deck while being uniquely interpreted.
+        </div>
+    </div>
+
+</body>
+</html>
