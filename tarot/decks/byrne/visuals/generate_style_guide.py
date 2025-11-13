@@ -150,33 +150,235 @@ def generate_suit_examples():
     return examples
 
 
-def generate_figure_examples():
-    """Show figure variations"""
+def generate_figure_postures():
+    """Show various postures"""
+    width = 1200
+    height = 420
+    img = Image.new('RGB', (width, height), (240, 240, 240))
+    draw = ImageDraw.Draw(img)
+
+    draw.text((10, 10), "Posture Variations", fill=(0, 0, 0))
+
+    postures = ['neutral', 'awkward', 'observing', 'moving']
+    for i, posture in enumerate(postures):
+        x = 150 + i * 280
+
+        # Background
+        draw.rectangle([x - 100, 50, x + 100, 400], fill=(200, 210, 220))
+
+        # Figure
+        bvt.example_figure_simple(img, x, 380, bvt.MajorArcanaColors.EARLY,
+                                  posture=posture, scale=1.3)
+
+        # Label
+        draw.text((x - len(posture)*4, 400), posture, fill=(0, 0, 0))
+
+    return img
+
+
+def generate_figure_scales():
+    """Show scale/distance variations"""
     width = 1000
     height = 420
     img = Image.new('RGB', (width, height), (240, 240, 240))
     draw = ImageDraw.Draw(img)
 
-    # Draw title
-    draw.text((10, 10), "Figure Examples (showing posture variations)", fill=(0, 0, 0))
+    draw.text((10, 10), "Scale Variations (distance/presence)", fill=(0, 0, 0))
 
-    # Show 3 different postures
-    postures = ['neutral', 'awkward', 'moving']
-    for i, posture in enumerate(postures):
-        x = 150 + i * 300
+    # Small/distant figure (observed)
+    draw.text((80, 50), "Distant/Observed", fill=(60, 60, 60))
+    draw.rectangle([50, 80, 250, 400], fill=(200, 210, 220))
+    bvt.example_figure_simple(img, 150, 380, bvt.MajorArcanaColors.EARLY,
+                              posture='neutral', scale=0.5)
 
-        # Create a small scene
-        canvas_section = (x - 100, 50, x + 100, 400)
+    # Medium figure
+    draw.text((380, 50), "Medium", fill=(60, 60, 60))
+    draw.rectangle([320, 80, 520, 400], fill=(200, 210, 220))
+    bvt.example_figure_simple(img, 420, 380, bvt.MajorArcanaColors.MIDDLE,
+                              posture='neutral', scale=1.0)
 
-        # Background
-        draw.rectangle(canvas_section, fill=(200, 210, 220))
+    # Large/present figure
+    draw.text((680, 50), "Present/Engaged", fill=(60, 60, 60))
+    draw.rectangle([600, 80, 900, 400], fill=(200, 210, 220))
+    bvt.example_figure_simple(img, 750, 380, bvt.MajorArcanaColors.LATE,
+                              posture='moving', scale=1.8)
 
-        # Figure using early palette as example
-        bvt.example_figure_simple(img, x, 380, bvt.MajorArcanaColors.EARLY,
-                                  posture=posture, scale=1.3)
+    return img
 
-        # Label
-        draw.text((x - 30, 400), posture, fill=(0, 0, 0))
+
+def generate_byrne_big_suit():
+    """Show the Big Suit Byrne character"""
+    width = 800
+    height = 500
+    img = Image.new('RGB', (width, height), (240, 240, 240))
+    draw = ImageDraw.Draw(img)
+
+    draw.text((10, 10), "The Big Suit - Byrne Character", fill=(0, 0, 0))
+
+    # Early Byrne (stiff, anxious)
+    draw.text((100, 50), "Early: Stiff/Anxious", fill=(60, 60, 60))
+    draw.rectangle([60, 80, 280, 480], fill=(200, 210, 220))
+
+    # Head
+    head_x, head_y = 170, 140
+    draw.ellipse([head_x-15, head_y, head_x+15, head_y+30],
+                 fill=bvt.MajorArcanaColors.EARLY['secondary'])
+
+    # The BIG SUIT - oversized boxy jacket
+    jacket_color = (70, 80, 90)
+    # Very wide shoulders
+    draw.rectangle([head_x-60, head_y+28, head_x+60, head_y+180], fill=jacket_color)
+    # Angular shoulders
+    draw.polygon([
+        (head_x-60, head_y+28), (head_x-85, head_y+50),
+        (head_x-85, head_y+120), (head_x-60, head_y+120)
+    ], fill=jacket_color)
+    draw.polygon([
+        (head_x+60, head_y+28), (head_x+85, head_y+50),
+        (head_x+85, head_y+120), (head_x+60, head_y+120)
+    ], fill=jacket_color)
+    # Legs (thin in contrast to big suit)
+    draw.rectangle([head_x-25, head_y+180, head_x-10, head_y+320],
+                   fill=bvt.MajorArcanaColors.EARLY['shadow'])
+    draw.rectangle([head_x+10, head_y+180, head_x+25, head_y+320],
+                   fill=bvt.MajorArcanaColors.EARLY['shadow'])
+
+    # Late Byrne (loose, dancing)
+    draw.text((500, 50), "Late: Loose/Dancing", fill=(60, 60, 60))
+    draw.rectangle([460, 80, 680, 480], fill=(220, 200, 180))
+
+    # Head
+    head_x, head_y = 570, 140
+    draw.ellipse([head_x-15, head_y, head_x+15, head_y+30],
+                 fill=bvt.MajorArcanaColors.LATE['secondary'])
+
+    # The BIG SUIT - but flowing, in motion
+    jacket_color = (200, 100, 80)
+    # Body tilted, dynamic
+    # Left side of jacket
+    draw.polygon([
+        (head_x-50, head_y+28), (head_x-80, head_y+60),
+        (head_x-70, head_y+180), (head_x-40, head_y+175)
+    ], fill=jacket_color)
+    # Right side
+    draw.polygon([
+        (head_x+50, head_y+28), (head_x+75, head_y+55),
+        (head_x+85, head_y+170), (head_x+50, head_y+180)
+    ], fill=jacket_color)
+    # Main body
+    draw.polygon([
+        (head_x-40, head_y+30), (head_x+40, head_y+30),
+        (head_x+50, head_y+180), (head_x-40, head_y+175)
+    ], fill=jacket_color)
+    # Arms spread (conducting/dancing)
+    draw.line([(head_x-35, head_y+60), (head_x-90, head_y+40)],
+              fill=jacket_color, width=15)
+    draw.line([(head_x+35, head_y+65), (head_x+100, head_y+100)],
+              fill=jacket_color, width=15)
+    # Legs in motion
+    draw.line([(head_x-15, head_y+180), (head_x-35, head_y+320)],
+              fill=bvt.MajorArcanaColors.LATE['shadow'], width=18)
+    draw.line([(head_x+15, head_y+180), (head_x+45, head_y+315)],
+              fill=bvt.MajorArcanaColors.LATE['shadow'], width=18)
+
+    return img
+
+
+def generate_crowd_examples():
+    """Show different crowd/group representations"""
+    width = 1000
+    height = 500
+    img = Image.new('RGB', (width, height), (240, 240, 240))
+    draw = ImageDraw.Draw(img)
+
+    draw.text((10, 10), "Crowd/Group Representations", fill=(0, 0, 0))
+
+    # Geometric/observed crowd (early)
+    draw.text((70, 50), "Geometric Pattern (Early)", fill=(60, 60, 60))
+    draw.rectangle([40, 80, 310, 240], fill=(200, 210, 220))
+
+    # Grid of identical small figures
+    for row in range(4):
+        for col in range(6):
+            x = 65 + col * 40
+            y = 220 - row * 35
+            # Tiny identical figures
+            draw.ellipse([x-3, y-20, x+3, y-14],
+                        fill=bvt.MajorArcanaColors.EARLY['primary'])
+            draw.rectangle([x-4, y-14, x+4, y],
+                          fill=bvt.MajorArcanaColors.EARLY['secondary'])
+
+    # Abstract/dots crowd
+    draw.text((370, 50), "Abstract/Distant", fill=(60, 60, 60))
+    draw.rectangle([340, 80, 610, 240], fill=(200, 210, 220))
+
+    # Dots and shapes suggesting crowd
+    import random
+    random.seed(42)  # Consistent generation
+    for i in range(40):
+        x = 360 + random.randint(0, 230)
+        y = 100 + random.randint(0, 120)
+        size = random.randint(3, 8)
+        draw.ellipse([x-size, y-size, x+size, y+size],
+                    fill=bvt.MajorArcanaColors.MIDDLE['secondary'])
+
+    # Organic/varied crowd (late)
+    draw.text((680, 50), "Varied Community (Late)", fill=(60, 60, 60))
+    draw.rectangle([650, 80, 960, 240], fill=(220, 200, 180))
+
+    # Different sized figures, varied
+    crowd_positions = [(700, 220), (740, 215), (780, 225), (820, 210),
+                       (860, 220), (900, 215)]
+    crowd_scales = [0.6, 0.7, 0.55, 0.65, 0.6, 0.7]
+    for (cx, cy), scale in zip(crowd_positions, crowd_scales):
+        bvt.example_figure_simple(img, cx, cy, bvt.MajorArcanaColors.LATE,
+                                  posture='moving', scale=scale)
+
+    # Detail level examples
+    draw.text((70, 270), "Detail Levels", fill=(60, 60, 60))
+
+    # Silhouette
+    draw.text((100, 300), "Silhouette", fill=(60, 60, 60))
+    draw.rectangle([60, 330, 200, 480], fill=(200, 210, 220))
+    # Simple filled shape
+    shadow = bvt.MajorArcanaColors.EARLY['shadow']
+    draw.ellipse([120, 360, 140, 380], fill=shadow)
+    draw.polygon([(130, 380), (115, 395), (115, 455), (145, 455), (145, 395)], fill=shadow)
+
+    # Simple (what we've been using)
+    draw.text((280, 300), "Simple", fill=(60, 60, 60))
+    draw.rectangle([240, 330, 380, 480], fill=(200, 210, 220))
+    bvt.example_figure_simple(img, 310, 465, bvt.MajorArcanaColors.MIDDLE,
+                              posture='neutral', scale=1.0)
+
+    # More detailed
+    draw.text((450, 300), "More Defined", fill=(60, 60, 60))
+    draw.rectangle([420, 330, 560, 480], fill=(200, 210, 220))
+    # Head with more detail
+    head_x, head_y = 490, 375
+    draw.ellipse([head_x-12, head_y, head_x+12, head_y+24],
+                fill=bvt.MajorArcanaColors.LATE['accent'])
+    # Face hint (eyes)
+    draw.line([(head_x-6, head_y+10), (head_x-4, head_y+10)],
+             fill=bvt.MajorArcanaColors.LATE['shadow'], width=2)
+    draw.line([(head_x+4, head_y+10), (head_x+6, head_y+10)],
+             fill=bvt.MajorArcanaColors.LATE['shadow'], width=2)
+    # Body with more structure
+    draw.polygon([
+        (head_x, head_y+24), (head_x-18, head_y+40),
+        (head_x-20, head_y+75), (head_x+20, head_y+75),
+        (head_x+18, head_y+40)
+    ], fill=bvt.MajorArcanaColors.LATE['secondary'])
+    # Arms
+    draw.line([(head_x-15, head_y+45), (head_x-30, head_y+70)],
+             fill=bvt.MajorArcanaColors.LATE['secondary'], width=8)
+    draw.line([(head_x+15, head_y+45), (head_x+25, head_y+72)],
+             fill=bvt.MajorArcanaColors.LATE['secondary'], width=8)
+    # Legs
+    draw.line([(head_x-8, head_y+75), (head_x-10, head_y+130)],
+             fill=bvt.MajorArcanaColors.LATE['primary'], width=10)
+    draw.line([(head_x+8, head_y+75), (head_x+12, head_y+130)],
+             fill=bvt.MajorArcanaColors.LATE['primary'], width=10)
 
     return img
 
@@ -279,10 +481,22 @@ def main():
     for suit_name, img in symbols.items():
         img.save(os.path.join(OUTPUT_DIR, f'symbol_{suit_name}.png'))
 
-    # 6. Figure examples
-    print("  - Figure variations...")
-    figures = generate_figure_examples()
-    figures.save(os.path.join(OUTPUT_DIR, 'figure_examples.png'))
+    # 6. Figure examples (multiple images)
+    print("  - Figure postures...")
+    fig_postures = generate_figure_postures()
+    fig_postures.save(os.path.join(OUTPUT_DIR, 'figure_postures.png'))
+
+    print("  - Figure scales...")
+    fig_scales = generate_figure_scales()
+    fig_scales.save(os.path.join(OUTPUT_DIR, 'figure_scales.png'))
+
+    print("  - Byrne big suit...")
+    byrne_suit = generate_byrne_big_suit()
+    byrne_suit.save(os.path.join(OUTPUT_DIR, 'byrne_big_suit.png'))
+
+    print("  - Crowd examples...")
+    crowds = generate_crowd_examples()
+    crowds.save(os.path.join(OUTPUT_DIR, 'crowd_examples.png'))
 
     # 7. Common visual elements
     print("  - Common visual elements...")
@@ -595,9 +809,25 @@ def generate_html():
             <li>Varied figures together = genuine community</li>
         </ul>
 
-        <h3>Figure Examples</h3>
-        <img src="figure_examples.png" alt="Figure Examples">
-        <p><em>These show posture concepts, not fixed templates. Each card will render figures uniquely.</em></p>
+        <h3>Posture Variations</h3>
+        <img src="figure_postures.png" alt="Figure Postures">
+        <p>Different postures communicate different states: neutral, awkward/anxious, observing, moving/dancing.</p>
+
+        <h3>Scale and Presence</h3>
+        <img src="figure_scales.png" alt="Figure Scales">
+        <p>Scale indicates relationship to the scene. Small/distant = observed from outside; large/present = engaged and embodied.</p>
+
+        <h3>The Big Suit - Byrne as Character</h3>
+        <img src="byrne_big_suit.png" alt="Byrne Big Suit">
+        <p>When Byrne appears as a character, the oversized boxy jacket is the key identifier. Early cards show it stiff and angular; late cards show it flowing and dynamic.</p>
+
+        <h3>Crowds and Groups</h3>
+        <img src="crowd_examples.png" alt="Crowd Examples">
+        <p>Multiple ways to represent groups: geometric patterns (observed), abstract dots (distant), varied figures (community), and different detail levels (silhouette to defined).</p>
+
+        <div class="note">
+            <strong>Important:</strong> These examples show the <em>range of possibilities</em>, not templates to copy. Each card should select appropriate approaches based on its specific meaning and suit aesthetic.
+        </div>
     </div>
 
     <div class="section">
@@ -642,7 +872,7 @@ def generate_html():
             <div class="card-item">
                 <h4>Aerial View</h4>
                 <img src="setting_aerial.png" alt="Aerial View">
-                <p>Looking down on patterns, detached observation, systems visible.<br>
+                <p>Looking down from above: nature (greens, blues) intersecting with sparse human structures. Detached observation of the relationship between natural and built.<br>
                 <strong>Used in:</strong> Early-mid cards, "The Big Country"</p>
             </div>
 

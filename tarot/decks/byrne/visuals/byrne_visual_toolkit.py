@@ -341,14 +341,16 @@ def render_suit_symbol_curiosity(size=64):
     color = SuitColors.CURIOSITY['primary']
     s = size / 100
 
-    # Question mark - proper curve shape
-    # Top curve (like a backward C)
-    draw.arc([35*s, 15*s, 65*s, 45*s], 0, 270, fill=color, width=int(10*s))
-    # Vertical stem coming down from curve
-    draw.line([(50*s, 45*s), (50*s, 65*s)], fill=color, width=int(10*s))
+    # Question mark - proper hook shape
+    # The hook curves from lower-right, up and around, to lower-left
+    # Arc goes counter-clockwise from 340° (lower right) through top to 200° (lower left)
+    draw.arc([35*s, 15*s, 65*s, 50*s], 340, 200, fill=color, width=int(10*s))
+
+    # Vertical stem coming down from the bottom-right of the hook
+    draw.line([(62*s, 42*s), (62*s, 65*s)], fill=color, width=int(10*s))
 
     # Dot at bottom
-    draw.ellipse([44*s, 73*s, 56*s, 85*s], fill=color)
+    draw.ellipse([56*s, 73*s, 68*s, 85*s], fill=color)
 
     return img
 
@@ -563,9 +565,10 @@ PERFORMANCE STAGE:
 - Used in: Late cards, Dance suit
 
 AERIAL VIEW (detached observation):
-- Looking down on patterns
-- Geographic/map-like
-- Small figures, large systems visible
+- Looking down from above
+- Nature (greens, blues) intersecting with human structures
+- The Big Country: grid-free nature + sparse human habitation
+- Detached observation of natural and built systems
 - Used in: Early-mid cards, "The Big Country"
 
 INTERIOR DOMESTIC:
@@ -616,12 +619,37 @@ def generate_setting_example(setting_type, palette):
         example_stage_elements(draw, 40, CARD_HEIGHT - 150, CARD_WIDTH - 80, palette)
 
     elif setting_type == 'aerial':
-        # Grid pattern suggesting map/overview
-        example_grid_structure(draw, (20, 20, CARD_WIDTH - 20, CARD_HEIGHT - 20),
-                             palette, style='blueprint')
-        # Some geometric shapes suggesting buildings/features from above
-        draw.rectangle([60, 100, 120, 180], fill=palette.get('secondary', (120, 120, 120)))
-        draw.rectangle([150, 150, 200, 250], fill=palette.get('secondary', (120, 120, 120)))
+        # The Big Country - nature + human habitation from above
+        # Natural greens and blues with geometric human structures
+
+        # Sky/background - pale blue
+        for y in range(CARD_HEIGHT):
+            t = y / CARD_HEIGHT
+            r = int(180 + (140 - 180) * t)
+            g = int(200 + (170 - 200) * t)
+            b = int(220 + (160 - 220) * t)
+            draw.line([(0, y), (CARD_WIDTH, y)], fill=(r, g, b))
+
+        # Natural landscape patches (greens)
+        draw.ellipse([30, 80, 140, 180], fill=(120, 160, 100))
+        draw.ellipse([160, 140, 260, 260], fill=(100, 145, 85))
+
+        # River or water (blue)
+        flow_points = []
+        for x in range(0, CARD_WIDTH, 5):
+            y_center = 200 + 30 * math.sin(x / 40)
+            flow_points.append((x, y_center - 15))
+        for x in range(CARD_WIDTH, 0, -5):
+            y_center = 200 + 30 * math.sin(x / 40)
+            flow_points.append((x, y_center + 15))
+        draw.polygon(flow_points, fill=(90, 140, 180))
+
+        # Human structures (geometric, sparse)
+        draw.rectangle([60, 120, 85, 150], fill=palette.get('secondary', (120, 120, 120)))
+        draw.rectangle([180, 200, 200, 225], fill=palette.get('secondary', (120, 120, 120)))
+        # Road/grid (sparse, intersecting with nature)
+        draw.line([(0, 100), (CARD_WIDTH, 100)], fill=(140, 140, 140), width=3)
+        draw.line([(100, 0), (100, CARD_HEIGHT)], fill=(140, 140, 140), width=3)
 
     elif setting_type == 'interior':
         # Room frame
