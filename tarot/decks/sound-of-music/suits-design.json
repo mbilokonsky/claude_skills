@@ -1,0 +1,128 @@
+{
+  "dialectics": {
+    "primary": {
+      "thesis": "Authenticity",
+      "antithesis": "Instrumentality",
+      "description": "Genuine expression vs. strategic action"
+    },
+    "secondary": {
+      "thesis": "Creation",
+      "antithesis": "Transmission",
+      "description": "Bringing new into being vs. passing forward what exists"
+    }
+  },
+  "suits": {
+    "songs": {
+      "name": "Songs",
+      "quadrant": "Authentic/Creative",
+      "symbol": {
+        "name": "Musical note bursting into birds",
+        "description": "A musical note with birds emerging from it, representing spontaneous expression taking flight",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"28\" cy=\"75\" rx=\"18\" ry=\"12\" fill=\"currentColor\"/><rect x=\"44\" y=\"30\" width=\"6\" height=\"45\" fill=\"currentColor\"/><path d=\"M 55 35 Q 58 32, 62 35 Q 65 32, 68 35\" stroke=\"currentColor\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M 60 25 Q 64 22, 68 25 Q 72 22, 76 25\" stroke=\"currentColor\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M 65 15 Q 70 12, 75 15 Q 80 12, 85 15\" stroke=\"currentColor\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/></svg>"
+      },
+      "meanings": {
+        "upright": [
+          "Spontaneous expression",
+          "Joy made audible",
+          "Finding your voice",
+          "Creative breakthrough",
+          "Genuine self-discovery",
+          "The hills are alive"
+        ],
+        "inverted": [
+          "Earworm obsession",
+          "Plagiarized expression",
+          "Voice becomes noise",
+          "Creative possession/madness",
+          "Song you can't escape",
+          "Mimicry without understanding"
+        ]
+      },
+      "visual_style": "Bright, airy watercolor washes in alpine meadow colors (sky blues, grass greens, wildflower yellows and pinks). Loose, flowing compositions with movement and wind. Light-drenched, impressionistic. The aesthetic of being outdoors, spinning with arms wide. Think Julie Andrews on the mountainside - pure, uncontained joy."
+    },
+    "mountains": {
+      "name": "Mountains",
+      "quadrant": "Authentic/Transmissive",
+      "symbol": {
+        "name": "Alpine peaks",
+        "description": "Three mountain peaks representing ancient enduring wisdom",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><mask id=\"mountain-mask\"><rect width=\"100\" height=\"100\" fill=\"white\"/><path d=\"M 30 30 L 35 25 L 40 30 L 35 35 Z\" fill=\"black\"/><path d=\"M 60 20 L 65 15 L 70 20 L 65 25 Z\" fill=\"black\"/><path d=\"M 75 40 L 80 35 L 85 40 L 80 45 Z\" fill=\"black\"/></mask></defs><path d=\"M 10 85 L 35 25 L 50 55 L 65 15 L 80 45 L 90 85 Z\" fill=\"currentColor\" mask=\"url(#mountain-mask)\"/></svg>"
+      },
+      "meanings": {
+        "upright": [
+          "Ancient wisdom",
+          "Enduring truth",
+          "Natural guidance",
+          "Songs sung for a thousand years",
+          "The path forward (escape route)",
+          "Climb every mountain"
+        ],
+        "inverted": [
+          "Insurmountable barrier",
+          "Prison walls of stone",
+          "Isolating distance",
+          "Ancient grudges inherited",
+          "Weight of tradition crushing",
+          "Too high to climb"
+        ]
+      },
+      "visual_style": "Solid, monumental compositions in weathered stone grays, deep earth browns, snow whites, and distant blue-grays. Strong vertical elements, sense of scale and permanence. Romanticist landscape tradition - Caspar David Friedrich, sublime and enduring. The aesthetic of geological time, of things that were here before us and will remain after."
+    },
+    "puppets": {
+      "name": "Puppets",
+      "quadrant": "Instrumental/Creative",
+      "symbol": {
+        "name": "Marionette control bar",
+        "description": "A puppet control bar with strings, representing skillful craft or manipulation",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"25\" y=\"20\" width=\"50\" height=\"8\" rx=\"2\" fill=\"currentColor\"/><rect x=\"47\" y=\"15\" width=\"6\" height=\"18\" rx=\"1\" fill=\"currentColor\"/><line x1=\"30\" y1=\"28\" x2=\"25\" y2=\"75\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"50\" y1=\"28\" x2=\"45\" y2=\"75\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"50\" y1=\"28\" x2=\"55\" y2=\"75\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"70\" y1=\"28\" x2=\"75\" y2=\"75\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"75\" r=\"3\" fill=\"currentColor\"/><circle cx=\"45\" cy=\"75\" r=\"3\" fill=\"currentColor\"/><circle cx=\"55\" cy=\"75\" r=\"3\" fill=\"currentColor\"/><circle cx=\"75\" cy=\"75\" r=\"3\" fill=\"currentColor\"/></svg>"
+      },
+      "meanings": {
+        "upright": [
+          "Skillful craft",
+          "Teaching through art",
+          "Strategic staging",
+          "The Lonely Goatherd (puppet show)",
+          "Choreographed beauty",
+          "Purposeful creation"
+        ],
+        "inverted": [
+          "Propaganda machinery",
+          "Manufactured consent",
+          "Humans as puppets",
+          "Agency removed",
+          "Fascist orchestration",
+          "Dancing on command"
+        ]
+      },
+      "visual_style": "Theatrical lighting - sharp contrasts between spotlight and shadow, rich jewel tones (deep reds, golds, purples) against black backgrounds. Stagecraft aesthetic - visible strings, dramatic angles, exaggerated gestures. Art Deco meets German Expressionist theater. The aesthetic of constructed spectacle, whether charming or sinister."
+    },
+    "whistles": {
+      "name": "Whistles",
+      "quadrant": "Instrumental/Transmissive",
+      "symbol": {
+        "name": "Naval boatswain's whistle",
+        "description": "A ship's whistle representing discipline, order, and transmitted structure",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><mask id=\"whistle-mask\"><rect width=\"100\" height=\"100\" fill=\"white\"/><circle cx=\"55\" cy=\"50\" r=\"8\" fill=\"black\"/></mask></defs><ellipse cx=\"55\" cy=\"50\" rx=\"25\" ry=\"18\" fill=\"currentColor\" mask=\"url(#whistle-mask)\"/><rect x=\"10\" y=\"45\" width=\"30\" height=\"10\" rx=\"3\" fill=\"currentColor\"/><circle cx=\"75\" cy=\"45\" r=\"4\" fill=\"currentColor\"/></svg>"
+      },
+      "meanings": {
+        "upright": [
+          "Necessary discipline",
+          "Protective structure",
+          "Training and order",
+          "Clear communication",
+          "Institutional wisdom",
+          "Safety through rules"
+        ],
+        "inverted": [
+          "Rigid oppression",
+          "Rules crushing life",
+          "Bureaucratic tyranny",
+          "Fascist control",
+          "The Anschluss",
+          "Whistle becomes scream"
+        ]
+      },
+      "visual_style": "Precise, geometric compositions in naval and institutional colors - navy blues, crisp whites, polished brass, iron grays. Clean lines, symmetry, regimentation. The aesthetic of uniforms, insignia, architectural plans. Bauhaus clarity that can tip into authoritarian coldness. Images suggest both protective order and potential oppression."
+    }
+  }
+}
