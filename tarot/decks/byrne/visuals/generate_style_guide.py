@@ -858,7 +858,7 @@ def generate_html():
             <div class="card-item">
                 <h4>City Street</h4>
                 <img src="setting_city_street.png" alt="City Street">
-                <p>Urban observation, geometric perspective, people as patterns.<br>
+                <p>Suggestive container showing urban context. Buildings frame edges, leaving center open for figures and action. Sky, ground, architectural hints.<br>
                 <strong>Used in:</strong> Early cards, Structures suit</p>
             </div>
 

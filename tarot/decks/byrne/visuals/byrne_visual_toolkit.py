@@ -551,10 +551,10 @@ def example_doorway_threshold(draw, x, y, width, height, palette):
 COMMON SETTINGS IN THE BYRNE JOURNEY TAROT
 
 CITY STREET (urban observation):
-- Buildings framing sides
-- Geometric perspective
-- Pavement/sidewalk
-- People as patterns or individuals
+- SUGGESTIVE container, not literal scene
+- Buildings partially frame edges (leaving center open for life)
+- Sky, ground plane, architectural hints
+- The middle space is where figures and action go
 - Used in: Early cards, Structures suit
 
 PERFORMANCE STAGE:
@@ -600,12 +600,43 @@ def generate_setting_example(setting_type, palette):
     draw = ImageDraw.Draw(canvas)
 
     if setting_type == 'city_street':
-        # Buildings on sides
-        example_urban_building(draw, 20, 80, 80, 300, palette)
-        example_urban_building(draw, CARD_WIDTH - 100, 60, 80, 320, palette)
-        # Street in middle
-        draw.rectangle([100, 0, CARD_WIDTH - 100, CARD_HEIGHT],
-                       fill=palette.get('ground', (140, 140, 140)))
+        # SUGGESTIVE, not literal - leave space for life
+        # Hint of buildings framing the edges (partial, not dominant)
+        building_color = palette.get('secondary', (120, 120, 120))
+
+        # Left edge - partial building suggestion
+        draw.rectangle([0, 100, 50, CARD_HEIGHT], fill=building_color)
+        # A few windows to indicate it's a building
+        for wy in range(140, 380, 60):
+            draw.rectangle([15, wy, 23, wy+15], fill=palette.get('accent', (80, 90, 100)))
+            draw.rectangle([27, wy, 35, wy+15], fill=palette.get('accent', (80, 90, 100)))
+
+        # Right edge - partial building suggestion
+        draw.rectangle([CARD_WIDTH - 50, 80, CARD_WIDTH, CARD_HEIGHT], fill=building_color)
+        for wy in range(120, 380, 60):
+            draw.rectangle([CARD_WIDTH - 35, wy, CARD_WIDTH - 27, wy+15],
+                          fill=palette.get('accent', (80, 90, 100)))
+            draw.rectangle([CARD_WIDTH - 23, wy, CARD_WIDTH - 15, wy+15],
+                          fill=palette.get('accent', (80, 90, 100)))
+
+        # Ground/pavement - subtle, at bottom
+        draw.rectangle([0, CARD_HEIGHT - 40, CARD_WIDTH, CARD_HEIGHT],
+                      fill=palette.get('ground', (150, 155, 160)))
+        # Sidewalk edge line
+        draw.line([(0, CARD_HEIGHT - 40), (CARD_WIDTH, CARD_HEIGHT - 40)],
+                 fill=palette.get('shadow', (100, 100, 100)), width=2)
+
+        # Sky at top (pale, receding)
+        for y in range(0, 120):
+            t = y / 120
+            base_color = palette.get('primary', (240, 240, 240))
+            sky_color = (200, 210, 220)
+            r = int(sky_color[0] + (base_color[0] - sky_color[0]) * t)
+            g = int(sky_color[1] + (base_color[1] - sky_color[1]) * t)
+            b = int(sky_color[2] + (base_color[2] - sky_color[2]) * t)
+            draw.line([(0, y), (CARD_WIDTH, y)], fill=(r, g, b))
+
+        # The MIDDLE is open - this is where the life happens
 
     elif setting_type == 'stage':
         # Stage platform
