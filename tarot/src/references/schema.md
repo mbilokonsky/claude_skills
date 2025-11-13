@@ -87,6 +87,10 @@ interface Card {
     url?: string
     svg?: string
     code?: string
+    image_data?: {
+      base64: string
+      mime_type: string
+    }
   }
 }
 
