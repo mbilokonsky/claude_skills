@@ -207,7 +207,7 @@ def generate_figure_scales():
 
 
 def generate_byrne_big_suit():
-    """Show the Big Suit Byrne character"""
+    """Show the Big Suit Byrne character - using same no-legs approach"""
     width = 800
     height = 500
     img = Image.new('RGB', (width, height), (240, 240, 240))
@@ -215,71 +215,75 @@ def generate_byrne_big_suit():
 
     draw.text((10, 10), "The Big Suit - Byrne Character", fill=(0, 0, 0))
 
-    # Early Byrne (stiff, anxious)
-    draw.text((100, 50), "Early: Stiff/Anxious", fill=(60, 60, 60))
+    # Early Byrne (stiff, boxy, upright)
+    draw.text((100, 50), "Early: Stiff/Boxy", fill=(60, 60, 60))
     draw.rectangle([60, 80, 280, 480], fill=(200, 210, 220))
 
-    # Head
     head_x, head_y = 170, 140
+
+    # Head
     draw.ellipse([head_x-15, head_y, head_x+15, head_y+30],
                  fill=bvt.MajorArcanaColors.EARLY['secondary'])
 
-    # The BIG SUIT - oversized boxy jacket
+    # The BIG SUIT - massively oversized boxy jacket polygon
+    # No separate legs - the jacket polygon tapers to suggest legs inside
     jacket_color = (70, 80, 90)
-    # Very wide shoulders
-    draw.rectangle([head_x-60, head_y+28, head_x+60, head_y+180], fill=jacket_color)
-    # Angular shoulders
-    draw.polygon([
-        (head_x-60, head_y+28), (head_x-85, head_y+50),
-        (head_x-85, head_y+120), (head_x-60, head_y+120)
-    ], fill=jacket_color)
-    draw.polygon([
-        (head_x+60, head_y+28), (head_x+85, head_y+50),
-        (head_x+85, head_y+120), (head_x+60, head_y+120)
-    ], fill=jacket_color)
-    # Legs (thin in contrast to big suit)
-    draw.rectangle([head_x-25, head_y+180, head_x-10, head_y+320],
-                   fill=bvt.MajorArcanaColors.EARLY['shadow'])
-    draw.rectangle([head_x+10, head_y+180, head_x+25, head_y+320],
-                   fill=bvt.MajorArcanaColors.EARLY['shadow'])
+    big_suit_shape = [
+        (head_x, head_y+28),           # neck
+        (head_x-90, head_y+45),        # left shoulder (HUGE)
+        (head_x-85, head_y+120),       # left mid-jacket
+        (head_x-70, head_y+250),       # left lower jacket
+        (head_x-25, head_y+320),       # left foot area
+        (head_x+25, head_y+320),       # right foot area
+        (head_x+70, head_y+250),       # right lower jacket
+        (head_x+85, head_y+120),       # right mid-jacket
+        (head_x+90, head_y+45),        # right shoulder (HUGE)
+    ]
+    draw.polygon(big_suit_shape, fill=jacket_color)
 
-    # Late Byrne (loose, dancing)
-    draw.text((500, 50), "Late: Loose/Dancing", fill=(60, 60, 60))
+    # Lapels (darker for depth)
+    lapel_color = (50, 60, 70)
+    draw.polygon([
+        (head_x, head_y+28), (head_x-25, head_y+45),
+        (head_x-20, head_y+150), (head_x-5, head_y+120)
+    ], fill=lapel_color)
+    draw.polygon([
+        (head_x, head_y+28), (head_x+25, head_y+45),
+        (head_x+20, head_y+150), (head_x+5, head_y+120)
+    ], fill=lapel_color)
+
+    # Late Byrne (still big, but with flow and tilt)
+    draw.text((500, 50), "Late: Big Suit Dancing", fill=(60, 60, 60))
     draw.rectangle([460, 80, 680, 480], fill=(220, 200, 180))
 
-    # Head
     head_x, head_y = 570, 140
-    draw.ellipse([head_x-15, head_y, head_x+15, head_y+30],
+
+    # Head (tilted for motion)
+    draw.ellipse([head_x-12, head_y+5, head_x+18, head_y+35],
                  fill=bvt.MajorArcanaColors.LATE['secondary'])
 
-    # The BIG SUIT - but flowing, in motion
+    # The BIG SUIT in motion - still huge, but tilted and dynamic
+    # Arms INSIDE jacket - the whole jacket shape shows movement
     jacket_color = (200, 100, 80)
-    # Body tilted, dynamic
-    # Left side of jacket
+    moving_suit_shape = [
+        (head_x+5, head_y+30),         # neck (tilted)
+        (head_x-85, head_y+55),        # left shoulder/arm (back extended)
+        (head_x-90, head_y+140),       # left arm extended
+        (head_x-65, head_y+250),       # left lower
+        (head_x-20, head_y+320),       # left foot
+        (head_x+30, head_y+325),       # right foot (forward)
+        (head_x+75, head_y+260),       # right lower (forward)
+        (head_x+100, head_y+150),      # right arm extended forward
+        (head_x+95, head_y+60),        # right shoulder (forward)
+    ]
+    draw.polygon(moving_suit_shape, fill=jacket_color)
+
+    # Lapel showing tilt
+    lapel_color = (160, 80, 60)
     draw.polygon([
-        (head_x-50, head_y+28), (head_x-80, head_y+60),
-        (head_x-70, head_y+180), (head_x-40, head_y+175)
-    ], fill=jacket_color)
-    # Right side
-    draw.polygon([
-        (head_x+50, head_y+28), (head_x+75, head_y+55),
-        (head_x+85, head_y+170), (head_x+50, head_y+180)
-    ], fill=jacket_color)
-    # Main body
-    draw.polygon([
-        (head_x-40, head_y+30), (head_x+40, head_y+30),
-        (head_x+50, head_y+180), (head_x-40, head_y+175)
-    ], fill=jacket_color)
-    # Arms spread (conducting/dancing)
-    draw.line([(head_x-35, head_y+60), (head_x-90, head_y+40)],
-              fill=jacket_color, width=15)
-    draw.line([(head_x+35, head_y+65), (head_x+100, head_y+100)],
-              fill=jacket_color, width=15)
-    # Legs in motion
-    draw.line([(head_x-15, head_y+180), (head_x-35, head_y+320)],
-              fill=bvt.MajorArcanaColors.LATE['shadow'], width=18)
-    draw.line([(head_x+15, head_y+180), (head_x+45, head_y+315)],
-              fill=bvt.MajorArcanaColors.LATE['shadow'], width=18)
+        (head_x+5, head_y+30), (head_x-20, head_y+55),
+        (head_x-15, head_y+160), (head_x+10, head_y+130)
+    ], fill=lapel_color)
 
     return img
 
@@ -351,9 +355,10 @@ def generate_crowd_examples():
     bvt.example_figure_simple(img, 310, 465, bvt.MajorArcanaColors.MIDDLE,
                               posture='neutral', scale=1.0)
 
-    # More detailed
+    # More detailed (but still following circle + polygon approach)
     draw.text((450, 300), "More Defined", fill=(60, 60, 60))
     draw.rectangle([420, 330, 560, 480], fill=(200, 210, 220))
+
     # Head with more detail
     head_x, head_y = 490, 375
     draw.ellipse([head_x-12, head_y, head_x+12, head_y+24],
@@ -363,22 +368,23 @@ def generate_crowd_examples():
              fill=bvt.MajorArcanaColors.LATE['shadow'], width=2)
     draw.line([(head_x+4, head_y+10), (head_x+6, head_y+10)],
              fill=bvt.MajorArcanaColors.LATE['shadow'], width=2)
-    # Body with more structure
-    draw.polygon([
-        (head_x, head_y+24), (head_x-18, head_y+40),
-        (head_x-20, head_y+75), (head_x+20, head_y+75),
-        (head_x+18, head_y+40)
-    ], fill=bvt.MajorArcanaColors.LATE['secondary'])
-    # Arms
-    draw.line([(head_x-15, head_y+45), (head_x-30, head_y+70)],
-             fill=bvt.MajorArcanaColors.LATE['secondary'], width=8)
-    draw.line([(head_x+15, head_y+45), (head_x+25, head_y+72)],
-             fill=bvt.MajorArcanaColors.LATE['secondary'], width=8)
-    # Legs
-    draw.line([(head_x-8, head_y+75), (head_x-10, head_y+130)],
-             fill=bvt.MajorArcanaColors.LATE['primary'], width=10)
-    draw.line([(head_x+8, head_y+75), (head_x+12, head_y+130)],
-             fill=bvt.MajorArcanaColors.LATE['primary'], width=10)
+
+    # Body polygon with more defined structure but NO separate legs
+    # Added arm extensions and more articulation
+    detailed_body = [
+        (head_x, head_y+24),            # neck
+        (head_x-18, head_y+40),         # left shoulder
+        (head_x-32, head_y+70),         # left arm extended
+        (head_x-20, head_y+75),         # left arm back to body
+        (head_x-18, head_y+100),        # left hip
+        (head_x-8, head_y+140),         # left foot
+        (head_x+8, head_y+140),         # right foot
+        (head_x+18, head_y+100),        # right hip
+        (head_x+20, head_y+75),         # right arm back to body
+        (head_x+28, head_y+72),         # right arm extended
+        (head_x+18, head_y+40),         # right shoulder
+    ]
+    draw.polygon(detailed_body, fill=bvt.MajorArcanaColors.LATE['secondary'])
 
     return img
 

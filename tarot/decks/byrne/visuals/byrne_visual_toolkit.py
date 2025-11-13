@@ -227,38 +227,86 @@ def draw_flow_pattern(draw, bounds, wavelength, amplitude, color):
 
 def example_figure_simple(canvas, x, y, palette, posture='neutral', scale=1.0):
     """
-    Draw a SIMPLE figure - this is a reference example
-    Real cards might use this as a starting point but will vary significantly
+    Draw a SIMPLE figure using circle head + polygon body (NO separate legs)
+    The polygon shape itself conveys the posture and implies legs
 
     posture options: 'neutral', 'awkward', 'observing', 'moving'
-    This doesn't implement all postures - it's showing the concept
     """
     draw = ImageDraw.Draw(canvas)
 
-    # Scale factor
-    s = scale
+    s = scale  # Scale factor
 
-    # Head
+    # Head - always a circle
     head_r = int(12 * s)
     draw.ellipse([x - head_r, y - int(90*s),
                   x + head_r, y - int(66*s)],
                  fill=palette.get('primary', (100, 100, 100)))
 
-    # Body posture varies
-    if posture == 'awkward':
-        # Angular, stiff
-        body = [(x, y - int(65*s)), (x - int(10*s), y - int(40*s)),
-                (x - int(12*s), y), (x + int(12*s), y),
-                (x + int(10*s), y - int(40*s))]
+    # Body polygon - shape varies dramatically by posture
+    # The body tapers down to imply legs without drawing them separately
+
+    if posture == 'neutral':
+        # Balanced, symmetrical, vertical
+        body = [
+            (x, y - int(65*s)),              # neck
+            (x - int(14*s), y - int(45*s)),  # left shoulder
+            (x - int(12*s), y - int(10*s)),  # left hip
+            (x - int(6*s), y),               # left foot
+            (x + int(6*s), y),               # right foot
+            (x + int(12*s), y - int(10*s)),  # right hip
+            (x + int(14*s), y - int(45*s)),  # right shoulder
+        ]
+
+    elif posture == 'awkward':
+        # Hunched, angular, off-balance, head forward
+        # Shoulders pulled in, uneven stance
+        body = [
+            (x + int(5*s), y - int(65*s)),   # neck (forward)
+            (x - int(8*s), y - int(50*s)),   # left shoulder (hunched up)
+            (x - int(10*s), y - int(12*s)),  # left hip
+            (x - int(8*s), y),               # left foot (pigeon-toed)
+            (x + int(4*s), y),               # right foot
+            (x + int(8*s), y - int(15*s)),   # right hip (uneven)
+            (x + int(10*s), y - int(48*s)),  # right shoulder (hunched)
+        ]
+
+    elif posture == 'observing':
+        # Slight lean, attentive, weight shifted
+        # One shoulder slightly raised
+        body = [
+            (x - int(2*s), y - int(65*s)),   # neck (slight lean)
+            (x - int(16*s), y - int(48*s)),  # left shoulder (raised)
+            (x - int(14*s), y - int(8*s)),   # left hip
+            (x - int(8*s), y),               # left foot
+            (x + int(4*s), y),               # right foot (weight shifted)
+            (x + int(10*s), y - int(12*s)),  # right hip (lower)
+            (x + int(12*s), y - int(42*s)),  # right shoulder (lower)
+        ]
+
     elif posture == 'moving':
-        # More fluid, tilted
-        body = [(x + int(5*s), y - int(65*s)), (x - int(15*s), y - int(40*s)),
-                (x - int(8*s), y), (x + int(16*s), y),
-                (x + int(18*s), y - int(35*s))]
-    else:  # neutral
-        body = [(x, y - int(65*s)), (x - int(12*s), y - int(40*s)),
-                (x - int(12*s), y), (x + int(12*s), y),
-                (x + int(12*s), y - int(40*s))]
+        # Dynamic, tilted, asymmetric, energy
+        # Clear diagonal, one side extended
+        body = [
+            (x + int(8*s), y - int(65*s)),   # neck (tilted)
+            (x - int(18*s), y - int(38*s)),  # left shoulder (extended back)
+            (x - int(10*s), y - int(5*s)),   # left hip
+            (x - int(3*s), y),               # left foot
+            (x + int(12*s), y),              # right foot (forward)
+            (x + int(18*s), y - int(15*s)),  # right hip (forward)
+            (x + int(20*s), y - int(50*s)),  # right shoulder (forward)
+        ]
+
+    else:
+        # Default to neutral
+        body = [
+            (x, y - int(65*s)),
+            (x - int(14*s), y - int(45*s)),
+            (x - int(12*s), y - int(10*s)),
+            (x - int(6*s), y),
+            (x + int(6*s), y),
+            (x + int(12*s), y - int(10*s)),
+            (x + int(14*s), y - int(45*s)),
+        ]
 
     draw.polygon(body, fill=palette.get('secondary', (80, 80, 80)))
 
@@ -341,16 +389,19 @@ def render_suit_symbol_curiosity(size=64):
     color = SuitColors.CURIOSITY['primary']
     s = size / 100
 
-    # Question mark - proper hook shape
-    # The hook curves from lower-right, up and around, to lower-left
-    # Arc goes counter-clockwise from 340° (lower right) through top to 200° (lower left)
-    draw.arc([35*s, 15*s, 65*s, 50*s], 340, 200, fill=color, width=int(10*s))
+    # Question mark: the hook is 3/4 of a circle, missing the upper-left quarter
+    # In PIL, arcs go counter-clockwise from start to end angle
+    # 0°=right, 90°=top, 180°=left, 270°=bottom
+    # We want: left side → bottom → right side → top
+    # That's 180° → 270° → 0° → 90° (counter-clockwise)
+    # So: start=180, end=90
+    draw.arc([38*s, 18*s, 62*s, 48*s], 180, 90, fill=color, width=int(9*s))
 
-    # Vertical stem coming down from the bottom-right of the hook
-    draw.line([(62*s, 42*s), (62*s, 65*s)], fill=color, width=int(10*s))
+    # Vertical stem dropping from bottom-center of the hook
+    draw.line([(50*s, 48*s), (50*s, 68*s)], fill=color, width=int(9*s))
 
     # Dot at bottom
-    draw.ellipse([56*s, 73*s, 68*s, 85*s], fill=color)
+    draw.ellipse([44*s, 76*s, 56*s, 88*s], fill=color)
 
     return img
 
@@ -400,10 +451,13 @@ General Principles:
 Specific Characters:
 
 BYRNE (when depicted as himself):
-- The Big Suit: Oversized boxy jacket, especially in later cards
-- Posture evolution: Stiff/angular (early) → loose/dancing (late)
-- Often in performance stance or mid-gesture
-- May be conducting, presenting, or moving
+- The Big Suit: Oversized boxy jacket - the key identifier
+- Purpose of big suit: Makes the head smaller relative to the body
+- This represents escaping cognitive prison - less head, more body
+- Progression concept: Suit could get bigger / head could get smaller as ranks increase
+- Posture evolution: Stiff/angular/upright (early) → loose/tilted/dancing (late)
+- Often in performance stance, conducting, presenting, or mid-gesture
+- Arms stay INSIDE jacket - the whole jacket shape shows movement
 
 AUDIENCE/CROWD:
 - Can be geometric (early: observed patterns) or organic (late: felt presence)
@@ -416,11 +470,17 @@ GENERIC FIGURES:
 - Can be silhouettes or more detailed depending on focus
 
 Visual Shortcuts:
-- Big boxy jacket = Byrne
+- Big boxy jacket (head-to-body ratio) = Byrne
 - Suit and tie = formal/structured self
 - Loose clothing = relaxed/authentic self
 - Multiple identical figures = pattern observation
 - Varied figures together = genuine community
+
+Standard Simple Figure Approach:
+- Circle head + polygon body (NO separate legs)
+- Legs implied by body polygon tapering to feet
+- Posture conveyed through polygon shape and angle
+- This keeps the style consistent and distinctive
 """
 
 
@@ -694,11 +754,56 @@ def generate_setting_example(setting_type, palette):
                        fill=palette.get('secondary', (100, 90, 80)))
 
     elif setting_type == 'natural':
-        # Organic flowing landscape
-        draw_flow_pattern(draw, (20, 100, CARD_WIDTH - 20, 200),
-                         40, 20, palette.get('flow', (100, 140, 160)))
-        draw_flow_pattern(draw, (20, 220, CARD_WIDTH - 20, 320),
-                         50, 15, palette.get('secondary', (120, 140, 120)))
+        # Outdoor nature scene - sky, land, organic elements
+
+        # Sky - gradient from pale to deeper
+        for y in range(0, CARD_HEIGHT // 2):
+            t = y / (CARD_HEIGHT // 2)
+            r = int(180 + (140 - 180) * t)
+            g = int(210 + (170 - 210) * t)
+            b = int(230 + (190 - 230) * t)
+            draw.line([(0, y), (CARD_WIDTH, y)], fill=(r, g, b))
+
+        # Distant hills/mountains (organic curves)
+        hill_color = (100, 130, 110)
+        # Far hills
+        hill_points_far = []
+        for x in range(0, CARD_WIDTH + 20, 15):
+            y_var = 20 * math.sin(x / 60) + 15 * math.cos(x / 35)
+            hill_points_far.append((x, CARD_HEIGHT // 3 + y_var))
+        hill_points_far.append((CARD_WIDTH, CARD_HEIGHT))
+        hill_points_far.append((0, CARD_HEIGHT))
+        draw.polygon(hill_points_far, fill=hill_color)
+
+        # Closer hills (darker, more variation)
+        hill_color_close = (80, 110, 85)
+        hill_points_close = []
+        for x in range(0, CARD_WIDTH + 20, 12):
+            y_var = 30 * math.sin(x / 50 + 2) + 20 * math.cos(x / 28)
+            hill_points_close.append((x, CARD_HEIGHT // 2 + y_var))
+        hill_points_close.append((CARD_WIDTH, CARD_HEIGHT))
+        hill_points_close.append((0, CARD_HEIGHT))
+        draw.polygon(hill_points_close, fill=hill_color_close)
+
+        # Foreground - grass/vegetation hints
+        grass_color = (95, 125, 90)
+        draw.rectangle([0, CARD_HEIGHT * 2 // 3, CARD_WIDTH, CARD_HEIGHT],
+                      fill=grass_color)
+
+        # Some vegetation texture (organic irregular shapes)
+        vegetation_dark = (75, 100, 70)
+        import random
+        random.seed(42)
+        for i in range(15):
+            x = random.randint(10, CARD_WIDTH - 30)
+            y = random.randint(CARD_HEIGHT * 2 // 3, CARD_HEIGHT - 20)
+            # Irregular organic blob shapes
+            blob_points = []
+            for angle in range(0, 360, 40):
+                rad = math.radians(angle)
+                r = random.randint(8, 18)
+                blob_points.append((x + r * math.cos(rad), y + r * math.sin(rad)))
+            draw.polygon(blob_points, fill=vegetation_dark)
 
     elif setting_type == 'collaborative':
         # Open bright space
