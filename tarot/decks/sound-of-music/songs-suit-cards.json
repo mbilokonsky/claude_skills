@@ -1,0 +1,298 @@
+{
+  "songs_suit_cards": [
+    {
+      "type": "minor",
+      "name": "Ace of Songs",
+      "number": "1",
+      "rank_slug": "0",
+      "suit_slug": "songs",
+      "slug": "songs-0",
+      "arcana": "minor",
+      "description": "The first song entering your life - spontaneous expression arriving as gift, voice discovering itself, the moment melody appears unbidden.",
+      "meaning": {
+        "upright": "A new song begins in you. Spontaneous expression arrives as pure gift - your authentic voice emerges, joy becomes audible, creative breakthrough happens. This is the spark of genuine self-discovery, the hills coming alive, the first moment you sing because you must. The seed of authentic creativity is planted.",
+        "inverted": "The gift of voice is refused or arrives on barren ground. Your song is stifled before it begins, the opportunity for authentic expression is missed or squandered. Creative potential meets obstacles too early, the beginning aborts before the first note sounds. You silence yourself at the moment of emergence."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Bright, airy watercolor washes in alpine meadow colors - sky blues, grass greens, wildflower yellows and pinks. Loose, flowing composition with movement and wind. Light-drenched, impressionistic.",
+          "content_guidance": "A single element emerging - a seed sprouting, a door opening, a hand offering, light breaking through, the moment of arrival. Focus on the first note, the opening of the mouth to sing.",
+          "detailed_description": "A figure on a hillside, mouth just opening, the first note of song about to emerge or just emerged. Light breaks through clouds onto wildflowers. A single musical note floats visible in the air, or birds begin to gather at the sound. Everything bright and new - morning light, fresh breeze, the alpine meadow awakening. The moment just before or just after the first sound. Watercolor technique shows the fluidity, the spontaneity, the natural emergence of song from silence."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Two of Songs",
+      "number": "2",
+      "rank_slug": "1",
+      "suit_slug": "songs",
+      "slug": "songs-1",
+      "arcana": "minor",
+      "description": "What songs ask of partnership - harmonizing voices, singing together, the beauty and challenge of two melodies finding each other.",
+      "meaning": {
+        "upright": "Two voices find harmony. Partnership in authentic expression, collaboration in joy, the beauty of singing together. Your voice meets another's and they coordinate, balance, recognize each other in melody. This is duet, the spontaneous agreement of genuine expression, two people finding their shared song.",
+        "inverted": "Voices clash or fail to harmonize. Discord in expression, competition instead of collaboration, two songs fighting for space. You cannot coordinate with the other, partnership feels like burden, the attempt at harmony creates only dissonance. One voice drowns out the other or both become noise together."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Bright watercolor in alpine meadow palette with emphasis on flow between two elements. Movement showing connection or tension. Impressionistic, light-filled.",
+          "content_guidance": "Two elements in relationship - hands meeting, paths converging, mirrors reflecting, dancers coordinating. Two voices, two figures singing toward each other.",
+          "detailed_description": "Two figures in a meadow or on adjacent hillsides, singing toward each other. Their voices visible as flowing watercolor ribbons of sound that either weave together in harmony or tangle in discord. Musical notes float between them. The landscape shows two paths meeting, or two streams converging. Morning light, wildflowers, the sense of voices finding or failing to find each other. The watercolor technique shows both the distinct identity of each voice and their potential for blending."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Three of Songs",
+      "number": "3",
+      "rank_slug": "2",
+      "suit_slug": "songs",
+      "slug": "songs-2",
+      "arcana": "minor",
+      "description": "Song spreading through a household - music multiplying, teaching children to sing, authentic expression becoming collective practice.",
+      "meaning": {
+        "upright": "Your song spreads to others. Community forms around shared singing, authentic expression multiplies and teaches itself. What began as one voice becomes many without losing its genuineness. The household learns the melody, children pick up the tune, collective joy emerges from authentic source. Music as cultural transmission, teaching that preserves spontaneity.",
+        "inverted": "Song is forced on those not ready, or spreads mechanically without understanding. Community pressure replaces authentic choice, everyone singing but the joy has drained away. Teaching deadens what it tries to transmit, participation is coerced, the collective song becomes conformity rather than shared delight."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Bright watercolor with multiplying elements and expanding circles of color. Alpine meadow palette with sense of growth and teaching. Flowing, joyful, communal.",
+          "content_guidance": "Elements multiplying - a table with many, knowledge passing through generations, patterns repeating, circles expanding. Many voices in a room or across hillsides.",
+          "detailed_description": "A household scene - perhaps around a table, or across multiple rooms, or spreading across connected hillsides. One figure teaches, others learn and join the song. Children pick up the melody, it spreads room to room, generation to generation. Watercolor shows the song as visible ribbons connecting everyone, or musical notes multiplying like flowers. The bright alpine palette shows this as joyful multiplication. Each voice distinct but harmonizing, the household alive with music learned and shared."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Four of Songs",
+      "number": "4",
+      "rank_slug": "3",
+      "suit_slug": "songs",
+      "slug": "songs-3",
+      "arcana": "minor",
+      "description": "The sanctuary that song builds - music as refuge, singing when afraid, the fortress of authentic expression that protects.",
+      "meaning": {
+        "upright": "Your song becomes sanctuary. Music provides shelter, singing creates safe ground, authentic expression is the foundation you can count on. When storms come, you have favorite things to catalog, melodies that ground you. Voice becomes refuge, the ability to sing is stability itself. What you build through authentic expression endures and protects.",
+        "inverted": "Song becomes fortress that isolates rather than shelters. Your voice walls you off from necessary experience, singing prevents you from feeling what must be felt. The sanctuary of expression has become prison of avoiding, safety has turned to stagnation. You hide in your songs instead of living."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor with more structure and enclosure while maintaining flowing alpine palette. Protective but not rigid, sanctuary as shelter not prison. Light still flows in.",
+          "content_guidance": "Structure offering shelter - walls that protect, foundations laid, refuge created. A room or space made safe through music, singing providing the shelter.",
+          "detailed_description": "A cozy interior space - bedroom or small room - with figures singing together during a storm visible through windows. The music itself seems to create the shelter, visible as golden light or protective ribbons of sound surrounding the singers. Children gathered on a bed, or a figure alone in a room, with musical notes creating a boundary against the storm outside. The watercolor technique shows both the solidity of the sanctuary and its permeability to light. Alpine meadow colors even indoors - flowers in a vase, quilts in meadow colors, the outside brought in safely."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Five of Songs",
+      "number": "5",
+      "rank_slug": "4",
+      "suit_slug": "songs",
+      "slug": "songs-4",
+      "arcana": "minor",
+      "description": "The storm that songs face - noise drowning melody, chaos disrupting voice, the moment when authentic expression is challenged.",
+      "meaning": {
+        "upright": "Your song faces disruption. Noise threatens to drown out melody, chaos challenges your ability to sing, authentic expression meets its test. This is the storm that asks: can your voice survive opposition? Can you keep singing when everything is loud? The crisis reveals whether your song is strong enough to weather difficulty.",
+        "inverted": "The chaos is overwhelming, noise wins, you cannot keep singing. Your voice is completely drowned out by disruption, the storm destroys rather than tests your song. Conflict consumes your ability to express authentically. The challenge breaks rather than strengthens, you lose your melody entirely to chaos."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor becoming more turbulent, colors clashing and chaotic but still in alpine palette. Storm disrupts the usual flow, brushstrokes more aggressive. Tension visible.",
+          "content_guidance": "Elements in turmoil - storm clouds gathering, foundations shaking, order disrupted. Song meeting noise, melody facing chaos.",
+          "detailed_description": "A figure trying to sing while storm rages - wind whipping, rain pouring, lightning cracking. Musical notes torn apart by wind or dissolving in rain. Or many voices shouting, overwhelming one trying to sing something genuine. The watercolor technique shows disruption - colors bleeding wrong, brushstrokes chaotic, the usual beauty of the alpine palette turned turbulent. Thunder visible as dark jagged forms, a singer's face showing strain, mouth open but the song struggling against the noise. The crisis moment where voice must fight to be heard."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Six of Songs",
+      "number": "6",
+      "rank_slug": "5",
+      "suit_slug": "songs",
+      "slug": "songs-5",
+      "arcana": "minor",
+      "description": "How songs offer comfort - singing away fear, cataloging favorite things, music as solace and restoration after crisis.",
+      "meaning": {
+        "upright": "Song brings comfort and restoration. You sing to soothe fear, catalog favorite things to find light in darkness, use authentic expression to heal and restore. Music offers care after crisis, melody mends what was disrupted. Your voice or another's provides the solace needed to continue. This is practical magic - singing the storm away.",
+        "inverted": "Song becomes toxic positivity, comfort that smothers necessary feeling. You distract with music when pain should be honored, force cheerfulness when authentic grief is needed. The singing is false consolation, care through melody becomes control. Favorite things become a cage preventing real emotion."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor returning to gentle beauty, warm and soothing tones from alpine palette. Restorative flowing brushwork, light returning after darkness. Tender and caring.",
+          "content_guidance": "Elements offering care - hands soothing, warmth provided, wounds tended. Singing that comforts, voice that heals, music as balm.",
+          "detailed_description": "A nurturing figure singing to comfort others - perhaps children after nightmare, or someone alone after crisis. Small beautiful things made visible as they're sung about - roses, raindrops, kittens, kettles, packages tied with string. The music visible as gentle ribbons of sound that soothe and restore. Storm passing outside windows, calm returning. Watercolor in warm tones - golden lamplight, soft colors, the alpine meadow palette used for comfort rather than exuberance. Faces showing fear giving way to peace. The song as medicine, voice as restoration."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Seven of Songs",
+      "number": "7",
+      "rank_slug": "6",
+      "suit_slug": "songs",
+      "slug": "songs-6",
+      "arcana": "minor",
+      "description": "The choice songs demand - to sing your truth or stay silent, to voice forth or hold back, the moment of declaring yourself through sound.",
+      "meaning": {
+        "upright": "You must choose whether to sing. Your authentic voice wants to emerge but you must decide to let it - sing your truth or stay silent, express genuinely or hold back. This is the crossroads of voice, the moment of commitment to authentic expression. Will you open your mouth? Will you risk the song? The choice is clear and yours to make.",
+        "inverted": "You are paralyzed between singing and silence, or coerced to choose from fear. The decision about voice is poisoned - no good options, false dilemma, choosing to sing or not sing from external pressure rather than authentic impulse. You avoid the commitment, unable to declare yourself either way."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor with strong sense of decision point, colors showing divergence. Alpine palette split or contrasting. The moment poised between two possibilities.",
+          "content_guidance": "Elements at crossroads - diverging paths, scales balancing, doors to choose between. A figure at the moment of choosing to sing or not sing.",
+          "detailed_description": "A figure standing at a literal or metaphorical crossroads - two paths through meadows, two doorways, a choice point. Mouth closed in one direction, mouth open singing in the other. Or scales balanced between silence and song. Musical notes waiting to be released or held back. Watercolor shows the two possibilities - one path bright with song, one path quiet. The alpine meadow splits into two futures. The figure poised at the exact moment before choosing, breath held. Everything waiting on the decision of voice."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Eight of Songs",
+      "number": "8",
+      "rank_slug": "7",
+      "suit_slug": "songs",
+      "slug": "songs-7",
+      "arcana": "minor",
+      "description": "What songs thaw and open - voice returning after silence, the melody that emerges after years of not singing, sound breaking through frozenness.",
+      "meaning": {
+        "upright": "Your voice returns after long silence. What was frozen in you begins to sing again, authentic expression breaks through after being closed. This is the thaw of voice - you thought you could no longer sing but melody emerges. The opening, the release, voice returning like spring after winter. You sing again, perhaps tentatively, but you sing.",
+        "inverted": "The thaw floods or destroys, opening happens too fast or wrong. Voice returns but overwhelms, you cannot control the song once it starts. Or boundaries dissolve that should remain, the melting is formless rather than freeing. What was frozen perhaps needed to stay that way for now. Premature opening, transformation that harms."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor showing transformation from frozen to fluid, ice to water. Alpine palette emphasizing thaw - winter blues becoming spring greens, breakthrough moment. Dynamic, releasing.",
+          "content_guidance": "Elements transforming - ice melting to water, closed hands opening, frozen becoming fluid. A mouth opening to sing after long silence, voice breaking free.",
+          "detailed_description": "A figure who has been silent beginning to sing - ice literally breaking around them, or their closed expression opening, or winter landscape shifting to spring as voice emerges. Watercolor shows the transformation - frozen blues becoming flowing greens and golds, static becoming dynamic. Perhaps the Captain singing Edelweiss after years, or anyone finding voice again. Musical notes emerging tentatively then more surely. The alpine meadow thawing, streams beginning to flow, the moment of breakthrough and release. Relief and vulnerability visible together."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Nine of Songs",
+      "number": "9",
+      "rank_slug": "8",
+      "suit_slug": "songs",
+      "slug": "songs-8",
+      "arcana": "minor",
+      "description": "What songs call you toward - the melody you must sing, your authentic voice as vocation, the musical path drawing you forward.",
+      "meaning": {
+        "upright": "Your song calls you forward. You recognize your authentic voice as vocation, the melody you must sing, the expression that is yours alone. This is calling recognized through music - climb every mountain until you find your song. You are drawn toward your genuine voice, aspiring to full authentic expression. The path ahead is musical.",
+        "inverted": "False song calls you, or the voice you pursue is not yours. You're drawn toward expression that destroys rather than fulfills, called toward someone else's melody. Your song has become burden rather than calling, aspiration poisons instead of inspires. You cannot hear your authentic voice for all the noise."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor with strong sense of upward movement and aspiration. Alpine palette with emphasis on heights and paths forward. Light on the horizon, calling visible.",
+          "content_guidance": "Elements beckoning forward - a mountain peak above, a path winding upward, light on the horizon. The song ahead drawing you, your voice calling you toward itself.",
+          "detailed_description": "A figure on a path moving toward distant mountains where music seems to originate - or toward their own voice calling from ahead. The alpine peaks ahead glow with light or resound with song. A path winds upward through meadows toward the source of calling. Watercolor shows aspiration - colors growing lighter and more vibrant ahead, musical notes like birds ascending, the sense of being drawn toward authentic voice. Perhaps a visual echo of 'Climb Every Mountain' but specifically about finding your song. The vocation is musical, the calling is to sing your truth."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Ten of Songs",
+      "number": "10",
+      "rank_slug": "9",
+      "suit_slug": "songs",
+      "slug": "songs-9",
+      "arcana": "minor",
+      "description": "Where song's path completes - full authentic voice realized, the complete expression of your genuine melody, arrival at your true song.",
+      "meaning": {
+        "upright": "Your authentic voice is fully realized. The song you were meant to sing completes itself through you, genuine expression reaches fulfillment. This is arrival at your true melody, the cycle of voice complete from first note to full symphony. You sing exactly what you are, integration of self and sound. The hills are alive and you are the music.",
+        "inverted": "Completion exhausts or empties you. You've sung your song fully but feel finished and hollow. Arrival brings no home, fulfillment is empty. Your voice completes but you have nothing beyond this, the cycle ends in death rather than integration. You've expressed everything and become nothing."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor at peak beauty and fullness. Alpine palette rich and complete, all colors present and harmonious. Arrival, wholeness, the full expression.",
+          "content_guidance": "Elements fulfilled - circle closing, journey's end, fruit ripened. A figure in full voice, complete authentic expression, the song fully sung.",
+          "detailed_description": "A figure standing on a mountain peak in full voice - arms wide, face lifted, singing with complete freedom and power. The entire alpine landscape responds - flowers blooming, birds in flight, the mountains themselves seeming to resound. Watercolor shows complete integration - all the colors of the meadow palette in harmony, every element of the landscape participating in the song. Musical notes fill the air like stars or pollen. The circle complete - perhaps visual echo of the opening 'Sound of Music' scene but now mature, fulfilled, the authentic voice fully realized. Sunset or sunrise, completion and wholeness."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Singer of Songs",
+      "number": "11",
+      "rank_slug": "10",
+      "suit_slug": "songs",
+      "slug": "songs-10",
+      "arcana": "minor",
+      "description": "The archetype of authentic creative expression embodied in song - the one who must sing, whose spontaneous voice is their truth, pure creative authenticity.",
+      "meaning": {
+        "upright": "You embody authentic creative voice. You are the singer who sings because they must, whose spontaneous expression is genuine and pure. This is you as pure creative authenticity - unfiltered self, joy made audible, singing your truth without calculation or performance. You know your song and sing it freely, creating from the source.",
+        "inverted": "Your voice is lost or stolen, you sing others' songs as if they were yours. Creative expression is blocked or stifled, authentic performance becomes performance of authenticity. Your voice has become mask rather than truth, you're singing but it's not your song. Creative block disguises itself as expression."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor in brilliant alpine meadow palette - this is the Songs suit at its most pure. Flowing, spontaneous, joy embodied. The aesthetic of someone who is song itself.",
+          "content_guidance": "A figure in the act of expression - singing, creating, voicing forth, arms wide or voice lifted. The Singer of Songs - authentic creativity personified in musical form.",
+          "detailed_description": "Maria on the mountain - or any figure who embodies pure spontaneous song. Arms wide, spinning or about to spin, voice lifted in pure expression. The entire alpine meadow responds to the singing - flowers turning toward the voice, birds joining, wind carrying the melody. Watercolor at its most free and flowing, colors bright and uncontrolled, the very technique embodying spontaneity. This is not performance but pure being, the person who IS song. Everything in the image should feel like it's singing - the grass, the light, the air itself. Authentic creative expression personified."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Goatherd of Songs",
+      "number": "12",
+      "rank_slug": "11",
+      "suit_slug": "songs",
+      "slug": "songs-11",
+      "arcana": "minor",
+      "description": "The shepherd who tends and transmits authentic song - carrying melodies forward through care, teaching children to sing without stifling spontaneity.",
+      "meaning": {
+        "upright": "You tend and transmit authentic song. You're the shepherd who teaches singing with care, carries melodies forward through the generations without crushing their spontaneity. This is authentic guidance through music - knowing the paths of voice, tending the flock of singers, preserving songs by keeping them alive rather than museum-perfect. You guide toward genuine expression without controlling it.",
+        "inverted": "Your shepherding of song becomes controlling or neglectful. You've lost the mountain paths of authentic voice, abandoned the flock of genuine expression. Teaching music deadens rather than awakens, stewardship becomes control. You preserve songs by killing their living quality, or fail to preserve them at all."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor in alpine palette with emphasis on caring guidance and transmission. Songs suit beauty with added sense of teaching and tending. Gentle but present authority.",
+          "content_guidance": "A figure tending and guiding - shepherd with flock on mountain paths, caring presence. The Goatherd who shepherds songs, tends singers, carries melodies forward.",
+          "detailed_description": "A figure on a mountain path with children or others following, all singing. The leader guides but doesn't control - showing paths, teaching melodies, but allowing authentic voice to emerge. Perhaps literally a goatherd leading goats who also happen to be yodeling, or a teacher with students on a hillside all finding their own voices within the taught melody. Watercolor shows both the structure of teaching and the freedom of expression - paths visible but not rigid, voices distinct but harmonizing. Alpine meadow in full beauty, the songs being carried forward through care and presence."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Puppeteer of Songs",
+      "number": "13",
+      "rank_slug": "12",
+      "suit_slug": "songs",
+      "slug": "songs-12",
+      "arcana": "minor",
+      "description": "The one who stages songs for purpose - choreographing musical performance, creating spectacle through voice, teaching through crafted musical narrative.",
+      "meaning": {
+        "upright": "You craft songs purposefully for teaching or beauty. This is choreographed singing, musical performance with intention, voice used skillfully for purpose. You stage 'The Lonely Goatherd,' create musical spectacle that delights and instructs. Strategic use of song for good ends - teaching through constructed musical narrative, puppetry that uses voice artfully.",
+        "inverted": "Song becomes manipulation, voice is weaponized. You pull strings through music, use melody for propaganda, stage performances that control rather than delight. Charm becomes mask, the crafted song replaces authentic expression. Your musical spectacle serves manipulation rather than connection, voice as tool of control."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor in alpine palette but with theatrical staging elements. The spontaneous beauty of Songs suit combined with visible construction and purpose. Art meeting craft.",
+          "content_guidance": "A figure creating and directing - hands on strings, staging a scene. The Puppeteer using songs, crafting musical performance, voice as purposeful creation.",
+          "detailed_description": "A figure directing a musical performance - perhaps conducting, or working puppet strings while puppets sing, or choreographing singers on a stage. The alpine meadow palette is present but combined with theatrical elements - stage lights, visible strings, constructed spectacle. Watercolor shows both beauty and mechanism. The songs are real but also crafted, spontaneous but also directed. Could be charming (children's puppet show with music) or sinister (propaganda rally disguised as authentic folk singing). The purposeful use of voice visible in composition."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Officer of Songs",
+      "number": "14",
+      "rank_slug": "13",
+      "suit_slug": "songs",
+      "slug": "songs-13",
+      "arcana": "minor",
+      "description": "The one who disciplines and transmits musical structure - teaching scales and proper technique, enforcing musical order, training voices.",
+      "meaning": {
+        "upright": "You bring discipline and structure to song. This is teaching Do-Re-Mi, training voices properly, transmitting musical technique and order. You enforce beneficial musical structure - scales must be learned, practice is necessary, there are right ways to breathe and hold tone. Institutional wisdom about voice, authority that serves authentic expression by providing foundation.",
+        "inverted": "Musical discipline crushes spontaneity, rules destroy the joy of singing. You enforce technique so rigidly that authentic voice dies, training becomes oppression. Song must be perfect and thus becomes mechanical, lifeless. The whistle that should coordinate singers instead silences them. Structure without soul, order as violence against authentic expression."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor in alpine palette but with precision and structure added. The flowing beauty of Songs suit constrained by discipline - could be supportive or oppressive. Clean lines within flowing color.",
+          "content_guidance": "A figure enforcing order - in uniform, whistle or command, embodying discipline. The Officer bringing structure to songs, training voices, enforcing musical order.",
+          "detailed_description": "A figure teaching music with discipline - perhaps with whistle coordinating singers, or conducting with precise gestures, or teaching scales with military precision. The Captain's whistle meeting songs, naval discipline applied to music. Watercolor shows tension between structure and flow - the alpine meadow palette present but organized, voices beautiful but in formation. Could show beneficial training (children learning to sing properly, gaining confidence through structure) or oppressive drilling (joy crushed by rigid correctness, authentic voice destroyed by too much discipline). The Officer of Songs makes music orderly."
+        }
+      }
+    }
+  ]
+}
