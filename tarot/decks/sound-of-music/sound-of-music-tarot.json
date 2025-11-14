@@ -1,0 +1,2624 @@
+{
+  "name": "The Sound of Music Tarot",
+  "slug": "sound-of-music-tarot",
+  "version": "1.0.0",
+  "theme": {
+    "name": "The Sound of Music",
+    "description": "A tarot deck exploring the dialectics of authenticity vs. instrumentality and creation vs. transmission through the story of The Sound of Music. The deck examines how fascism operates as instrumental creation masquerading as authentic transmission - an epistemic attack on meaning itself. Through Maria's authentic creativity, Georg's authentic transmission, and the looming shadow of fascism corrupting both puppetry and discipline, the deck asks: how do we preserve authentic joy and love when instrumental forces demand our submission?",
+    "creator": "Myk & Claude"
+  },
+  "suits": {
+    "songs": {
+      "name": "Songs",
+      "slug": "songs",
+      "description": "",
+      "symbol": {
+        "name": "Musical note bursting into birds",
+        "description": "A musical note with birds emerging from it, representing spontaneous expression taking flight",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"28\" cy=\"75\" rx=\"18\" ry=\"12\" fill=\"currentColor\"/><rect x=\"44\" y=\"30\" width=\"6\" height=\"45\" fill=\"currentColor\"/><path d=\"M 55 35 Q 58 32, 62 35 Q 65 32, 68 35\" stroke=\"currentColor\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M 60 25 Q 64 22, 68 25 Q 72 22, 76 25\" stroke=\"currentColor\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M 65 15 Q 70 12, 75 15 Q 80 12, 85 15\" stroke=\"currentColor\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/></svg>"
+      },
+      "meaning": {
+        "upright": [
+          "Spontaneous expression",
+          "Joy made audible",
+          "Finding your voice",
+          "Creative breakthrough",
+          "Genuine self-discovery",
+          "The hills are alive"
+        ],
+        "inverted": [
+          "Earworm obsession",
+          "Plagiarized expression",
+          "Voice becomes noise",
+          "Creative possession/madness",
+          "Song you can't escape",
+          "Mimicry without understanding"
+        ]
+      },
+      "visual_style": "Bright, airy watercolor washes in alpine meadow colors (sky blues, grass greens, wildflower yellows and pinks). Loose, flowing compositions with movement and wind. Light-drenched, impressionistic. The aesthetic of being outdoors, spinning with arms wide. Think Julie Andrews on the mountainside - pure, uncontained joy."
+    },
+    "mountains": {
+      "name": "Mountains",
+      "slug": "mountains",
+      "description": "",
+      "symbol": {
+        "name": "Alpine peaks",
+        "description": "Three mountain peaks representing ancient enduring wisdom",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><mask id=\"mountain-mask\"><rect width=\"100\" height=\"100\" fill=\"white\"/><path d=\"M 30 30 L 35 25 L 40 30 L 35 35 Z\" fill=\"black\"/><path d=\"M 60 20 L 65 15 L 70 20 L 65 25 Z\" fill=\"black\"/><path d=\"M 75 40 L 80 35 L 85 40 L 80 45 Z\" fill=\"black\"/></mask></defs><path d=\"M 10 85 L 35 25 L 50 55 L 65 15 L 80 45 L 90 85 Z\" fill=\"currentColor\" mask=\"url(#mountain-mask)\"/></svg>"
+      },
+      "meaning": {
+        "upright": [
+          "Ancient wisdom",
+          "Enduring truth",
+          "Natural guidance",
+          "Songs sung for a thousand years",
+          "The path forward (escape route)",
+          "Climb every mountain"
+        ],
+        "inverted": [
+          "Insurmountable barrier",
+          "Prison walls of stone",
+          "Isolating distance",
+          "Ancient grudges inherited",
+          "Weight of tradition crushing",
+          "Too high to climb"
+        ]
+      },
+      "visual_style": "Solid, monumental compositions in weathered stone grays, deep earth browns, snow whites, and distant blue-grays. Strong vertical elements, sense of scale and permanence. Romanticist landscape tradition - Caspar David Friedrich, sublime and enduring. The aesthetic of geological time, of things that were here before us and will remain after."
+    },
+    "puppets": {
+      "name": "Puppets",
+      "slug": "puppets",
+      "description": "",
+      "symbol": {
+        "name": "Marionette control bar",
+        "description": "A puppet control bar with strings, representing skillful craft or manipulation",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"25\" y=\"20\" width=\"50\" height=\"8\" rx=\"2\" fill=\"currentColor\"/><rect x=\"47\" y=\"15\" width=\"6\" height=\"18\" rx=\"1\" fill=\"currentColor\"/><line x1=\"30\" y1=\"28\" x2=\"25\" y2=\"75\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"50\" y1=\"28\" x2=\"45\" y2=\"75\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"50\" y1=\"28\" x2=\"55\" y2=\"75\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"70\" y1=\"28\" x2=\"75\" y2=\"75\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"75\" r=\"3\" fill=\"currentColor\"/><circle cx=\"45\" cy=\"75\" r=\"3\" fill=\"currentColor\"/><circle cx=\"55\" cy=\"75\" r=\"3\" fill=\"currentColor\"/><circle cx=\"75\" cy=\"75\" r=\"3\" fill=\"currentColor\"/></svg>"
+      },
+      "meaning": {
+        "upright": [
+          "Skillful craft",
+          "Teaching through art",
+          "Strategic staging",
+          "The Lonely Goatherd (puppet show)",
+          "Choreographed beauty",
+          "Purposeful creation"
+        ],
+        "inverted": [
+          "Propaganda machinery",
+          "Manufactured consent",
+          "Humans as puppets",
+          "Agency removed",
+          "Fascist orchestration",
+          "Dancing on command"
+        ]
+      },
+      "visual_style": "Theatrical lighting - sharp contrasts between spotlight and shadow, rich jewel tones (deep reds, golds, purples) against black backgrounds. Stagecraft aesthetic - visible strings, dramatic angles, exaggerated gestures. Art Deco meets German Expressionist theater. The aesthetic of constructed spectacle, whether charming or sinister."
+    },
+    "whistles": {
+      "name": "Whistles",
+      "slug": "whistles",
+      "description": "",
+      "symbol": {
+        "name": "Naval boatswain's whistle",
+        "description": "A ship's whistle representing discipline, order, and transmitted structure",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><mask id=\"whistle-mask\"><rect width=\"100\" height=\"100\" fill=\"white\"/><circle cx=\"55\" cy=\"50\" r=\"8\" fill=\"black\"/></mask></defs><ellipse cx=\"55\" cy=\"50\" rx=\"25\" ry=\"18\" fill=\"currentColor\" mask=\"url(#whistle-mask)\"/><rect x=\"10\" y=\"45\" width=\"30\" height=\"10\" rx=\"3\" fill=\"currentColor\"/><circle cx=\"75\" cy=\"45\" r=\"4\" fill=\"currentColor\"/></svg>"
+      },
+      "meaning": {
+        "upright": [
+          "Necessary discipline",
+          "Protective structure",
+          "Training and order",
+          "Clear communication",
+          "Institutional wisdom",
+          "Safety through rules"
+        ],
+        "inverted": [
+          "Rigid oppression",
+          "Rules crushing life",
+          "Bureaucratic tyranny",
+          "Fascist control",
+          "The Anschluss",
+          "Whistle becomes scream"
+        ]
+      },
+      "visual_style": "Precise, geometric compositions in naval and institutional colors - navy blues, crisp whites, polished brass, iron grays. Clean lines, symmetry, regimentation. The aesthetic of uniforms, insignia, architectural plans. Bauhaus clarity that can tip into authoritarian coldness. Images suggest both protective order and potential oppression."
+    }
+  },
+  "ranks": {
+    "0": {
+      "index": 0,
+      "arcana": "minor",
+      "numeric_value": 1,
+      "name": "Ace",
+      "symbol": "A",
+      "slug": "0",
+      "question": "How does SUIT first enter your life?",
+      "description": "The question of origins and beginnings. This rank explores first encounters, seeds planted, potential recognized, the moment something new enters your world. It asks about initiation, the spark, the gift arriving, the door opening. What does it mean for something to begin?",
+      "meaning": {
+        "upright": [
+          "New beginning",
+          "Seed planted",
+          "Gift offered",
+          "Potential recognized",
+          "First encounter",
+          "The spark"
+        ],
+        "inverted": [
+          "Missed opportunity",
+          "Gift refused",
+          "False start",
+          "Potential squandered",
+          "Beginning aborted",
+          "Seed on barren ground"
+        ]
+      },
+      "visual_content": "A single element emerging - a seed sprouting, a door opening, a hand offering, light breaking through, the moment of arrival"
+    },
+    "1": {
+      "index": 1,
+      "arcana": "minor",
+      "numeric_value": 2,
+      "name": "Two",
+      "symbol": "II",
+      "slug": "1",
+      "question": "What does SUIT ask of partnership?",
+      "description": "The question of duality and relationship. This rank explores collaboration, harmony and tension, mirroring, the dance between two. It asks what happens when the singular becomes plural, when you must coordinate, when another enters the equation. What does relating require?",
+      "meaning": {
+        "upright": [
+          "Partnership",
+          "Collaboration",
+          "Balance",
+          "Harmony",
+          "Coordination",
+          "Mutual recognition"
+        ],
+        "inverted": [
+          "Discord",
+          "Imbalance",
+          "Failed collaboration",
+          "Competition",
+          "Unable to coordinate",
+          "Relationship as burden"
+        ]
+      },
+      "visual_content": "Two elements in relationship - hands meeting, paths converging, mirrors reflecting, dancers coordinating, balance or tension made visible"
+    },
+    "2": {
+      "index": 2,
+      "arcana": "minor",
+      "numeric_value": 3,
+      "name": "Three",
+      "symbol": "III",
+      "slug": "2",
+      "question": "How does SUIT spread through a household?",
+      "description": "The question of community and propagation. This rank explores how things multiply, how teaching happens, how culture transmits, how what was between two becomes shared by many. It asks about expansion, spreading influence, collective practice. What does it mean to grow beyond the dyad?",
+      "meaning": {
+        "upright": [
+          "Community forming",
+          "Teaching spreading",
+          "Shared practice",
+          "Multiplication",
+          "Cultural transmission",
+          "Collective joy"
+        ],
+        "inverted": [
+          "Forced participation",
+          "Transmission without understanding",
+          "Community as conformity",
+          "Spread of poison",
+          "Teaching that deadens",
+          "Collective pressure"
+        ]
+      },
+      "visual_content": "Elements multiplying - a table with many, knowledge passing through generations, patterns repeating, circles expanding, the household alive"
+    },
+    "3": {
+      "index": 3,
+      "arcana": "minor",
+      "numeric_value": 4,
+      "name": "Four",
+      "symbol": "IV",
+      "slug": "3",
+      "question": "What does SUIT build as sanctuary?",
+      "description": "The question of foundation and refuge. This rank explores stability, shelter, what endures, structure as protection. It asks what provides safety, what grounds you, what can be counted on. What does it mean to have a sanctuary?",
+      "meaning": {
+        "upright": [
+          "Foundation",
+          "Sanctuary",
+          "Stability",
+          "Shelter",
+          "What endures",
+          "Safe ground"
+        ],
+        "inverted": [
+          "Fortress mentality",
+          "Sanctuary becomes prison",
+          "False security",
+          "Foundation crumbling",
+          "Shelter isolates",
+          "Safety as stagnation"
+        ]
+      },
+      "visual_content": "Structure offering shelter - walls that protect, foundations laid, refuge created, corners secured, the safe place"
+    },
+    "4": {
+      "index": 4,
+      "arcana": "minor",
+      "numeric_value": 5,
+      "name": "Five",
+      "symbol": "V",
+      "slug": "4",
+      "question": "What storm does SUIT face?",
+      "description": "The question of crisis and disruption. This rank explores challenge, conflict, chaos, the moment when everything is tested. It asks what breaks, what threatens, what storms through and disrupts the established order. What happens when stability is challenged?",
+      "meaning": {
+        "upright": [
+          "Challenge",
+          "Disruption",
+          "Testing",
+          "Conflict",
+          "Crisis as teacher",
+          "The storm arrives"
+        ],
+        "inverted": [
+          "Chaos overwhelming",
+          "Destruction without purpose",
+          "Crisis that breaks",
+          "Unable to weather",
+          "Conflict consuming",
+          "Storm that doesn't end"
+        ]
+      },
+      "visual_content": "Elements in turmoil - storm clouds gathering, foundations shaking, order disrupted, tension breaking, the moment of crisis"
+    },
+    "5": {
+      "index": 5,
+      "arcana": "minor",
+      "numeric_value": 6,
+      "name": "Six",
+      "symbol": "VI",
+      "slug": "5",
+      "question": "How does SUIT offer comfort?",
+      "description": "The question of solace and restoration. This rank explores care, healing, support after crisis, the compassionate response. It asks what soothes, what mends, what helps you continue. How do we comfort and be comforted?",
+      "meaning": {
+        "upright": [
+          "Comfort offered",
+          "Restoration",
+          "Care",
+          "Healing presence",
+          "Support",
+          "Solace found"
+        ],
+        "inverted": [
+          "Comfort that smothers",
+          "False consolation",
+          "Avoiding necessary pain",
+          "Care as control",
+          "Toxic positivity",
+          "Healing that harms"
+        ]
+      },
+      "visual_content": "Elements offering care - hands soothing, warmth provided, wounds tended, the gesture of comfort, restoration in progress"
+    },
+    "6": {
+      "index": 6,
+      "arcana": "minor",
+      "numeric_value": 7,
+      "name": "Seven",
+      "symbol": "VII",
+      "slug": "6",
+      "question": "What choice does SUIT demand?",
+      "description": "The question of decision and commitment. This rank explores crossroads, agency, standing at diverging paths, the weight of choosing. It asks what you're willing to risk, what you must declare, the moment you must commit. What does it mean to choose?",
+      "meaning": {
+        "upright": [
+          "Clear choice",
+          "Decision point",
+          "Crossroads",
+          "Agency claimed",
+          "Commitment required",
+          "Declaration"
+        ],
+        "inverted": [
+          "Paralyzed by choice",
+          "False dilemma",
+          "Coerced decision",
+          "Choosing from fear",
+          "No good options",
+          "Commitment avoided"
+        ]
+      },
+      "visual_content": "Elements at crossroads - diverging paths, scales balancing, doors to choose between, the moment poised, decision visible"
+    },
+    "7": {
+      "index": 7,
+      "arcana": "minor",
+      "numeric_value": 8,
+      "name": "Eight",
+      "symbol": "VIII",
+      "slug": "7",
+      "question": "What does SUIT thaw or open?",
+      "description": "The question of transformation and breakthrough. This rank explores melting, release, becoming fluid again after being frozen, the opening of what was closed. It asks about voice returning, ice breaking, the moment when what was rigid softens. What does it mean to thaw?",
+      "meaning": {
+        "upright": [
+          "Transformation",
+          "Breakthrough",
+          "Thawing",
+          "Opening",
+          "Voice returning",
+          "Release"
+        ],
+        "inverted": [
+          "Melting into formlessness",
+          "Loss of necessary boundaries",
+          "Premature opening",
+          "Thaw that floods",
+          "Transformation that destroys",
+          "Cannot refreeze when needed"
+        ]
+      },
+      "visual_content": "Elements transforming - ice melting to water, closed hands opening, frozen becoming fluid, the moment of release, breakthrough"
+    },
+    "8": {
+      "index": 8,
+      "arcana": "minor",
+      "numeric_value": 9,
+      "name": "Nine",
+      "symbol": "IX",
+      "slug": "8",
+      "question": "What does SUIT call you toward?",
+      "description": "The question of calling and aspiration. This rank explores vocation, the path ahead, what draws you forward, the dream you must pursue. It asks about the mountain you must climb, the song you must sing, the authentic path. What calls to you?",
+      "meaning": {
+        "upright": [
+          "Calling recognized",
+          "Aspiration",
+          "The path forward",
+          "Vocation",
+          "What draws you",
+          "Your mountain"
+        ],
+        "inverted": [
+          "False calling",
+          "Aspiration as burden",
+          "Called toward destruction",
+          "Dreams that poison",
+          "Vocation as trap",
+          "Cannot hear the call"
+        ]
+      },
+      "visual_content": "Elements beckoning forward - a mountain peak above, a path winding upward, light on the horizon, the call made visible, aspiration"
+    },
+    "9": {
+      "index": 9,
+      "arcana": "minor",
+      "numeric_value": 10,
+      "name": "Ten",
+      "symbol": "X",
+      "slug": "9",
+      "question": "Where does SUIT's path complete?",
+      "description": "The question of completion and fulfillment. This rank explores arrival, integration, the full expression, the cycle completed. It asks what it means to finish, to arrive, to fulfill the promise of the Ace. Where does this journey end?",
+      "meaning": {
+        "upright": [
+          "Completion",
+          "Fulfillment",
+          "Arrival",
+          "Integration",
+          "Full expression",
+          "Cycle complete"
+        ],
+        "inverted": [
+          "Completion that exhausts",
+          "Arrival but no home",
+          "Fulfillment hollow",
+          "Finished and empty",
+          "Nothing beyond",
+          "Completion as death"
+        ]
+      },
+      "visual_content": "Elements fulfilled - circle closing, journey's end, fruit ripened, the full expression, arrival at destination, wholeness"
+    },
+    "10": {
+      "index": 10,
+      "arcana": "minor",
+      "numeric_value": 11,
+      "name": "Singer",
+      "symbol": "S",
+      "slug": "10",
+      "quadrant": "Authentic/Creative",
+      "description": "The archetype of authentic creative expression. The Singer embodies spontaneous voice, genuine self-expression, creating from the source. This is the one who sings because they must, whose voice emerges naturally, who creates without calculation. The Singer knows their song and sings it freely.",
+      "meaning": {
+        "upright": [
+          "Authentic expression",
+          "Creative voice",
+          "Spontaneous creation",
+          "Singing your truth",
+          "Unfiltered self",
+          "Joy made audible"
+        ],
+        "inverted": [
+          "Lost voice",
+          "Singing others' songs",
+          "Expression stifled",
+          "Authentic performance",
+          "Voice as mask",
+          "Creative block"
+        ]
+      },
+      "visual_content": "A figure in the act of expression - singing, creating, voicing forth, arms wide or voice lifted, embodying spontaneous authentic creativity"
+    },
+    "11": {
+      "index": 11,
+      "arcana": "minor",
+      "numeric_value": 12,
+      "name": "Goatherd",
+      "symbol": "G",
+      "slug": "11",
+      "quadrant": "Authentic/Transmissive",
+      "description": "The archetype of authentic stewardship and transmission. The Goatherd tends the flock, knows the mountain paths, carries forward ancient practices with care. This is the shepherd who guides without controlling, who preserves by living the tradition, who transmits through presence and care. The Goatherd has walked these mountains as goatherds have for a thousand years.",
+      "meaning": {
+        "upright": [
+          "Stewardship",
+          "Authentic guidance",
+          "Tending with care",
+          "Living tradition",
+          "Knowing the paths",
+          "Shepherd's wisdom"
+        ],
+        "inverted": [
+          "Neglectful guardian",
+          "Tradition without understanding",
+          "Abandoned flock",
+          "Lost on the mountain",
+          "Stewardship as control",
+          "Dead preservation"
+        ]
+      },
+      "visual_content": "A figure tending and guiding - shepherd with flock on mountain paths, caring presence, embodying stewardship and authentic transmission"
+    },
+    "12": {
+      "index": 12,
+      "arcana": "minor",
+      "numeric_value": 13,
+      "name": "Puppeteer",
+      "symbol": "P",
+      "slug": "12",
+      "quadrant": "Instrumental/Creative",
+      "description": "The archetype of purposeful creation and skillful staging. The Puppeteer designs, choreographs, constructs with intention. This is the maker who works strings, who teaches through constructed narrative, who creates spectacle for purpose. The Puppeteer's craft can enchant or manipulate, delight or control - the same hands that create the Lonely Goatherd show can stage propaganda.",
+      "meaning": {
+        "upright": [
+          "Skillful craft",
+          "Strategic creation",
+          "Teaching through art",
+          "Purposeful staging",
+          "Choreographed beauty",
+          "Maker's wisdom"
+        ],
+        "inverted": [
+          "Manipulation",
+          "Pulling strings",
+          "Control disguised as art",
+          "Propaganda",
+          "Craft as weapon",
+          "Spectacle replacing truth"
+        ]
+      },
+      "visual_content": "A figure creating and directing - hands on strings, staging a scene, purposeful construction, embodying instrumental creativity"
+    },
+    "13": {
+      "index": 13,
+      "arcana": "minor",
+      "numeric_value": 14,
+      "name": "Officer",
+      "symbol": "O",
+      "slug": "13",
+      "quadrant": "Instrumental/Transmissive",
+      "description": "The archetype of disciplined order and transmitted structure. The Officer maintains discipline, enforces code, transmits institutional wisdom through training. This is the one who knows the rules, who upholds structure, who passes forward the established order. The Officer's whistle can protect through clear command or oppress through rigid control - the same discipline that keeps children safe can enforce fascist order.",
+      "meaning": {
+        "upright": [
+          "Necessary discipline",
+          "Protective structure",
+          "Clear authority",
+          "Trained precision",
+          "Institutional wisdom",
+          "Order that serves"
+        ],
+        "inverted": [
+          "Rigid oppression",
+          "Rules over life",
+          "Authority as tyranny",
+          "Discipline that crushes",
+          "Structure without soul",
+          "Order as violence"
+        ]
+      },
+      "visual_content": "A figure enforcing order - in uniform, whistle or command, embodying discipline and transmitted structure, authority visible"
+    }
+  },
+  "major_arcana": {
+    "story": "The musical journey of The Sound of Music - from Maria's solitary communion with nature, through her arrival at the von Trapp household, the awakening of love and music in a family haunted by loss, the looming shadow of the Anschluss, and the ultimate escape over the mountains. Each song marks a transformation: the abbey trying to contain wildness, children learning to sing, a captain remembering his heart, lovers recognizing each other, and a family choosing freedom over compliance. The story asks: how do we preserve authentic joy and love when instrumental forces demand our submission?",
+    "visual_style": "Cinematic wide-screen compositions in lush Technicolor - the rich production values of the 1965 film. Sweeping alpine vistas, ornate interiors of abbey and villa, theatrical staging. Strong use of light (sunlight on mountains, candlelight in abbey, spotlight on stage). Romantic realism with moments of expressionist drama. The aesthetic should feel like film stills - composed, dramatic, emotionally resonant. Colors shift from natural greens and blues (early cards) through warm golds and reds (middle) to dramatic shadows and escaping dawn light (late cards).",
+    "ranks": [
+      {
+        "index": 0,
+        "arcana": "major",
+        "numeric_value": 0,
+        "name": "The Sound of Music",
+        "symbol": "0",
+        "slug": "0",
+        "description": "Maria alone on the mountain, arms wide, spinning in pure connection with nature before duty calls her back. The primordial moment of authentic creative expression.",
+        "meaning": {
+          "upright": [
+            "Pure joy",
+            "Connection with nature",
+            "Authentic self-expression",
+            "Freedom",
+            "Solitude as fulfillment",
+            "The source"
+          ],
+          "inverted": [
+            "Escapism",
+            "Avoiding responsibility",
+            "Lost in reverie",
+            "Disconnection from community",
+            "Inability to integrate joy with duty"
+          ]
+        },
+        "visual_content": "A lone figure on a mountain meadow, arms outstretched, surrounded by wildflowers and distant peaks, bathed in golden light"
+      },
+      {
+        "index": 1,
+        "arcana": "major",
+        "numeric_value": 1,
+        "name": "Alleluia",
+        "symbol": "I",
+        "slug": "1",
+        "description": "The abbey at prayer, sacred space, the structure that transmits devotion across generations. Authentic transmission through ritual.",
+        "meaning": {
+          "upright": [
+            "Sacred foundation",
+            "Spiritual practice",
+            "Communal devotion",
+            "Tradition as living practice",
+            "Sanctuary",
+            "Reverence"
+          ],
+          "inverted": [
+            "Empty ritual",
+            "Spirituality without spirit",
+            "Going through motions",
+            "Sanctuary becomes prison",
+            "Tradition ossified"
+          ]
+        },
+        "visual_content": "Stone abbey interior with vaulted ceilings, nuns in prayer, candlelight and incense, stained glass casting colored light"
+      },
+      {
+        "index": 2,
+        "arcana": "major",
+        "numeric_value": 2,
+        "name": "Maria",
+        "symbol": "II",
+        "slug": "2",
+        "description": "The nuns singing about the problem of Maria - a flibbertigibbet, a will-o'-the-wisp, a clown. The question of how wildness fits within structure.",
+        "meaning": {
+          "upright": [
+            "Being seen (even critically)",
+            "The problem you pose to systems",
+            "Creative disruption",
+            "Authenticity that challenges",
+            "Beloved difficulty"
+          ],
+          "inverted": [
+            "Being defined by others",
+            "Gossip",
+            "Judgment without understanding",
+            "Reputation replacing reality",
+            "Being 'too much'"
+          ]
+        },
+        "visual_content": "Multiple perspectives converging - whispered conversations, hands gesturing, a central figure conspicuously absent or glimpsed through windows"
+      },
+      {
+        "index": 3,
+        "arcana": "major",
+        "numeric_value": 3,
+        "name": "I Have Confidence",
+        "symbol": "III",
+        "slug": "3",
+        "description": "Walking toward the von Trapp villa, nervous but determined. Stepping into the unknown with self-encouragement bordering on self-deception.",
+        "meaning": {
+          "upright": [
+            "Courage despite fear",
+            "Fake-it-till-you-make-it",
+            "Stepping forward",
+            "Self-encouragement",
+            "Entering new territory",
+            "Beginning"
+          ],
+          "inverted": [
+            "False confidence",
+            "Denial of real danger",
+            "Unprepared",
+            "Bravado masking terror",
+            "Walking into disaster with a smile"
+          ]
+        },
+        "visual_content": "A figure on a tree-lined path approaching a grand house, luggage in hand, posture caught between hesitation and determination"
+      },
+      {
+        "index": 4,
+        "arcana": "major",
+        "numeric_value": 4,
+        "name": "Sixteen Going On Seventeen",
+        "symbol": "IV",
+        "slug": "4",
+        "description": "Liesl and Rolf in the gazebo, dancing in the rain. Young love, innocence, romantic ideals before reality intrudes.",
+        "meaning": {
+          "upright": [
+            "First love",
+            "Innocence",
+            "Romantic awakening",
+            "Being cared for",
+            "Sweetness",
+            "Youthful idealism",
+            "Gentle guidance"
+          ],
+          "inverted": [
+            "Naivete as danger",
+            "Older man exploiting younger woman",
+            "Protection becoming control",
+            "Innocence weaponized",
+            "Betrayal brewing"
+          ]
+        },
+        "visual_content": "Two young figures dancing in a glass gazebo during a rainstorm, graceful and fragile, lightning in the distance"
+      },
+      {
+        "index": 5,
+        "arcana": "major",
+        "numeric_value": 5,
+        "name": "My Favorite Things",
+        "symbol": "V",
+        "slug": "5",
+        "description": "Maria comforting the frightened children during a thunderstorm. Teaching resilience through redirecting attention to joy.",
+        "meaning": {
+          "upright": [
+            "Comfort",
+            "Resilience through joy",
+            "Teaching coping",
+            "Finding light in darkness",
+            "Catalog of delights",
+            "Practical magic"
+          ],
+          "inverted": [
+            "Toxic positivity",
+            "Avoiding real pain",
+            "Distracting from necessary grief",
+            "Superficial comfort",
+            "Forced cheerfulness"
+          ]
+        },
+        "visual_content": "A nurturing figure surrounded by children in a bedroom, storm outside windows, small beautiful objects and memories made visible"
+      },
+      {
+        "index": 6,
+        "arcana": "major",
+        "numeric_value": 6,
+        "name": "Do-Re-Mi",
+        "symbol": "VI",
+        "slug": "6",
+        "description": "Teaching the children to sing throughout Salzburg - the fountain, the steps, the bicycles. Music as pedagogy, connection forming through learning.",
+        "meaning": {
+          "upright": [
+            "Teaching",
+            "Learning together",
+            "Skill-building",
+            "Connection through craft",
+            "Pedagogical creativity",
+            "Joyful discipline",
+            "Foundation"
+          ],
+          "inverted": [
+            "Rote learning",
+            "Mechanical practice",
+            "Teaching that deadens",
+            "Lessons without meaning",
+            "Performance of education"
+          ]
+        },
+        "visual_content": "A progression through city landmarks - fountain, market, bicycle procession - figures in matching outfits learning and playing"
+      },
+      {
+        "index": 7,
+        "arcana": "major",
+        "numeric_value": 7,
+        "name": "The Lonely Goatherd",
+        "symbol": "VII",
+        "slug": "7",
+        "description": "The puppet show - Maria and children performing together. Instrumental creation in its most charming form, teaching through constructed spectacle.",
+        "meaning": {
+          "upright": [
+            "Playful performance",
+            "Puppetry as art",
+            "Teaching through story",
+            "Collaborative creation",
+            "Skillful craft",
+            "Delightful manipulation"
+          ],
+          "inverted": [
+            "Empty spectacle",
+            "Manipulation",
+            "Strings controlling",
+            "Performance replacing authenticity",
+            "Charm as mask"
+          ]
+        },
+        "visual_content": "A miniature theater stage with marionettes, visible strings, hands controlling from above, children and adult performing together"
+      },
+      {
+        "index": 8,
+        "arcana": "major",
+        "numeric_value": 8,
+        "name": "Edelweiss",
+        "symbol": "VIII",
+        "slug": "8",
+        "description": "The Captain singing for the first time since his wife's death. The flower of Austria, memory, homeland, grief beginning to transform.",
+        "meaning": {
+          "upright": [
+            "Remembrance",
+            "Homeland",
+            "Grief honored",
+            "Voice returning",
+            "Tradition as anchor",
+            "Small brave things",
+            "Thaw beginning"
+          ],
+          "inverted": [
+            "Clinging to past",
+            "Grief that won't transform",
+            "Nostalgia as trap",
+            "Nationalism",
+            "Sentimentality replacing feeling"
+          ]
+        },
+        "visual_content": "A man with a guitar, eyes distant, remembering. A small white alpine flower in focus, mountains beyond"
+      },
+      {
+        "index": 9,
+        "arcana": "major",
+        "numeric_value": 9,
+        "name": "Grand Waltz",
+        "symbol": "IX",
+        "slug": "9",
+        "description": "The formal party at the villa - wealth, social performance, the world of the Baroness and Max. Structure and display.",
+        "meaning": {
+          "upright": [
+            "Social grace",
+            "Formal beauty",
+            "Wealth employed well",
+            "Elegance",
+            "Proper form",
+            "Traditional celebration",
+            "Civility"
+          ],
+          "inverted": [
+            "Hollow formality",
+            "Performance of class",
+            "Wealth as barrier",
+            "Social masks",
+            "Disconnection disguised as connection"
+          ]
+        },
+        "visual_content": "Ballroom in golden light, couples in formal wear waltzing in perfect formation, chandeliers, wealth and ritual"
+      },
+      {
+        "index": 10,
+        "arcana": "major",
+        "numeric_value": 10,
+        "name": "Laendler",
+        "symbol": "X",
+        "slug": "10",
+        "description": "Maria and the Captain dancing the Austrian folk dance, the moment of recognition, the exact instant everything changes.",
+        "meaning": {
+          "upright": [
+            "Recognition",
+            "The moment of transformation",
+            "Folk wisdom",
+            "Authentic connection",
+            "When everything shifts",
+            "Falling in love",
+            "The dance"
+          ],
+          "inverted": [
+            "Dangerous attraction",
+            "Improper desire",
+            "Moment of no return",
+            "What cannot be undone",
+            "Transgression"
+          ]
+        },
+        "visual_content": "Two figures in a folk dance, hands almost touching, eyes meeting, the world stopping around them, twilight in the courtyard"
+      },
+      {
+        "index": 11,
+        "arcana": "major",
+        "numeric_value": 11,
+        "name": "So Long, Farewell",
+        "symbol": "XI",
+        "slug": "11",
+        "description": "The children performing at the party. Innocence on display, but also the song they'll later use as cover for escape. Performance as both gift and strategy.",
+        "meaning": {
+          "upright": [
+            "Charming performance",
+            "Children's wisdom",
+            "Saying goodbye well",
+            "Performance as genuine gift",
+            "Tactical retreat",
+            "Exit with grace"
+          ],
+          "inverted": [
+            "Children performing for adults",
+            "Innocence exploited",
+            "Goodbye as manipulation",
+            "Cute as weapon",
+            "Performance under duress"
+          ]
+        },
+        "visual_content": "Children on a grand staircase in nightclothes, guests watching below, each child in spotlight briefly before ascending into shadow"
+      },
+      {
+        "index": 12,
+        "arcana": "major",
+        "numeric_value": 12,
+        "name": "Processional Waltz",
+        "symbol": "XII",
+        "slug": "12",
+        "description": "Formal instrumental music, ceremony, the structures of traditional society. The forms that can either support or constrain.",
+        "meaning": {
+          "upright": [
+            "Ceremonial order",
+            "Traditional forms",
+            "Institutional support",
+            "Proper procedure",
+            "Dignity",
+            "Things done well",
+            "Frameworks"
+          ],
+          "inverted": [
+            "Empty pageantry",
+            "Ceremony obscuring truth",
+            "Tradition as chains",
+            "Formality crushing life",
+            "Structure without soul"
+          ]
+        },
+        "visual_content": "Formal procession, architectural grandeur, symmetry and order, figures moving in prescribed patterns, gold and marble"
+      },
+      {
+        "index": 13,
+        "arcana": "major",
+        "numeric_value": 13,
+        "name": "Goodbye Maria / How Can Love Survive Waltz",
+        "symbol": "XIII",
+        "slug": "13",
+        "description": "Maria fleeing back to the abbey, the Baroness's cynical question. Crisis - can authentic love survive in the world of wealth and power?",
+        "meaning": {
+          "upright": [
+            "Necessary retreat",
+            "Facing hard questions",
+            "Cynicism as wisdom",
+            "Reality check",
+            "Dark night",
+            "Questioning sustainability"
+          ],
+          "inverted": [
+            "Running from love",
+            "Cynicism as defeat",
+            "Questions that poison",
+            "Fear winning",
+            "Belief that nothing good can last"
+          ]
+        },
+        "visual_content": "Split composition - a figure running away in darkness, and an elegant woman in jewels asking an unanswerable question"
+      },
+      {
+        "index": 14,
+        "arcana": "major",
+        "numeric_value": 14,
+        "name": "Edelweiss Waltz",
+        "symbol": "XIV",
+        "slug": "14",
+        "description": "Variation on the earlier theme, musical echo, the same song in a different context. Repetition with transformation.",
+        "meaning": {
+          "upright": [
+            "Themes returning",
+            "Variation",
+            "The same but different",
+            "Musical development",
+            "Deepening",
+            "Callback",
+            "Resonance"
+          ],
+          "inverted": [
+            "Stuck in loops",
+            "Cannot move beyond",
+            "Obsessive return",
+            "Stuck record",
+            "Haunted by the past"
+          ]
+        },
+        "visual_content": "Musical notation showing variations on a theme, or the same scene viewed from a different angle, shadows shifted"
+      },
+      {
+        "index": 15,
+        "arcana": "major",
+        "numeric_value": 15,
+        "name": "Entr'acte",
+        "symbol": "XV",
+        "slug": "15",
+        "description": "Intermission, the pause between acts. Time passing, the breath before the storm, transition, the in-between.",
+        "meaning": {
+          "upright": [
+            "Pause",
+            "Integration",
+            "Breath",
+            "Time to reflect",
+            "The between-space",
+            "Gathering strength",
+            "Necessary rest",
+            "Transition"
+          ],
+          "inverted": [
+            "Stuck in waiting",
+            "Paralysis",
+            "Inability to move forward",
+            "Suspended animation",
+            "The pause that never ends"
+          ]
+        },
+        "visual_content": "Empty stage, curtains, house lights, or a still moment - dawn or dusk, in-between light, anticipation"
+      },
+      {
+        "index": 16,
+        "arcana": "major",
+        "numeric_value": 16,
+        "name": "Climb Ev'ry Mountain",
+        "symbol": "XVI",
+        "slug": "16",
+        "description": "Mother Superior telling Maria to go back, to follow her authentic calling. The most direct statement of the film's thesis: seek your dream.",
+        "meaning": {
+          "upright": [
+            "Following your calling",
+            "Authentic guidance",
+            "Courage to pursue",
+            "Every path until you find your dream",
+            "Mentorship",
+            "Permission"
+          ],
+          "inverted": [
+            "Impossible demands",
+            "Standards too high",
+            "Climbing that destroys",
+            "Guidance as burden",
+            "Dreams weaponized"
+          ]
+        },
+        "visual_content": "A wise elder figure giving counsel, mountains rising behind, a path winding upward into mist, benediction and sending-forth"
+      },
+      {
+        "index": 17,
+        "arcana": "major",
+        "numeric_value": 17,
+        "name": "Something Good",
+        "symbol": "XVII",
+        "slug": "17",
+        "description": "Maria and the Captain in the gazebo (same place as Liesl's innocent romance), recognizing mature love. 'Somewhere in my youth or childhood, I must have done something good.'",
+        "meaning": {
+          "upright": [
+            "Mature love",
+            "Earned grace",
+            "Recognition of gift",
+            "Right timing",
+            "The universe conspiring",
+            "Genuine partnership",
+            "Integration"
+          ],
+          "inverted": [
+            "Undeserved",
+            "Guilt in happiness",
+            "Waiting for the other shoe to drop",
+            "Can't accept good",
+            "Suspicious of gift"
+          ]
+        },
+        "visual_content": "Two adults in the moonlit gazebo, equal and tender, architectural symmetry suggesting both the earlier scene and its transformation"
+      },
+      {
+        "index": 18,
+        "arcana": "major",
+        "numeric_value": 18,
+        "name": "Processional and Maria (The Wedding)",
+        "symbol": "XVIII",
+        "slug": "18",
+        "description": "The wedding ceremony, union, but also the moment the Nazis are searching for them. Completion and danger converging, joy against threat.",
+        "meaning": {
+          "upright": [
+            "Sacred union",
+            "Completion",
+            "Marriage",
+            "Commitment",
+            "Joy despite danger",
+            "Choosing love",
+            "Transformation complete"
+          ],
+          "inverted": [
+            "Ceremony interrupted",
+            "Danger at the door",
+            "Celebration cut short",
+            "Union under threat",
+            "Hunted",
+            "Nowhere safe"
+          ]
+        },
+        "visual_content": "Wedding ceremony in the abbey, bride and groom, but shadows lengthening, sense of urgency, beauty and threat intertwined"
+      }
+    ]
+  },
+  "cards": {
+    "major-0": {
+      "type": "major",
+      "name": "The Sound of Music",
+      "number": "0",
+      "rank_slug": "0",
+      "slug": "major-0",
+      "arcana": "major",
+      "description": "The beginning of all songs, the source. Maria alone on the mountain in pure communion with nature, arms outstretched in spontaneous joy before duty calls her back. This is the fool's leap into authentic creative expression, the moment before structure, the sound of music itself.",
+      "meaning": {
+        "upright": "Pure joy and authentic self-expression flow through you now. You stand at the source of creativity, connected deeply to nature and your own genuine voice. This is a moment of freedom and solitude as fulfillment, where spontaneous expression is not just possible but inevitable. The hills are alive within you.",
+        "inverted": "You may be escaping into reverie rather than engaging with reality, avoiding necessary responsibilities through fantasy. There's a disconnection from community, an inability to integrate your joy with your duties. Your freedom has become isolation, your spontaneity an excuse for avoiding commitment."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic wide-screen composition in lush Technicolor. Natural greens and blues dominate - alpine meadow in full sunlight. Sweeping vista with romantic realism, the rich production values of the 1965 film. Light-drenched and emotionally resonant.",
+          "content_guidance": "A lone figure on a mountain meadow, arms outstretched, surrounded by wildflowers and distant peaks, bathed in golden light. The moment of pure arrival and beginning.",
+          "detailed_description": "Wide-angle shot of a woman in a simple dress standing on a flowering alpine meadow, arms spread wide, spinning or about to spin, face lifted toward the sun. Wildflowers in vibrant yellows, pinks, and purples carpet the foreground. Behind her, the Austrian Alps rise in layers of blue and gray, snow-capped peaks touching the sky. Golden afternoon light illuminates everything. The composition emphasizes her smallness against the vast landscape while celebrating her complete presence and joy. The wind moves through her clothes and the grass. Pure cinematic Technicolor beauty - Julie Andrews on the mountain."
+        }
+      }
+    },
+    "major-1": {
+      "type": "major",
+      "name": "Alleluia",
+      "number": "1",
+      "rank_slug": "1",
+      "slug": "major-1",
+      "arcana": "major",
+      "description": "Sacred foundation and spiritual practice. The abbey at prayer, nuns in devotion, the structure that transmits reverence across generations. This is tradition as living practice, the sanctuary where authentic transmission happens through ritual.",
+      "meaning": {
+        "upright": "You are grounded in sacred foundation and communal devotion. This is a time of spiritual practice and reverence, where tradition lives and breathes through you. The sanctuary provides structure that supports rather than constrains. You are part of something larger, connected through ritual to those who came before and those who will come after.",
+        "inverted": "Ritual has become empty, spirituality without spirit. You go through the motions but the meaning has drained away. What should be sanctuary feels like prison, tradition has ossified into rigidity. The forms remain but the living practice has died."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic interior with rich Technicolor warmth. Gothic stone architecture, vaulted ceilings, strong use of candlelight and colored light through stained glass. Romantic realism with sense of sacred space.",
+          "content_guidance": "Stone abbey interior with vaulted ceilings, nuns in prayer, candlelight and incense, stained glass casting colored light. The architecture itself transmits devotion.",
+          "detailed_description": "Interior of a grand abbey chapel, stone columns rising to vaulted ceilings. Rows of nuns in black and white habits, heads bowed in prayer or lifted in song. Candles flicker on the altar. Stained glass windows cast pools of colored light - blues, reds, golds - onto the stone floor and walls. Incense smoke rises in shafts of light. The space feels both vast and intimate, ancient and alive. The composition emphasizes the vertical lines, the sense of being held within sacred architecture. Dawn or evening light."
+        }
+      }
+    },
+    "major-2": {
+      "type": "major",
+      "name": "Maria",
+      "number": "2",
+      "rank_slug": "2",
+      "slug": "major-2",
+      "arcana": "major",
+      "description": "Being seen, being discussed, being questioned. The problem of how wildness fits within structure. The nuns singing about Maria - flibbertigibbet, will-o'-the-wisp, clown. The one who disrupts simply by being authentically themselves.",
+      "meaning": {
+        "upright": "You are being seen, even if critically. The problem you pose to systems is real - your authenticity challenges established structures. This is creative disruption, the beloved difficulty, the one who doesn't fit but in not fitting reveals something important. Being 'too much' can be a gift.",
+        "inverted": "You are being defined entirely by others' opinions and judgments. Gossip and reputation have replaced reality. You feel judged without being understood, reduced to what others say about you rather than who you are. The weight of being 'too much' crushes rather than liberates."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic composition with Technicolor clarity. Multiple perspectives and angles converging. Warm golds and browns of abbey interiors, dramatic staging with sense of communal observation.",
+          "content_guidance": "Multiple perspectives converging - whispered conversations, hands gesturing, a central figure conspicuously absent or glimpsed through windows. The subject of discussion.",
+          "detailed_description": "A composite image showing multiple nuns in different parts of the abbey - some whispering in corridors, some gesturing animatedly in the courtyard, some looking out windows. At the center or conspicuously absent, glimpses of a younger woman in postulant dress - running past a window, leaving wet footprints, a guitar case half-hidden. The composition creates a sense of being watched and discussed from multiple angles. Warm afternoon light through stone windows. The feeling of being the subject of concerned, affectionate, exasperated observation."
+        }
+      }
+    },
+    "major-3": {
+      "type": "major",
+      "name": "I Have Confidence",
+      "number": "3",
+      "rank_slug": "3",
+      "slug": "major-3",
+      "arcana": "major",
+      "description": "Stepping into the unknown with self-encouragement bordering on self-deception. Walking toward the von Trapp villa, nervous but determined. The fake-it-till-you-make-it moment, courage despite fear.",
+      "meaning": {
+        "upright": "You are stepping forward into new territory with courage despite fear. This is the power of self-encouragement, of beginning even when uncertain. Fake-it-till-you-make-it isn't dishonesty but bravery. You enter the unknown with determination, talking yourself into courage.",
+        "inverted": "Your confidence is false, built on denial of real danger. You're walking into disaster with a smile, unprepared and unable to admit it. Bravado masks terror but doesn't dispel it. This isn't courage but foolishness, self-deception that will cost you."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor with bright natural light. Tree-lined path in greens and golds, grand architecture in the distance. Sense of journey and arrival, romantic realism with emotional honesty in body language.",
+          "content_guidance": "A figure on a tree-lined path approaching a grand house, luggage in hand, posture caught between hesitation and determination. The moment before arrival.",
+          "detailed_description": "A young woman in a simple coat and hat walking up a tree-lined path toward a large, imposing villa visible in the background. She carries a carpetbag or small suitcase. Her posture captures the in-between moment - shoulders back with determination, but a slight hesitation in her stride. Dappled sunlight through leaves. The path curves ahead. The villa looks grand and slightly intimidating. Her face shows her talking to herself, encouraging herself forward. Spring or summer, everything green and bright, but the architecture ahead suggests formality and rules."
+        }
+      }
+    },
+    "major-4": {
+      "type": "major",
+      "name": "Sixteen Going On Seventeen",
+      "number": "4",
+      "rank_slug": "4",
+      "slug": "major-4",
+      "arcana": "major",
+      "description": "Young love and innocence before reality intrudes. Liesl and Rolf dancing in the gazebo during a rainstorm. First romance, sweetness, the idealism of youth, gentle guidance that will prove more complicated.",
+      "meaning": {
+        "upright": "First love awakens in you, innocent and sweet. This is romantic idealism, being cared for, the gentle beauty of youthful affection. Someone offers to guide you, to take care of you. Everything feels possible and tender. Innocence is its own form of wisdom.",
+        "inverted": "Naivete has become dangerous. What seems like care is actually control, age difference or power imbalance masquerading as protection. Innocence is being weaponized. Betrayal is brewing beneath the sweetness. What feels like guidance may be manipulation."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor with dramatic lighting. Glass and rain, lightning in the distance. Romantic and slightly expressionistic, rich colors against storm darkness. Both beautiful and fragile.",
+          "content_guidance": "Two young figures dancing in a glass gazebo during a rainstorm, graceful and fragile, lightning in the distance. The moment suspended between safety and danger.",
+          "detailed_description": "Inside an ornate glass gazebo with white pillars, a young woman in a light dress and a young man in delivery uniform dance together. Rain streams down the glass walls. Lightning flashes in the distant purple-gray sky. Their dance is graceful, leaping from bench to bench. The gazebo feels like a bubble of safety within the storm. Their faces show joy and awakening attraction. The composition emphasizes the glass structure - transparent, fragile, beautiful, temporary. Twilight or night, the storm both romantic and ominous."
+        }
+      }
+    },
+    "major-5": {
+      "type": "major",
+      "name": "My Favorite Things",
+      "number": "5",
+      "rank_slug": "5",
+      "slug": "major-5",
+      "arcana": "major",
+      "description": "Teaching resilience through redirecting attention to joy. Maria comforting frightened children during a thunderstorm by cataloging delights. Practical magic, finding light in darkness.",
+      "meaning": {
+        "upright": "You offer or receive comfort through joy. This is resilience through redirecting attention to what delights, the practical magic of remembering beauty when afraid. Storm rages but you catalog favorite things - whiskers on kittens, copper kettles. Finding light in darkness not by denying darkness but by equally honoring light.",
+        "inverted": "Comfort has become toxic positivity, avoiding real pain that needs to be felt. You distract from necessary grief, force cheerfulness when sorrow should be honored. Superficial consolation that makes things worse. The favorite things have become a cage, preventing authentic feeling."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor interior, warm golden light against stormy darkness outside. Intimate bedroom scene, rich details. Romantic realism with sense of safety and teaching.",
+          "content_guidance": "A nurturing figure surrounded by children in a bedroom, storm outside windows, small beautiful objects and memories made visible. The catalog of delights.",
+          "detailed_description": "Maria sits on a large bed surrounded by seven children in nightclothes, storm visible through windows behind them with lightning flashing. The room is warmly lit by lamplight. As she sings, visualize small beautiful things appearing like memories - roses, raindrops on roses, whiskers on kittens, bright copper kettles, brown paper packages tied with string. The children's faces shift from fear to comfort to delight. The composition creates sanctuary within the room against the storm outside. Everything warm - woods, quilts, soft fabrics - against the cold storm beyond the glass."
+        }
+      }
+    },
+    "major-6": {
+      "type": "major",
+      "name": "Do-Re-Mi",
+      "number": "6",
+      "rank_slug": "6",
+      "slug": "major-6",
+      "arcana": "major",
+      "description": "Teaching and learning together through Salzburg. Music as pedagogy, connection forming through skill-building. The foundation of craft, joyful discipline, traveling through the city learning the scales.",
+      "meaning": {
+        "upright": "You are in a space of teaching or learning, building skills together, connecting through craft. This is pedagogical creativity - education that delights, discipline that feels like play, foundation being laid through joy. The basic scales become adventure. Competence builds through shared practice.",
+        "inverted": "Teaching has become rote, mechanical, deadening. Lessons are performed without meaning or joy. Practice feels like punishment, education kills rather than awakens curiosity. The beauty of craft has been crushed by repetition without understanding."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor with bright outdoor light. Multiple locations in montage - fountain, market, countryside. Rich colors, sense of movement and progression. Joyful, energetic, educational.",
+          "content_guidance": "A progression through city landmarks - fountain, market, bicycle procession - figures in matching outfits learning and playing. The journey of education.",
+          "detailed_description": "A montage-style composition showing the same group moving through different iconic Salzburg locations: splashing in the Pegasus fountain, riding bicycles through countryside, standing on stone steps, in the market. The children wear matching play-clothes made from curtains (blue with pink flowers). Each location shows a different aspect of the musical scale being taught and learned. Movement, progression, building skill and joy simultaneously. Everything bright and alive - blue sky, old stone, market colors, green hills. The sense of a city becoming a classroom, education as adventure."
+        }
+      }
+    },
+    "major-7": {
+      "type": "major",
+      "name": "The Lonely Goatherd",
+      "number": "7",
+      "rank_slug": "7",
+      "slug": "major-7",
+      "arcana": "major",
+      "description": "The puppet show - instrumental creation in its most charming form. Maria and children performing together, teaching through constructed spectacle, playful manipulation where the strings are visible and part of the delight.",
+      "meaning": {
+        "upright": "You create purposefully through skillful craft, teaching through constructed story. This is puppetry as art - playful performance, collaborative creation, the strings are visible but that's part of the magic. Delightful manipulation, spectacle that serves connection, instrumental creativity at its most charming.",
+        "inverted": "What was charming becomes sinister - strings that control, manipulation without delight. Performance has replaced authenticity, spectacle is empty, charm is being used as mask or weapon. The same skills that create puppet shows can create propaganda."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor with theatrical staging. Art Deco influenced, rich jewel tones (reds, golds, greens), sense of performance and constructed spectacle. Both charming and showing the mechanism.",
+          "content_guidance": "A miniature theater stage with marionettes, visible strings, hands controlling from above, children and adult performing together. The craft of puppetry visible.",
+          "detailed_description": "A small puppet theater stage set up in a grand room. Colorful marionettes in Tyrolean costume dance and yodel - the lonely goatherd, the maiden, the prince. The strings are clearly visible going up to the control bars. Below and to the sides, Maria and the children work the puppets, faces delighted and concentrated. The composition shows both the puppet performance and the performers, the magic and the mechanism. Rich theatrical colors - red curtains, gold trim, the green Tyrolean hills painted as backdrop. Warm lamplight. The audience (perhaps other characters) watching with delight. Everything slightly stylized, like a performance within a performance."
+        }
+      }
+    },
+    "major-8": {
+      "type": "major",
+      "name": "Edelweiss",
+      "number": "8",
+      "rank_slug": "8",
+      "slug": "major-8",
+      "arcana": "major",
+      "description": "Voice returning after silence. The Captain singing for the first time since his wife died, the small white flower of Austria, memory and homeland, grief beginning to transform. The thaw begins.",
+      "meaning": {
+        "upright": "Your voice returns after long silence. Grief is honored and begins to transform. This is remembrance as anchor rather than chain, homeland and belonging, small brave things. The thaw has begun - what was frozen in loss starts to soften. Tradition connects you to what matters. You sing again.",
+        "inverted": "You cling to the past, unable to let grief transform. Nostalgia has become a trap, sentimentality replaces genuine feeling. Memory holds you prisoner. The small flower of remembrance has become nationalism or the inability to move forward. Frozen in what was lost."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor shifting toward warmer tones. Intimate interior with guitar, sense of memory and emotion. Romantic realism with strong emotional resonance, the moment of breakthrough.",
+          "content_guidance": "A man with a guitar, eyes distant, remembering. A small white alpine flower in focus, mountains beyond. Voice returning.",
+          "detailed_description": "The Captain in evening clothes sits with a classical guitar, fingers on strings. His face shows emotion breaking through long-held control - eyes glistening, slight smile, distant look as he remembers. In the foreground, sharp and in focus, a small white edelweiss flower in a vase or as a detail on someone's dress. Through windows behind him, the Alps are visible. Maria and children watch, moved. The composition emphasizes the moment of breakthrough, of voice returning. Warm golden interior light against the cooler blue mountains outside. Everything poised at the moment of transformation."
+        }
+      }
+    },
+    "major-9": {
+      "type": "major",
+      "name": "Grand Waltz",
+      "number": "9",
+      "rank_slug": "9",
+      "slug": "major-9",
+      "arcana": "major",
+      "description": "The formal party at the villa - wealth, social performance, traditional celebration. The world of the Baroness and Max, elegant structure and display, civility and form.",
+      "meaning": {
+        "upright": "You move through formal beauty and social grace. This is elegance, proper form, wealth employed well, traditional celebration. Civility creates space for connection. There is real beauty in structure, in knowing how to move within established forms. The waltz itself is artistry.",
+        "inverted": "Formality has become hollow, performance of class and status. Wealth acts as barrier rather than bridge. Social masks hide disconnection. What looks like connection is actually elaborate choreography concealing emptiness. The beautiful surface covers nothing authentic."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor at peak glamour. Ballroom in golden light, rich colors and textures, chandeliers and formal wear. Romantic realism emphasizing beauty and structure, the aesthetic of wealth and tradition.",
+          "content_guidance": "Ballroom in golden light, couples in formal wear waltzing in perfect formation, chandeliers, wealth and ritual. The beauty of formal structure.",
+          "detailed_description": "A grand ballroom in the von Trapp villa, chandeliers blazing with candlelight. Couples in formal wear waltz in perfect formation - military dress uniforms, elegant gowns in rich colors. The Baroness in a particularly stunning gown. Wealth evident in every detail - gilt mirrors, polished floors, flower arrangements. The composition emphasizes the geometry of the dance, the elegance of form, the beauty of people who know how to move within structure. Everything golden, warm, formal, beautiful. Through windows, the evening garden. The height of elegant society, traditional celebration."
+        }
+      }
+    },
+    "major-10": {
+      "type": "major",
+      "name": "Laendler",
+      "number": "10",
+      "rank_slug": "10",
+      "slug": "major-10",
+      "arcana": "major",
+      "description": "The exact moment everything changes. Maria and the Captain dancing the Austrian folk dance, the moment of recognition, when eyes meet and the world stops. Authentic connection, falling in love.",
+      "meaning": {
+        "upright": "This is the moment of recognition, the instant when everything shifts. Authentic connection has been made, you see and are seen. The folk dance of your life brings you face to face with transformation. This is falling in love - not just romantically but with truth, with possibility, with what's real. The world stops and restarts differently.",
+        "inverted": "The moment of recognition is dangerous, transgressive, the point of no return. You've seen what cannot be unseen, felt what cannot be unfelt, and now must live with that knowledge. Improper desire, what cannot be undone, the moment you wish you could take back but can't."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor in twilight tones, turning more expressionistic. Warm golds and deepening blues, romantic lighting. The world stops around the dancers, everything else falls away.",
+          "content_guidance": "Two figures in a folk dance, hands almost touching, eyes meeting, the world stopping around them, twilight in the courtyard. The moment of transformation.",
+          "detailed_description": "Maria and the Captain dancing the Laendler in the villa courtyard at twilight. They dance the formal steps of the Austrian folk dance, circling each other. The crucial moment: their hands reach toward each other, almost touching, their eyes meet and lock. The world around them blurs or fades - other party guests, the Baroness watching from the doorway, everything becomes secondary to this moment. Twilight light, the sky that particular deep blue-gold of dusk. Their faces show the recognition, the falling. The composition freezes this instant of transformation. Everything else pauses. The dance itself reveals truth."
+        }
+      }
+    },
+    "major-11": {
+      "type": "major",
+      "name": "So Long, Farewell",
+      "number": "11",
+      "rank_slug": "11",
+      "slug": "major-11",
+      "arcana": "major",
+      "description": "Children performing at the party, each taking a moment in the spotlight before ascending the stairs to bed. Innocence on display, but also the song they'll later use for escape. Performance as both gift and strategy.",
+      "meaning": {
+        "upright": "You know how to exit with grace, how to say goodbye well. This is charming performance as genuine gift, children's wisdom, the tactical retreat that's also generous. Performance can be authentic, display can be real. You know when to ascend the stairs, when to take your bow and leave.",
+        "inverted": "Children are performing for adults, innocence is on display and being exploited. Goodbye becomes manipulation, cuteness is weaponized. Performance is under duress even if smiling. The charm is forced, exhausting, required rather than freely given."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor with theatrical staging. Grand staircase as stage, spotlight effect on each child, warm interior gold against darkening stairs above. Both charming and strategic.",
+          "content_guidance": "Children on a grand staircase in nightclothes, guests watching below, each child in spotlight briefly before ascending into shadow. Performance and departure.",
+          "detailed_description": "The grand staircase of the von Trapp villa. Seven children in white nightgowns and pajamas stand at different levels, each taking a moment in spotlight as they sing their verse of 'So Long, Farewell.' Below, party guests in formal wear watch with delight. Each child waves or curtsies before turning to ascend further into the shadowy upper reaches of the staircase. The youngest at the bottom, the oldest already disappearing at the top. The composition emphasizes the staircase as stage, the movement from light to shadow, the charm and the strategic departure. Warm golden light below, deepening shadow above. All watching faces are charmed, but there's also the echo of future escape in this innocent performance."
+        }
+      }
+    },
+    "major-12": {
+      "type": "major",
+      "name": "Processional Waltz",
+      "number": "12",
+      "rank_slug": "12",
+      "slug": "major-12",
+      "arcana": "major",
+      "description": "Formal instrumental music, ceremony, the structures of traditional society. The forms that can either support or constrain, things done properly and with dignity.",
+      "meaning": {
+        "upright": "You are held within ceremonial order and traditional forms. This is institutional support, proper procedure done with dignity, frameworks that serve. Things are being done well and correctly, structure provides container for meaning. You move within the patterns laid down by those before you.",
+        "inverted": "Ceremony has become empty pageantry, tradition chains rather than supports. Formality crushes life, structure lacks soul. The beautiful forms obscure truth rather than revealing it. Process matters more than purpose."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor emphasizing formal architecture and ceremony. Gold and marble, rich but slightly austere. Strong vertical and horizontal lines, symmetry, the aesthetic of institutional dignity.",
+          "content_guidance": "Formal procession, architectural grandeur, symmetry and order, figures moving in prescribed patterns, gold and marble. Structure as both support and constraint.",
+          "detailed_description": "A formal procession through grand architectural space - perhaps cathedral, palace, or formal garden. Figures in ceremonial dress (military uniforms, formal wear, ecclesiastical robes) move in prescribed patterns through colonnades or down formal paths. Everything emphasizes symmetry, order, the beauty and weight of tradition. Gold leaf, marble columns, geometric gardens. The composition is architecturally strong - vertical lines, symmetrical arrangement, formal perspective. Warm but somewhat austere light. The people are held within the structure, both supported and contained by it. Everything proper, dignified, beautiful, and slightly oppressive."
+        }
+      }
+    },
+    "major-13": {
+      "type": "major",
+      "name": "Goodbye Maria / How Can Love Survive Waltz",
+      "number": "13",
+      "rank_slug": "13",
+      "slug": "major-13",
+      "arcana": "major",
+      "description": "Crisis - Maria fleeing back to the abbey, the Baroness asking her cynical question. Can authentic love survive in the world of wealth and power? Necessary retreat, dark night, hard questions.",
+      "meaning": {
+        "upright": "You face hard questions and necessary retreat. This is the dark night, the reality check, cynicism as wisdom rather than defeat. You step back to see clearly, withdraw to understand. Can this love, this dream, this authentic thing survive in the real world? The question must be asked even if painful.",
+        "inverted": "You run from love out of fear. Cynicism has become defeat, hard questions poison rather than clarify. You've decided nothing good can last so you destroy it preemptively. Fear wins, belief in possibility dies. The retreat becomes permanent flight."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor turning more expressionistic and dramatic. Split composition, contrast between darkness and elegant light, emotional intensity visible. Colors shift toward the dramatic.",
+          "content_guidance": "Split composition - a figure running away in darkness, and an elegant woman in jewels asking an unanswerable question. Crisis and cynicism.",
+          "detailed_description": "A split or double composition. Left side: Maria in simple dress running or walking quickly through darkness or rain toward the abbey, head down, fleeing. Everything is blues and grays, rain or night. Right side: The Baroness in an elegant gown and jewels, in golden interior light, asking her question - 'How can love survive?' - her face showing sophisticated cynicism, world-weariness, almost pity. Or these could be overlaid, Maria running while the Baroness's question hangs in the air. The composition emphasizes the split between worlds, between innocence and experience, between running away and facing hard truths. Dark night of the soul made visual."
+        }
+      }
+    },
+    "major-14": {
+      "type": "major",
+      "name": "Edelweiss Waltz",
+      "number": "14",
+      "rank_slug": "14",
+      "slug": "major-14",
+      "arcana": "major",
+      "description": "Musical variation, the theme returning in new context. The same song but different, repetition with transformation, musical development, the callback that resonates differently.",
+      "meaning": {
+        "upright": "Themes return but transformed. You recognize this - you've been here before but you're different now. This is variation, the same but changed, musical development, deepening through repetition. The callback resonates with new meaning. What returns has been enriched by the journey.",
+        "inverted": "You're stuck in loops, unable to move beyond. The same situations repeat without growth. Obsessive return, the stuck record, the inability to find new melody. You're haunted by the past rather than enriched by it. The variation has become prison."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor with visual echoes and variations. Same scene viewed from different angle, or same elements rearranged. Shadows shifted, light changed. Musical notation might appear. More abstract, more consciously artistic.",
+          "content_guidance": "Musical notation showing variations on a theme, or the same scene viewed from a different angle, shadows shifted. Repetition with transformation.",
+          "detailed_description": "An artistic composition showing variation and echo. Perhaps musical notation for Edelweiss floating in the air, showing the original melody and the varied version. Or the same mountain vista from earlier but viewed from different angle, different light, different season. Or the Captain with guitar again but everything shifted - different room, different light, different emotional tone. The composition consciously references earlier imagery but shows transformation. Visual rhyme. Everything slightly different - colors shifted, perspectives changed, shadows falling differently. The same but not the same. The feeling of theme and variation in visual form."
+        }
+      }
+    },
+    "major-15": {
+      "type": "major",
+      "name": "Entr'acte",
+      "number": "15",
+      "rank_slug": "15",
+      "slug": "major-15",
+      "arcana": "major",
+      "description": "Intermission, the pause between acts. Time passing, the breath before the storm, the in-between space. Necessary rest and transition, gathering strength.",
+      "meaning": {
+        "upright": "This is pause, the necessary breath, time to integrate. You are in the between-space, the transition, gathering strength for what comes next. This is not stagnation but necessary rest, not ending but intermission. The curtain has fallen so it can rise again. Time to reflect, to prepare.",
+        "inverted": "The pause has become paralysis, suspension without release. You're stuck in waiting, unable to move forward into the next act. Suspended animation, the intermission that never ends. You've frozen in the between-space, afraid of what comes next."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic but abstract or minimalist. Empty stage, curtains, house lights, or liminal natural light - dawn or dusk. Technicolor but muted, the palette of in-between times. Sense of pause and anticipation.",
+          "content_guidance": "Empty stage, curtains, house lights, or a still moment - dawn or dusk, in-between light, anticipation. The breath between acts.",
+          "detailed_description": "An empty stage with red curtains drawn, house lights up but soft. Or an empty theater seen from the stage, rows of seats waiting. Or a liminal natural scene - the moment between night and day, the sky that particular in-between color, mountains in silhouette, everything still and waiting. The composition emphasizes emptiness not as absence but as anticipation. Colors muted but rich - the velvet red of curtains, the deep blue of dawn, the gold of house lights. Everything paused, breath held, waiting for what comes next. Time suspended between what was and what will be."
+        }
+      }
+    },
+    "major-16": {
+      "type": "major",
+      "name": "Climb Ev'ry Mountain",
+      "number": "16",
+      "rank_slug": "16",
+      "slug": "major-16",
+      "arcana": "major",
+      "description": "Mother Superior's counsel - follow your calling, seek your dream. The most direct statement of the thesis: climb every mountain until you find your dream. Authentic guidance, mentorship, permission to pursue.",
+      "meaning": {
+        "upright": "You are being called to follow your authentic path, to climb every mountain until you find your dream. This is wise guidance, mentorship, permission to pursue what calls you. Someone sees your vocation and sends you toward it. Ford every stream, follow every rainbow, no matter how difficult the path. Your calling is real.",
+        "inverted": "The demands are impossible, standards too high. Climbing is destroying you, the dream has become weapon rather than beacon. Guidance feels like burden, permission like command. You're being pushed toward something called 'your calling' that may not be yours at all."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor with spiritual intensity. Interior abbey space with mountains visible beyond, warm light and cool depths. Strong emotional resonance, sense of benediction and sending forth.",
+          "content_guidance": "A wise elder figure giving counsel, mountains rising behind, a path winding upward into mist, benediction and sending-forth. The call made clear.",
+          "detailed_description": "Mother Superior, powerful and compassionate, sits or stands giving counsel to Maria who kneels or sits before her. Through windows or in vision behind them, mountains rise dramatically into mist and clouds, a path winding upward visible but difficult. Mother Superior's face shows wisdom, love, and firmness - she is sending Maria toward difficulty because it's necessary. The light is complex - warm golden interior light on their faces, cool blue mountain light behind, the sense of being blessed and released. The composition emphasizes both the intimacy of the counsel and the vastness of what's being called toward. Everything serious, spiritual, full of weight and love."
+        }
+      }
+    },
+    "major-17": {
+      "type": "major",
+      "name": "Something Good",
+      "number": "17",
+      "rank_slug": "17",
+      "slug": "major-17",
+      "arcana": "major",
+      "description": "Maria and the Captain in the moonlit gazebo - the same place as Liesl's innocent romance, now holding mature love. Recognition of gift, earned grace, genuine partnership. 'Somewhere in my youth or childhood, I must have done something good.'",
+      "meaning": {
+        "upright": "You recognize earned grace, mature love, the gift you somehow deserve even if you don't know why. This is genuine partnership between equals, right timing, the universe conspiring in your favor. Integration has happened. You've done something good somewhere and now receive the blessing. Authentic love recognized.",
+        "inverted": "You can't accept the good, suspicious of the gift. Guilt poisons happiness, you wait for the other shoe to drop. The blessing feels undeserved so you reject it or sabotage it. Cannot believe in grace, cannot trust good fortune. Happiness becomes anxiety."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor in moonlight, romantic and mature. Same gazebo structure as earlier but lit differently, more deeply felt. Blues and silvers of night, warm human presence. The architecture echoes and transforms the earlier scene.",
+          "content_guidance": "Two adults in the moonlit gazebo, equal and tender, architectural symmetry suggesting both the earlier scene and its transformation. Mature love recognized.",
+          "detailed_description": "The same glass gazebo but at night, lit by moonlight and perhaps distant house light. Maria and the Captain, now equals, sit or stand close together, talking tenderly. The composition consciously echoes the earlier 'Sixteen Going On Seventeen' scene but everything is different - older actors, mature emotions, nighttime instead of storm, stillness instead of dancing. The glass structure frames them, the mountains are silhouetted beyond. Moonlight casts blue-silver light, their faces are gentle and wondering. The architecture remains but what it contains has transformed from innocent romance to mature love. Everything quiet, grateful, almost disbelieving of grace."
+        }
+      }
+    },
+    "major-18": {
+      "type": "major",
+      "name": "Processional and Maria (The Wedding)",
+      "number": "18",
+      "rank_slug": "18",
+      "slug": "major-18",
+      "arcana": "major",
+      "description": "The wedding ceremony in the abbey - sacred union, transformation complete. But also the moment the Nazis search for them, danger at the door even as joy completes. Beauty and threat intertwined.",
+      "meaning": {
+        "upright": "Sacred union is completed, transformation achieved, commitment made. This is marriage in its fullest sense - the choosing of love, the formal recognition of what's real. Joy despite danger, completion despite threat. You choose love knowing the cost, you commit knowing the world is not safe. The transformation is complete.",
+        "inverted": "The ceremony is interrupted, celebration cut short by danger. Union is achieved but immediately threatened, nowhere is safe. You're hunted at the altar, there's no sanctuary even in the sacred space. The joy has shadows at its edges, the completion is also the beginning of flight."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor with increasing dramatic tension. The beauty of ceremony but shadows lengthening. Golden light but sense of urgency, beauty and threat intertwined. The colors are rich but the mood is complex.",
+          "content_guidance": "Wedding ceremony in the abbey, bride and groom, but shadows lengthening, sense of urgency, beauty and threat intertwined. Completion and danger converging.",
+          "detailed_description": "Maria in a wedding gown and the Captain in formal attire stand at the abbey altar. The architecture is grand, candles are lit, nuns witness from the sides. It should be purely joyful but there's tension - someone checking a watch, a glance toward the door, shadows that feel ominous despite the beauty. Perhaps Nazi flags or vehicles visible through windows, or SS officers lurking in the background. The bride and groom's faces show both joy and awareness of danger. The composition interweaves beauty and threat - gorgeous ceremony, but the exit is being watched. Everything golden and shadowed simultaneously. The completion of their love story is also the beginning of their need to flee. The wedding is real and full and also a cover for escape."
+        }
+      }
+    },
+    "songs-0": {
+      "type": "minor",
+      "name": "Ace of Songs",
+      "number": "1",
+      "rank_slug": "0",
+      "suit_slug": "songs",
+      "slug": "songs-0",
+      "arcana": "minor",
+      "description": "The first song entering your life - spontaneous expression arriving as gift, voice discovering itself, the moment melody appears unbidden.",
+      "meaning": {
+        "upright": "A new song begins in you. Spontaneous expression arrives as pure gift - your authentic voice emerges, joy becomes audible, creative breakthrough happens. This is the spark of genuine self-discovery, the hills coming alive, the first moment you sing because you must. The seed of authentic creativity is planted.",
+        "inverted": "The gift of voice is refused or arrives on barren ground. Your song is stifled before it begins, the opportunity for authentic expression is missed or squandered. Creative potential meets obstacles too early, the beginning aborts before the first note sounds. You silence yourself at the moment of emergence."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Bright, airy watercolor washes in alpine meadow colors - sky blues, grass greens, wildflower yellows and pinks. Loose, flowing composition with movement and wind. Light-drenched, impressionistic.",
+          "content_guidance": "A single element emerging - a seed sprouting, a door opening, a hand offering, light breaking through, the moment of arrival. Focus on the first note, the opening of the mouth to sing.",
+          "detailed_description": "A figure on a hillside, mouth just opening, the first note of song about to emerge or just emerged. Light breaks through clouds onto wildflowers. A single musical note floats visible in the air, or birds begin to gather at the sound. Everything bright and new - morning light, fresh breeze, the alpine meadow awakening. The moment just before or just after the first sound. Watercolor technique shows the fluidity, the spontaneity, the natural emergence of song from silence."
+        }
+      }
+    },
+    "songs-1": {
+      "type": "minor",
+      "name": "Two of Songs",
+      "number": "2",
+      "rank_slug": "1",
+      "suit_slug": "songs",
+      "slug": "songs-1",
+      "arcana": "minor",
+      "description": "What songs ask of partnership - harmonizing voices, singing together, the beauty and challenge of two melodies finding each other.",
+      "meaning": {
+        "upright": "Two voices find harmony. Partnership in authentic expression, collaboration in joy, the beauty of singing together. Your voice meets another's and they coordinate, balance, recognize each other in melody. This is duet, the spontaneous agreement of genuine expression, two people finding their shared song.",
+        "inverted": "Voices clash or fail to harmonize. Discord in expression, competition instead of collaboration, two songs fighting for space. You cannot coordinate with the other, partnership feels like burden, the attempt at harmony creates only dissonance. One voice drowns out the other or both become noise together."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Bright watercolor in alpine meadow palette with emphasis on flow between two elements. Movement showing connection or tension. Impressionistic, light-filled.",
+          "content_guidance": "Two elements in relationship - hands meeting, paths converging, mirrors reflecting, dancers coordinating. Two voices, two figures singing toward each other.",
+          "detailed_description": "Two figures in a meadow or on adjacent hillsides, singing toward each other. Their voices visible as flowing watercolor ribbons of sound that either weave together in harmony or tangle in discord. Musical notes float between them. The landscape shows two paths meeting, or two streams converging. Morning light, wildflowers, the sense of voices finding or failing to find each other. The watercolor technique shows both the distinct identity of each voice and their potential for blending."
+        }
+      }
+    },
+    "songs-2": {
+      "type": "minor",
+      "name": "Three of Songs",
+      "number": "3",
+      "rank_slug": "2",
+      "suit_slug": "songs",
+      "slug": "songs-2",
+      "arcana": "minor",
+      "description": "Song spreading through a household - music multiplying, teaching children to sing, authentic expression becoming collective practice.",
+      "meaning": {
+        "upright": "Your song spreads to others. Community forms around shared singing, authentic expression multiplies and teaches itself. What began as one voice becomes many without losing its genuineness. The household learns the melody, children pick up the tune, collective joy emerges from authentic source. Music as cultural transmission, teaching that preserves spontaneity.",
+        "inverted": "Song is forced on those not ready, or spreads mechanically without understanding. Community pressure replaces authentic choice, everyone singing but the joy has drained away. Teaching deadens what it tries to transmit, participation is coerced, the collective song becomes conformity rather than shared delight."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Bright watercolor with multiplying elements and expanding circles of color. Alpine meadow palette with sense of growth and teaching. Flowing, joyful, communal.",
+          "content_guidance": "Elements multiplying - a table with many, knowledge passing through generations, patterns repeating, circles expanding. Many voices in a room or across hillsides.",
+          "detailed_description": "A household scene - perhaps around a table, or across multiple rooms, or spreading across connected hillsides. One figure teaches, others learn and join the song. Children pick up the melody, it spreads room to room, generation to generation. Watercolor shows the song as visible ribbons connecting everyone, or musical notes multiplying like flowers. The bright alpine palette shows this as joyful multiplication. Each voice distinct but harmonizing, the household alive with music learned and shared."
+        }
+      }
+    },
+    "songs-3": {
+      "type": "minor",
+      "name": "Four of Songs",
+      "number": "4",
+      "rank_slug": "3",
+      "suit_slug": "songs",
+      "slug": "songs-3",
+      "arcana": "minor",
+      "description": "The sanctuary that song builds - music as refuge, singing when afraid, the fortress of authentic expression that protects.",
+      "meaning": {
+        "upright": "Your song becomes sanctuary. Music provides shelter, singing creates safe ground, authentic expression is the foundation you can count on. When storms come, you have favorite things to catalog, melodies that ground you. Voice becomes refuge, the ability to sing is stability itself. What you build through authentic expression endures and protects.",
+        "inverted": "Song becomes fortress that isolates rather than shelters. Your voice walls you off from necessary experience, singing prevents you from feeling what must be felt. The sanctuary of expression has become prison of avoiding, safety has turned to stagnation. You hide in your songs instead of living."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor with more structure and enclosure while maintaining flowing alpine palette. Protective but not rigid, sanctuary as shelter not prison. Light still flows in.",
+          "content_guidance": "Structure offering shelter - walls that protect, foundations laid, refuge created. A room or space made safe through music, singing providing the shelter.",
+          "detailed_description": "A cozy interior space - bedroom or small room - with figures singing together during a storm visible through windows. The music itself seems to create the shelter, visible as golden light or protective ribbons of sound surrounding the singers. Children gathered on a bed, or a figure alone in a room, with musical notes creating a boundary against the storm outside. The watercolor technique shows both the solidity of the sanctuary and its permeability to light. Alpine meadow colors even indoors - flowers in a vase, quilts in meadow colors, the outside brought in safely."
+        }
+      }
+    },
+    "songs-4": {
+      "type": "minor",
+      "name": "Five of Songs",
+      "number": "5",
+      "rank_slug": "4",
+      "suit_slug": "songs",
+      "slug": "songs-4",
+      "arcana": "minor",
+      "description": "The storm that songs face - noise drowning melody, chaos disrupting voice, the moment when authentic expression is challenged.",
+      "meaning": {
+        "upright": "Your song faces disruption. Noise threatens to drown out melody, chaos challenges your ability to sing, authentic expression meets its test. This is the storm that asks: can your voice survive opposition? Can you keep singing when everything is loud? The crisis reveals whether your song is strong enough to weather difficulty.",
+        "inverted": "The chaos is overwhelming, noise wins, you cannot keep singing. Your voice is completely drowned out by disruption, the storm destroys rather than tests your song. Conflict consumes your ability to express authentically. The challenge breaks rather than strengthens, you lose your melody entirely to chaos."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor becoming more turbulent, colors clashing and chaotic but still in alpine palette. Storm disrupts the usual flow, brushstrokes more aggressive. Tension visible.",
+          "content_guidance": "Elements in turmoil - storm clouds gathering, foundations shaking, order disrupted. Song meeting noise, melody facing chaos.",
+          "detailed_description": "A figure trying to sing while storm rages - wind whipping, rain pouring, lightning cracking. Musical notes torn apart by wind or dissolving in rain. Or many voices shouting, overwhelming one trying to sing something genuine. The watercolor technique shows disruption - colors bleeding wrong, brushstrokes chaotic, the usual beauty of the alpine palette turned turbulent. Thunder visible as dark jagged forms, a singer's face showing strain, mouth open but the song struggling against the noise. The crisis moment where voice must fight to be heard."
+        }
+      }
+    },
+    "songs-5": {
+      "type": "minor",
+      "name": "Six of Songs",
+      "number": "6",
+      "rank_slug": "5",
+      "suit_slug": "songs",
+      "slug": "songs-5",
+      "arcana": "minor",
+      "description": "How songs offer comfort - singing away fear, cataloging favorite things, music as solace and restoration after crisis.",
+      "meaning": {
+        "upright": "Song brings comfort and restoration. You sing to soothe fear, catalog favorite things to find light in darkness, use authentic expression to heal and restore. Music offers care after crisis, melody mends what was disrupted. Your voice or another's provides the solace needed to continue. This is practical magic - singing the storm away.",
+        "inverted": "Song becomes toxic positivity, comfort that smothers necessary feeling. You distract with music when pain should be honored, force cheerfulness when authentic grief is needed. The singing is false consolation, care through melody becomes control. Favorite things become a cage preventing real emotion."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor returning to gentle beauty, warm and soothing tones from alpine palette. Restorative flowing brushwork, light returning after darkness. Tender and caring.",
+          "content_guidance": "Elements offering care - hands soothing, warmth provided, wounds tended. Singing that comforts, voice that heals, music as balm.",
+          "detailed_description": "A nurturing figure singing to comfort others - perhaps children after nightmare, or someone alone after crisis. Small beautiful things made visible as they're sung about - roses, raindrops, kittens, kettles, packages tied with string. The music visible as gentle ribbons of sound that soothe and restore. Storm passing outside windows, calm returning. Watercolor in warm tones - golden lamplight, soft colors, the alpine meadow palette used for comfort rather than exuberance. Faces showing fear giving way to peace. The song as medicine, voice as restoration."
+        }
+      }
+    },
+    "songs-6": {
+      "type": "minor",
+      "name": "Seven of Songs",
+      "number": "7",
+      "rank_slug": "6",
+      "suit_slug": "songs",
+      "slug": "songs-6",
+      "arcana": "minor",
+      "description": "The choice songs demand - to sing your truth or stay silent, to voice forth or hold back, the moment of declaring yourself through sound.",
+      "meaning": {
+        "upright": "You must choose whether to sing. Your authentic voice wants to emerge but you must decide to let it - sing your truth or stay silent, express genuinely or hold back. This is the crossroads of voice, the moment of commitment to authentic expression. Will you open your mouth? Will you risk the song? The choice is clear and yours to make.",
+        "inverted": "You are paralyzed between singing and silence, or coerced to choose from fear. The decision about voice is poisoned - no good options, false dilemma, choosing to sing or not sing from external pressure rather than authentic impulse. You avoid the commitment, unable to declare yourself either way."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor with strong sense of decision point, colors showing divergence. Alpine palette split or contrasting. The moment poised between two possibilities.",
+          "content_guidance": "Elements at crossroads - diverging paths, scales balancing, doors to choose between. A figure at the moment of choosing to sing or not sing.",
+          "detailed_description": "A figure standing at a literal or metaphorical crossroads - two paths through meadows, two doorways, a choice point. Mouth closed in one direction, mouth open singing in the other. Or scales balanced between silence and song. Musical notes waiting to be released or held back. Watercolor shows the two possibilities - one path bright with song, one path quiet. The alpine meadow splits into two futures. The figure poised at the exact moment before choosing, breath held. Everything waiting on the decision of voice."
+        }
+      }
+    },
+    "songs-7": {
+      "type": "minor",
+      "name": "Eight of Songs",
+      "number": "8",
+      "rank_slug": "7",
+      "suit_slug": "songs",
+      "slug": "songs-7",
+      "arcana": "minor",
+      "description": "What songs thaw and open - voice returning after silence, the melody that emerges after years of not singing, sound breaking through frozenness.",
+      "meaning": {
+        "upright": "Your voice returns after long silence. What was frozen in you begins to sing again, authentic expression breaks through after being closed. This is the thaw of voice - you thought you could no longer sing but melody emerges. The opening, the release, voice returning like spring after winter. You sing again, perhaps tentatively, but you sing.",
+        "inverted": "The thaw floods or destroys, opening happens too fast or wrong. Voice returns but overwhelms, you cannot control the song once it starts. Or boundaries dissolve that should remain, the melting is formless rather than freeing. What was frozen perhaps needed to stay that way for now. Premature opening, transformation that harms."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor showing transformation from frozen to fluid, ice to water. Alpine palette emphasizing thaw - winter blues becoming spring greens, breakthrough moment. Dynamic, releasing.",
+          "content_guidance": "Elements transforming - ice melting to water, closed hands opening, frozen becoming fluid. A mouth opening to sing after long silence, voice breaking free.",
+          "detailed_description": "A figure who has been silent beginning to sing - ice literally breaking around them, or their closed expression opening, or winter landscape shifting to spring as voice emerges. Watercolor shows the transformation - frozen blues becoming flowing greens and golds, static becoming dynamic. Perhaps the Captain singing Edelweiss after years, or anyone finding voice again. Musical notes emerging tentatively then more surely. The alpine meadow thawing, streams beginning to flow, the moment of breakthrough and release. Relief and vulnerability visible together."
+        }
+      }
+    },
+    "songs-8": {
+      "type": "minor",
+      "name": "Nine of Songs",
+      "number": "9",
+      "rank_slug": "8",
+      "suit_slug": "songs",
+      "slug": "songs-8",
+      "arcana": "minor",
+      "description": "What songs call you toward - the melody you must sing, your authentic voice as vocation, the musical path drawing you forward.",
+      "meaning": {
+        "upright": "Your song calls you forward. You recognize your authentic voice as vocation, the melody you must sing, the expression that is yours alone. This is calling recognized through music - climb every mountain until you find your song. You are drawn toward your genuine voice, aspiring to full authentic expression. The path ahead is musical.",
+        "inverted": "False song calls you, or the voice you pursue is not yours. You're drawn toward expression that destroys rather than fulfills, called toward someone else's melody. Your song has become burden rather than calling, aspiration poisons instead of inspires. You cannot hear your authentic voice for all the noise."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor with strong sense of upward movement and aspiration. Alpine palette with emphasis on heights and paths forward. Light on the horizon, calling visible.",
+          "content_guidance": "Elements beckoning forward - a mountain peak above, a path winding upward, light on the horizon. The song ahead drawing you, your voice calling you toward itself.",
+          "detailed_description": "A figure on a path moving toward distant mountains where music seems to originate - or toward their own voice calling from ahead. The alpine peaks ahead glow with light or resound with song. A path winds upward through meadows toward the source of calling. Watercolor shows aspiration - colors growing lighter and more vibrant ahead, musical notes like birds ascending, the sense of being drawn toward authentic voice. Perhaps a visual echo of 'Climb Every Mountain' but specifically about finding your song. The vocation is musical, the calling is to sing your truth."
+        }
+      }
+    },
+    "songs-9": {
+      "type": "minor",
+      "name": "Ten of Songs",
+      "number": "10",
+      "rank_slug": "9",
+      "suit_slug": "songs",
+      "slug": "songs-9",
+      "arcana": "minor",
+      "description": "Where song's path completes - full authentic voice realized, the complete expression of your genuine melody, arrival at your true song.",
+      "meaning": {
+        "upright": "Your authentic voice is fully realized. The song you were meant to sing completes itself through you, genuine expression reaches fulfillment. This is arrival at your true melody, the cycle of voice complete from first note to full symphony. You sing exactly what you are, integration of self and sound. The hills are alive and you are the music.",
+        "inverted": "Completion exhausts or empties you. You've sung your song fully but feel finished and hollow. Arrival brings no home, fulfillment is empty. Your voice completes but you have nothing beyond this, the cycle ends in death rather than integration. You've expressed everything and become nothing."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor at peak beauty and fullness. Alpine palette rich and complete, all colors present and harmonious. Arrival, wholeness, the full expression.",
+          "content_guidance": "Elements fulfilled - circle closing, journey's end, fruit ripened. A figure in full voice, complete authentic expression, the song fully sung.",
+          "detailed_description": "A figure standing on a mountain peak in full voice - arms wide, face lifted, singing with complete freedom and power. The entire alpine landscape responds - flowers blooming, birds in flight, the mountains themselves seeming to resound. Watercolor shows complete integration - all the colors of the meadow palette in harmony, every element of the landscape participating in the song. Musical notes fill the air like stars or pollen. The circle complete - perhaps visual echo of the opening 'Sound of Music' scene but now mature, fulfilled, the authentic voice fully realized. Sunset or sunrise, completion and wholeness."
+        }
+      }
+    },
+    "songs-10": {
+      "type": "minor",
+      "name": "Singer of Songs",
+      "number": "11",
+      "rank_slug": "10",
+      "suit_slug": "songs",
+      "slug": "songs-10",
+      "arcana": "minor",
+      "description": "The archetype of authentic creative expression embodied in song - the one who must sing, whose spontaneous voice is their truth, pure creative authenticity.",
+      "meaning": {
+        "upright": "You embody authentic creative voice. You are the singer who sings because they must, whose spontaneous expression is genuine and pure. This is you as pure creative authenticity - unfiltered self, joy made audible, singing your truth without calculation or performance. You know your song and sing it freely, creating from the source.",
+        "inverted": "Your voice is lost or stolen, you sing others' songs as if they were yours. Creative expression is blocked or stifled, authentic performance becomes performance of authenticity. Your voice has become mask rather than truth, you're singing but it's not your song. Creative block disguises itself as expression."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor in brilliant alpine meadow palette - this is the Songs suit at its most pure. Flowing, spontaneous, joy embodied. The aesthetic of someone who is song itself.",
+          "content_guidance": "A figure in the act of expression - singing, creating, voicing forth, arms wide or voice lifted. The Singer of Songs - authentic creativity personified in musical form.",
+          "detailed_description": "Maria on the mountain - or any figure who embodies pure spontaneous song. Arms wide, spinning or about to spin, voice lifted in pure expression. The entire alpine meadow responds to the singing - flowers turning toward the voice, birds joining, wind carrying the melody. Watercolor at its most free and flowing, colors bright and uncontrolled, the very technique embodying spontaneity. This is not performance but pure being, the person who IS song. Everything in the image should feel like it's singing - the grass, the light, the air itself. Authentic creative expression personified."
+        }
+      }
+    },
+    "songs-11": {
+      "type": "minor",
+      "name": "Goatherd of Songs",
+      "number": "12",
+      "rank_slug": "11",
+      "suit_slug": "songs",
+      "slug": "songs-11",
+      "arcana": "minor",
+      "description": "The shepherd who tends and transmits authentic song - carrying melodies forward through care, teaching children to sing without stifling spontaneity.",
+      "meaning": {
+        "upright": "You tend and transmit authentic song. You're the shepherd who teaches singing with care, carries melodies forward through the generations without crushing their spontaneity. This is authentic guidance through music - knowing the paths of voice, tending the flock of singers, preserving songs by keeping them alive rather than museum-perfect. You guide toward genuine expression without controlling it.",
+        "inverted": "Your shepherding of song becomes controlling or neglectful. You've lost the mountain paths of authentic voice, abandoned the flock of genuine expression. Teaching music deadens rather than awakens, stewardship becomes control. You preserve songs by killing their living quality, or fail to preserve them at all."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor in alpine palette with emphasis on caring guidance and transmission. Songs suit beauty with added sense of teaching and tending. Gentle but present authority.",
+          "content_guidance": "A figure tending and guiding - shepherd with flock on mountain paths, caring presence. The Goatherd who shepherds songs, tends singers, carries melodies forward.",
+          "detailed_description": "A figure on a mountain path with children or others following, all singing. The leader guides but doesn't control - showing paths, teaching melodies, but allowing authentic voice to emerge. Perhaps literally a goatherd leading goats who also happen to be yodeling, or a teacher with students on a hillside all finding their own voices within the taught melody. Watercolor shows both the structure of teaching and the freedom of expression - paths visible but not rigid, voices distinct but harmonizing. Alpine meadow in full beauty, the songs being carried forward through care and presence."
+        }
+      }
+    },
+    "songs-12": {
+      "type": "minor",
+      "name": "Puppeteer of Songs",
+      "number": "13",
+      "rank_slug": "12",
+      "suit_slug": "songs",
+      "slug": "songs-12",
+      "arcana": "minor",
+      "description": "The one who stages songs for purpose - choreographing musical performance, creating spectacle through voice, teaching through crafted musical narrative.",
+      "meaning": {
+        "upright": "You craft songs purposefully for teaching or beauty. This is choreographed singing, musical performance with intention, voice used skillfully for purpose. You stage 'The Lonely Goatherd,' create musical spectacle that delights and instructs. Strategic use of song for good ends - teaching through constructed musical narrative, puppetry that uses voice artfully.",
+        "inverted": "Song becomes manipulation, voice is weaponized. You pull strings through music, use melody for propaganda, stage performances that control rather than delight. Charm becomes mask, the crafted song replaces authentic expression. Your musical spectacle serves manipulation rather than connection, voice as tool of control."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor in alpine palette but with theatrical staging elements. The spontaneous beauty of Songs suit combined with visible construction and purpose. Art meeting craft.",
+          "content_guidance": "A figure creating and directing - hands on strings, staging a scene. The Puppeteer using songs, crafting musical performance, voice as purposeful creation.",
+          "detailed_description": "A figure directing a musical performance - perhaps conducting, or working puppet strings while puppets sing, or choreographing singers on a stage. The alpine meadow palette is present but combined with theatrical elements - stage lights, visible strings, constructed spectacle. Watercolor shows both beauty and mechanism. The songs are real but also crafted, spontaneous but also directed. Could be charming (children's puppet show with music) or sinister (propaganda rally disguised as authentic folk singing). The purposeful use of voice visible in composition."
+        }
+      }
+    },
+    "songs-13": {
+      "type": "minor",
+      "name": "Officer of Songs",
+      "number": "14",
+      "rank_slug": "13",
+      "suit_slug": "songs",
+      "slug": "songs-13",
+      "arcana": "minor",
+      "description": "The one who disciplines and transmits musical structure - teaching scales and proper technique, enforcing musical order, training voices.",
+      "meaning": {
+        "upright": "You bring discipline and structure to song. This is teaching Do-Re-Mi, training voices properly, transmitting musical technique and order. You enforce beneficial musical structure - scales must be learned, practice is necessary, there are right ways to breathe and hold tone. Institutional wisdom about voice, authority that serves authentic expression by providing foundation.",
+        "inverted": "Musical discipline crushes spontaneity, rules destroy the joy of singing. You enforce technique so rigidly that authentic voice dies, training becomes oppression. Song must be perfect and thus becomes mechanical, lifeless. The whistle that should coordinate singers instead silences them. Structure without soul, order as violence against authentic expression."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Watercolor in alpine palette but with precision and structure added. The flowing beauty of Songs suit constrained by discipline - could be supportive or oppressive. Clean lines within flowing color.",
+          "content_guidance": "A figure enforcing order - in uniform, whistle or command, embodying discipline. The Officer bringing structure to songs, training voices, enforcing musical order.",
+          "detailed_description": "A figure teaching music with discipline - perhaps with whistle coordinating singers, or conducting with precise gestures, or teaching scales with military precision. The Captain's whistle meeting songs, naval discipline applied to music. Watercolor shows tension between structure and flow - the alpine meadow palette present but organized, voices beautiful but in formation. Could show beneficial training (children learning to sing properly, gaining confidence through structure) or oppressive drilling (joy crushed by rigid correctness, authentic voice destroyed by too much discipline). The Officer of Songs makes music orderly."
+        }
+      }
+    },
+    "mountains-0": {
+      "type": "minor",
+      "name": "Ace of Mountains",
+      "number": "1",
+      "rank_slug": "0",
+      "suit_slug": "mountains",
+      "slug": "mountains-0",
+      "arcana": "minor",
+      "description": "Ancient wisdom first entering your life - the mountains that were always there, the landscape of childhood, enduring truth arriving as recognition rather than novelty.",
+      "meaning": {
+        "upright": "Ancient wisdom arrives or is recognized. The mountains that were always there become visible to you - enduring truth, natural guidance, songs sung for a thousand years now audible. This is the gift of tradition as living practice, the path forward revealed, authentic transmission beginning. Climb every mountain starts here.",
+        "inverted": "The mountain becomes barrier before it becomes teacher. Ancient wisdom is refused, the gift of enduring truth lands on someone not ready to receive it. The path forward is blocked, tradition arrives as weight rather than support. Potential for authentic transmission is squandered."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Solid, monumental composition in weathered stone grays, deep earth browns, snow whites, and distant blue-grays. Strong vertical elements, sense of scale and permanence. Romanticist landscape tradition.",
+          "content_guidance": "A single element emerging - a seed sprouting, a door opening, a hand offering. The first sight of mountains, the moment of recognizing ancient presence.",
+          "detailed_description": "A mountain peak emerging from mist for the first time, or a child seeing the Alps for the first time. The moment of recognition - these mountains have always been here. Stone in shades of gray and brown, snow bright white at the peak, sky deep blue. The scale emphasizes permanence and majesty. Perhaps a hand reaching toward the mountain, or a single edelweiss flowering on rock. The beginning of relationship with enduring wisdom."
+        }
+      }
+    },
+    "mountains-1": {
+      "type": "minor",
+      "name": "Two of Mountains",
+      "number": "2",
+      "rank_slug": "1",
+      "suit_slug": "mountains",
+      "slug": "mountains-1",
+      "arcana": "minor",
+      "description": "What mountains ask of partnership - climbing together, shared journey through ancient terrain, two people finding the path as one.",
+      "meaning": {
+        "upright": "You climb together, sharing the ancient path. Partnership in enduring journey, collaboration in ascending, mutual recognition in the face of the eternal. Two people on the mountain supporting each other, knowing the paths together, balanced in their shared relation to what endures.",
+        "inverted": "Partnership fails on the mountain - one climbs while the other cannot, or the ancient path becomes competition. Imbalance in the face of the eternal, unable to coordinate the climb. The relationship becomes burden against the mountain's indifference."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental composition with two figures, stone grays and earth browns. Sense of partnership against vast scale. Romantic realism emphasizing both human relationship and mountain permanence.",
+          "content_guidance": "Two elements in relationship - hands meeting, paths converging. Two climbers on a mountain path, supporting or struggling with each other.",
+          "detailed_description": "Two figures on a mountain path - perhaps roped together, or one helping the other over difficult terrain, or two paths converging on the mountainside. The vast stone peaks dwarf them but they move together. Gray stone, patches of snow, deep sky. Their partnership visible against eternal backdrop - either harmonious (supporting, balanced) or discordant (one struggling, pulling apart)."
+        }
+      }
+    },
+    "mountains-2": {
+      "type": "minor",
+      "name": "Three of Mountains",
+      "number": "3",
+      "rank_slug": "2",
+      "suit_slug": "mountains",
+      "slug": "mountains-2",
+      "arcana": "minor",
+      "description": "Ancient wisdom spreading through a household - stories told for generations, inherited knowledge of the peaks, songs sung for a thousand years.",
+      "meaning": {
+        "upright": "Mountain wisdom spreads through generations. Stories about the peaks pass from elder to child, songs sung for a thousand years teach themselves forward. Community forms around shared ancient knowledge, the household holds the mountains in common. Cultural transmission of enduring truth, teaching that preserves by living.",
+        "inverted": "Tradition spreads without understanding, dead preservation multiplies. The community teaches mountain stories mechanically, conformity replaces authentic transmission. Ancient wisdom becomes rote repetition, the household pressures participation in tradition that no longer lives."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental composition with multiple generations, stone and earth tones. Sense of time passing, stories being transmitted. Strong sense of continuity.",
+          "content_guidance": "Elements multiplying - knowledge passing through generations, patterns repeating. Elder to adult to child, all holding the same mountain knowledge.",
+          "detailed_description": "Three generations around a fire or table with mountain vista beyond - grandparent, parent, child. Stories being told, old songs being taught, maps of mountain paths being shared. The same peaks visible through windows that were there for all their ancestors. Stone, wood, weathered hands, young faces. The mountains enduring while the stories pass forward. Community holding ancient wisdom together."
+        }
+      }
+    },
+    "mountains-3": {
+      "type": "minor",
+      "name": "Four of Mountains",
+      "number": "4",
+      "rank_slug": "3",
+      "suit_slug": "mountains",
+      "slug": "mountains-3",
+      "arcana": "minor",
+      "description": "The sanctuary that mountains build - stone refuge, the abbey on the mountainside, shelter that has endured for centuries.",
+      "meaning": {
+        "upright": "Ancient stone provides sanctuary. The abbey built into mountainside, the refuge that endures, foundation laid on eternal rock. What the mountains build as shelter lasts - you can count on this safety, trust this ground. Stone walls that protect, paths known for generations, the stability of the eternal.",
+        "inverted": "Stone sanctuary becomes stone prison. Mountains wall you in rather than shelter you, ancient foundations crumble or isolate. The refuge that should protect instead traps, safety becomes stagnation. Insurmountable barriers, prison walls of stone."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental architectural composition, stone grays and earth tones. Strong vertical and horizontal lines, sense of structure built into eternal stone. Enduring and solid.",
+          "content_guidance": "Structure offering shelter - walls that protect, foundations laid on stone. Abbey built into mountainside, refuge that has stood for centuries.",
+          "detailed_description": "The abbey built into the mountainside - stone walls merging with stone peaks, foundations that have stood for centuries. Massive and protective, or oppressively confining depending on mood. Weathered gray stone, small windows, the sense of human structure participating in mountain permanence. Safe haven or fortress prison. The mountains provide the ground for enduring sanctuary."
+        }
+      }
+    },
+    "mountains-4": {
+      "type": "minor",
+      "name": "Five of Mountains",
+      "number": "5",
+      "rank_slug": "4",
+      "suit_slug": "mountains",
+      "slug": "mountains-4",
+      "arcana": "minor",
+      "description": "The storm mountains face - avalanche, impassable paths, the moment when ancient stability is tested by chaos.",
+      "meaning": {
+        "upright": "Even mountains face crisis. Avalanche, rockfall, paths made impassable, the testing of what seems eternal. This challenges even enduring wisdom - can ancient truth weather disruption? The mountain itself is shaken, stability tests itself. Crisis comes even to what has stood for millennia.",
+        "inverted": "The avalanche overwhelms, the mountain itself breaks. What should have endured cannot withstand the storm, ancient paths are destroyed utterly. The crisis is too much even for stone, tradition shatters, the eternal proves fragile after all."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental composition in chaos - avalanche, rockfall, storm on peaks. Stone grays with whites of snow, dark storm clouds. The eternal in crisis.",
+          "content_guidance": "Elements in turmoil - foundations shaking, order disrupted. Avalanche, impassable paths, the mountain in storm.",
+          "detailed_description": "Avalanche roaring down mountainside, or massive rockfall, or storm obscuring the peaks completely. The stone that seemed eternal is in motion, dangerous, transformed by chaos. White snow and dark stone tumbling, paths obliterated, the stable made unstable. The crisis threatens even the ancient. Figures small against the disruption, or paths now impassable, or the abbey shaken."
+        }
+      }
+    },
+    "mountains-5": {
+      "type": "minor",
+      "name": "Six of Mountains",
+      "number": "6",
+      "rank_slug": "5",
+      "suit_slug": "mountains",
+      "slug": "mountains-5",
+      "arcana": "minor",
+      "description": "How mountains offer comfort - 'you are not alone,' ancient presence as reassurance, the eternal saying 'I have weathered worse.'",
+      "meaning": {
+        "upright": "The mountains comfort by their presence. 'I have stood here for millennia, you are not alone, I have weathered worse.' Ancient wisdom offers solace through endurance, stone provides care by being unchanging. The eternal reassures - this too shall pass, but the mountains remain. Comfort through perspective and presence.",
+        "inverted": "Mountain comfort smothers or oppresses. 'This has always been this way' becomes refusal to acknowledge real pain. Ancient presence offers cold comfort, care through stone feels like indifference. The eternal perspective dismisses rather than soothes. Mountains say 'I will outlast your grief' when you need them to hold it."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental but tender composition, stone grays warming slightly. Sense of ancient presence offering care through stability. Romantic realism with emotional warmth.",
+          "content_guidance": "Elements offering care - ancient presence providing comfort. Mountains at dawn or dusk, eternal stone offering reassurance through endurance.",
+          "detailed_description": "A small figure against vast mountains, but the mountains feel protective rather than indifferent. Perhaps dawn light on peaks suggesting hope, or the eternal stone seeming to shelter rather than dwarf. Mother Superior and Maria with mountains beyond, ancient wisdom offering comfort. The peaks say 'you are not alone' through their presence. Stone in gentle light, offering care through endurance."
+        }
+      }
+    },
+    "mountains-6": {
+      "type": "minor",
+      "name": "Seven of Mountains",
+      "number": "7",
+      "rank_slug": "6",
+      "suit_slug": "mountains",
+      "slug": "mountains-6",
+      "arcana": "minor",
+      "description": "The choice mountains demand - climb or remain below, take the ancient path or stay in the valley, commit to the ascent.",
+      "meaning": {
+        "upright": "You must choose whether to climb. The mountain presents itself and demands decision - will you take the ancient path or remain below? This is commitment to the difficult journey, choosing to ford every stream, to seek your dream on the heights. The choice is clear: climb every mountain or stay where you are.",
+        "inverted": "Paralyzed before the mountain, or coerced to climb from fear rather than calling. The choice feels impossible or false, no good path up or down. You're frozen at the base unable to commit, or forced up a mountain that isn't yours to climb."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental composition emphasizing decision point. Two paths visible - up or away. Stone grays and earth tones, sense of crossroads.",
+          "content_guidance": "Elements at crossroads - diverging paths. Figure at the base of mountain, path winding up, choice to climb or turn away.",
+          "detailed_description": "A figure at the base of mountain with two paths clearly visible - one winding up into the peaks, one leading back to the valley. The upward path is difficult but calls, the valley path is easier but leaves the mountain unconquered. Stone grays, the path rocky and steep. Maria at the moment of deciding to return to the von Trapps. The mountain waits indifferent to the choice, but the choice must be made."
+        }
+      }
+    },
+    "mountains-7": {
+      "type": "minor",
+      "name": "Eight of Mountains",
+      "number": "8",
+      "rank_slug": "7",
+      "suit_slug": "mountains",
+      "slug": "mountains-7",
+      "arcana": "minor",
+      "description": "What mountains thaw - the path revealed by melting snow, ancient ways becoming accessible, spring on the peaks.",
+      "meaning": {
+        "upright": "The mountain path reveals itself. Snow melts and shows the ancient way forward, what was impassable becomes navigable, the route over the Alps appears. This is spring on the peaks, ice releasing its hold, the eternal showing its paths. The thaw reveals what was always there but hidden.",
+        "inverted": "The melt is too fast, causing flood or erasure. Paths revealed are destroyed by their revealing, the thaw washes away what it should uncover. Ancient ways are lost in the transformation, or boundaries that should exist dissolve dangerously. The spring flood destroys the path."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental composition showing transformation from winter to spring. Stone grays with whites of snow becoming flowing water, greens emerging. Dynamic but still eternal.",
+          "content_guidance": "Elements transforming - ice melting, paths revealing themselves. Snow becoming water, the ancient way forward appearing.",
+          "detailed_description": "Mountain landscape transitioning from winter to spring - snow melting to reveal the path beneath, ice breaking on streams, the route forward becoming visible. Stone emerging from white, water beginning to flow, perhaps green growing in crevices. The eternal stone showing its way forward as the seasonal releases. The escape route over the Alps revealing itself. Transformation but the mountain endures."
+        }
+      }
+    },
+    "mountains-8": {
+      "type": "minor",
+      "name": "Nine of Mountains",
+      "number": "9",
+      "rank_slug": "8",
+      "suit_slug": "mountains",
+      "slug": "mountains-8",
+      "arcana": "minor",
+      "description": "What mountains call you toward - 'Climb every mountain,' the peak that must be summited, your particular mountain revealed.",
+      "meaning": {
+        "upright": "Your mountain calls you to climb it. Not any mountain but yours specifically - the peak you must summit, the path you must ford. 'Climb every mountain until you find your dream' - this is vocation as ascent, calling as the eternal demanding you rise to meet it. Your particular mountain stands before you demanding to be climbed.",
+        "inverted": "The mountain calls you to destruction, or the peak that summons isn't yours. You're drawn toward a climb that will break you, aspirations become burden too heavy. The mountain you're called toward is someone else's dream, or climbing will cost more than you can survive."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental composition with strong vertical emphasis and light on peaks. Stone grays and whites drawing the eye upward. Sense of calling and aspiration.",
+          "content_guidance": "Elements beckoning forward - mountain peak above, path winding upward. The specific mountain that calls to you, your dream on the heights.",
+          "detailed_description": "A particular peak rising above all others, lit by golden light, calling to be climbed. Path winding up visible but difficult. Small figure looking up at their mountain. This isn't generic peak but THE mountain, the one that calls specifically to you. Stone in morning light, snow bright on summit, the path ahead clear but demanding. Mother Superior pointing toward the peaks, 'Climb every mountain.' Your vocation is vertical."
+        }
+      }
+    },
+    "mountains-9": {
+      "type": "minor",
+      "name": "Ten of Mountains",
+      "number": "10",
+      "rank_slug": "9",
+      "suit_slug": "mountains",
+      "slug": "mountains-9",
+      "arcana": "minor",
+      "description": "Where mountain paths complete - over the Alps to freedom, the escape route fulfilled, arriving on the other side of the eternal.",
+      "meaning": {
+        "upright": "You cross the mountains to freedom. The climb completes, the path over the Alps leads to safety, the ancient peaks deliver you to the other side. This is arrival through endurance, completion of the journey the mountains demanded. You climbed every mountain and found your dream. The eternal guided you through to wholeness.",
+        "inverted": "You cross the mountains but arrive empty or exhausted. The other side holds no home, freedom is hollow, the completion of the climb leaves you with nothing beyond. The mountains consumed rather than delivered you. Finished but broken by the ascent."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental composition showing arrival and completion. Stone grays transitioning to new landscape beyond, sense of crossing over, wholeness achieved through endurance.",
+          "content_guidance": "Elements fulfilled - circle closing, journey's end. Figures crossing mountain pass into freedom, the other side visible.",
+          "detailed_description": "The von Trapp family cresting the mountain pass, the other side visible - Switzerland, freedom, safety. They've crossed the eternal barrier, the mountains delivered them through. Stone peaks behind and before, the pass itself the threshold. Exhausted but whole, escaped but together. The completion of the mountain's path. The ancient peaks fulfilled their purpose as guide and deliverer. Arrival through endurance."
+        }
+      }
+    },
+    "mountains-10": {
+      "type": "minor",
+      "name": "Singer of Mountains",
+      "number": "11",
+      "rank_slug": "10",
+      "suit_slug": "mountains",
+      "slug": "mountains-10",
+      "arcana": "minor",
+      "description": "The one who creates spontaneously on the peaks - yodeling across valleys, songs echoing through ancient stone, authentic expression meeting eternal landscape.",
+      "meaning": {
+        "upright": "You are authentic creative voice echoing through eternal landscape. This is yodeling across peaks, spontaneous song that the mountains amplify and return. Your genuine expression meets ancient stone and becomes more itself. The peaks give your authentic voice back to you louder, clearer. Creative truth resonating with enduring truth.",
+        "inverted": "Your voice is lost in the mountains, swallowed by the eternal. The peaks return nothing, your authentic expression finds no resonance in the ancient stone. You create but the mountains are indifferent, your song echoes back empty or not at all."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental landscape with figure in spontaneous expression, stone grays and earth tones but with life and movement. Romantic sublime meeting authentic joy.",
+          "content_guidance": "A figure in spontaneous expression on mountain heights. Singer/yodeler with peaks echoing the voice back, authentic creativity meeting eternal landscape.",
+          "detailed_description": "A figure on a peak singing or yodeling, arms spread, voice visible as it echoes between stone peaks. The mountains amplify and return the song. Authentic creative expression meets eternal landscape - neither dominates, they amplify each other. Stone in dramatic light, sky vast, the singer small but their voice fills the space between peaks. Joy and permanence together."
+        }
+      }
+    },
+    "mountains-11": {
+      "type": "minor",
+      "name": "Goatherd of Mountains",
+      "number": "12",
+      "rank_slug": "11",
+      "suit_slug": "mountains",
+      "slug": "mountains-11",
+      "arcana": "minor",
+      "description": "The shepherd who knows the mountain paths - tending flocks on ancient slopes, living tradition of those who've walked these peaks for a thousand years.",
+      "meaning": {
+        "upright": "You are the authentic steward of mountain wisdom. The goatherd who knows the paths as goatherds have for a thousand years, tending flocks on ancient slopes, living the tradition by walking it daily. You guide through presence and long knowing, shepherd what needs tending on the eternal landscape. Authentic transmission through lived practice on the mountains.",
+        "inverted": "You've lost the mountain paths, abandoned the flock on the slopes. The ancient knowledge you should carry has died in you, stewardship has become neglect. The mountains remain but you no longer know how to guide through them. Tradition is dead in your hands."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental pastoral composition, stone grays and earth tones with living presence. The lonely goatherd in truth - shepherd and flock on eternal slopes.",
+          "content_guidance": "Figure tending flock on mountain paths, embodying living tradition. Goatherd who knows these slopes as their ancestors did, authentic transmission through presence.",
+          "detailed_description": "A goatherd with flock on mountain slope - perhaps yodeling, perhaps just present with the animals. They know every path, every shelter, have walked these slopes as their family has for generations. Stone peaks rise behind, the flock grazes on alpine meadow. The goatherd is part of the mountain's life, carrying forward ancient practice by living it. Weathered face, simple clothes, complete belonging. The authentic steward of enduring wisdom."
+        }
+      }
+    },
+    "mountains-12": {
+      "type": "minor",
+      "name": "Puppeteer of Mountains",
+      "number": "13",
+      "rank_slug": "12",
+      "suit_slug": "mountains",
+      "slug": "mountains-12",
+      "arcana": "minor",
+      "description": "The one who stages mountain wisdom for purpose - creating performances about eternal themes, teaching through constructed narratives of the peaks.",
+      "meaning": {
+        "upright": "You craft mountain wisdom purposefully for teaching. This is creating 'The Lonely Goatherd' puppet show - staging yodeling and alpine life to delight and instruct. You use ancient themes skillfully, construct narratives about eternal landscape for good purpose. The mountains become teaching tool, their wisdom choreographed into accessible spectacle.",
+        "inverted": "Mountain wisdom becomes propaganda, eternal themes weaponized. You stage Alpine imagery for manipulation, use traditional mountain culture as control mechanism. The peaks and their songs become tools of nationalism or fascism, 'blood and soil' rhetoric. Ancient wisdom perverted into constructed lie."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental landscape with theatrical staging elements. Stone grays combined with constructed spectacle. The eternal made into performance - could be charming or sinister.",
+          "content_guidance": "Figure staging mountain wisdom, creating performance about eternal themes. Puppet theater showing alpine life, or propaganda using mountain imagery.",
+          "detailed_description": "The puppet theater staging 'The Lonely Goatherd' with mountain backdrop painted behind - crafted yodeling, staged Alps. Could be charming children's show teaching about mountain culture, or could be Nazi rally using Alpine imagery and edelweiss for nationalist propaganda. The monumental stone present but mediated through construction and staging. Purpose directing presentation of eternal wisdom."
+        }
+      }
+    },
+    "mountains-13": {
+      "type": "minor",
+      "name": "Officer of Mountains",
+      "number": "14",
+      "rank_slug": "13",
+      "suit_slug": "mountains",
+      "slug": "mountains-13",
+      "arcana": "minor",
+      "description": "The one who enforces mountain discipline - teaching proper climbing technique, transmitting institutional knowledge of the peaks, authority of those who know the dangers.",
+      "meaning": {
+        "upright": "You bring necessary discipline to the mountains. This is teaching proper climbing technique, enforcing safety procedures, transmitting institutional knowledge of the peaks. You know the dangers and train others to survive them. Authority that serves by keeping people alive on the eternal stone. Order and structure that protect against mountain indifference.",
+        "inverted": "Mountain discipline becomes oppression, rules about the peaks crush rather than protect. You enforce technique so rigidly that the joy of climbing dies, or use knowledge of the mountains as power over others. The Anschluss - institutional control using mountain borders to trap rather than guide. Order as violence against those who would climb free."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental composition with institutional authority visible. Stone grays with precision and structure, uniformed presence against eternal landscape. Order enforced on or through the mountains.",
+          "content_guidance": "Figure enforcing order on mountain terrain - training climbers, patrolling borders, maintaining discipline. Authority visible against eternal backdrop.",
+          "detailed_description": "An officer or guide training climbers in proper technique - ropes, safety, the institutional knowledge that keeps people alive. Could be beneficent (mountain rescue, alpine training) or oppressive (border guards on the mountain passes, the Nazis controlling who can cross the Alps). Uniform against stone, discipline against the eternal. The mountains don't care but the officer imposes order on how they're approached. Authority that could protect or imprison."
+        }
+      }
+    },
+    "puppets-0": {
+      "type": "minor",
+      "name": "Ace of Puppets",
+      "number": "1",
+      "rank_slug": "0",
+      "suit_slug": "puppets",
+      "slug": "puppets-0",
+      "arcana": "minor",
+      "description": "Skillful craft first entering your life - someone teaches you to make, to stage, to choreograph with purpose. The gift of purposeful creation.",
+      "meaning": {
+        "upright": "The gift of craft arrives. Someone teaches you to create with purpose, to stage beauty, to make puppets dance. This is the seed of skillful making, pedagogical creativity, the beginning of learning to construct spectacle for good ends. Instrumental creation as gift - you can make things that teach and delight.",
+        "inverted": "The gift of craft is refused or arrives as corruption. You learn manipulation instead of art, are taught to pull strings for wrong purposes. The beginning of purposeful creation is poisoned from the start, potential for craft is squandered or weaponized immediately."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting - sharp contrasts between spotlight and shadow, rich jewel tones (deep reds, golds, purples) against black. Stagecraft aesthetic with visible construction.",
+          "content_guidance": "A single element emerging - first puppet, first string pulled, hands learning to create with purpose. The gift of craft arriving.",
+          "detailed_description": "A hand receiving puppet strings for the first time, or a small marionette coming to life, or someone being shown how to make theater. Dramatic spotlight on the moment of learning. Deep red curtain, golden puppet, black background. The instant craft enters as gift - could be charming (child learning to make) or ominous (recruit learning propaganda techniques). The beginning of purposeful creation."
+        }
+      }
+    },
+    "puppets-1": {
+      "type": "minor",
+      "name": "Two of Puppets",
+      "number": "2",
+      "rank_slug": "1",
+      "suit_slug": "puppets",
+      "slug": "puppets-1",
+      "arcana": "minor",
+      "description": "What puppetry asks of partnership - puppeteer and audience, two performers coordinating, the dance of creating spectacle together.",
+      "meaning": {
+        "upright": "Partnership in creating spectacle. Two puppeteers coordinate strings, or performer and audience complete each other, or teacher and student make theater together. This is collaboration in purposeful creation, choreographed beauty requiring two, staging that works through mutual recognition of purpose.",
+        "inverted": "Partnership in manipulation, or coordination fails and spectacle collapses. Two people pull strings against each other, or performer manipulates audience, or teaching becomes coercion. The collaboration is for corrupt purpose or the choreography tangles destructively."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting with two figures, rich jewel tones and dramatic shadows. Stagecraft showing coordination or conflict. Art Deco influenced.",
+          "content_guidance": "Two elements in relationship - two puppeteers coordinating, performer and audience, strings interweaving. Partnership in spectacle.",
+          "detailed_description": "Two puppeteers working together on a complex marionette performance, strings interweaving but coordinated. Or performer and audience in dramatic exchange. Spotlight and shadow, the two figures either in harmony (beautiful collaboration) or tension (strings tangling, manipulation competing). Rich theatrical colors, gold and deep red, visible mechanism of coordination or conflict."
+        }
+      }
+    },
+    "puppets-2": {
+      "type": "minor",
+      "name": "Three of Puppets",
+      "number": "3",
+      "rank_slug": "2",
+      "suit_slug": "puppets",
+      "slug": "puppets-2",
+      "arcana": "minor",
+      "description": "Puppetry spreading through a household - teaching children to perform, rehearsal and collective staging, theater becoming shared practice.",
+      "meaning": {
+        "upright": "Craft spreads through community. The household learns to make theater together, children are taught to perform, rehearsal becomes shared joy. Collective staging for good purpose - teaching through constructed spectacle multiplies, everyone learning their parts in the show. Choreographed beauty spreading.",
+        "inverted": "Performance is forced on unwilling participants, or spectacle spreads as manipulation. Everyone must participate in the show, rehearsal becomes coercion, the household is staged without choice. Community performance becomes conformity, collective puppet show as crowd control."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting with multiple figures, jewel tones and stage blacks. Sense of collective rehearsal or performance. Could be joyful or oppressive.",
+          "content_guidance": "Elements multiplying - many learning to perform, household in rehearsal. Collective staging spreading through community.",
+          "detailed_description": "Maria and children rehearsing 'The Lonely Goatherd' puppet show, everyone learning their parts, collective joy in making theater. Or a propaganda training session, many being taught to perform the same script. Rich theatrical colors, multiple figures with strings or in costume, the spread of performance through the household - either delightful collaboration or ominous coordination."
+        }
+      }
+    },
+    "puppets-3": {
+      "type": "minor",
+      "name": "Four of Puppets",
+      "number": "4",
+      "rank_slug": "3",
+      "suit_slug": "puppets",
+      "slug": "puppets-3",
+      "arcana": "minor",
+      "description": "The sanctuary that theater builds - stage as safe space to explore, performance creating refuge, the constructed world as shelter.",
+      "meaning": {
+        "upright": "Theater becomes sanctuary. The stage is safe space to explore difficult things, performance creates refuge where you can be what you cannot be elsewhere. This is the puppet show as shelter, constructed spectacle that protects by providing alternate space. The theater you can count on, staging as stable ground.",
+        "inverted": "Theater becomes cage, the stage imprisons. Performance is no longer refuge but obligation, the constructed world traps rather than frees. You hide in spectacle instead of living, the puppet show becomes the only place you exist. Staging as stagnation, safety as death of authentic being."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting creating enclosed space, jewel tones with sense of shelter. Stage as sanctuary, warm light within dramatic darkness. Protective or confining.",
+          "content_guidance": "Structure offering shelter - stage, theater, puppet show providing safe space. Constructed world as refuge.",
+          "detailed_description": "A small puppet theater stage lit warmly, curtains creating enclosure, performers or audience finding shelter in the constructed world. The stage as sanctuary - could be children using puppet show to process trauma, or could be someone hiding in performance instead of living. Rich theatrical gold and red, the constructed space clearly bounded but whether protecting or imprisoning depends on mood. Theater as refuge or cage."
+        }
+      }
+    },
+    "puppets-4": {
+      "type": "minor",
+      "name": "Five of Puppets",
+      "number": "5",
+      "rank_slug": "4",
+      "suit_slug": "puppets",
+      "slug": "puppets-4",
+      "arcana": "minor",
+      "description": "The storm puppetry faces - strings tangling, performance collapsing, the moment when careful staging meets chaos.",
+      "meaning": {
+        "upright": "Your careful staging meets disruption. Strings tangle, performance collapses, choreography is tested by chaos. This is the crisis of constructed spectacle - can your purposeful creation survive disorder? Can the show go on when everything is breaking? The storm tests whether craft is strong enough.",
+        "inverted": "Complete collapse of staging, strings hopelessly tangled, the performance destroyed by chaos. Your constructed spectacle cannot withstand disruption, the show fails utterly. Crisis consumes your ability to create purposefully, choreography dissolves into disaster."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting in chaos - spotlights swinging, shadows aggressive. Jewel tones clashing, stage in crisis. Expressionistic disorder.",
+          "content_guidance": "Elements in turmoil - strings tangling, stage collapsing, performance disrupted. Carefully constructed spectacle meeting chaos.",
+          "detailed_description": "Puppet strings hopelessly tangled, marionettes fallen, or stage collapsing during performance. Spotlights swinging wild, curtains torn, the careful choreography dissolved into chaos. Rich colors turned aggressive - red like blood, gold tarnished, purple bruised. The constructed world can't hold against disruption. The moment when all the careful staging fails."
+        }
+      }
+    },
+    "puppets-5": {
+      "type": "minor",
+      "name": "Six of Puppets",
+      "number": "6",
+      "rank_slug": "5",
+      "suit_slug": "puppets",
+      "slug": "puppets-5",
+      "arcana": "minor",
+      "description": "How puppetry offers comfort - stories that help us understand, teaching through constructed narrative, spectacle that soothes.",
+      "meaning": {
+        "upright": "Theater offers comfort and restoration. Stories told through puppets help us understand difficult things, constructed narrative provides solace, spectacle teaches us how to cope. This is pedagogical care through art - the show that helps you feel better, performance as healing. Purposeful creation in service of comfort.",
+        "inverted": "Theater becomes false comfort, stories distract from necessary pain. The puppet show avoids authentic feeling, constructed narrative becomes propaganda of happiness. Care through spectacle is actually control, soothing performance prevents real healing. Comfort as manipulation."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting warm and soothing, jewel tones gentle. Stagecraft in service of care, performance as comfort. Tender but still constructed.",
+          "content_guidance": "Elements offering care through performance - puppet show that comforts, story that heals. Theater as solace.",
+          "detailed_description": "Children watching puppet show that helps them understand something difficult, or being comforted by performed story. Warm theatrical light, gentle colors, the constructed narrative providing care. Could be genuine (theater helping process grief) or false (propaganda disguised as comfort, performance preventing real feeling). The puppet show as medicine, strings visible but in service of healing."
+        }
+      }
+    },
+    "puppets-6": {
+      "type": "minor",
+      "name": "Seven of Puppets",
+      "number": "7",
+      "rank_slug": "6",
+      "suit_slug": "puppets",
+      "slug": "puppets-6",
+      "arcana": "minor",
+      "description": "The choice puppetry demands - perform or refuse the strings, take the stage or reject the role, commit to the choreography.",
+      "meaning": {
+        "upright": "You must choose whether to perform. The role is offered, the strings extended - will you take them and join the show, or refuse to be choreographed? This is clear decision about participation in constructed spectacle. Perform in the puppet show or decline the strings. The choice is yours to commit or refuse.",
+        "inverted": "Paralyzed between performing and refusing, or coerced to choose from fear. The decision about strings is poisoned - perform under duress or refuse and face consequences. No authentic choice, only false dilemma. You cannot decide whether to join the show or are forced into it against will."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting showing decision point, jewel tones split or contrasting. Spotlight on the moment of choice about performance. Dramatic and clear.",
+          "content_guidance": "Elements at crossroads - strings offered, stage waiting. Figure choosing whether to perform, to take the role, to join the show.",
+          "detailed_description": "A figure with puppet strings extended toward them, choice clear - take them and perform, or refuse and walk away. Or standing at stage entrance, decision point whether to enter the show. Dramatic lighting, two paths visible - one onto the stage into spotlight and choreography, one away into darkness and no performance. The strings wait to be taken or refused. The show waits for commitment or rejection."
+        }
+      }
+    },
+    "puppets-7": {
+      "type": "minor",
+      "name": "Eight of Puppets",
+      "number": "8",
+      "rank_slug": "7",
+      "suit_slug": "puppets",
+      "slug": "puppets-7",
+      "arcana": "minor",
+      "description": "What puppetry thaws - performance becoming genuine, the constructed becoming real, strings transforming from control to craft.",
+      "meaning": {
+        "upright": "Your performance becomes genuine. What was constructed opens into something real, strings transform from control to craft, staging thaws into authentic connection. This is the breakthrough moment when purposeful creation serves rather than replaces truth. The puppet show was art all along, the performance was real teaching.",
+        "inverted": "The thaw floods or destroys boundaries needed. Performance and reality collapse dangerously together, you cannot tell what's staged and what's real anymore. Strings dissolve when structure was needed, the constructed world melts into formless mess. Transformation destroys rather than opens."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting showing transformation, jewel tones becoming more alive and less rigid. The staged becoming real, breakthrough moment. Dynamic and releasing.",
+          "content_guidance": "Elements transforming - puppet becoming real, performance finding genuine feeling. Strings that controlled becoming strings that create.",
+          "detailed_description": "Marionette transforming toward real child, or performer's staged emotion becoming genuine, or the constructed show revealing actual truth. Theatrical lighting warming, strings visible but now serving creation rather than control. The frozen stagecraft thaws into living performance. The breakthrough when purposeful creation stops manipulating and starts connecting. The puppet show was teaching truth all along."
+        }
+      }
+    },
+    "puppets-8": {
+      "type": "minor",
+      "name": "Nine of Puppets",
+      "number": "9",
+      "rank_slug": "8",
+      "suit_slug": "puppets",
+      "slug": "puppets-8",
+      "arcana": "minor",
+      "description": "What puppetry calls you toward - the performance you must give, the show you must stage, purposeful creation as vocation.",
+      "meaning": {
+        "upright": "You are called to create purposefully, to stage the show that must be staged, to give the performance that's needed. This is vocation as craft - you must make this puppet show, choreograph this moment, construct this spectacle for this purpose. The performance ahead calls you toward it. Strategic creation as calling.",
+        "inverted": "False performance calls you, or you're drawn toward spectacle for corrupt purpose. The show you're called to stage is propaganda, manipulation calling itself vocation. Purposeful creation as trap, drawn toward constructing lies. The performance ahead will destroy rather than serve."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting with strong sense of calling toward performance. Jewel tones drawing eye forward to stage that waits. Aspirational but constructed.",
+          "content_guidance": "Elements beckoning toward performance - stage ahead, show that must be given. The calling to create purposefully, the spectacle that needs staging.",
+          "detailed_description": "An empty stage lit and waiting, or a puppet theater calling to be made, or a performance space drawing you toward it. The show you must create visible ahead - could be puppet show that will teach children, or concert that will be cover for escape, or propaganda rally calling you to construct it. Theatrical light on the purpose ahead, jewel tones rich with invitation or warning. The vocation to create purposefully made visible."
+        }
+      }
+    },
+    "puppets-9": {
+      "type": "minor",
+      "name": "Ten of Puppets",
+      "number": "10",
+      "rank_slug": "9",
+      "suit_slug": "puppets",
+      "slug": "puppets-9",
+      "arcana": "minor",
+      "description": "Where puppetry's path completes - the final bow, performance transcended, when the show fulfills its purpose perfectly.",
+      "meaning": {
+        "upright": "The performance completes perfectly. The show achieves exactly what it was staged for, purposeful creation fulfills its purpose, the puppet show serves its function and ends. This is the final bow, the curtain closing on spectacle that worked, staging that achieved its goal. The craft was in service of something and that something is complete.",
+        "inverted": "Performance completes but leaves you empty. The show worked but at too high cost, you gave the spectacle perfectly but lost yourself in it. The purpose was served but you're hollow after, the staging succeeded but killed what it was meant to serve. Final bow on emptiness."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting at completion, jewel tones rich and fulfilled. Final bow, curtain call, the show complete. Either triumphant or exhausted.",
+          "content_guidance": "Elements fulfilled - the final bow, show complete, purpose served through performance. Puppet show that achieved its goal.",
+          "detailed_description": "Performers taking final bow as curtain falls, or puppet theater after successful show, or the family's escape concert complete - they performed 'So Long Farewell' and got away. Theatrical lighting at its richest, gold and deep red, the purpose served perfectly. Either triumph (successful puppet show delighted and taught children) or exhaustion (successful propaganda rally served fascism). The staging complete, for good or ill. Performance fulfilled."
+        }
+      }
+    },
+    "puppets-10": {
+      "type": "minor",
+      "name": "Singer of Puppets",
+      "number": "11",
+      "rank_slug": "10",
+      "suit_slug": "puppets",
+      "slug": "puppets-10",
+      "arcana": "minor",
+      "description": "The one who creates spontaneously through craft - improvising within structure, authentic expression through constructed forms, the joyful puppeteer.",
+      "meaning": {
+        "upright": "You are spontaneous creativity working through purposeful craft. This is improvising within the puppet show, authentic expression using constructed forms, joy finding voice through strings and staging. The singer who performs, creation that's both genuine and crafted. You make real art through purposeful technique.",
+        "inverted": "Your spontaneity is performed, authentic expression becomes constructed lie. You're the puppet pretending to be real, voice that sounds genuine but is all strings. Creative expression is blocked by the very craft meant to enable it. The performance has eaten the reality."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting but with spontaneous life, jewel tones vibrant. The staged containing the genuine, craft serving authentic expression. Paradoxical beauty.",
+          "content_guidance": "Figure in spontaneous expression but within theatrical context. Singer using the stage, authentic creativity through craft, joy in the constructed space.",
+          "detailed_description": "Maria performing with the children - genuine joy expressed through carefully constructed puppet show, real teaching happening through staged spectacle. Or a performer whose authentic expression finds perfect vehicle in theater. Theatrical lighting but nothing dead about it, craft serving rather than replacing truth. The strings are visible but the joy is real. Spontaneous creativity using purposeful forms to shine brighter."
+        }
+      }
+    },
+    "puppets-11": {
+      "type": "minor",
+      "name": "Goatherd of Puppets",
+      "number": "12",
+      "rank_slug": "11",
+      "suit_slug": "puppets",
+      "slug": "puppets-11",
+      "arcana": "minor",
+      "description": "The one who tends and transmits craft - teaching puppetry with care, passing forward techniques of staging, preserving theatrical tradition.",
+      "meaning": {
+        "upright": "You are authentic steward of craft. Teaching puppetry, passing forward staging techniques, preserving theater tradition with care. You tend the craft by teaching it well, guide new puppeteers, carry forward the good uses of purposeful creation. Stewardship of skillful making.",
+        "inverted": "Your teaching of craft becomes indoctrination, passing forward manipulation techniques, preserving propaganda methods. You've abandoned authentic stewardship of theater or weaponized it. Teaching puppetry in service of control, craft tradition as transmission of lies."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting with teaching presence, jewel tones with sense of guidance. Master puppeteer with student, tradition being transmitted with care or corruption.",
+          "content_guidance": "Figure tending craft and teaching it - shepherding puppeteers, guiding students in staging. Authentic transmission of purposeful creation.",
+          "detailed_description": "Master puppeteer teaching student how to work strings with care, or director showing actors how to move for purpose. The craft being passed forward - could be grandmother teaching grandchild theater arts, or propaganda minister training new recruits. Theatrical lighting, visible strings, the teaching of purposeful creation happening. Care in transmission or corruption in teaching."
+        }
+      }
+    },
+    "puppets-12": {
+      "type": "minor",
+      "name": "Puppeteer of Puppets",
+      "number": "13",
+      "rank_slug": "12",
+      "suit_slug": "puppets",
+      "slug": "puppets-12",
+      "arcana": "minor",
+      "description": "The archetype itself - the maker pulling strings, staging spectacle, choreographing with purpose, craft fully embodied.",
+      "meaning": {
+        "upright": "You ARE the puppeteer - skillful craft fully embodied, purposeful creation as your nature. This is you as maker, stager, choreographer. You create spectacle for purpose, work strings skillfully, design performances that teach and delight. The Puppeteer of Puppets is craft doubled - pure purposeful making.",
+        "inverted": "You are the master manipulator, propaganda incarnate. Pulling all the strings, staging lies, choreographing mass deception. The puppeteer whose craft is fully in service of control, spectacle as weapon, performance as oppression. Manipulation perfected."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting at its most dramatic and purposeful. Jewel tones rich and intense, strings fully visible, staging made explicit. Pure puppetry - could be art or propaganda.",
+          "content_guidance": "The archetype embodied - hands on many strings, staging elaborate spectacle, purposeful creation visible. The Puppeteer in their element, craft as being.",
+          "detailed_description": "A figure surrounded by marionettes, all strings leading to their hands, or standing at center of elaborate staged performance, or choreographing mass spectacle. The craft fully visible and intentional. Could be artist creating beautiful puppet show or propagandist staging rally. Theatrical lighting at maximum drama, all the jewel tones deployed, every string intentional. The maker in full power - delightful or terrifying depending on purpose. Puppetry itself."
+        }
+      }
+    },
+    "puppets-13": {
+      "type": "minor",
+      "name": "Officer of Puppets",
+      "number": "14",
+      "rank_slug": "13",
+      "suit_slug": "puppets",
+      "slug": "puppets-13",
+      "arcana": "minor",
+      "description": "The one who enforces performance - drilling performers, requiring choreography, transmitting staging discipline, authority over spectacle.",
+      "meaning": {
+        "upright": "You enforce necessary discipline in performance. Drilling performers to competence, requiring choreography for good reason, training craft properly so spectacle works. Authority that serves by making performers skilled enough to achieve purpose. Discipline in staging that enables rather than crushes.",
+        "inverted": "Performance discipline becomes oppression. You drill performers to death, require choreography so rigid it kills art, enforce staging as fascist control. The authority over spectacle crushes those who must perform, discipline destroys what it claims to serve. The Officer of Puppets makes everyone dance on command."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting with authority visible, jewel tones with institutional precision. Uniformed presence enforcing performance, discipline imposed on staging. Could be director or dictator.",
+          "content_guidance": "Figure enforcing discipline on performance - drilling performers, requiring choreography. Authority visible, spectacle under command.",
+          "detailed_description": "A director drilling performers in precise choreography, or military officer requiring perfect formation in parade/rally. Uniform or position of authority visible, performers in rows being trained in exact performance. Could be benevolent (theater director training actors to excellence) or oppressive (fascist requiring perfect spectacle, everyone performing on command). Theatrical light but cold and precise, discipline visible in every line, staging enforced. The authority making everyone perform correctly."
+        }
+      }
+    },
+    "whistles-0": {
+      "type": "minor",
+      "name": "Ace of Whistles",
+      "number": "1",
+      "rank_slug": "0",
+      "suit_slug": "whistles",
+      "slug": "whistles-0",
+      "arcana": "minor",
+      "description": "Discipline first entering your life - being called to order, first training, the whistle blown for the first time. Structure as gift.",
+      "meaning": {
+        "upright": "Discipline arrives as gift. You're called to order for the first time, training begins, the whistle signals structure that will serve you. This is beneficial discipline emerging, protective framework, the beginning of learning what rules support. Order arrives to help rather than harm.",
+        "inverted": "Discipline arrives as trauma. The first whistle is oppression, initial training is abuse, order enters as violation. The gift of structure is refused because it comes as violence, or it arrives corrupt from the start. Beginning of discipline that will crush rather than support."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Precise, geometric composition in naval and institutional colors - navy blues, crisp whites, polished brass, iron grays. Clean lines, could be Bauhaus clarity or authoritarian coldness.",
+          "content_guidance": "A single element emerging - first whistle, first command, initial call to order. The arrival of discipline, beginning of structure.",
+          "detailed_description": "A whistle being blown for the first time, or a child first learning to stand at attention, or the moment of entry into structured life. Naval blues and whites, brass gleaming. The call to order clear and new - could be protective (safe structure beginning) or oppressive (freedom ending). Clean geometric composition, everything precise. The beginning of discipline."
+        }
+      }
+    },
+    "whistles-1": {
+      "type": "minor",
+      "name": "Two of Whistles",
+      "number": "2",
+      "rank_slug": "1",
+      "suit_slug": "whistles",
+      "slug": "whistles-1",
+      "arcana": "minor",
+      "description": "What discipline asks of partnership - marching in step, coordination under order, two people in formation.",
+      "meaning": {
+        "upright": "Partnership in discipline. Two people coordinate under structure, march in step, balance each other in formation. This is collaboration within order, mutual support through shared rules, relationship that benefits from clear framework. Discipline creates the container for partnership to function.",
+        "inverted": "Discipline destroys partnership or forces false coordination. Two people cannot connect under rigid structure, or are forced to march in lockstep against their nature. The framework crushes relationship, rules prevent authentic coordination. Competition within oppressive structure."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Precise geometric composition with two figures, naval blues and institutional grays. Clean lines showing coordination or tension under structure. Symmetry important.",
+          "content_guidance": "Two elements in relationship under discipline - two marching in formation, partners coordinating under rules. Balance or tension within structure.",
+          "detailed_description": "Two figures in formation - perhaps naval officers in matched precision, or two children learning to respond to the whistle together. Navy and white uniforms, geometric precision. Either harmonious (discipline enabling coordination, structure supporting partnership) or oppressive (forced lockstep, rule-bound rigidity preventing real connection). The whistle commands both, they move as one under order."
+        }
+      }
+    },
+    "whistles-2": {
+      "type": "minor",
+      "name": "Three of Whistles",
+      "number": "3",
+      "rank_slug": "2",
+      "suit_slug": "whistles",
+      "slug": "whistles-2",
+      "arcana": "minor",
+      "description": "Discipline spreading through a household - rules propagating, everyone learning the schedule, structure becoming collective practice.",
+      "meaning": {
+        "upright": "Order spreads through community beneficially. The household learns the schedule, everyone knows the rules, discipline becomes shared practice that serves all. Structure transmits itself through teaching, collective understanding of beneficial framework. Everyone in step because it works.",
+        "inverted": "Rules propagate as oppression. Everyone must follow the schedule whether it serves them or not, discipline spreads as conformity, structure becomes collective cage. The household is drilled into compliance, rules multiply without reason. Forced participation in order."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Precise geometric composition with multiple figures, institutional colors. Sense of order spreading, everyone in formation. Could show beneficial structure or oppressive conformity.",
+          "content_guidance": "Elements multiplying under discipline - household learning rules together, everyone responding to the whistle. Collective order spreading.",
+          "detailed_description": "The von Trapp children learning to line up by whistle signal, or a household coming together at the sound of order. Navy blues, whites, brass. Everyone in formation, schedule visible, rules clear. Could be beneficial (children safe and coordinated through structure) or oppressive (family drilled into military rigidity, life crushed by rules). Discipline multiplying through the household."
+        }
+      }
+    },
+    "whistles-3": {
+      "type": "minor",
+      "name": "Four of Whistles",
+      "number": "4",
+      "rank_slug": "3",
+      "suit_slug": "whistles",
+      "slug": "whistles-3",
+      "arcana": "minor",
+      "description": "The sanctuary that rules build - structure as safety, the whistle that protects, order providing stable ground.",
+      "meaning": {
+        "upright": "Discipline creates sanctuary. Clear rules provide safety, the whistle signals protection, structure is the stable ground you can count on. This is beneficial order as refuge - you know where you stand, what's expected, what protects you. Framework that serves and shelters.",
+        "inverted": "Rules become prison. Structure that should shelter instead traps, the whistle that should protect becomes weapon of control. Order isolates rather than grounds, discipline creates cage not sanctuary. Safety has become stagnation, framework has become bars."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Precise geometric composition emphasizing enclosure and protection, institutional colors. Structure clearly bounded, could be sanctuary or prison. Bauhaus clarity.",
+          "content_guidance": "Structure offering shelter through rules - disciplined space, ordered environment. The whistle creating boundaries that protect or imprison.",
+          "detailed_description": "A precisely ordered room or formation, clear boundaries, everything in its place. Navy and white, brass and iron. The structure creates enclosure - could be children safe in their beds at scheduled bedtime, secure in routine, or could be oppressive barracks, prison of rules. The whistle maintains the order that shelters or imprisons. Discipline as foundation, for good or ill."
+        }
+      }
+    },
+    "whistles-4": {
+      "type": "minor",
+      "name": "Five of Whistles",
+      "number": "5",
+      "rank_slug": "4",
+      "suit_slug": "whistles",
+      "slug": "whistles-4",
+      "arcana": "minor",
+      "description": "The storm discipline faces - mutiny, breakdown of order, the moment when structure is challenged by chaos.",
+      "meaning": {
+        "upright": "Order meets disruption. Mutiny threatens, discipline is challenged, structure must withstand chaos testing it. The whistle blows but people don't respond, rules are broken, framework faces crisis. Can discipline survive disorder? Is the structure strong enough or will it shatter?",
+        "inverted": "Complete breakdown, discipline destroyed, order consumed by chaos. The whistle blows and no one cares, mutiny succeeds, all structure collapses. The rules cannot withstand the crisis, framework shatters completely under the storm. Order lost to disorder utterly."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Geometric composition breaking apart, institutional colors in chaos. Lines disrupted, symmetry destroyed. The precise order of Whistles suit meeting disorder.",
+          "content_guidance": "Elements in turmoil - formation breaking, rules being violated, discipline disrupted. The whistle signal ignored, order challenged.",
+          "detailed_description": "Formation broken, people out of line, whistle blowing but not obeyed. Navy and white in disarray, geometric precision shattered. Could be beneficial chaos (children rebelling against rigid control, life breaking free) or dangerous (needed discipline failing, protective structure collapsing when needed most). The crisis of order, structure tested by disruption."
+        }
+      }
+    },
+    "whistles-5": {
+      "type": "minor",
+      "name": "Six of Whistles",
+      "number": "6",
+      "rank_slug": "5",
+      "suit_slug": "whistles",
+      "slug": "whistles-5",
+      "arcana": "minor",
+      "description": "How discipline offers comfort - clear instruction in confusion, the whistle that tells you what to do when lost.",
+      "meaning": {
+        "upright": "Order provides comfort through clarity. The whistle tells you what to do when confused, clear rules offer solace in chaos, structure comforts by eliminating uncertainty. Discipline as care - someone is in charge, the framework will guide you, you don't have to decide alone. Institutional wisdom as comfort.",
+        "inverted": "Order smothers rather than comforts. The whistle that should guide becomes control, rules prevent necessary autonomy, structure offers false comfort that creates dependence. Care through discipline is actually infantilization, clarity prevents growth. Comfort as domination."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Precise geometric composition offering clarity and care through structure. Institutional colors warm slightly, lines protective rather than oppressive. Order as solace.",
+          "content_guidance": "Elements offering care through discipline - clear instruction, whistle guiding through confusion. Structure that comforts through certainty.",
+          "detailed_description": "A figure receiving clear instruction - whistle signal showing the way forward, orders that comfort through certainty. Navy blues less harsh, whites softer, the geometric precision feels protective. Could be Captain keeping children safe through clear expectations, or could be authoritarianism offering false security. The comfort of being told what to do, structure as care or control."
+        }
+      }
+    },
+    "whistles-6": {
+      "type": "minor",
+      "name": "Seven of Whistles",
+      "number": "7",
+      "rank_slug": "6",
+      "suit_slug": "whistles",
+      "slug": "whistles-6",
+      "arcana": "minor",
+      "description": "The choice discipline demands - obey or resist, follow the whistle or ignore it, commit to structure or reject it.",
+      "meaning": {
+        "upright": "You must choose whether to obey. The whistle blows and you must decide - follow the order or resist, commit to discipline or reject the structure. This is clear choice about compliance, deliberate decision about rules. Obey the whistle or ignore it, the choice is yours to make.",
+        "inverted": "Paralyzed between obedience and resistance, or coerced to choose from fear. The decision is poisoned - obey under duress or resist and face punishment. No real choice, only false dilemma. Forced to obey or unable to commit either way."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Precise geometric composition showing decision point about order. Institutional colors split between compliance and resistance. The moment of choice stark and clear.",
+          "content_guidance": "Elements at crossroads - whistle blown, figure choosing to obey or resist. Decision about structure, commitment or rejection of discipline.",
+          "detailed_description": "A figure with whistle signal clear, two paths visible - one into formation and obedience, one away from structure into autonomy or chaos. Navy and white split, geometric precision on one side, less structure on the other. The choice between compliance and resistance, following rules or breaking them. The whistle waits for answer - will you obey?"
+        }
+      }
+    },
+    "whistles-7": {
+      "type": "minor",
+      "name": "Eight of Whistles",
+      "number": "8",
+      "rank_slug": "7",
+      "suit_slug": "whistles",
+      "slug": "whistles-7",
+      "arcana": "minor",
+      "description": "What discipline thaws - rigid structure softening, the whistle becoming care instead of control, order transforming to serve.",
+      "meaning": {
+        "upright": "Discipline transforms to serve life. The rigid structure softens without dissolving, whistle becomes signal of care rather than control, order thaws into framework that supports rather than oppresses. The Captain's transformation - structure remains but now in service of love rather than grief. Rules that protect rather than punish.",
+        "inverted": "Discipline dissolves when boundaries were needed, or transformation is false/premature. Structure collapses into chaos, the thaw floods rather than releases. Or the softening is performance while control remains. Cannot reestablish order when necessary, boundaries lost dangerously."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Geometric composition softening while maintaining structure. Institutional colors warming, lines becoming supportive rather than rigid. Transformation visible but order remains.",
+          "content_guidance": "Elements transforming - rigid becoming flexible, control becoming care. The whistle signal changing meaning while remaining clear.",
+          "detailed_description": "The Captain's transformation visible - still in uniform, still with whistle, but the rigid lines have softened, the navy blues have warmed slightly, the geometric precision now serves life rather than controls it. Or structure that was oppressive becoming supportive while remaining clear. The discipline remains but has thawed into care. The whistle still signals but now guides rather than commands."
+        }
+      }
+    },
+    "whistles-8": {
+      "type": "minor",
+      "name": "Nine of Whistles",
+      "number": "9",
+      "rank_slug": "8",
+      "suit_slug": "whistles",
+      "slug": "whistles-8",
+      "arcana": "minor",
+      "description": "What discipline calls you toward - the duty you cannot ignore, the order you must fulfill, structure as vocation.",
+      "meaning": {
+        "upright": "You are called toward duty and order. The whistle signals what you must do, discipline calls you to fulfill your obligation, structure reveals your vocation. This is being called to serve, to uphold order, to maintain framework. The path forward is disciplined and clear.",
+        "inverted": "False duty calls you, or structure summons you toward oppression. You're called to serve fascist order, discipline draws you toward violence, the whistle signals vocation that will corrupt you. The duty ahead is toxic, order calling you to enforce harm."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Precise geometric composition with strong sense of duty ahead. Institutional colors drawing forward toward obligation, structure as calling. Vertical emphasis.",
+          "content_guidance": "Elements beckoning toward duty - the whistle calling forward, order that must be fulfilled. Discipline as vocation, structure as path.",
+          "detailed_description": "A clear path forward into structure and duty - perhaps naval service, or resistance duty, or the obligation to maintain order. The whistle visible ahead calling you toward it. Navy and white, geometric precision, the order that must be served visible and demanding. Could be protective duty (must maintain structure that saves) or oppressive (called to enforce fascist order). The vocation toward discipline."
+        }
+      }
+    },
+    "whistles-9": {
+      "type": "minor",
+      "name": "Ten of Whistles",
+      "number": "10",
+      "rank_slug": "9",
+      "suit_slug": "whistles",
+      "slug": "whistles-9",
+      "arcana": "minor",
+      "description": "Where discipline's path completes - order fully in service of love, the whistle at rest having fulfilled its purpose, structure complete.",
+      "meaning": {
+        "upright": "Discipline completes in service of what matters. Order has served its purpose perfectly - the whistle guided to safety, structure protected what needed protection, rules fulfilled their function and can rest. This is the Anschluss avoided, the escape achieved through maintained order, discipline complete having served life.",
+        "inverted": "Order completes in oppression, discipline achieves its fascist purpose. The structure serves tyranny perfectly, the whistle has enforced total control, rules have crushed all life. Or discipline exhausts - the order is maintained but at cost of everything human. Structure complete and empty."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Geometric composition at completion, institutional colors either triumphant or exhausted. Structure fulfilled its purpose for good or ill. Order at its end.",
+          "content_guidance": "Elements fulfilled - discipline complete, whistle at rest, order having served its purpose. Structure arrived at its end.",
+          "detailed_description": "The family escaped through discipline (concert performance as order maintained until escape), or fascist parade in perfect formation (oppressive order complete). The whistle silent having done its work - either kept children safe until freedom, or enforced complete control. Navy and white in final configuration, geometric precision either serving life perfectly or crushing it completely. Discipline at completion - redeemed or damned by its purpose."
+        }
+      }
+    },
+    "whistles-10": {
+      "type": "minor",
+      "name": "Singer of Whistles",
+      "number": "11",
+      "rank_slug": "10",
+      "suit_slug": "whistles",
+      "slug": "whistles-10",
+      "arcana": "minor",
+      "description": "The one who expresses authentically within structure - singing in formation, genuine voice coordinated by discipline, joy through order.",
+      "meaning": {
+        "upright": "You are authentic expression working within structure. Singing in formation without losing genuine voice, creativity coordinated by discipline rather than crushed by it. This is the children learning to express joy while still responding to the whistle. Order enables rather than prevents authentic creativity.",
+        "inverted": "Structure crushes your authentic voice, or you perform authenticity within oppressive order. Singing in formation has killed genuine expression, the whistle has silenced real voice. Your authenticity is performance of compliance, creativity is dead despite appearing to exist within structure."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Geometric precision with spontaneous life within it - institutional colors but with joy visible. Singer in formation but genuinely expressing. Structure and authenticity together.",
+          "content_guidance": "Figure expressing authentically within ordered structure - singing while in formation, genuine voice coordinated by discipline. Joy within framework.",
+          "detailed_description": "Children singing joyfully but in coordinated response to the whistle, or performer expressing genuine emotion while maintaining perfect formation. Navy blues and whites but with brightness, geometric precision but with life. The structure supports rather than crushes expression - or the opposite, compliance performing as joy. Authentic voice and discipline together for good or ill."
+        }
+      }
+    },
+    "whistles-11": {
+      "type": "minor",
+      "name": "Goatherd of Whistles",
+      "number": "12",
+      "rank_slug": "11",
+      "suit_slug": "whistles",
+      "slug": "whistles-11",
+      "arcana": "minor",
+      "description": "The one who tends and transmits discipline with care - teaching rules as guidance, passing forward beneficial structure, shepherding through order.",
+      "meaning": {
+        "upright": "You are authentic steward of beneficial structure. Teaching discipline with care, passing forward rules that serve, shepherding others through necessary order with wisdom. You maintain structure not for control but for protection, transmit discipline as guidance rather than oppression. Care in command.",
+        "inverted": "Your stewardship of discipline becomes tyranny. Teaching rules as oppression, passing forward structure that crushes, shepherding through order that imprisons. You've perverted the care in command, or abandoned your duty to maintain beneficial structure. Discipline transmitted without understanding or with cruelty."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Geometric composition with caring authority, institutional colors with warmth. The shepherd who maintains order with wisdom, teaching discipline as care. Structure with humanity.",
+          "content_guidance": "Figure tending and guiding through discipline - teaching rules with care, shepherding through structure. Authentic transmission of beneficial order.",
+          "detailed_description": "Mother Superior maintaining abbey discipline with wisdom and care, or the Captain learning to enforce rules while also loving. Navy and white but with warmth, geometric order but with human wisdom. Teaching children the structure that will keep them safe while caring for their spirits. Or the opposite - enforcing rules with cruelty disguised as care. The steward of discipline, for good or ill."
+        }
+      }
+    },
+    "whistles-12": {
+      "type": "minor",
+      "name": "Puppeteer of Whistles",
+      "number": "13",
+      "rank_slug": "12",
+      "suit_slug": "whistles",
+      "slug": "whistles-12",
+      "arcana": "minor",
+      "description": "The one who stages discipline for purpose - choreographing order, creating performance of structure, constructing spectacle of control.",
+      "meaning": {
+        "upright": "You craft discipline purposefully. Choreographing the concert that covers escape, staging order for good purpose, creating performance of structure that serves. This is using rules skillfully - the appearance of compliance hiding resistance, discipline as strategic tool. Order constructed for purpose.",
+        "inverted": "You stage discipline as manipulation. Creating performance of order to control, choreographing rules as spectacle, constructing displays of structure as fascist theater. The rally perfectly formed, masses moving in precision as propaganda. Discipline as weapon of mass control."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Geometric precision combined with theatrical staging, institutional colors with dramatic purpose. Order choreographed, discipline as constructed spectacle. Could be strategic or oppressive.",
+          "content_guidance": "Figure staging discipline for purpose - choreographing ordered performance, constructing spectacle of structure. Purposeful use of rules and formation.",
+          "detailed_description": "The family's concert - perfectly ordered performance covering escape, discipline staged for strategic purpose. Or Nazi rally - masses in perfect formation, structure as propaganda spectacle. Geometric precision theatrically lit, navy and brass displayed dramatically. Order constructed and choreographed with purpose - either to escape oppression or to enforce it. The puppeteer making everyone move in formation."
+        }
+      }
+    },
+    "whistles-13": {
+      "type": "minor",
+      "name": "Officer of Whistles",
+      "number": "14",
+      "rank_slug": "13",
+      "suit_slug": "whistles",
+      "slug": "whistles-13",
+      "arcana": "minor",
+      "description": "The archetype itself - discipline embodied, the whistle personified, order maintained and transmitted, authority complete.",
+      "meaning": {
+        "upright": "You ARE discipline - order embodied, structure personified. The Officer who maintains and transmits beneficial rules, authority that serves by upholding framework that protects. You are the whistle - clear, commanding, in service of what matters. Discipline complete and serving life.",
+        "inverted": "You are oppression incarnate - fascist authority complete, discipline as total control embodied. The Officer who crushes all life under rigid rules, the Anschluss personified. Structure as violence made flesh, the whistle that signals tyranny. Order serving only itself."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Geometric composition at maximum precision and authority. Institutional colors stark and complete - navy, white, brass, iron. Pure discipline, order embodied. Bauhaus clarity or fascist control.",
+          "content_guidance": "The archetype embodied - uniform perfect, whistle ready, commanding authority complete. Discipline as being, order personified.",
+          "detailed_description": "The Captain in full uniform with whistle - or the SS officer at the border. Perfect geometric precision, navy and white stark, brass gleaming, every line exact. The embodiment of discipline - could be authority that protects (Captain keeping family safe and ordered) or authority that oppresses (fascist enforcer of total control). The whistle at the ready, the formation perfect. Order complete - redeemed by service to life or damned by service to death. The Officer of Whistles in full authority."
+        }
+      }
+    }
+  }
+}
