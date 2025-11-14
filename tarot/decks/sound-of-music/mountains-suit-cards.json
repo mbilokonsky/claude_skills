@@ -1,0 +1,298 @@
+{
+  "mountains_suit_cards": [
+    {
+      "type": "minor",
+      "name": "Ace of Mountains",
+      "number": "1",
+      "rank_slug": "0",
+      "suit_slug": "mountains",
+      "slug": "mountains-0",
+      "arcana": "minor",
+      "description": "Ancient wisdom first entering your life - the mountains that were always there, the landscape of childhood, enduring truth arriving as recognition rather than novelty.",
+      "meaning": {
+        "upright": "Ancient wisdom arrives or is recognized. The mountains that were always there become visible to you - enduring truth, natural guidance, songs sung for a thousand years now audible. This is the gift of tradition as living practice, the path forward revealed, authentic transmission beginning. Climb every mountain starts here.",
+        "inverted": "The mountain becomes barrier before it becomes teacher. Ancient wisdom is refused, the gift of enduring truth lands on someone not ready to receive it. The path forward is blocked, tradition arrives as weight rather than support. Potential for authentic transmission is squandered."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Solid, monumental composition in weathered stone grays, deep earth browns, snow whites, and distant blue-grays. Strong vertical elements, sense of scale and permanence. Romanticist landscape tradition.",
+          "content_guidance": "A single element emerging - a seed sprouting, a door opening, a hand offering. The first sight of mountains, the moment of recognizing ancient presence.",
+          "detailed_description": "A mountain peak emerging from mist for the first time, or a child seeing the Alps for the first time. The moment of recognition - these mountains have always been here. Stone in shades of gray and brown, snow bright white at the peak, sky deep blue. The scale emphasizes permanence and majesty. Perhaps a hand reaching toward the mountain, or a single edelweiss flowering on rock. The beginning of relationship with enduring wisdom."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Two of Mountains",
+      "number": "2",
+      "rank_slug": "1",
+      "suit_slug": "mountains",
+      "slug": "mountains-1",
+      "arcana": "minor",
+      "description": "What mountains ask of partnership - climbing together, shared journey through ancient terrain, two people finding the path as one.",
+      "meaning": {
+        "upright": "You climb together, sharing the ancient path. Partnership in enduring journey, collaboration in ascending, mutual recognition in the face of the eternal. Two people on the mountain supporting each other, knowing the paths together, balanced in their shared relation to what endures.",
+        "inverted": "Partnership fails on the mountain - one climbs while the other cannot, or the ancient path becomes competition. Imbalance in the face of the eternal, unable to coordinate the climb. The relationship becomes burden against the mountain's indifference."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental composition with two figures, stone grays and earth browns. Sense of partnership against vast scale. Romantic realism emphasizing both human relationship and mountain permanence.",
+          "content_guidance": "Two elements in relationship - hands meeting, paths converging. Two climbers on a mountain path, supporting or struggling with each other.",
+          "detailed_description": "Two figures on a mountain path - perhaps roped together, or one helping the other over difficult terrain, or two paths converging on the mountainside. The vast stone peaks dwarf them but they move together. Gray stone, patches of snow, deep sky. Their partnership visible against eternal backdrop - either harmonious (supporting, balanced) or discordant (one struggling, pulling apart)."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Three of Mountains",
+      "number": "3",
+      "rank_slug": "2",
+      "suit_slug": "mountains",
+      "slug": "mountains-2",
+      "arcana": "minor",
+      "description": "Ancient wisdom spreading through a household - stories told for generations, inherited knowledge of the peaks, songs sung for a thousand years.",
+      "meaning": {
+        "upright": "Mountain wisdom spreads through generations. Stories about the peaks pass from elder to child, songs sung for a thousand years teach themselves forward. Community forms around shared ancient knowledge, the household holds the mountains in common. Cultural transmission of enduring truth, teaching that preserves by living.",
+        "inverted": "Tradition spreads without understanding, dead preservation multiplies. The community teaches mountain stories mechanically, conformity replaces authentic transmission. Ancient wisdom becomes rote repetition, the household pressures participation in tradition that no longer lives."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental composition with multiple generations, stone and earth tones. Sense of time passing, stories being transmitted. Strong sense of continuity.",
+          "content_guidance": "Elements multiplying - knowledge passing through generations, patterns repeating. Elder to adult to child, all holding the same mountain knowledge.",
+          "detailed_description": "Three generations around a fire or table with mountain vista beyond - grandparent, parent, child. Stories being told, old songs being taught, maps of mountain paths being shared. The same peaks visible through windows that were there for all their ancestors. Stone, wood, weathered hands, young faces. The mountains enduring while the stories pass forward. Community holding ancient wisdom together."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Four of Mountains",
+      "number": "4",
+      "rank_slug": "3",
+      "suit_slug": "mountains",
+      "slug": "mountains-3",
+      "arcana": "minor",
+      "description": "The sanctuary that mountains build - stone refuge, the abbey on the mountainside, shelter that has endured for centuries.",
+      "meaning": {
+        "upright": "Ancient stone provides sanctuary. The abbey built into mountainside, the refuge that endures, foundation laid on eternal rock. What the mountains build as shelter lasts - you can count on this safety, trust this ground. Stone walls that protect, paths known for generations, the stability of the eternal.",
+        "inverted": "Stone sanctuary becomes stone prison. Mountains wall you in rather than shelter you, ancient foundations crumble or isolate. The refuge that should protect instead traps, safety becomes stagnation. Insurmountable barriers, prison walls of stone."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental architectural composition, stone grays and earth tones. Strong vertical and horizontal lines, sense of structure built into eternal stone. Enduring and solid.",
+          "content_guidance": "Structure offering shelter - walls that protect, foundations laid on stone. Abbey built into mountainside, refuge that has stood for centuries.",
+          "detailed_description": "The abbey built into the mountainside - stone walls merging with stone peaks, foundations that have stood for centuries. Massive and protective, or oppressively confining depending on mood. Weathered gray stone, small windows, the sense of human structure participating in mountain permanence. Safe haven or fortress prison. The mountains provide the ground for enduring sanctuary."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Five of Mountains",
+      "number": "5",
+      "rank_slug": "4",
+      "suit_slug": "mountains",
+      "slug": "mountains-4",
+      "arcana": "minor",
+      "description": "The storm mountains face - avalanche, impassable paths, the moment when ancient stability is tested by chaos.",
+      "meaning": {
+        "upright": "Even mountains face crisis. Avalanche, rockfall, paths made impassable, the testing of what seems eternal. This challenges even enduring wisdom - can ancient truth weather disruption? The mountain itself is shaken, stability tests itself. Crisis comes even to what has stood for millennia.",
+        "inverted": "The avalanche overwhelms, the mountain itself breaks. What should have endured cannot withstand the storm, ancient paths are destroyed utterly. The crisis is too much even for stone, tradition shatters, the eternal proves fragile after all."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental composition in chaos - avalanche, rockfall, storm on peaks. Stone grays with whites of snow, dark storm clouds. The eternal in crisis.",
+          "content_guidance": "Elements in turmoil - foundations shaking, order disrupted. Avalanche, impassable paths, the mountain in storm.",
+          "detailed_description": "Avalanche roaring down mountainside, or massive rockfall, or storm obscuring the peaks completely. The stone that seemed eternal is in motion, dangerous, transformed by chaos. White snow and dark stone tumbling, paths obliterated, the stable made unstable. The crisis threatens even the ancient. Figures small against the disruption, or paths now impassable, or the abbey shaken."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Six of Mountains",
+      "number": "6",
+      "rank_slug": "5",
+      "suit_slug": "mountains",
+      "slug": "mountains-5",
+      "arcana": "minor",
+      "description": "How mountains offer comfort - 'you are not alone,' ancient presence as reassurance, the eternal saying 'I have weathered worse.'",
+      "meaning": {
+        "upright": "The mountains comfort by their presence. 'I have stood here for millennia, you are not alone, I have weathered worse.' Ancient wisdom offers solace through endurance, stone provides care by being unchanging. The eternal reassures - this too shall pass, but the mountains remain. Comfort through perspective and presence.",
+        "inverted": "Mountain comfort smothers or oppresses. 'This has always been this way' becomes refusal to acknowledge real pain. Ancient presence offers cold comfort, care through stone feels like indifference. The eternal perspective dismisses rather than soothes. Mountains say 'I will outlast your grief' when you need them to hold it."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental but tender composition, stone grays warming slightly. Sense of ancient presence offering care through stability. Romantic realism with emotional warmth.",
+          "content_guidance": "Elements offering care - ancient presence providing comfort. Mountains at dawn or dusk, eternal stone offering reassurance through endurance.",
+          "detailed_description": "A small figure against vast mountains, but the mountains feel protective rather than indifferent. Perhaps dawn light on peaks suggesting hope, or the eternal stone seeming to shelter rather than dwarf. Mother Superior and Maria with mountains beyond, ancient wisdom offering comfort. The peaks say 'you are not alone' through their presence. Stone in gentle light, offering care through endurance."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Seven of Mountains",
+      "number": "7",
+      "rank_slug": "6",
+      "suit_slug": "mountains",
+      "slug": "mountains-6",
+      "arcana": "minor",
+      "description": "The choice mountains demand - climb or remain below, take the ancient path or stay in the valley, commit to the ascent.",
+      "meaning": {
+        "upright": "You must choose whether to climb. The mountain presents itself and demands decision - will you take the ancient path or remain below? This is commitment to the difficult journey, choosing to ford every stream, to seek your dream on the heights. The choice is clear: climb every mountain or stay where you are.",
+        "inverted": "Paralyzed before the mountain, or coerced to climb from fear rather than calling. The choice feels impossible or false, no good path up or down. You're frozen at the base unable to commit, or forced up a mountain that isn't yours to climb."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental composition emphasizing decision point. Two paths visible - up or away. Stone grays and earth tones, sense of crossroads.",
+          "content_guidance": "Elements at crossroads - diverging paths. Figure at the base of mountain, path winding up, choice to climb or turn away.",
+          "detailed_description": "A figure at the base of mountain with two paths clearly visible - one winding up into the peaks, one leading back to the valley. The upward path is difficult but calls, the valley path is easier but leaves the mountain unconquered. Stone grays, the path rocky and steep. Maria at the moment of deciding to return to the von Trapps. The mountain waits indifferent to the choice, but the choice must be made."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Eight of Mountains",
+      "number": "8",
+      "rank_slug": "7",
+      "suit_slug": "mountains",
+      "slug": "mountains-7",
+      "arcana": "minor",
+      "description": "What mountains thaw - the path revealed by melting snow, ancient ways becoming accessible, spring on the peaks.",
+      "meaning": {
+        "upright": "The mountain path reveals itself. Snow melts and shows the ancient way forward, what was impassable becomes navigable, the route over the Alps appears. This is spring on the peaks, ice releasing its hold, the eternal showing its paths. The thaw reveals what was always there but hidden.",
+        "inverted": "The melt is too fast, causing flood or erasure. Paths revealed are destroyed by their revealing, the thaw washes away what it should uncover. Ancient ways are lost in the transformation, or boundaries that should exist dissolve dangerously. The spring flood destroys the path."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental composition showing transformation from winter to spring. Stone grays with whites of snow becoming flowing water, greens emerging. Dynamic but still eternal.",
+          "content_guidance": "Elements transforming - ice melting, paths revealing themselves. Snow becoming water, the ancient way forward appearing.",
+          "detailed_description": "Mountain landscape transitioning from winter to spring - snow melting to reveal the path beneath, ice breaking on streams, the route forward becoming visible. Stone emerging from white, water beginning to flow, perhaps green growing in crevices. The eternal stone showing its way forward as the seasonal releases. The escape route over the Alps revealing itself. Transformation but the mountain endures."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Nine of Mountains",
+      "number": "9",
+      "rank_slug": "8",
+      "suit_slug": "mountains",
+      "slug": "mountains-8",
+      "arcana": "minor",
+      "description": "What mountains call you toward - 'Climb every mountain,' the peak that must be summited, your particular mountain revealed.",
+      "meaning": {
+        "upright": "Your mountain calls you to climb it. Not any mountain but yours specifically - the peak you must summit, the path you must ford. 'Climb every mountain until you find your dream' - this is vocation as ascent, calling as the eternal demanding you rise to meet it. Your particular mountain stands before you demanding to be climbed.",
+        "inverted": "The mountain calls you to destruction, or the peak that summons isn't yours. You're drawn toward a climb that will break you, aspirations become burden too heavy. The mountain you're called toward is someone else's dream, or climbing will cost more than you can survive."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental composition with strong vertical emphasis and light on peaks. Stone grays and whites drawing the eye upward. Sense of calling and aspiration.",
+          "content_guidance": "Elements beckoning forward - mountain peak above, path winding upward. The specific mountain that calls to you, your dream on the heights.",
+          "detailed_description": "A particular peak rising above all others, lit by golden light, calling to be climbed. Path winding up visible but difficult. Small figure looking up at their mountain. This isn't generic peak but THE mountain, the one that calls specifically to you. Stone in morning light, snow bright on summit, the path ahead clear but demanding. Mother Superior pointing toward the peaks, 'Climb every mountain.' Your vocation is vertical."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Ten of Mountains",
+      "number": "10",
+      "rank_slug": "9",
+      "suit_slug": "mountains",
+      "slug": "mountains-9",
+      "arcana": "minor",
+      "description": "Where mountain paths complete - over the Alps to freedom, the escape route fulfilled, arriving on the other side of the eternal.",
+      "meaning": {
+        "upright": "You cross the mountains to freedom. The climb completes, the path over the Alps leads to safety, the ancient peaks deliver you to the other side. This is arrival through endurance, completion of the journey the mountains demanded. You climbed every mountain and found your dream. The eternal guided you through to wholeness.",
+        "inverted": "You cross the mountains but arrive empty or exhausted. The other side holds no home, freedom is hollow, the completion of the climb leaves you with nothing beyond. The mountains consumed rather than delivered you. Finished but broken by the ascent."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental composition showing arrival and completion. Stone grays transitioning to new landscape beyond, sense of crossing over, wholeness achieved through endurance.",
+          "content_guidance": "Elements fulfilled - circle closing, journey's end. Figures crossing mountain pass into freedom, the other side visible.",
+          "detailed_description": "The von Trapp family cresting the mountain pass, the other side visible - Switzerland, freedom, safety. They've crossed the eternal barrier, the mountains delivered them through. Stone peaks behind and before, the pass itself the threshold. Exhausted but whole, escaped but together. The completion of the mountain's path. The ancient peaks fulfilled their purpose as guide and deliverer. Arrival through endurance."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Singer of Mountains",
+      "number": "11",
+      "rank_slug": "10",
+      "suit_slug": "mountains",
+      "slug": "mountains-10",
+      "arcana": "minor",
+      "description": "The one who creates spontaneously on the peaks - yodeling across valleys, songs echoing through ancient stone, authentic expression meeting eternal landscape.",
+      "meaning": {
+        "upright": "You are authentic creative voice echoing through eternal landscape. This is yodeling across peaks, spontaneous song that the mountains amplify and return. Your genuine expression meets ancient stone and becomes more itself. The peaks give your authentic voice back to you louder, clearer. Creative truth resonating with enduring truth.",
+        "inverted": "Your voice is lost in the mountains, swallowed by the eternal. The peaks return nothing, your authentic expression finds no resonance in the ancient stone. You create but the mountains are indifferent, your song echoes back empty or not at all."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental landscape with figure in spontaneous expression, stone grays and earth tones but with life and movement. Romantic sublime meeting authentic joy.",
+          "content_guidance": "A figure in spontaneous expression on mountain heights. Singer/yodeler with peaks echoing the voice back, authentic creativity meeting eternal landscape.",
+          "detailed_description": "A figure on a peak singing or yodeling, arms spread, voice visible as it echoes between stone peaks. The mountains amplify and return the song. Authentic creative expression meets eternal landscape - neither dominates, they amplify each other. Stone in dramatic light, sky vast, the singer small but their voice fills the space between peaks. Joy and permanence together."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Goatherd of Mountains",
+      "number": "12",
+      "rank_slug": "11",
+      "suit_slug": "mountains",
+      "slug": "mountains-11",
+      "arcana": "minor",
+      "description": "The shepherd who knows the mountain paths - tending flocks on ancient slopes, living tradition of those who've walked these peaks for a thousand years.",
+      "meaning": {
+        "upright": "You are the authentic steward of mountain wisdom. The goatherd who knows the paths as goatherds have for a thousand years, tending flocks on ancient slopes, living the tradition by walking it daily. You guide through presence and long knowing, shepherd what needs tending on the eternal landscape. Authentic transmission through lived practice on the mountains.",
+        "inverted": "You've lost the mountain paths, abandoned the flock on the slopes. The ancient knowledge you should carry has died in you, stewardship has become neglect. The mountains remain but you no longer know how to guide through them. Tradition is dead in your hands."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental pastoral composition, stone grays and earth tones with living presence. The lonely goatherd in truth - shepherd and flock on eternal slopes.",
+          "content_guidance": "Figure tending flock on mountain paths, embodying living tradition. Goatherd who knows these slopes as their ancestors did, authentic transmission through presence.",
+          "detailed_description": "A goatherd with flock on mountain slope - perhaps yodeling, perhaps just present with the animals. They know every path, every shelter, have walked these slopes as their family has for generations. Stone peaks rise behind, the flock grazes on alpine meadow. The goatherd is part of the mountain's life, carrying forward ancient practice by living it. Weathered face, simple clothes, complete belonging. The authentic steward of enduring wisdom."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Puppeteer of Mountains",
+      "number": "13",
+      "rank_slug": "12",
+      "suit_slug": "mountains",
+      "slug": "mountains-12",
+      "arcana": "minor",
+      "description": "The one who stages mountain wisdom for purpose - creating performances about eternal themes, teaching through constructed narratives of the peaks.",
+      "meaning": {
+        "upright": "You craft mountain wisdom purposefully for teaching. This is creating 'The Lonely Goatherd' puppet show - staging yodeling and alpine life to delight and instruct. You use ancient themes skillfully, construct narratives about eternal landscape for good purpose. The mountains become teaching tool, their wisdom choreographed into accessible spectacle.",
+        "inverted": "Mountain wisdom becomes propaganda, eternal themes weaponized. You stage Alpine imagery for manipulation, use traditional mountain culture as control mechanism. The peaks and their songs become tools of nationalism or fascism, 'blood and soil' rhetoric. Ancient wisdom perverted into constructed lie."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental landscape with theatrical staging elements. Stone grays combined with constructed spectacle. The eternal made into performance - could be charming or sinister.",
+          "content_guidance": "Figure staging mountain wisdom, creating performance about eternal themes. Puppet theater showing alpine life, or propaganda using mountain imagery.",
+          "detailed_description": "The puppet theater staging 'The Lonely Goatherd' with mountain backdrop painted behind - crafted yodeling, staged Alps. Could be charming children's show teaching about mountain culture, or could be Nazi rally using Alpine imagery and edelweiss for nationalist propaganda. The monumental stone present but mediated through construction and staging. Purpose directing presentation of eternal wisdom."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Officer of Mountains",
+      "number": "14",
+      "rank_slug": "13",
+      "suit_slug": "mountains",
+      "slug": "mountains-13",
+      "arcana": "minor",
+      "description": "The one who enforces mountain discipline - teaching proper climbing technique, transmitting institutional knowledge of the peaks, authority of those who know the dangers.",
+      "meaning": {
+        "upright": "You bring necessary discipline to the mountains. This is teaching proper climbing technique, enforcing safety procedures, transmitting institutional knowledge of the peaks. You know the dangers and train others to survive them. Authority that serves by keeping people alive on the eternal stone. Order and structure that protect against mountain indifference.",
+        "inverted": "Mountain discipline becomes oppression, rules about the peaks crush rather than protect. You enforce technique so rigidly that the joy of climbing dies, or use knowledge of the mountains as power over others. The Anschluss - institutional control using mountain borders to trap rather than guide. Order as violence against those who would climb free."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Monumental composition with institutional authority visible. Stone grays with precision and structure, uniformed presence against eternal landscape. Order enforced on or through the mountains.",
+          "content_guidance": "Figure enforcing order on mountain terrain - training climbers, patrolling borders, maintaining discipline. Authority visible against eternal backdrop.",
+          "detailed_description": "An officer or guide training climbers in proper technique - ropes, safety, the institutional knowledge that keeps people alive. Could be beneficent (mountain rescue, alpine training) or oppressive (border guards on the mountain passes, the Nazis controlling who can cross the Alps). Uniform against stone, discipline against the eternal. The mountains don't care but the officer imposes order on how they're approached. Authority that could protect or imprison."
+        }
+      }
+    }
+  ]
+}

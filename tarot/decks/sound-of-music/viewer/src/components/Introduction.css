@@ -1,0 +1,306 @@
+.introduction {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.introduction section {
+  background: white;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+  text-align: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin: 0 0 1rem 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero .tagline {
+  font-size: 1.25rem;
+  font-style: italic;
+  opacity: 0.95;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.concept h3, .dialectics h3, .suits h3,
+.major-arcana-intro h3, .visual-style h3 {
+  color: var(--text-dark);
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  border-bottom: 3px solid var(--color-major);
+  padding-bottom: 0.5rem;
+}
+
+.concept p {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.concept em {
+  color: #764ba2;
+  font-weight: 600;
+}
+
+.concept strong {
+  color: #667eea;
+}
+
+.framework-intro {
+  margin-bottom: 1.5rem;
+  font-size: 1.05rem;
+  color: #666;
+}
+
+.dialectic-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.dialectic-grid .axis {
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 8px;
+  border-left: 4px solid var(--color-major);
+}
+
+.dialectic-grid h4 {
+  margin-top: 0;
+  color: var(--color-major);
+  font-size: 1.25rem;
+}
+
+.dialectic-grid strong {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+  color: var(--text-dark);
+}
+
+.suits-intro {
+  margin-bottom: 1.5rem;
+  font-size: 1.05rem;
+  color: #666;
+}
+
+.suits-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.suit-card {
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 3px solid;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.suit-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.suit-card.suit-songs {
+  background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%);
+  border-color: var(--color-songs);
+}
+
+.suit-card.suit-mountains {
+  background: linear-gradient(135deg, #e8eaf6 0%, #c5cae9 100%);
+  border-color: var(--color-mountains);
+}
+
+.suit-card.suit-puppets {
+  background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);
+  border-color: var(--color-puppets);
+}
+
+.suit-card.suit-whistles {
+  background: linear-gradient(135deg, #e8eaf6 0%, #c5cae9 100%);
+  border-color: var(--color-whistles);
+}
+
+.suit-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.suit-symbol {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.suit-symbol svg {
+  width: 100%;
+  height: 100%;
+}
+
+.suit-card h4 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.5rem;
+}
+
+.suit-position {
+  font-weight: 600;
+  color: #666;
+  font-size: 0.85rem;
+  margin: 0;
+  font-style: italic;
+}
+
+.suit-description {
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.major-arcana-intro p {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+.numbered-ranks p,
+.face-cards p {
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  font-size: 1.05rem;
+}
+
+.ranks-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.rank-item {
+  padding: 1.25rem;
+  background: linear-gradient(135deg, #fff9e6 0%, #fff 100%);
+  border-radius: 8px;
+  border-left: 4px solid var(--color-major);
+  line-height: 1.6;
+}
+
+.rank-item strong {
+  color: var(--color-major);
+  display: inline;
+  margin-right: 0.5rem;
+}
+
+.ranks-note,
+.faces-note {
+  font-style: italic;
+  color: #666;
+  font-size: 0.95rem;
+  margin-top: 1.5rem;
+}
+
+.faces-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.face-card {
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 8px;
+  border: 2px solid var(--border-color);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.face-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.face-card h4 {
+  margin: 0 0 0.75rem 0;
+  color: var(--text-dark);
+  font-size: 1.25rem;
+}
+
+.face-card p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.browse-button {
+  background: linear-gradient(135deg, var(--color-major) 0%, #c09f5b 100%);
+  color: white;
+  border: none;
+  padding: 1.25rem 3rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(218, 165, 32, 0.4);
+  transition: all 0.3s ease;
+}
+
+.browse-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(218, 165, 32, 0.6);
+}
+
+@media (max-width: 768px) {
+  .introduction section {
+    padding: 1.5rem;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  .hero .tagline {
+    font-size: 1rem;
+  }
+
+  .suits-grid,
+  .dialectic-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ranks-list {
+    grid-template-columns: 1fr;
+  }
+
+  .faces-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .faces-grid {
+    grid-template-columns: 1fr;
+  }
+}

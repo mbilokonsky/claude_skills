@@ -1,0 +1,298 @@
+{
+  "whistles_suit_cards": [
+    {
+      "type": "minor",
+      "name": "Ace of Whistles",
+      "number": "1",
+      "rank_slug": "0",
+      "suit_slug": "whistles",
+      "slug": "whistles-0",
+      "arcana": "minor",
+      "description": "Discipline first entering your life - being called to order, first training, the whistle blown for the first time. Structure as gift.",
+      "meaning": {
+        "upright": "Discipline arrives as gift. You're called to order for the first time, training begins, the whistle signals structure that will serve you. This is beneficial discipline emerging, protective framework, the beginning of learning what rules support. Order arrives to help rather than harm.",
+        "inverted": "Discipline arrives as trauma. The first whistle is oppression, initial training is abuse, order enters as violation. The gift of structure is refused because it comes as violence, or it arrives corrupt from the start. Beginning of discipline that will crush rather than support."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Precise, geometric composition in naval and institutional colors - navy blues, crisp whites, polished brass, iron grays. Clean lines, could be Bauhaus clarity or authoritarian coldness.",
+          "content_guidance": "A single element emerging - first whistle, first command, initial call to order. The arrival of discipline, beginning of structure.",
+          "detailed_description": "A whistle being blown for the first time, or a child first learning to stand at attention, or the moment of entry into structured life. Naval blues and whites, brass gleaming. The call to order clear and new - could be protective (safe structure beginning) or oppressive (freedom ending). Clean geometric composition, everything precise. The beginning of discipline."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Two of Whistles",
+      "number": "2",
+      "rank_slug": "1",
+      "suit_slug": "whistles",
+      "slug": "whistles-1",
+      "arcana": "minor",
+      "description": "What discipline asks of partnership - marching in step, coordination under order, two people in formation.",
+      "meaning": {
+        "upright": "Partnership in discipline. Two people coordinate under structure, march in step, balance each other in formation. This is collaboration within order, mutual support through shared rules, relationship that benefits from clear framework. Discipline creates the container for partnership to function.",
+        "inverted": "Discipline destroys partnership or forces false coordination. Two people cannot connect under rigid structure, or are forced to march in lockstep against their nature. The framework crushes relationship, rules prevent authentic coordination. Competition within oppressive structure."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Precise geometric composition with two figures, naval blues and institutional grays. Clean lines showing coordination or tension under structure. Symmetry important.",
+          "content_guidance": "Two elements in relationship under discipline - two marching in formation, partners coordinating under rules. Balance or tension within structure.",
+          "detailed_description": "Two figures in formation - perhaps naval officers in matched precision, or two children learning to respond to the whistle together. Navy and white uniforms, geometric precision. Either harmonious (discipline enabling coordination, structure supporting partnership) or oppressive (forced lockstep, rule-bound rigidity preventing real connection). The whistle commands both, they move as one under order."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Three of Whistles",
+      "number": "3",
+      "rank_slug": "2",
+      "suit_slug": "whistles",
+      "slug": "whistles-2",
+      "arcana": "minor",
+      "description": "Discipline spreading through a household - rules propagating, everyone learning the schedule, structure becoming collective practice.",
+      "meaning": {
+        "upright": "Order spreads through community beneficially. The household learns the schedule, everyone knows the rules, discipline becomes shared practice that serves all. Structure transmits itself through teaching, collective understanding of beneficial framework. Everyone in step because it works.",
+        "inverted": "Rules propagate as oppression. Everyone must follow the schedule whether it serves them or not, discipline spreads as conformity, structure becomes collective cage. The household is drilled into compliance, rules multiply without reason. Forced participation in order."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Precise geometric composition with multiple figures, institutional colors. Sense of order spreading, everyone in formation. Could show beneficial structure or oppressive conformity.",
+          "content_guidance": "Elements multiplying under discipline - household learning rules together, everyone responding to the whistle. Collective order spreading.",
+          "detailed_description": "The von Trapp children learning to line up by whistle signal, or a household coming together at the sound of order. Navy blues, whites, brass. Everyone in formation, schedule visible, rules clear. Could be beneficial (children safe and coordinated through structure) or oppressive (family drilled into military rigidity, life crushed by rules). Discipline multiplying through the household."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Four of Whistles",
+      "number": "4",
+      "rank_slug": "3",
+      "suit_slug": "whistles",
+      "slug": "whistles-3",
+      "arcana": "minor",
+      "description": "The sanctuary that rules build - structure as safety, the whistle that protects, order providing stable ground.",
+      "meaning": {
+        "upright": "Discipline creates sanctuary. Clear rules provide safety, the whistle signals protection, structure is the stable ground you can count on. This is beneficial order as refuge - you know where you stand, what's expected, what protects you. Framework that serves and shelters.",
+        "inverted": "Rules become prison. Structure that should shelter instead traps, the whistle that should protect becomes weapon of control. Order isolates rather than grounds, discipline creates cage not sanctuary. Safety has become stagnation, framework has become bars."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Precise geometric composition emphasizing enclosure and protection, institutional colors. Structure clearly bounded, could be sanctuary or prison. Bauhaus clarity.",
+          "content_guidance": "Structure offering shelter through rules - disciplined space, ordered environment. The whistle creating boundaries that protect or imprison.",
+          "detailed_description": "A precisely ordered room or formation, clear boundaries, everything in its place. Navy and white, brass and iron. The structure creates enclosure - could be children safe in their beds at scheduled bedtime, secure in routine, or could be oppressive barracks, prison of rules. The whistle maintains the order that shelters or imprisons. Discipline as foundation, for good or ill."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Five of Whistles",
+      "number": "5",
+      "rank_slug": "4",
+      "suit_slug": "whistles",
+      "slug": "whistles-4",
+      "arcana": "minor",
+      "description": "The storm discipline faces - mutiny, breakdown of order, the moment when structure is challenged by chaos.",
+      "meaning": {
+        "upright": "Order meets disruption. Mutiny threatens, discipline is challenged, structure must withstand chaos testing it. The whistle blows but people don't respond, rules are broken, framework faces crisis. Can discipline survive disorder? Is the structure strong enough or will it shatter?",
+        "inverted": "Complete breakdown, discipline destroyed, order consumed by chaos. The whistle blows and no one cares, mutiny succeeds, all structure collapses. The rules cannot withstand the crisis, framework shatters completely under the storm. Order lost to disorder utterly."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Geometric composition breaking apart, institutional colors in chaos. Lines disrupted, symmetry destroyed. The precise order of Whistles suit meeting disorder.",
+          "content_guidance": "Elements in turmoil - formation breaking, rules being violated, discipline disrupted. The whistle signal ignored, order challenged.",
+          "detailed_description": "Formation broken, people out of line, whistle blowing but not obeyed. Navy and white in disarray, geometric precision shattered. Could be beneficial chaos (children rebelling against rigid control, life breaking free) or dangerous (needed discipline failing, protective structure collapsing when needed most). The crisis of order, structure tested by disruption."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Six of Whistles",
+      "number": "6",
+      "rank_slug": "5",
+      "suit_slug": "whistles",
+      "slug": "whistles-5",
+      "arcana": "minor",
+      "description": "How discipline offers comfort - clear instruction in confusion, the whistle that tells you what to do when lost.",
+      "meaning": {
+        "upright": "Order provides comfort through clarity. The whistle tells you what to do when confused, clear rules offer solace in chaos, structure comforts by eliminating uncertainty. Discipline as care - someone is in charge, the framework will guide you, you don't have to decide alone. Institutional wisdom as comfort.",
+        "inverted": "Order smothers rather than comforts. The whistle that should guide becomes control, rules prevent necessary autonomy, structure offers false comfort that creates dependence. Care through discipline is actually infantilization, clarity prevents growth. Comfort as domination."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Precise geometric composition offering clarity and care through structure. Institutional colors warm slightly, lines protective rather than oppressive. Order as solace.",
+          "content_guidance": "Elements offering care through discipline - clear instruction, whistle guiding through confusion. Structure that comforts through certainty.",
+          "detailed_description": "A figure receiving clear instruction - whistle signal showing the way forward, orders that comfort through certainty. Navy blues less harsh, whites softer, the geometric precision feels protective. Could be Captain keeping children safe through clear expectations, or could be authoritarianism offering false security. The comfort of being told what to do, structure as care or control."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Seven of Whistles",
+      "number": "7",
+      "rank_slug": "6",
+      "suit_slug": "whistles",
+      "slug": "whistles-6",
+      "arcana": "minor",
+      "description": "The choice discipline demands - obey or resist, follow the whistle or ignore it, commit to structure or reject it.",
+      "meaning": {
+        "upright": "You must choose whether to obey. The whistle blows and you must decide - follow the order or resist, commit to discipline or reject the structure. This is clear choice about compliance, deliberate decision about rules. Obey the whistle or ignore it, the choice is yours to make.",
+        "inverted": "Paralyzed between obedience and resistance, or coerced to choose from fear. The decision is poisoned - obey under duress or resist and face punishment. No real choice, only false dilemma. Forced to obey or unable to commit either way."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Precise geometric composition showing decision point about order. Institutional colors split between compliance and resistance. The moment of choice stark and clear.",
+          "content_guidance": "Elements at crossroads - whistle blown, figure choosing to obey or resist. Decision about structure, commitment or rejection of discipline.",
+          "detailed_description": "A figure with whistle signal clear, two paths visible - one into formation and obedience, one away from structure into autonomy or chaos. Navy and white split, geometric precision on one side, less structure on the other. The choice between compliance and resistance, following rules or breaking them. The whistle waits for answer - will you obey?"
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Eight of Whistles",
+      "number": "8",
+      "rank_slug": "7",
+      "suit_slug": "whistles",
+      "slug": "whistles-7",
+      "arcana": "minor",
+      "description": "What discipline thaws - rigid structure softening, the whistle becoming care instead of control, order transforming to serve.",
+      "meaning": {
+        "upright": "Discipline transforms to serve life. The rigid structure softens without dissolving, whistle becomes signal of care rather than control, order thaws into framework that supports rather than oppresses. The Captain's transformation - structure remains but now in service of love rather than grief. Rules that protect rather than punish.",
+        "inverted": "Discipline dissolves when boundaries were needed, or transformation is false/premature. Structure collapses into chaos, the thaw floods rather than releases. Or the softening is performance while control remains. Cannot reestablish order when necessary, boundaries lost dangerously."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Geometric composition softening while maintaining structure. Institutional colors warming, lines becoming supportive rather than rigid. Transformation visible but order remains.",
+          "content_guidance": "Elements transforming - rigid becoming flexible, control becoming care. The whistle signal changing meaning while remaining clear.",
+          "detailed_description": "The Captain's transformation visible - still in uniform, still with whistle, but the rigid lines have softened, the navy blues have warmed slightly, the geometric precision now serves life rather than controls it. Or structure that was oppressive becoming supportive while remaining clear. The discipline remains but has thawed into care. The whistle still signals but now guides rather than commands."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Nine of Whistles",
+      "number": "9",
+      "rank_slug": "8",
+      "suit_slug": "whistles",
+      "slug": "whistles-8",
+      "arcana": "minor",
+      "description": "What discipline calls you toward - the duty you cannot ignore, the order you must fulfill, structure as vocation.",
+      "meaning": {
+        "upright": "You are called toward duty and order. The whistle signals what you must do, discipline calls you to fulfill your obligation, structure reveals your vocation. This is being called to serve, to uphold order, to maintain framework. The path forward is disciplined and clear.",
+        "inverted": "False duty calls you, or structure summons you toward oppression. You're called to serve fascist order, discipline draws you toward violence, the whistle signals vocation that will corrupt you. The duty ahead is toxic, order calling you to enforce harm."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Precise geometric composition with strong sense of duty ahead. Institutional colors drawing forward toward obligation, structure as calling. Vertical emphasis.",
+          "content_guidance": "Elements beckoning toward duty - the whistle calling forward, order that must be fulfilled. Discipline as vocation, structure as path.",
+          "detailed_description": "A clear path forward into structure and duty - perhaps naval service, or resistance duty, or the obligation to maintain order. The whistle visible ahead calling you toward it. Navy and white, geometric precision, the order that must be served visible and demanding. Could be protective duty (must maintain structure that saves) or oppressive (called to enforce fascist order). The vocation toward discipline."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Ten of Whistles",
+      "number": "10",
+      "rank_slug": "9",
+      "suit_slug": "whistles",
+      "slug": "whistles-9",
+      "arcana": "minor",
+      "description": "Where discipline's path completes - order fully in service of love, the whistle at rest having fulfilled its purpose, structure complete.",
+      "meaning": {
+        "upright": "Discipline completes in service of what matters. Order has served its purpose perfectly - the whistle guided to safety, structure protected what needed protection, rules fulfilled their function and can rest. This is the Anschluss avoided, the escape achieved through maintained order, discipline complete having served life.",
+        "inverted": "Order completes in oppression, discipline achieves its fascist purpose. The structure serves tyranny perfectly, the whistle has enforced total control, rules have crushed all life. Or discipline exhausts - the order is maintained but at cost of everything human. Structure complete and empty."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Geometric composition at completion, institutional colors either triumphant or exhausted. Structure fulfilled its purpose for good or ill. Order at its end.",
+          "content_guidance": "Elements fulfilled - discipline complete, whistle at rest, order having served its purpose. Structure arrived at its end.",
+          "detailed_description": "The family escaped through discipline (concert performance as order maintained until escape), or fascist parade in perfect formation (oppressive order complete). The whistle silent having done its work - either kept children safe until freedom, or enforced complete control. Navy and white in final configuration, geometric precision either serving life perfectly or crushing it completely. Discipline at completion - redeemed or damned by its purpose."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Singer of Whistles",
+      "number": "11",
+      "rank_slug": "10",
+      "suit_slug": "whistles",
+      "slug": "whistles-10",
+      "arcana": "minor",
+      "description": "The one who expresses authentically within structure - singing in formation, genuine voice coordinated by discipline, joy through order.",
+      "meaning": {
+        "upright": "You are authentic expression working within structure. Singing in formation without losing genuine voice, creativity coordinated by discipline rather than crushed by it. This is the children learning to express joy while still responding to the whistle. Order enables rather than prevents authentic creativity.",
+        "inverted": "Structure crushes your authentic voice, or you perform authenticity within oppressive order. Singing in formation has killed genuine expression, the whistle has silenced real voice. Your authenticity is performance of compliance, creativity is dead despite appearing to exist within structure."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Geometric precision with spontaneous life within it - institutional colors but with joy visible. Singer in formation but genuinely expressing. Structure and authenticity together.",
+          "content_guidance": "Figure expressing authentically within ordered structure - singing while in formation, genuine voice coordinated by discipline. Joy within framework.",
+          "detailed_description": "Children singing joyfully but in coordinated response to the whistle, or performer expressing genuine emotion while maintaining perfect formation. Navy blues and whites but with brightness, geometric precision but with life. The structure supports rather than crushes expression - or the opposite, compliance performing as joy. Authentic voice and discipline together for good or ill."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Goatherd of Whistles",
+      "number": "12",
+      "rank_slug": "11",
+      "suit_slug": "whistles",
+      "slug": "whistles-11",
+      "arcana": "minor",
+      "description": "The one who tends and transmits discipline with care - teaching rules as guidance, passing forward beneficial structure, shepherding through order.",
+      "meaning": {
+        "upright": "You are authentic steward of beneficial structure. Teaching discipline with care, passing forward rules that serve, shepherding others through necessary order with wisdom. You maintain structure not for control but for protection, transmit discipline as guidance rather than oppression. Care in command.",
+        "inverted": "Your stewardship of discipline becomes tyranny. Teaching rules as oppression, passing forward structure that crushes, shepherding through order that imprisons. You've perverted the care in command, or abandoned your duty to maintain beneficial structure. Discipline transmitted without understanding or with cruelty."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Geometric composition with caring authority, institutional colors with warmth. The shepherd who maintains order with wisdom, teaching discipline as care. Structure with humanity.",
+          "content_guidance": "Figure tending and guiding through discipline - teaching rules with care, shepherding through structure. Authentic transmission of beneficial order.",
+          "detailed_description": "Mother Superior maintaining abbey discipline with wisdom and care, or the Captain learning to enforce rules while also loving. Navy and white but with warmth, geometric order but with human wisdom. Teaching children the structure that will keep them safe while caring for their spirits. Or the opposite - enforcing rules with cruelty disguised as care. The steward of discipline, for good or ill."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Puppeteer of Whistles",
+      "number": "13",
+      "rank_slug": "12",
+      "suit_slug": "whistles",
+      "slug": "whistles-12",
+      "arcana": "minor",
+      "description": "The one who stages discipline for purpose - choreographing order, creating performance of structure, constructing spectacle of control.",
+      "meaning": {
+        "upright": "You craft discipline purposefully. Choreographing the concert that covers escape, staging order for good purpose, creating performance of structure that serves. This is using rules skillfully - the appearance of compliance hiding resistance, discipline as strategic tool. Order constructed for purpose.",
+        "inverted": "You stage discipline as manipulation. Creating performance of order to control, choreographing rules as spectacle, constructing displays of structure as fascist theater. The rally perfectly formed, masses moving in precision as propaganda. Discipline as weapon of mass control."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Geometric precision combined with theatrical staging, institutional colors with dramatic purpose. Order choreographed, discipline as constructed spectacle. Could be strategic or oppressive.",
+          "content_guidance": "Figure staging discipline for purpose - choreographing ordered performance, constructing spectacle of structure. Purposeful use of rules and formation.",
+          "detailed_description": "The family's concert - perfectly ordered performance covering escape, discipline staged for strategic purpose. Or Nazi rally - masses in perfect formation, structure as propaganda spectacle. Geometric precision theatrically lit, navy and brass displayed dramatically. Order constructed and choreographed with purpose - either to escape oppression or to enforce it. The puppeteer making everyone move in formation."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Officer of Whistles",
+      "number": "14",
+      "rank_slug": "13",
+      "suit_slug": "whistles",
+      "slug": "whistles-13",
+      "arcana": "minor",
+      "description": "The archetype itself - discipline embodied, the whistle personified, order maintained and transmitted, authority complete.",
+      "meaning": {
+        "upright": "You ARE discipline - order embodied, structure personified. The Officer who maintains and transmits beneficial rules, authority that serves by upholding framework that protects. You are the whistle - clear, commanding, in service of what matters. Discipline complete and serving life.",
+        "inverted": "You are oppression incarnate - fascist authority complete, discipline as total control embodied. The Officer who crushes all life under rigid rules, the Anschluss personified. Structure as violence made flesh, the whistle that signals tyranny. Order serving only itself."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Geometric composition at maximum precision and authority. Institutional colors stark and complete - navy, white, brass, iron. Pure discipline, order embodied. Bauhaus clarity or fascist control.",
+          "content_guidance": "The archetype embodied - uniform perfect, whistle ready, commanding authority complete. Discipline as being, order personified.",
+          "detailed_description": "The Captain in full uniform with whistle - or the SS officer at the border. Perfect geometric precision, navy and white stark, brass gleaming, every line exact. The embodiment of discipline - could be authority that protects (Captain keeping family safe and ordered) or authority that oppresses (fascist enforcer of total control). The whistle at the ready, the formation perfect. Order complete - redeemed by service to life or damned by service to death. The Officer of Whistles in full authority."
+        }
+      }
+    }
+  ]
+}

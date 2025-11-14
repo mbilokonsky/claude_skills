@@ -1,0 +1,384 @@
+{
+  "major_arcana_cards": [
+    {
+      "type": "major",
+      "name": "The Sound of Music",
+      "number": "0",
+      "rank_slug": "0",
+      "slug": "major-0",
+      "arcana": "major",
+      "description": "The beginning of all songs, the source. Maria alone on the mountain in pure communion with nature, arms outstretched in spontaneous joy before duty calls her back. This is the fool's leap into authentic creative expression, the moment before structure, the sound of music itself.",
+      "meaning": {
+        "upright": "Pure joy and authentic self-expression flow through you now. You stand at the source of creativity, connected deeply to nature and your own genuine voice. This is a moment of freedom and solitude as fulfillment, where spontaneous expression is not just possible but inevitable. The hills are alive within you.",
+        "inverted": "You may be escaping into reverie rather than engaging with reality, avoiding necessary responsibilities through fantasy. There's a disconnection from community, an inability to integrate your joy with your duties. Your freedom has become isolation, your spontaneity an excuse for avoiding commitment."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic wide-screen composition in lush Technicolor. Natural greens and blues dominate - alpine meadow in full sunlight. Sweeping vista with romantic realism, the rich production values of the 1965 film. Light-drenched and emotionally resonant.",
+          "content_guidance": "A lone figure on a mountain meadow, arms outstretched, surrounded by wildflowers and distant peaks, bathed in golden light. The moment of pure arrival and beginning.",
+          "detailed_description": "Wide-angle shot of a woman in a simple dress standing on a flowering alpine meadow, arms spread wide, spinning or about to spin, face lifted toward the sun. Wildflowers in vibrant yellows, pinks, and purples carpet the foreground. Behind her, the Austrian Alps rise in layers of blue and gray, snow-capped peaks touching the sky. Golden afternoon light illuminates everything. The composition emphasizes her smallness against the vast landscape while celebrating her complete presence and joy. The wind moves through her clothes and the grass. Pure cinematic Technicolor beauty - Julie Andrews on the mountain."
+        }
+      }
+    },
+    {
+      "type": "major",
+      "name": "Alleluia",
+      "number": "1",
+      "rank_slug": "1",
+      "slug": "major-1",
+      "arcana": "major",
+      "description": "Sacred foundation and spiritual practice. The abbey at prayer, nuns in devotion, the structure that transmits reverence across generations. This is tradition as living practice, the sanctuary where authentic transmission happens through ritual.",
+      "meaning": {
+        "upright": "You are grounded in sacred foundation and communal devotion. This is a time of spiritual practice and reverence, where tradition lives and breathes through you. The sanctuary provides structure that supports rather than constrains. You are part of something larger, connected through ritual to those who came before and those who will come after.",
+        "inverted": "Ritual has become empty, spirituality without spirit. You go through the motions but the meaning has drained away. What should be sanctuary feels like prison, tradition has ossified into rigidity. The forms remain but the living practice has died."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic interior with rich Technicolor warmth. Gothic stone architecture, vaulted ceilings, strong use of candlelight and colored light through stained glass. Romantic realism with sense of sacred space.",
+          "content_guidance": "Stone abbey interior with vaulted ceilings, nuns in prayer, candlelight and incense, stained glass casting colored light. The architecture itself transmits devotion.",
+          "detailed_description": "Interior of a grand abbey chapel, stone columns rising to vaulted ceilings. Rows of nuns in black and white habits, heads bowed in prayer or lifted in song. Candles flicker on the altar. Stained glass windows cast pools of colored light - blues, reds, golds - onto the stone floor and walls. Incense smoke rises in shafts of light. The space feels both vast and intimate, ancient and alive. The composition emphasizes the vertical lines, the sense of being held within sacred architecture. Dawn or evening light."
+        }
+      }
+    },
+    {
+      "type": "major",
+      "name": "Maria",
+      "number": "2",
+      "rank_slug": "2",
+      "slug": "major-2",
+      "arcana": "major",
+      "description": "Being seen, being discussed, being questioned. The problem of how wildness fits within structure. The nuns singing about Maria - flibbertigibbet, will-o'-the-wisp, clown. The one who disrupts simply by being authentically themselves.",
+      "meaning": {
+        "upright": "You are being seen, even if critically. The problem you pose to systems is real - your authenticity challenges established structures. This is creative disruption, the beloved difficulty, the one who doesn't fit but in not fitting reveals something important. Being 'too much' can be a gift.",
+        "inverted": "You are being defined entirely by others' opinions and judgments. Gossip and reputation have replaced reality. You feel judged without being understood, reduced to what others say about you rather than who you are. The weight of being 'too much' crushes rather than liberates."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic composition with Technicolor clarity. Multiple perspectives and angles converging. Warm golds and browns of abbey interiors, dramatic staging with sense of communal observation.",
+          "content_guidance": "Multiple perspectives converging - whispered conversations, hands gesturing, a central figure conspicuously absent or glimpsed through windows. The subject of discussion.",
+          "detailed_description": "A composite image showing multiple nuns in different parts of the abbey - some whispering in corridors, some gesturing animatedly in the courtyard, some looking out windows. At the center or conspicuously absent, glimpses of a younger woman in postulant dress - running past a window, leaving wet footprints, a guitar case half-hidden. The composition creates a sense of being watched and discussed from multiple angles. Warm afternoon light through stone windows. The feeling of being the subject of concerned, affectionate, exasperated observation."
+        }
+      }
+    },
+    {
+      "type": "major",
+      "name": "I Have Confidence",
+      "number": "3",
+      "rank_slug": "3",
+      "slug": "major-3",
+      "arcana": "major",
+      "description": "Stepping into the unknown with self-encouragement bordering on self-deception. Walking toward the von Trapp villa, nervous but determined. The fake-it-till-you-make-it moment, courage despite fear.",
+      "meaning": {
+        "upright": "You are stepping forward into new territory with courage despite fear. This is the power of self-encouragement, of beginning even when uncertain. Fake-it-till-you-make-it isn't dishonesty but bravery. You enter the unknown with determination, talking yourself into courage.",
+        "inverted": "Your confidence is false, built on denial of real danger. You're walking into disaster with a smile, unprepared and unable to admit it. Bravado masks terror but doesn't dispel it. This isn't courage but foolishness, self-deception that will cost you."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor with bright natural light. Tree-lined path in greens and golds, grand architecture in the distance. Sense of journey and arrival, romantic realism with emotional honesty in body language.",
+          "content_guidance": "A figure on a tree-lined path approaching a grand house, luggage in hand, posture caught between hesitation and determination. The moment before arrival.",
+          "detailed_description": "A young woman in a simple coat and hat walking up a tree-lined path toward a large, imposing villa visible in the background. She carries a carpetbag or small suitcase. Her posture captures the in-between moment - shoulders back with determination, but a slight hesitation in her stride. Dappled sunlight through leaves. The path curves ahead. The villa looks grand and slightly intimidating. Her face shows her talking to herself, encouraging herself forward. Spring or summer, everything green and bright, but the architecture ahead suggests formality and rules."
+        }
+      }
+    },
+    {
+      "type": "major",
+      "name": "Sixteen Going On Seventeen",
+      "number": "4",
+      "rank_slug": "4",
+      "slug": "major-4",
+      "arcana": "major",
+      "description": "Young love and innocence before reality intrudes. Liesl and Rolf dancing in the gazebo during a rainstorm. First romance, sweetness, the idealism of youth, gentle guidance that will prove more complicated.",
+      "meaning": {
+        "upright": "First love awakens in you, innocent and sweet. This is romantic idealism, being cared for, the gentle beauty of youthful affection. Someone offers to guide you, to take care of you. Everything feels possible and tender. Innocence is its own form of wisdom.",
+        "inverted": "Naivete has become dangerous. What seems like care is actually control, age difference or power imbalance masquerading as protection. Innocence is being weaponized. Betrayal is brewing beneath the sweetness. What feels like guidance may be manipulation."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor with dramatic lighting. Glass and rain, lightning in the distance. Romantic and slightly expressionistic, rich colors against storm darkness. Both beautiful and fragile.",
+          "content_guidance": "Two young figures dancing in a glass gazebo during a rainstorm, graceful and fragile, lightning in the distance. The moment suspended between safety and danger.",
+          "detailed_description": "Inside an ornate glass gazebo with white pillars, a young woman in a light dress and a young man in delivery uniform dance together. Rain streams down the glass walls. Lightning flashes in the distant purple-gray sky. Their dance is graceful, leaping from bench to bench. The gazebo feels like a bubble of safety within the storm. Their faces show joy and awakening attraction. The composition emphasizes the glass structure - transparent, fragile, beautiful, temporary. Twilight or night, the storm both romantic and ominous."
+        }
+      }
+    },
+    {
+      "type": "major",
+      "name": "My Favorite Things",
+      "number": "5",
+      "rank_slug": "5",
+      "slug": "major-5",
+      "arcana": "major",
+      "description": "Teaching resilience through redirecting attention to joy. Maria comforting frightened children during a thunderstorm by cataloging delights. Practical magic, finding light in darkness.",
+      "meaning": {
+        "upright": "You offer or receive comfort through joy. This is resilience through redirecting attention to what delights, the practical magic of remembering beauty when afraid. Storm rages but you catalog favorite things - whiskers on kittens, copper kettles. Finding light in darkness not by denying darkness but by equally honoring light.",
+        "inverted": "Comfort has become toxic positivity, avoiding real pain that needs to be felt. You distract from necessary grief, force cheerfulness when sorrow should be honored. Superficial consolation that makes things worse. The favorite things have become a cage, preventing authentic feeling."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor interior, warm golden light against stormy darkness outside. Intimate bedroom scene, rich details. Romantic realism with sense of safety and teaching.",
+          "content_guidance": "A nurturing figure surrounded by children in a bedroom, storm outside windows, small beautiful objects and memories made visible. The catalog of delights.",
+          "detailed_description": "Maria sits on a large bed surrounded by seven children in nightclothes, storm visible through windows behind them with lightning flashing. The room is warmly lit by lamplight. As she sings, visualize small beautiful things appearing like memories - roses, raindrops on roses, whiskers on kittens, bright copper kettles, brown paper packages tied with string. The children's faces shift from fear to comfort to delight. The composition creates sanctuary within the room against the storm outside. Everything warm - woods, quilts, soft fabrics - against the cold storm beyond the glass."
+        }
+      }
+    },
+    {
+      "type": "major",
+      "name": "Do-Re-Mi",
+      "number": "6",
+      "rank_slug": "6",
+      "slug": "major-6",
+      "arcana": "major",
+      "description": "Teaching and learning together through Salzburg. Music as pedagogy, connection forming through skill-building. The foundation of craft, joyful discipline, traveling through the city learning the scales.",
+      "meaning": {
+        "upright": "You are in a space of teaching or learning, building skills together, connecting through craft. This is pedagogical creativity - education that delights, discipline that feels like play, foundation being laid through joy. The basic scales become adventure. Competence builds through shared practice.",
+        "inverted": "Teaching has become rote, mechanical, deadening. Lessons are performed without meaning or joy. Practice feels like punishment, education kills rather than awakens curiosity. The beauty of craft has been crushed by repetition without understanding."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor with bright outdoor light. Multiple locations in montage - fountain, market, countryside. Rich colors, sense of movement and progression. Joyful, energetic, educational.",
+          "content_guidance": "A progression through city landmarks - fountain, market, bicycle procession - figures in matching outfits learning and playing. The journey of education.",
+          "detailed_description": "A montage-style composition showing the same group moving through different iconic Salzburg locations: splashing in the Pegasus fountain, riding bicycles through countryside, standing on stone steps, in the market. The children wear matching play-clothes made from curtains (blue with pink flowers). Each location shows a different aspect of the musical scale being taught and learned. Movement, progression, building skill and joy simultaneously. Everything bright and alive - blue sky, old stone, market colors, green hills. The sense of a city becoming a classroom, education as adventure."
+        }
+      }
+    },
+    {
+      "type": "major",
+      "name": "The Lonely Goatherd",
+      "number": "7",
+      "rank_slug": "7",
+      "slug": "major-7",
+      "arcana": "major",
+      "description": "The puppet show - instrumental creation in its most charming form. Maria and children performing together, teaching through constructed spectacle, playful manipulation where the strings are visible and part of the delight.",
+      "meaning": {
+        "upright": "You create purposefully through skillful craft, teaching through constructed story. This is puppetry as art - playful performance, collaborative creation, the strings are visible but that's part of the magic. Delightful manipulation, spectacle that serves connection, instrumental creativity at its most charming.",
+        "inverted": "What was charming becomes sinister - strings that control, manipulation without delight. Performance has replaced authenticity, spectacle is empty, charm is being used as mask or weapon. The same skills that create puppet shows can create propaganda."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor with theatrical staging. Art Deco influenced, rich jewel tones (reds, golds, greens), sense of performance and constructed spectacle. Both charming and showing the mechanism.",
+          "content_guidance": "A miniature theater stage with marionettes, visible strings, hands controlling from above, children and adult performing together. The craft of puppetry visible.",
+          "detailed_description": "A small puppet theater stage set up in a grand room. Colorful marionettes in Tyrolean costume dance and yodel - the lonely goatherd, the maiden, the prince. The strings are clearly visible going up to the control bars. Below and to the sides, Maria and the children work the puppets, faces delighted and concentrated. The composition shows both the puppet performance and the performers, the magic and the mechanism. Rich theatrical colors - red curtains, gold trim, the green Tyrolean hills painted as backdrop. Warm lamplight. The audience (perhaps other characters) watching with delight. Everything slightly stylized, like a performance within a performance."
+        }
+      }
+    },
+    {
+      "type": "major",
+      "name": "Edelweiss",
+      "number": "8",
+      "rank_slug": "8",
+      "slug": "major-8",
+      "arcana": "major",
+      "description": "Voice returning after silence. The Captain singing for the first time since his wife died, the small white flower of Austria, memory and homeland, grief beginning to transform. The thaw begins.",
+      "meaning": {
+        "upright": "Your voice returns after long silence. Grief is honored and begins to transform. This is remembrance as anchor rather than chain, homeland and belonging, small brave things. The thaw has begun - what was frozen in loss starts to soften. Tradition connects you to what matters. You sing again.",
+        "inverted": "You cling to the past, unable to let grief transform. Nostalgia has become a trap, sentimentality replaces genuine feeling. Memory holds you prisoner. The small flower of remembrance has become nationalism or the inability to move forward. Frozen in what was lost."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor shifting toward warmer tones. Intimate interior with guitar, sense of memory and emotion. Romantic realism with strong emotional resonance, the moment of breakthrough.",
+          "content_guidance": "A man with a guitar, eyes distant, remembering. A small white alpine flower in focus, mountains beyond. Voice returning.",
+          "detailed_description": "The Captain in evening clothes sits with a classical guitar, fingers on strings. His face shows emotion breaking through long-held control - eyes glistening, slight smile, distant look as he remembers. In the foreground, sharp and in focus, a small white edelweiss flower in a vase or as a detail on someone's dress. Through windows behind him, the Alps are visible. Maria and children watch, moved. The composition emphasizes the moment of breakthrough, of voice returning. Warm golden interior light against the cooler blue mountains outside. Everything poised at the moment of transformation."
+        }
+      }
+    },
+    {
+      "type": "major",
+      "name": "Grand Waltz",
+      "number": "9",
+      "rank_slug": "9",
+      "slug": "major-9",
+      "arcana": "major",
+      "description": "The formal party at the villa - wealth, social performance, traditional celebration. The world of the Baroness and Max, elegant structure and display, civility and form.",
+      "meaning": {
+        "upright": "You move through formal beauty and social grace. This is elegance, proper form, wealth employed well, traditional celebration. Civility creates space for connection. There is real beauty in structure, in knowing how to move within established forms. The waltz itself is artistry.",
+        "inverted": "Formality has become hollow, performance of class and status. Wealth acts as barrier rather than bridge. Social masks hide disconnection. What looks like connection is actually elaborate choreography concealing emptiness. The beautiful surface covers nothing authentic."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor at peak glamour. Ballroom in golden light, rich colors and textures, chandeliers and formal wear. Romantic realism emphasizing beauty and structure, the aesthetic of wealth and tradition.",
+          "content_guidance": "Ballroom in golden light, couples in formal wear waltzing in perfect formation, chandeliers, wealth and ritual. The beauty of formal structure.",
+          "detailed_description": "A grand ballroom in the von Trapp villa, chandeliers blazing with candlelight. Couples in formal wear waltz in perfect formation - military dress uniforms, elegant gowns in rich colors. The Baroness in a particularly stunning gown. Wealth evident in every detail - gilt mirrors, polished floors, flower arrangements. The composition emphasizes the geometry of the dance, the elegance of form, the beauty of people who know how to move within structure. Everything golden, warm, formal, beautiful. Through windows, the evening garden. The height of elegant society, traditional celebration."
+        }
+      }
+    },
+    {
+      "type": "major",
+      "name": "Laendler",
+      "number": "10",
+      "rank_slug": "10",
+      "slug": "major-10",
+      "arcana": "major",
+      "description": "The exact moment everything changes. Maria and the Captain dancing the Austrian folk dance, the moment of recognition, when eyes meet and the world stops. Authentic connection, falling in love.",
+      "meaning": {
+        "upright": "This is the moment of recognition, the instant when everything shifts. Authentic connection has been made, you see and are seen. The folk dance of your life brings you face to face with transformation. This is falling in love - not just romantically but with truth, with possibility, with what's real. The world stops and restarts differently.",
+        "inverted": "The moment of recognition is dangerous, transgressive, the point of no return. You've seen what cannot be unseen, felt what cannot be unfelt, and now must live with that knowledge. Improper desire, what cannot be undone, the moment you wish you could take back but can't."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor in twilight tones, turning more expressionistic. Warm golds and deepening blues, romantic lighting. The world stops around the dancers, everything else falls away.",
+          "content_guidance": "Two figures in a folk dance, hands almost touching, eyes meeting, the world stopping around them, twilight in the courtyard. The moment of transformation.",
+          "detailed_description": "Maria and the Captain dancing the Laendler in the villa courtyard at twilight. They dance the formal steps of the Austrian folk dance, circling each other. The crucial moment: their hands reach toward each other, almost touching, their eyes meet and lock. The world around them blurs or fades - other party guests, the Baroness watching from the doorway, everything becomes secondary to this moment. Twilight light, the sky that particular deep blue-gold of dusk. Their faces show the recognition, the falling. The composition freezes this instant of transformation. Everything else pauses. The dance itself reveals truth."
+        }
+      }
+    },
+    {
+      "type": "major",
+      "name": "So Long, Farewell",
+      "number": "11",
+      "rank_slug": "11",
+      "slug": "major-11",
+      "arcana": "major",
+      "description": "Children performing at the party, each taking a moment in the spotlight before ascending the stairs to bed. Innocence on display, but also the song they'll later use for escape. Performance as both gift and strategy.",
+      "meaning": {
+        "upright": "You know how to exit with grace, how to say goodbye well. This is charming performance as genuine gift, children's wisdom, the tactical retreat that's also generous. Performance can be authentic, display can be real. You know when to ascend the stairs, when to take your bow and leave.",
+        "inverted": "Children are performing for adults, innocence is on display and being exploited. Goodbye becomes manipulation, cuteness is weaponized. Performance is under duress even if smiling. The charm is forced, exhausting, required rather than freely given."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor with theatrical staging. Grand staircase as stage, spotlight effect on each child, warm interior gold against darkening stairs above. Both charming and strategic.",
+          "content_guidance": "Children on a grand staircase in nightclothes, guests watching below, each child in spotlight briefly before ascending into shadow. Performance and departure.",
+          "detailed_description": "The grand staircase of the von Trapp villa. Seven children in white nightgowns and pajamas stand at different levels, each taking a moment in spotlight as they sing their verse of 'So Long, Farewell.' Below, party guests in formal wear watch with delight. Each child waves or curtsies before turning to ascend further into the shadowy upper reaches of the staircase. The youngest at the bottom, the oldest already disappearing at the top. The composition emphasizes the staircase as stage, the movement from light to shadow, the charm and the strategic departure. Warm golden light below, deepening shadow above. All watching faces are charmed, but there's also the echo of future escape in this innocent performance."
+        }
+      }
+    },
+    {
+      "type": "major",
+      "name": "Processional Waltz",
+      "number": "12",
+      "rank_slug": "12",
+      "slug": "major-12",
+      "arcana": "major",
+      "description": "Formal instrumental music, ceremony, the structures of traditional society. The forms that can either support or constrain, things done properly and with dignity.",
+      "meaning": {
+        "upright": "You are held within ceremonial order and traditional forms. This is institutional support, proper procedure done with dignity, frameworks that serve. Things are being done well and correctly, structure provides container for meaning. You move within the patterns laid down by those before you.",
+        "inverted": "Ceremony has become empty pageantry, tradition chains rather than supports. Formality crushes life, structure lacks soul. The beautiful forms obscure truth rather than revealing it. Process matters more than purpose."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor emphasizing formal architecture and ceremony. Gold and marble, rich but slightly austere. Strong vertical and horizontal lines, symmetry, the aesthetic of institutional dignity.",
+          "content_guidance": "Formal procession, architectural grandeur, symmetry and order, figures moving in prescribed patterns, gold and marble. Structure as both support and constraint.",
+          "detailed_description": "A formal procession through grand architectural space - perhaps cathedral, palace, or formal garden. Figures in ceremonial dress (military uniforms, formal wear, ecclesiastical robes) move in prescribed patterns through colonnades or down formal paths. Everything emphasizes symmetry, order, the beauty and weight of tradition. Gold leaf, marble columns, geometric gardens. The composition is architecturally strong - vertical lines, symmetrical arrangement, formal perspective. Warm but somewhat austere light. The people are held within the structure, both supported and contained by it. Everything proper, dignified, beautiful, and slightly oppressive."
+        }
+      }
+    },
+    {
+      "type": "major",
+      "name": "Goodbye Maria / How Can Love Survive Waltz",
+      "number": "13",
+      "rank_slug": "13",
+      "slug": "major-13",
+      "arcana": "major",
+      "description": "Crisis - Maria fleeing back to the abbey, the Baroness asking her cynical question. Can authentic love survive in the world of wealth and power? Necessary retreat, dark night, hard questions.",
+      "meaning": {
+        "upright": "You face hard questions and necessary retreat. This is the dark night, the reality check, cynicism as wisdom rather than defeat. You step back to see clearly, withdraw to understand. Can this love, this dream, this authentic thing survive in the real world? The question must be asked even if painful.",
+        "inverted": "You run from love out of fear. Cynicism has become defeat, hard questions poison rather than clarify. You've decided nothing good can last so you destroy it preemptively. Fear wins, belief in possibility dies. The retreat becomes permanent flight."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor turning more expressionistic and dramatic. Split composition, contrast between darkness and elegant light, emotional intensity visible. Colors shift toward the dramatic.",
+          "content_guidance": "Split composition - a figure running away in darkness, and an elegant woman in jewels asking an unanswerable question. Crisis and cynicism.",
+          "detailed_description": "A split or double composition. Left side: Maria in simple dress running or walking quickly through darkness or rain toward the abbey, head down, fleeing. Everything is blues and grays, rain or night. Right side: The Baroness in an elegant gown and jewels, in golden interior light, asking her question - 'How can love survive?' - her face showing sophisticated cynicism, world-weariness, almost pity. Or these could be overlaid, Maria running while the Baroness's question hangs in the air. The composition emphasizes the split between worlds, between innocence and experience, between running away and facing hard truths. Dark night of the soul made visual."
+        }
+      }
+    },
+    {
+      "type": "major",
+      "name": "Edelweiss Waltz",
+      "number": "14",
+      "rank_slug": "14",
+      "slug": "major-14",
+      "arcana": "major",
+      "description": "Musical variation, the theme returning in new context. The same song but different, repetition with transformation, musical development, the callback that resonates differently.",
+      "meaning": {
+        "upright": "Themes return but transformed. You recognize this - you've been here before but you're different now. This is variation, the same but changed, musical development, deepening through repetition. The callback resonates with new meaning. What returns has been enriched by the journey.",
+        "inverted": "You're stuck in loops, unable to move beyond. The same situations repeat without growth. Obsessive return, the stuck record, the inability to find new melody. You're haunted by the past rather than enriched by it. The variation has become prison."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor with visual echoes and variations. Same scene viewed from different angle, or same elements rearranged. Shadows shifted, light changed. Musical notation might appear. More abstract, more consciously artistic.",
+          "content_guidance": "Musical notation showing variations on a theme, or the same scene viewed from a different angle, shadows shifted. Repetition with transformation.",
+          "detailed_description": "An artistic composition showing variation and echo. Perhaps musical notation for Edelweiss floating in the air, showing the original melody and the varied version. Or the same mountain vista from earlier but viewed from different angle, different light, different season. Or the Captain with guitar again but everything shifted - different room, different light, different emotional tone. The composition consciously references earlier imagery but shows transformation. Visual rhyme. Everything slightly different - colors shifted, perspectives changed, shadows falling differently. The same but not the same. The feeling of theme and variation in visual form."
+        }
+      }
+    },
+    {
+      "type": "major",
+      "name": "Entr'acte",
+      "number": "15",
+      "rank_slug": "15",
+      "slug": "major-15",
+      "arcana": "major",
+      "description": "Intermission, the pause between acts. Time passing, the breath before the storm, the in-between space. Necessary rest and transition, gathering strength.",
+      "meaning": {
+        "upright": "This is pause, the necessary breath, time to integrate. You are in the between-space, the transition, gathering strength for what comes next. This is not stagnation but necessary rest, not ending but intermission. The curtain has fallen so it can rise again. Time to reflect, to prepare.",
+        "inverted": "The pause has become paralysis, suspension without release. You're stuck in waiting, unable to move forward into the next act. Suspended animation, the intermission that never ends. You've frozen in the between-space, afraid of what comes next."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic but abstract or minimalist. Empty stage, curtains, house lights, or liminal natural light - dawn or dusk. Technicolor but muted, the palette of in-between times. Sense of pause and anticipation.",
+          "content_guidance": "Empty stage, curtains, house lights, or a still moment - dawn or dusk, in-between light, anticipation. The breath between acts.",
+          "detailed_description": "An empty stage with red curtains drawn, house lights up but soft. Or an empty theater seen from the stage, rows of seats waiting. Or a liminal natural scene - the moment between night and day, the sky that particular in-between color, mountains in silhouette, everything still and waiting. The composition emphasizes emptiness not as absence but as anticipation. Colors muted but rich - the velvet red of curtains, the deep blue of dawn, the gold of house lights. Everything paused, breath held, waiting for what comes next. Time suspended between what was and what will be."
+        }
+      }
+    },
+    {
+      "type": "major",
+      "name": "Climb Ev'ry Mountain",
+      "number": "16",
+      "rank_slug": "16",
+      "slug": "major-16",
+      "arcana": "major",
+      "description": "Mother Superior's counsel - follow your calling, seek your dream. The most direct statement of the thesis: climb every mountain until you find your dream. Authentic guidance, mentorship, permission to pursue.",
+      "meaning": {
+        "upright": "You are being called to follow your authentic path, to climb every mountain until you find your dream. This is wise guidance, mentorship, permission to pursue what calls you. Someone sees your vocation and sends you toward it. Ford every stream, follow every rainbow, no matter how difficult the path. Your calling is real.",
+        "inverted": "The demands are impossible, standards too high. Climbing is destroying you, the dream has become weapon rather than beacon. Guidance feels like burden, permission like command. You're being pushed toward something called 'your calling' that may not be yours at all."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor with spiritual intensity. Interior abbey space with mountains visible beyond, warm light and cool depths. Strong emotional resonance, sense of benediction and sending forth.",
+          "content_guidance": "A wise elder figure giving counsel, mountains rising behind, a path winding upward into mist, benediction and sending-forth. The call made clear.",
+          "detailed_description": "Mother Superior, powerful and compassionate, sits or stands giving counsel to Maria who kneels or sits before her. Through windows or in vision behind them, mountains rise dramatically into mist and clouds, a path winding upward visible but difficult. Mother Superior's face shows wisdom, love, and firmness - she is sending Maria toward difficulty because it's necessary. The light is complex - warm golden interior light on their faces, cool blue mountain light behind, the sense of being blessed and released. The composition emphasizes both the intimacy of the counsel and the vastness of what's being called toward. Everything serious, spiritual, full of weight and love."
+        }
+      }
+    },
+    {
+      "type": "major",
+      "name": "Something Good",
+      "number": "17",
+      "rank_slug": "17",
+      "slug": "major-17",
+      "arcana": "major",
+      "description": "Maria and the Captain in the moonlit gazebo - the same place as Liesl's innocent romance, now holding mature love. Recognition of gift, earned grace, genuine partnership. 'Somewhere in my youth or childhood, I must have done something good.'",
+      "meaning": {
+        "upright": "You recognize earned grace, mature love, the gift you somehow deserve even if you don't know why. This is genuine partnership between equals, right timing, the universe conspiring in your favor. Integration has happened. You've done something good somewhere and now receive the blessing. Authentic love recognized.",
+        "inverted": "You can't accept the good, suspicious of the gift. Guilt poisons happiness, you wait for the other shoe to drop. The blessing feels undeserved so you reject it or sabotage it. Cannot believe in grace, cannot trust good fortune. Happiness becomes anxiety."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor in moonlight, romantic and mature. Same gazebo structure as earlier but lit differently, more deeply felt. Blues and silvers of night, warm human presence. The architecture echoes and transforms the earlier scene.",
+          "content_guidance": "Two adults in the moonlit gazebo, equal and tender, architectural symmetry suggesting both the earlier scene and its transformation. Mature love recognized.",
+          "detailed_description": "The same glass gazebo but at night, lit by moonlight and perhaps distant house light. Maria and the Captain, now equals, sit or stand close together, talking tenderly. The composition consciously echoes the earlier 'Sixteen Going On Seventeen' scene but everything is different - older actors, mature emotions, nighttime instead of storm, stillness instead of dancing. The glass structure frames them, the mountains are silhouetted beyond. Moonlight casts blue-silver light, their faces are gentle and wondering. The architecture remains but what it contains has transformed from innocent romance to mature love. Everything quiet, grateful, almost disbelieving of grace."
+        }
+      }
+    },
+    {
+      "type": "major",
+      "name": "Processional and Maria (The Wedding)",
+      "number": "18",
+      "rank_slug": "18",
+      "slug": "major-18",
+      "arcana": "major",
+      "description": "The wedding ceremony in the abbey - sacred union, transformation complete. But also the moment the Nazis search for them, danger at the door even as joy completes. Beauty and threat intertwined.",
+      "meaning": {
+        "upright": "Sacred union is completed, transformation achieved, commitment made. This is marriage in its fullest sense - the choosing of love, the formal recognition of what's real. Joy despite danger, completion despite threat. You choose love knowing the cost, you commit knowing the world is not safe. The transformation is complete.",
+        "inverted": "The ceremony is interrupted, celebration cut short by danger. Union is achieved but immediately threatened, nowhere is safe. You're hunted at the altar, there's no sanctuary even in the sacred space. The joy has shadows at its edges, the completion is also the beginning of flight."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cinematic Technicolor with increasing dramatic tension. The beauty of ceremony but shadows lengthening. Golden light but sense of urgency, beauty and threat intertwined. The colors are rich but the mood is complex.",
+          "content_guidance": "Wedding ceremony in the abbey, bride and groom, but shadows lengthening, sense of urgency, beauty and threat intertwined. Completion and danger converging.",
+          "detailed_description": "Maria in a wedding gown and the Captain in formal attire stand at the abbey altar. The architecture is grand, candles are lit, nuns witness from the sides. It should be purely joyful but there's tension - someone checking a watch, a glance toward the door, shadows that feel ominous despite the beauty. Perhaps Nazi flags or vehicles visible through windows, or SS officers lurking in the background. The bride and groom's faces show both joy and awareness of danger. The composition interweaves beauty and threat - gorgeous ceremony, but the exit is being watched. Everything golden and shadowed simultaneously. The completion of their love story is also the beginning of their need to flee. The wedding is real and full and also a cover for escape."
+        }
+      }
+    }
+  ]
+}

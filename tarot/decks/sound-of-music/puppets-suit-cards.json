@@ -1,0 +1,298 @@
+{
+  "puppets_suit_cards": [
+    {
+      "type": "minor",
+      "name": "Ace of Puppets",
+      "number": "1",
+      "rank_slug": "0",
+      "suit_slug": "puppets",
+      "slug": "puppets-0",
+      "arcana": "minor",
+      "description": "Skillful craft first entering your life - someone teaches you to make, to stage, to choreograph with purpose. The gift of purposeful creation.",
+      "meaning": {
+        "upright": "The gift of craft arrives. Someone teaches you to create with purpose, to stage beauty, to make puppets dance. This is the seed of skillful making, pedagogical creativity, the beginning of learning to construct spectacle for good ends. Instrumental creation as gift - you can make things that teach and delight.",
+        "inverted": "The gift of craft is refused or arrives as corruption. You learn manipulation instead of art, are taught to pull strings for wrong purposes. The beginning of purposeful creation is poisoned from the start, potential for craft is squandered or weaponized immediately."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting - sharp contrasts between spotlight and shadow, rich jewel tones (deep reds, golds, purples) against black. Stagecraft aesthetic with visible construction.",
+          "content_guidance": "A single element emerging - first puppet, first string pulled, hands learning to create with purpose. The gift of craft arriving.",
+          "detailed_description": "A hand receiving puppet strings for the first time, or a small marionette coming to life, or someone being shown how to make theater. Dramatic spotlight on the moment of learning. Deep red curtain, golden puppet, black background. The instant craft enters as gift - could be charming (child learning to make) or ominous (recruit learning propaganda techniques). The beginning of purposeful creation."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Two of Puppets",
+      "number": "2",
+      "rank_slug": "1",
+      "suit_slug": "puppets",
+      "slug": "puppets-1",
+      "arcana": "minor",
+      "description": "What puppetry asks of partnership - puppeteer and audience, two performers coordinating, the dance of creating spectacle together.",
+      "meaning": {
+        "upright": "Partnership in creating spectacle. Two puppeteers coordinate strings, or performer and audience complete each other, or teacher and student make theater together. This is collaboration in purposeful creation, choreographed beauty requiring two, staging that works through mutual recognition of purpose.",
+        "inverted": "Partnership in manipulation, or coordination fails and spectacle collapses. Two people pull strings against each other, or performer manipulates audience, or teaching becomes coercion. The collaboration is for corrupt purpose or the choreography tangles destructively."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting with two figures, rich jewel tones and dramatic shadows. Stagecraft showing coordination or conflict. Art Deco influenced.",
+          "content_guidance": "Two elements in relationship - two puppeteers coordinating, performer and audience, strings interweaving. Partnership in spectacle.",
+          "detailed_description": "Two puppeteers working together on a complex marionette performance, strings interweaving but coordinated. Or performer and audience in dramatic exchange. Spotlight and shadow, the two figures either in harmony (beautiful collaboration) or tension (strings tangling, manipulation competing). Rich theatrical colors, gold and deep red, visible mechanism of coordination or conflict."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Three of Puppets",
+      "number": "3",
+      "rank_slug": "2",
+      "suit_slug": "puppets",
+      "slug": "puppets-2",
+      "arcana": "minor",
+      "description": "Puppetry spreading through a household - teaching children to perform, rehearsal and collective staging, theater becoming shared practice.",
+      "meaning": {
+        "upright": "Craft spreads through community. The household learns to make theater together, children are taught to perform, rehearsal becomes shared joy. Collective staging for good purpose - teaching through constructed spectacle multiplies, everyone learning their parts in the show. Choreographed beauty spreading.",
+        "inverted": "Performance is forced on unwilling participants, or spectacle spreads as manipulation. Everyone must participate in the show, rehearsal becomes coercion, the household is staged without choice. Community performance becomes conformity, collective puppet show as crowd control."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting with multiple figures, jewel tones and stage blacks. Sense of collective rehearsal or performance. Could be joyful or oppressive.",
+          "content_guidance": "Elements multiplying - many learning to perform, household in rehearsal. Collective staging spreading through community.",
+          "detailed_description": "Maria and children rehearsing 'The Lonely Goatherd' puppet show, everyone learning their parts, collective joy in making theater. Or a propaganda training session, many being taught to perform the same script. Rich theatrical colors, multiple figures with strings or in costume, the spread of performance through the household - either delightful collaboration or ominous coordination."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Four of Puppets",
+      "number": "4",
+      "rank_slug": "3",
+      "suit_slug": "puppets",
+      "slug": "puppets-3",
+      "arcana": "minor",
+      "description": "The sanctuary that theater builds - stage as safe space to explore, performance creating refuge, the constructed world as shelter.",
+      "meaning": {
+        "upright": "Theater becomes sanctuary. The stage is safe space to explore difficult things, performance creates refuge where you can be what you cannot be elsewhere. This is the puppet show as shelter, constructed spectacle that protects by providing alternate space. The theater you can count on, staging as stable ground.",
+        "inverted": "Theater becomes cage, the stage imprisons. Performance is no longer refuge but obligation, the constructed world traps rather than frees. You hide in spectacle instead of living, the puppet show becomes the only place you exist. Staging as stagnation, safety as death of authentic being."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting creating enclosed space, jewel tones with sense of shelter. Stage as sanctuary, warm light within dramatic darkness. Protective or confining.",
+          "content_guidance": "Structure offering shelter - stage, theater, puppet show providing safe space. Constructed world as refuge.",
+          "detailed_description": "A small puppet theater stage lit warmly, curtains creating enclosure, performers or audience finding shelter in the constructed world. The stage as sanctuary - could be children using puppet show to process trauma, or could be someone hiding in performance instead of living. Rich theatrical gold and red, the constructed space clearly bounded but whether protecting or imprisoning depends on mood. Theater as refuge or cage."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Five of Puppets",
+      "number": "5",
+      "rank_slug": "4",
+      "suit_slug": "puppets",
+      "slug": "puppets-4",
+      "arcana": "minor",
+      "description": "The storm puppetry faces - strings tangling, performance collapsing, the moment when careful staging meets chaos.",
+      "meaning": {
+        "upright": "Your careful staging meets disruption. Strings tangle, performance collapses, choreography is tested by chaos. This is the crisis of constructed spectacle - can your purposeful creation survive disorder? Can the show go on when everything is breaking? The storm tests whether craft is strong enough.",
+        "inverted": "Complete collapse of staging, strings hopelessly tangled, the performance destroyed by chaos. Your constructed spectacle cannot withstand disruption, the show fails utterly. Crisis consumes your ability to create purposefully, choreography dissolves into disaster."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting in chaos - spotlights swinging, shadows aggressive. Jewel tones clashing, stage in crisis. Expressionistic disorder.",
+          "content_guidance": "Elements in turmoil - strings tangling, stage collapsing, performance disrupted. Carefully constructed spectacle meeting chaos.",
+          "detailed_description": "Puppet strings hopelessly tangled, marionettes fallen, or stage collapsing during performance. Spotlights swinging wild, curtains torn, the careful choreography dissolved into chaos. Rich colors turned aggressive - red like blood, gold tarnished, purple bruised. The constructed world can't hold against disruption. The moment when all the careful staging fails."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Six of Puppets",
+      "number": "6",
+      "rank_slug": "5",
+      "suit_slug": "puppets",
+      "slug": "puppets-5",
+      "arcana": "minor",
+      "description": "How puppetry offers comfort - stories that help us understand, teaching through constructed narrative, spectacle that soothes.",
+      "meaning": {
+        "upright": "Theater offers comfort and restoration. Stories told through puppets help us understand difficult things, constructed narrative provides solace, spectacle teaches us how to cope. This is pedagogical care through art - the show that helps you feel better, performance as healing. Purposeful creation in service of comfort.",
+        "inverted": "Theater becomes false comfort, stories distract from necessary pain. The puppet show avoids authentic feeling, constructed narrative becomes propaganda of happiness. Care through spectacle is actually control, soothing performance prevents real healing. Comfort as manipulation."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting warm and soothing, jewel tones gentle. Stagecraft in service of care, performance as comfort. Tender but still constructed.",
+          "content_guidance": "Elements offering care through performance - puppet show that comforts, story that heals. Theater as solace.",
+          "detailed_description": "Children watching puppet show that helps them understand something difficult, or being comforted by performed story. Warm theatrical light, gentle colors, the constructed narrative providing care. Could be genuine (theater helping process grief) or false (propaganda disguised as comfort, performance preventing real feeling). The puppet show as medicine, strings visible but in service of healing."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Seven of Puppets",
+      "number": "7",
+      "rank_slug": "6",
+      "suit_slug": "puppets",
+      "slug": "puppets-6",
+      "arcana": "minor",
+      "description": "The choice puppetry demands - perform or refuse the strings, take the stage or reject the role, commit to the choreography.",
+      "meaning": {
+        "upright": "You must choose whether to perform. The role is offered, the strings extended - will you take them and join the show, or refuse to be choreographed? This is clear decision about participation in constructed spectacle. Perform in the puppet show or decline the strings. The choice is yours to commit or refuse.",
+        "inverted": "Paralyzed between performing and refusing, or coerced to choose from fear. The decision about strings is poisoned - perform under duress or refuse and face consequences. No authentic choice, only false dilemma. You cannot decide whether to join the show or are forced into it against will."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting showing decision point, jewel tones split or contrasting. Spotlight on the moment of choice about performance. Dramatic and clear.",
+          "content_guidance": "Elements at crossroads - strings offered, stage waiting. Figure choosing whether to perform, to take the role, to join the show.",
+          "detailed_description": "A figure with puppet strings extended toward them, choice clear - take them and perform, or refuse and walk away. Or standing at stage entrance, decision point whether to enter the show. Dramatic lighting, two paths visible - one onto the stage into spotlight and choreography, one away into darkness and no performance. The strings wait to be taken or refused. The show waits for commitment or rejection."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Eight of Puppets",
+      "number": "8",
+      "rank_slug": "7",
+      "suit_slug": "puppets",
+      "slug": "puppets-7",
+      "arcana": "minor",
+      "description": "What puppetry thaws - performance becoming genuine, the constructed becoming real, strings transforming from control to craft.",
+      "meaning": {
+        "upright": "Your performance becomes genuine. What was constructed opens into something real, strings transform from control to craft, staging thaws into authentic connection. This is the breakthrough moment when purposeful creation serves rather than replaces truth. The puppet show was art all along, the performance was real teaching.",
+        "inverted": "The thaw floods or destroys boundaries needed. Performance and reality collapse dangerously together, you cannot tell what's staged and what's real anymore. Strings dissolve when structure was needed, the constructed world melts into formless mess. Transformation destroys rather than opens."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting showing transformation, jewel tones becoming more alive and less rigid. The staged becoming real, breakthrough moment. Dynamic and releasing.",
+          "content_guidance": "Elements transforming - puppet becoming real, performance finding genuine feeling. Strings that controlled becoming strings that create.",
+          "detailed_description": "Marionette transforming toward real child, or performer's staged emotion becoming genuine, or the constructed show revealing actual truth. Theatrical lighting warming, strings visible but now serving creation rather than control. The frozen stagecraft thaws into living performance. The breakthrough when purposeful creation stops manipulating and starts connecting. The puppet show was teaching truth all along."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Nine of Puppets",
+      "number": "9",
+      "rank_slug": "8",
+      "suit_slug": "puppets",
+      "slug": "puppets-8",
+      "arcana": "minor",
+      "description": "What puppetry calls you toward - the performance you must give, the show you must stage, purposeful creation as vocation.",
+      "meaning": {
+        "upright": "You are called to create purposefully, to stage the show that must be staged, to give the performance that's needed. This is vocation as craft - you must make this puppet show, choreograph this moment, construct this spectacle for this purpose. The performance ahead calls you toward it. Strategic creation as calling.",
+        "inverted": "False performance calls you, or you're drawn toward spectacle for corrupt purpose. The show you're called to stage is propaganda, manipulation calling itself vocation. Purposeful creation as trap, drawn toward constructing lies. The performance ahead will destroy rather than serve."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting with strong sense of calling toward performance. Jewel tones drawing eye forward to stage that waits. Aspirational but constructed.",
+          "content_guidance": "Elements beckoning toward performance - stage ahead, show that must be given. The calling to create purposefully, the spectacle that needs staging.",
+          "detailed_description": "An empty stage lit and waiting, or a puppet theater calling to be made, or a performance space drawing you toward it. The show you must create visible ahead - could be puppet show that will teach children, or concert that will be cover for escape, or propaganda rally calling you to construct it. Theatrical light on the purpose ahead, jewel tones rich with invitation or warning. The vocation to create purposefully made visible."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Ten of Puppets",
+      "number": "10",
+      "rank_slug": "9",
+      "suit_slug": "puppets",
+      "slug": "puppets-9",
+      "arcana": "minor",
+      "description": "Where puppetry's path completes - the final bow, performance transcended, when the show fulfills its purpose perfectly.",
+      "meaning": {
+        "upright": "The performance completes perfectly. The show achieves exactly what it was staged for, purposeful creation fulfills its purpose, the puppet show serves its function and ends. This is the final bow, the curtain closing on spectacle that worked, staging that achieved its goal. The craft was in service of something and that something is complete.",
+        "inverted": "Performance completes but leaves you empty. The show worked but at too high cost, you gave the spectacle perfectly but lost yourself in it. The purpose was served but you're hollow after, the staging succeeded but killed what it was meant to serve. Final bow on emptiness."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting at completion, jewel tones rich and fulfilled. Final bow, curtain call, the show complete. Either triumphant or exhausted.",
+          "content_guidance": "Elements fulfilled - the final bow, show complete, purpose served through performance. Puppet show that achieved its goal.",
+          "detailed_description": "Performers taking final bow as curtain falls, or puppet theater after successful show, or the family's escape concert complete - they performed 'So Long Farewell' and got away. Theatrical lighting at its richest, gold and deep red, the purpose served perfectly. Either triumph (successful puppet show delighted and taught children) or exhaustion (successful propaganda rally served fascism). The staging complete, for good or ill. Performance fulfilled."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Singer of Puppets",
+      "number": "11",
+      "rank_slug": "10",
+      "suit_slug": "puppets",
+      "slug": "puppets-10",
+      "arcana": "minor",
+      "description": "The one who creates spontaneously through craft - improvising within structure, authentic expression through constructed forms, the joyful puppeteer.",
+      "meaning": {
+        "upright": "You are spontaneous creativity working through purposeful craft. This is improvising within the puppet show, authentic expression using constructed forms, joy finding voice through strings and staging. The singer who performs, creation that's both genuine and crafted. You make real art through purposeful technique.",
+        "inverted": "Your spontaneity is performed, authentic expression becomes constructed lie. You're the puppet pretending to be real, voice that sounds genuine but is all strings. Creative expression is blocked by the very craft meant to enable it. The performance has eaten the reality."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting but with spontaneous life, jewel tones vibrant. The staged containing the genuine, craft serving authentic expression. Paradoxical beauty.",
+          "content_guidance": "Figure in spontaneous expression but within theatrical context. Singer using the stage, authentic creativity through craft, joy in the constructed space.",
+          "detailed_description": "Maria performing with the children - genuine joy expressed through carefully constructed puppet show, real teaching happening through staged spectacle. Or a performer whose authentic expression finds perfect vehicle in theater. Theatrical lighting but nothing dead about it, craft serving rather than replacing truth. The strings are visible but the joy is real. Spontaneous creativity using purposeful forms to shine brighter."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Goatherd of Puppets",
+      "number": "12",
+      "rank_slug": "11",
+      "suit_slug": "puppets",
+      "slug": "puppets-11",
+      "arcana": "minor",
+      "description": "The one who tends and transmits craft - teaching puppetry with care, passing forward techniques of staging, preserving theatrical tradition.",
+      "meaning": {
+        "upright": "You are authentic steward of craft. Teaching puppetry, passing forward staging techniques, preserving theater tradition with care. You tend the craft by teaching it well, guide new puppeteers, carry forward the good uses of purposeful creation. Stewardship of skillful making.",
+        "inverted": "Your teaching of craft becomes indoctrination, passing forward manipulation techniques, preserving propaganda methods. You've abandoned authentic stewardship of theater or weaponized it. Teaching puppetry in service of control, craft tradition as transmission of lies."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting with teaching presence, jewel tones with sense of guidance. Master puppeteer with student, tradition being transmitted with care or corruption.",
+          "content_guidance": "Figure tending craft and teaching it - shepherding puppeteers, guiding students in staging. Authentic transmission of purposeful creation.",
+          "detailed_description": "Master puppeteer teaching student how to work strings with care, or director showing actors how to move for purpose. The craft being passed forward - could be grandmother teaching grandchild theater arts, or propaganda minister training new recruits. Theatrical lighting, visible strings, the teaching of purposeful creation happening. Care in transmission or corruption in teaching."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Puppeteer of Puppets",
+      "number": "13",
+      "rank_slug": "12",
+      "suit_slug": "puppets",
+      "slug": "puppets-12",
+      "arcana": "minor",
+      "description": "The archetype itself - the maker pulling strings, staging spectacle, choreographing with purpose, craft fully embodied.",
+      "meaning": {
+        "upright": "You ARE the puppeteer - skillful craft fully embodied, purposeful creation as your nature. This is you as maker, stager, choreographer. You create spectacle for purpose, work strings skillfully, design performances that teach and delight. The Puppeteer of Puppets is craft doubled - pure purposeful making.",
+        "inverted": "You are the master manipulator, propaganda incarnate. Pulling all the strings, staging lies, choreographing mass deception. The puppeteer whose craft is fully in service of control, spectacle as weapon, performance as oppression. Manipulation perfected."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting at its most dramatic and purposeful. Jewel tones rich and intense, strings fully visible, staging made explicit. Pure puppetry - could be art or propaganda.",
+          "content_guidance": "The archetype embodied - hands on many strings, staging elaborate spectacle, purposeful creation visible. The Puppeteer in their element, craft as being.",
+          "detailed_description": "A figure surrounded by marionettes, all strings leading to their hands, or standing at center of elaborate staged performance, or choreographing mass spectacle. The craft fully visible and intentional. Could be artist creating beautiful puppet show or propagandist staging rally. Theatrical lighting at maximum drama, all the jewel tones deployed, every string intentional. The maker in full power - delightful or terrifying depending on purpose. Puppetry itself."
+        }
+      }
+    },
+    {
+      "type": "minor",
+      "name": "Officer of Puppets",
+      "number": "14",
+      "rank_slug": "13",
+      "suit_slug": "puppets",
+      "slug": "puppets-13",
+      "arcana": "minor",
+      "description": "The one who enforces performance - drilling performers, requiring choreography, transmitting staging discipline, authority over spectacle.",
+      "meaning": {
+        "upright": "You enforce necessary discipline in performance. Drilling performers to competence, requiring choreography for good reason, training craft properly so spectacle works. Authority that serves by making performers skilled enough to achieve purpose. Discipline in staging that enables rather than crushes.",
+        "inverted": "Performance discipline becomes oppression. You drill performers to death, require choreography so rigid it kills art, enforce staging as fascist control. The authority over spectacle crushes those who must perform, discipline destroys what it claims to serve. The Officer of Puppets makes everyone dance on command."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Theatrical lighting with authority visible, jewel tones with institutional precision. Uniformed presence enforcing performance, discipline imposed on staging. Could be director or dictator.",
+          "content_guidance": "Figure enforcing discipline on performance - drilling performers, requiring choreography. Authority visible, spectacle under command.",
+          "detailed_description": "A director drilling performers in precise choreography, or military officer requiring perfect formation in parade/rally. Uniform or position of authority visible, performers in rows being trained in exact performance. Could be benevolent (theater director training actors to excellence) or oppressive (fascist requiring perfect spectacle, everyone performing on command). Theatrical light but cold and precise, discipline visible in every line, staging enforced. The authority making everyone perform correctly."
+        }
+      }
+    }
+  ]
+}

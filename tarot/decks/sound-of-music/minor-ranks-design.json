@@ -1,0 +1,412 @@
+{
+  "numbered_ranks": [
+    {
+      "index": 0,
+      "arcana": "minor",
+      "numeric_value": 1,
+      "name": "Ace",
+      "symbol": "A",
+      "slug": "0",
+      "question": "How does SUIT first enter your life?",
+      "description": "The question of origins and beginnings. This rank explores first encounters, seeds planted, potential recognized, the moment something new enters your world. It asks about initiation, the spark, the gift arriving, the door opening. What does it mean for something to begin?",
+      "meaning": {
+        "upright": [
+          "New beginning",
+          "Seed planted",
+          "Gift offered",
+          "Potential recognized",
+          "First encounter",
+          "The spark"
+        ],
+        "inverted": [
+          "Missed opportunity",
+          "Gift refused",
+          "False start",
+          "Potential squandered",
+          "Beginning aborted",
+          "Seed on barren ground"
+        ]
+      },
+      "visual_content": "A single element emerging - a seed sprouting, a door opening, a hand offering, light breaking through, the moment of arrival"
+    },
+    {
+      "index": 1,
+      "arcana": "minor",
+      "numeric_value": 2,
+      "name": "Two",
+      "symbol": "II",
+      "slug": "1",
+      "question": "What does SUIT ask of partnership?",
+      "description": "The question of duality and relationship. This rank explores collaboration, harmony and tension, mirroring, the dance between two. It asks what happens when the singular becomes plural, when you must coordinate, when another enters the equation. What does relating require?",
+      "meaning": {
+        "upright": [
+          "Partnership",
+          "Collaboration",
+          "Balance",
+          "Harmony",
+          "Coordination",
+          "Mutual recognition"
+        ],
+        "inverted": [
+          "Discord",
+          "Imbalance",
+          "Failed collaboration",
+          "Competition",
+          "Unable to coordinate",
+          "Relationship as burden"
+        ]
+      },
+      "visual_content": "Two elements in relationship - hands meeting, paths converging, mirrors reflecting, dancers coordinating, balance or tension made visible"
+    },
+    {
+      "index": 2,
+      "arcana": "minor",
+      "numeric_value": 3,
+      "name": "Three",
+      "symbol": "III",
+      "slug": "2",
+      "question": "How does SUIT spread through a household?",
+      "description": "The question of community and propagation. This rank explores how things multiply, how teaching happens, how culture transmits, how what was between two becomes shared by many. It asks about expansion, spreading influence, collective practice. What does it mean to grow beyond the dyad?",
+      "meaning": {
+        "upright": [
+          "Community forming",
+          "Teaching spreading",
+          "Shared practice",
+          "Multiplication",
+          "Cultural transmission",
+          "Collective joy"
+        ],
+        "inverted": [
+          "Forced participation",
+          "Transmission without understanding",
+          "Community as conformity",
+          "Spread of poison",
+          "Teaching that deadens",
+          "Collective pressure"
+        ]
+      },
+      "visual_content": "Elements multiplying - a table with many, knowledge passing through generations, patterns repeating, circles expanding, the household alive"
+    },
+    {
+      "index": 3,
+      "arcana": "minor",
+      "numeric_value": 4,
+      "name": "Four",
+      "symbol": "IV",
+      "slug": "3",
+      "question": "What does SUIT build as sanctuary?",
+      "description": "The question of foundation and refuge. This rank explores stability, shelter, what endures, structure as protection. It asks what provides safety, what grounds you, what can be counted on. What does it mean to have a sanctuary?",
+      "meaning": {
+        "upright": [
+          "Foundation",
+          "Sanctuary",
+          "Stability",
+          "Shelter",
+          "What endures",
+          "Safe ground"
+        ],
+        "inverted": [
+          "Fortress mentality",
+          "Sanctuary becomes prison",
+          "False security",
+          "Foundation crumbling",
+          "Shelter isolates",
+          "Safety as stagnation"
+        ]
+      },
+      "visual_content": "Structure offering shelter - walls that protect, foundations laid, refuge created, corners secured, the safe place"
+    },
+    {
+      "index": 4,
+      "arcana": "minor",
+      "numeric_value": 5,
+      "name": "Five",
+      "symbol": "V",
+      "slug": "4",
+      "question": "What storm does SUIT face?",
+      "description": "The question of crisis and disruption. This rank explores challenge, conflict, chaos, the moment when everything is tested. It asks what breaks, what threatens, what storms through and disrupts the established order. What happens when stability is challenged?",
+      "meaning": {
+        "upright": [
+          "Challenge",
+          "Disruption",
+          "Testing",
+          "Conflict",
+          "Crisis as teacher",
+          "The storm arrives"
+        ],
+        "inverted": [
+          "Chaos overwhelming",
+          "Destruction without purpose",
+          "Crisis that breaks",
+          "Unable to weather",
+          "Conflict consuming",
+          "Storm that doesn't end"
+        ]
+      },
+      "visual_content": "Elements in turmoil - storm clouds gathering, foundations shaking, order disrupted, tension breaking, the moment of crisis"
+    },
+    {
+      "index": 5,
+      "arcana": "minor",
+      "numeric_value": 6,
+      "name": "Six",
+      "symbol": "VI",
+      "slug": "5",
+      "question": "How does SUIT offer comfort?",
+      "description": "The question of solace and restoration. This rank explores care, healing, support after crisis, the compassionate response. It asks what soothes, what mends, what helps you continue. How do we comfort and be comforted?",
+      "meaning": {
+        "upright": [
+          "Comfort offered",
+          "Restoration",
+          "Care",
+          "Healing presence",
+          "Support",
+          "Solace found"
+        ],
+        "inverted": [
+          "Comfort that smothers",
+          "False consolation",
+          "Avoiding necessary pain",
+          "Care as control",
+          "Toxic positivity",
+          "Healing that harms"
+        ]
+      },
+      "visual_content": "Elements offering care - hands soothing, warmth provided, wounds tended, the gesture of comfort, restoration in progress"
+    },
+    {
+      "index": 6,
+      "arcana": "minor",
+      "numeric_value": 7,
+      "name": "Seven",
+      "symbol": "VII",
+      "slug": "6",
+      "question": "What choice does SUIT demand?",
+      "description": "The question of decision and commitment. This rank explores crossroads, agency, standing at diverging paths, the weight of choosing. It asks what you're willing to risk, what you must declare, the moment you must commit. What does it mean to choose?",
+      "meaning": {
+        "upright": [
+          "Clear choice",
+          "Decision point",
+          "Crossroads",
+          "Agency claimed",
+          "Commitment required",
+          "Declaration"
+        ],
+        "inverted": [
+          "Paralyzed by choice",
+          "False dilemma",
+          "Coerced decision",
+          "Choosing from fear",
+          "No good options",
+          "Commitment avoided"
+        ]
+      },
+      "visual_content": "Elements at crossroads - diverging paths, scales balancing, doors to choose between, the moment poised, decision visible"
+    },
+    {
+      "index": 7,
+      "arcana": "minor",
+      "numeric_value": 8,
+      "name": "Eight",
+      "symbol": "VIII",
+      "slug": "7",
+      "question": "What does SUIT thaw or open?",
+      "description": "The question of transformation and breakthrough. This rank explores melting, release, becoming fluid again after being frozen, the opening of what was closed. It asks about voice returning, ice breaking, the moment when what was rigid softens. What does it mean to thaw?",
+      "meaning": {
+        "upright": [
+          "Transformation",
+          "Breakthrough",
+          "Thawing",
+          "Opening",
+          "Voice returning",
+          "Release"
+        ],
+        "inverted": [
+          "Melting into formlessness",
+          "Loss of necessary boundaries",
+          "Premature opening",
+          "Thaw that floods",
+          "Transformation that destroys",
+          "Cannot refreeze when needed"
+        ]
+      },
+      "visual_content": "Elements transforming - ice melting to water, closed hands opening, frozen becoming fluid, the moment of release, breakthrough"
+    },
+    {
+      "index": 8,
+      "arcana": "minor",
+      "numeric_value": 9,
+      "name": "Nine",
+      "symbol": "IX",
+      "slug": "8",
+      "question": "What does SUIT call you toward?",
+      "description": "The question of calling and aspiration. This rank explores vocation, the path ahead, what draws you forward, the dream you must pursue. It asks about the mountain you must climb, the song you must sing, the authentic path. What calls to you?",
+      "meaning": {
+        "upright": [
+          "Calling recognized",
+          "Aspiration",
+          "The path forward",
+          "Vocation",
+          "What draws you",
+          "Your mountain"
+        ],
+        "inverted": [
+          "False calling",
+          "Aspiration as burden",
+          "Called toward destruction",
+          "Dreams that poison",
+          "Vocation as trap",
+          "Cannot hear the call"
+        ]
+      },
+      "visual_content": "Elements beckoning forward - a mountain peak above, a path winding upward, light on the horizon, the call made visible, aspiration"
+    },
+    {
+      "index": 9,
+      "arcana": "minor",
+      "numeric_value": 10,
+      "name": "Ten",
+      "symbol": "X",
+      "slug": "9",
+      "question": "Where does SUIT's path complete?",
+      "description": "The question of completion and fulfillment. This rank explores arrival, integration, the full expression, the cycle completed. It asks what it means to finish, to arrive, to fulfill the promise of the Ace. Where does this journey end?",
+      "meaning": {
+        "upright": [
+          "Completion",
+          "Fulfillment",
+          "Arrival",
+          "Integration",
+          "Full expression",
+          "Cycle complete"
+        ],
+        "inverted": [
+          "Completion that exhausts",
+          "Arrival but no home",
+          "Fulfillment hollow",
+          "Finished and empty",
+          "Nothing beyond",
+          "Completion as death"
+        ]
+      },
+      "visual_content": "Elements fulfilled - circle closing, journey's end, fruit ripened, the full expression, arrival at destination, wholeness"
+    }
+  ],
+  "face_ranks": [
+    {
+      "index": 10,
+      "arcana": "minor",
+      "numeric_value": 11,
+      "name": "Singer",
+      "symbol": "S",
+      "slug": "10",
+      "quadrant": "Authentic/Creative",
+      "description": "The archetype of authentic creative expression. The Singer embodies spontaneous voice, genuine self-expression, creating from the source. This is the one who sings because they must, whose voice emerges naturally, who creates without calculation. The Singer knows their song and sings it freely.",
+      "meaning": {
+        "upright": [
+          "Authentic expression",
+          "Creative voice",
+          "Spontaneous creation",
+          "Singing your truth",
+          "Unfiltered self",
+          "Joy made audible"
+        ],
+        "inverted": [
+          "Lost voice",
+          "Singing others' songs",
+          "Expression stifled",
+          "Authentic performance",
+          "Voice as mask",
+          "Creative block"
+        ]
+      },
+      "visual_content": "A figure in the act of expression - singing, creating, voicing forth, arms wide or voice lifted, embodying spontaneous authentic creativity"
+    },
+    {
+      "index": 11,
+      "arcana": "minor",
+      "numeric_value": 12,
+      "name": "Goatherd",
+      "symbol": "G",
+      "slug": "11",
+      "quadrant": "Authentic/Transmissive",
+      "description": "The archetype of authentic stewardship and transmission. The Goatherd tends the flock, knows the mountain paths, carries forward ancient practices with care. This is the shepherd who guides without controlling, who preserves by living the tradition, who transmits through presence and care. The Goatherd has walked these mountains as goatherds have for a thousand years.",
+      "meaning": {
+        "upright": [
+          "Stewardship",
+          "Authentic guidance",
+          "Tending with care",
+          "Living tradition",
+          "Knowing the paths",
+          "Shepherd's wisdom"
+        ],
+        "inverted": [
+          "Neglectful guardian",
+          "Tradition without understanding",
+          "Abandoned flock",
+          "Lost on the mountain",
+          "Stewardship as control",
+          "Dead preservation"
+        ]
+      },
+      "visual_content": "A figure tending and guiding - shepherd with flock on mountain paths, caring presence, embodying stewardship and authentic transmission"
+    },
+    {
+      "index": 12,
+      "arcana": "minor",
+      "numeric_value": 13,
+      "name": "Puppeteer",
+      "symbol": "P",
+      "slug": "12",
+      "quadrant": "Instrumental/Creative",
+      "description": "The archetype of purposeful creation and skillful staging. The Puppeteer designs, choreographs, constructs with intention. This is the maker who works strings, who teaches through constructed narrative, who creates spectacle for purpose. The Puppeteer's craft can enchant or manipulate, delight or control - the same hands that create the Lonely Goatherd show can stage propaganda.",
+      "meaning": {
+        "upright": [
+          "Skillful craft",
+          "Strategic creation",
+          "Teaching through art",
+          "Purposeful staging",
+          "Choreographed beauty",
+          "Maker's wisdom"
+        ],
+        "inverted": [
+          "Manipulation",
+          "Pulling strings",
+          "Control disguised as art",
+          "Propaganda",
+          "Craft as weapon",
+          "Spectacle replacing truth"
+        ]
+      },
+      "visual_content": "A figure creating and directing - hands on strings, staging a scene, purposeful construction, embodying instrumental creativity"
+    },
+    {
+      "index": 13,
+      "arcana": "minor",
+      "numeric_value": 14,
+      "name": "Officer",
+      "symbol": "O",
+      "slug": "13",
+      "quadrant": "Instrumental/Transmissive",
+      "description": "The archetype of disciplined order and transmitted structure. The Officer maintains discipline, enforces code, transmits institutional wisdom through training. This is the one who knows the rules, who upholds structure, who passes forward the established order. The Officer's whistle can protect through clear command or oppress through rigid control - the same discipline that keeps children safe can enforce fascist order.",
+      "meaning": {
+        "upright": [
+          "Necessary discipline",
+          "Protective structure",
+          "Clear authority",
+          "Trained precision",
+          "Institutional wisdom",
+          "Order that serves"
+        ],
+        "inverted": [
+          "Rigid oppression",
+          "Rules over life",
+          "Authority as tyranny",
+          "Discipline that crushes",
+          "Structure without soul",
+          "Order as violence"
+        ]
+      },
+      "visual_content": "A figure enforcing order - in uniform, whistle or command, embodying discipline and transmitted structure, authority visible"
+    }
+  ]
+}

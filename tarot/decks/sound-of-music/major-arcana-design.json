@@ -1,0 +1,532 @@
+{
+  "major_arcana": {
+    "story": "The musical journey of The Sound of Music - from Maria's solitary communion with nature, through her arrival at the von Trapp household, the awakening of love and music in a family haunted by loss, the looming shadow of the Anschluss, and the ultimate escape over the mountains. Each song marks a transformation: the abbey trying to contain wildness, children learning to sing, a captain remembering his heart, lovers recognizing each other, and a family choosing freedom over compliance. The story asks: how do we preserve authentic joy and love when instrumental forces demand our submission?",
+    "visual_style": "Cinematic wide-screen compositions in lush Technicolor - the rich production values of the 1965 film. Sweeping alpine vistas, ornate interiors of abbey and villa, theatrical staging. Strong use of light (sunlight on mountains, candlelight in abbey, spotlight on stage). Romantic realism with moments of expressionist drama. The aesthetic should feel like film stills - composed, dramatic, emotionally resonant. Colors shift from natural greens and blues (early cards) through warm golds and reds (middle) to dramatic shadows and escaping dawn light (late cards).",
+    "ranks": [
+      {
+        "index": 0,
+        "arcana": "major",
+        "numeric_value": 0,
+        "name": "The Sound of Music",
+        "symbol": "0",
+        "slug": "0",
+        "description": "Maria alone on the mountain, arms wide, spinning in pure connection with nature before duty calls her back. The primordial moment of authentic creative expression.",
+        "meaning": {
+          "upright": [
+            "Pure joy",
+            "Connection with nature",
+            "Authentic self-expression",
+            "Freedom",
+            "Solitude as fulfillment",
+            "The source"
+          ],
+          "inverted": [
+            "Escapism",
+            "Avoiding responsibility",
+            "Lost in reverie",
+            "Disconnection from community",
+            "Inability to integrate joy with duty"
+          ]
+        },
+        "visual_content": "A lone figure on a mountain meadow, arms outstretched, surrounded by wildflowers and distant peaks, bathed in golden light"
+      },
+      {
+        "index": 1,
+        "arcana": "major",
+        "numeric_value": 1,
+        "name": "Alleluia",
+        "symbol": "I",
+        "slug": "1",
+        "description": "The abbey at prayer, sacred space, the structure that transmits devotion across generations. Authentic transmission through ritual.",
+        "meaning": {
+          "upright": [
+            "Sacred foundation",
+            "Spiritual practice",
+            "Communal devotion",
+            "Tradition as living practice",
+            "Sanctuary",
+            "Reverence"
+          ],
+          "inverted": [
+            "Empty ritual",
+            "Spirituality without spirit",
+            "Going through motions",
+            "Sanctuary becomes prison",
+            "Tradition ossified"
+          ]
+        },
+        "visual_content": "Stone abbey interior with vaulted ceilings, nuns in prayer, candlelight and incense, stained glass casting colored light"
+      },
+      {
+        "index": 2,
+        "arcana": "major",
+        "numeric_value": 2,
+        "name": "Maria",
+        "symbol": "II",
+        "slug": "2",
+        "description": "The nuns singing about the problem of Maria - a flibbertigibbet, a will-o'-the-wisp, a clown. The question of how wildness fits within structure.",
+        "meaning": {
+          "upright": [
+            "Being seen (even critically)",
+            "The problem you pose to systems",
+            "Creative disruption",
+            "Authenticity that challenges",
+            "Beloved difficulty"
+          ],
+          "inverted": [
+            "Being defined by others",
+            "Gossip",
+            "Judgment without understanding",
+            "Reputation replacing reality",
+            "Being 'too much'"
+          ]
+        },
+        "visual_content": "Multiple perspectives converging - whispered conversations, hands gesturing, a central figure conspicuously absent or glimpsed through windows"
+      },
+      {
+        "index": 3,
+        "arcana": "major",
+        "numeric_value": 3,
+        "name": "I Have Confidence",
+        "symbol": "III",
+        "slug": "3",
+        "description": "Walking toward the von Trapp villa, nervous but determined. Stepping into the unknown with self-encouragement bordering on self-deception.",
+        "meaning": {
+          "upright": [
+            "Courage despite fear",
+            "Fake-it-till-you-make-it",
+            "Stepping forward",
+            "Self-encouragement",
+            "Entering new territory",
+            "Beginning"
+          ],
+          "inverted": [
+            "False confidence",
+            "Denial of real danger",
+            "Unprepared",
+            "Bravado masking terror",
+            "Walking into disaster with a smile"
+          ]
+        },
+        "visual_content": "A figure on a tree-lined path approaching a grand house, luggage in hand, posture caught between hesitation and determination"
+      },
+      {
+        "index": 4,
+        "arcana": "major",
+        "numeric_value": 4,
+        "name": "Sixteen Going On Seventeen",
+        "symbol": "IV",
+        "slug": "4",
+        "description": "Liesl and Rolf in the gazebo, dancing in the rain. Young love, innocence, romantic ideals before reality intrudes.",
+        "meaning": {
+          "upright": [
+            "First love",
+            "Innocence",
+            "Romantic awakening",
+            "Being cared for",
+            "Sweetness",
+            "Youthful idealism",
+            "Gentle guidance"
+          ],
+          "inverted": [
+            "Naivete as danger",
+            "Older man exploiting younger woman",
+            "Protection becoming control",
+            "Innocence weaponized",
+            "Betrayal brewing"
+          ]
+        },
+        "visual_content": "Two young figures dancing in a glass gazebo during a rainstorm, graceful and fragile, lightning in the distance"
+      },
+      {
+        "index": 5,
+        "arcana": "major",
+        "numeric_value": 5,
+        "name": "My Favorite Things",
+        "symbol": "V",
+        "slug": "5",
+        "description": "Maria comforting the frightened children during a thunderstorm. Teaching resilience through redirecting attention to joy.",
+        "meaning": {
+          "upright": [
+            "Comfort",
+            "Resilience through joy",
+            "Teaching coping",
+            "Finding light in darkness",
+            "Catalog of delights",
+            "Practical magic"
+          ],
+          "inverted": [
+            "Toxic positivity",
+            "Avoiding real pain",
+            "Distracting from necessary grief",
+            "Superficial comfort",
+            "Forced cheerfulness"
+          ]
+        },
+        "visual_content": "A nurturing figure surrounded by children in a bedroom, storm outside windows, small beautiful objects and memories made visible"
+      },
+      {
+        "index": 6,
+        "arcana": "major",
+        "numeric_value": 6,
+        "name": "Do-Re-Mi",
+        "symbol": "VI",
+        "slug": "6",
+        "description": "Teaching the children to sing throughout Salzburg - the fountain, the steps, the bicycles. Music as pedagogy, connection forming through learning.",
+        "meaning": {
+          "upright": [
+            "Teaching",
+            "Learning together",
+            "Skill-building",
+            "Connection through craft",
+            "Pedagogical creativity",
+            "Joyful discipline",
+            "Foundation"
+          ],
+          "inverted": [
+            "Rote learning",
+            "Mechanical practice",
+            "Teaching that deadens",
+            "Lessons without meaning",
+            "Performance of education"
+          ]
+        },
+        "visual_content": "A progression through city landmarks - fountain, market, bicycle procession - figures in matching outfits learning and playing"
+      },
+      {
+        "index": 7,
+        "arcana": "major",
+        "numeric_value": 7,
+        "name": "The Lonely Goatherd",
+        "symbol": "VII",
+        "slug": "7",
+        "description": "The puppet show - Maria and children performing together. Instrumental creation in its most charming form, teaching through constructed spectacle.",
+        "meaning": {
+          "upright": [
+            "Playful performance",
+            "Puppetry as art",
+            "Teaching through story",
+            "Collaborative creation",
+            "Skillful craft",
+            "Delightful manipulation"
+          ],
+          "inverted": [
+            "Empty spectacle",
+            "Manipulation",
+            "Strings controlling",
+            "Performance replacing authenticity",
+            "Charm as mask"
+          ]
+        },
+        "visual_content": "A miniature theater stage with marionettes, visible strings, hands controlling from above, children and adult performing together"
+      },
+      {
+        "index": 8,
+        "arcana": "major",
+        "numeric_value": 8,
+        "name": "Edelweiss",
+        "symbol": "VIII",
+        "slug": "8",
+        "description": "The Captain singing for the first time since his wife's death. The flower of Austria, memory, homeland, grief beginning to transform.",
+        "meaning": {
+          "upright": [
+            "Remembrance",
+            "Homeland",
+            "Grief honored",
+            "Voice returning",
+            "Tradition as anchor",
+            "Small brave things",
+            "Thaw beginning"
+          ],
+          "inverted": [
+            "Clinging to past",
+            "Grief that won't transform",
+            "Nostalgia as trap",
+            "Nationalism",
+            "Sentimentality replacing feeling"
+          ]
+        },
+        "visual_content": "A man with a guitar, eyes distant, remembering. A small white alpine flower in focus, mountains beyond"
+      },
+      {
+        "index": 9,
+        "arcana": "major",
+        "numeric_value": 9,
+        "name": "Grand Waltz",
+        "symbol": "IX",
+        "slug": "9",
+        "description": "The formal party at the villa - wealth, social performance, the world of the Baroness and Max. Structure and display.",
+        "meaning": {
+          "upright": [
+            "Social grace",
+            "Formal beauty",
+            "Wealth employed well",
+            "Elegance",
+            "Proper form",
+            "Traditional celebration",
+            "Civility"
+          ],
+          "inverted": [
+            "Hollow formality",
+            "Performance of class",
+            "Wealth as barrier",
+            "Social masks",
+            "Disconnection disguised as connection"
+          ]
+        },
+        "visual_content": "Ballroom in golden light, couples in formal wear waltzing in perfect formation, chandeliers, wealth and ritual"
+      },
+      {
+        "index": 10,
+        "arcana": "major",
+        "numeric_value": 10,
+        "name": "Laendler",
+        "symbol": "X",
+        "slug": "10",
+        "description": "Maria and the Captain dancing the Austrian folk dance, the moment of recognition, the exact instant everything changes.",
+        "meaning": {
+          "upright": [
+            "Recognition",
+            "The moment of transformation",
+            "Folk wisdom",
+            "Authentic connection",
+            "When everything shifts",
+            "Falling in love",
+            "The dance"
+          ],
+          "inverted": [
+            "Dangerous attraction",
+            "Improper desire",
+            "Moment of no return",
+            "What cannot be undone",
+            "Transgression"
+          ]
+        },
+        "visual_content": "Two figures in a folk dance, hands almost touching, eyes meeting, the world stopping around them, twilight in the courtyard"
+      },
+      {
+        "index": 11,
+        "arcana": "major",
+        "numeric_value": 11,
+        "name": "So Long, Farewell",
+        "symbol": "XI",
+        "slug": "11",
+        "description": "The children performing at the party. Innocence on display, but also the song they'll later use as cover for escape. Performance as both gift and strategy.",
+        "meaning": {
+          "upright": [
+            "Charming performance",
+            "Children's wisdom",
+            "Saying goodbye well",
+            "Performance as genuine gift",
+            "Tactical retreat",
+            "Exit with grace"
+          ],
+          "inverted": [
+            "Children performing for adults",
+            "Innocence exploited",
+            "Goodbye as manipulation",
+            "Cute as weapon",
+            "Performance under duress"
+          ]
+        },
+        "visual_content": "Children on a grand staircase in nightclothes, guests watching below, each child in spotlight briefly before ascending into shadow"
+      },
+      {
+        "index": 12,
+        "arcana": "major",
+        "numeric_value": 12,
+        "name": "Processional Waltz",
+        "symbol": "XII",
+        "slug": "12",
+        "description": "Formal instrumental music, ceremony, the structures of traditional society. The forms that can either support or constrain.",
+        "meaning": {
+          "upright": [
+            "Ceremonial order",
+            "Traditional forms",
+            "Institutional support",
+            "Proper procedure",
+            "Dignity",
+            "Things done well",
+            "Frameworks"
+          ],
+          "inverted": [
+            "Empty pageantry",
+            "Ceremony obscuring truth",
+            "Tradition as chains",
+            "Formality crushing life",
+            "Structure without soul"
+          ]
+        },
+        "visual_content": "Formal procession, architectural grandeur, symmetry and order, figures moving in prescribed patterns, gold and marble"
+      },
+      {
+        "index": 13,
+        "arcana": "major",
+        "numeric_value": 13,
+        "name": "Goodbye Maria / How Can Love Survive Waltz",
+        "symbol": "XIII",
+        "slug": "13",
+        "description": "Maria fleeing back to the abbey, the Baroness's cynical question. Crisis - can authentic love survive in the world of wealth and power?",
+        "meaning": {
+          "upright": [
+            "Necessary retreat",
+            "Facing hard questions",
+            "Cynicism as wisdom",
+            "Reality check",
+            "Dark night",
+            "Questioning sustainability"
+          ],
+          "inverted": [
+            "Running from love",
+            "Cynicism as defeat",
+            "Questions that poison",
+            "Fear winning",
+            "Belief that nothing good can last"
+          ]
+        },
+        "visual_content": "Split composition - a figure running away in darkness, and an elegant woman in jewels asking an unanswerable question"
+      },
+      {
+        "index": 14,
+        "arcana": "major",
+        "numeric_value": 14,
+        "name": "Edelweiss Waltz",
+        "symbol": "XIV",
+        "slug": "14",
+        "description": "Variation on the earlier theme, musical echo, the same song in a different context. Repetition with transformation.",
+        "meaning": {
+          "upright": [
+            "Themes returning",
+            "Variation",
+            "The same but different",
+            "Musical development",
+            "Deepening",
+            "Callback",
+            "Resonance"
+          ],
+          "inverted": [
+            "Stuck in loops",
+            "Cannot move beyond",
+            "Obsessive return",
+            "Stuck record",
+            "Haunted by the past"
+          ]
+        },
+        "visual_content": "Musical notation showing variations on a theme, or the same scene viewed from a different angle, shadows shifted"
+      },
+      {
+        "index": 15,
+        "arcana": "major",
+        "numeric_value": 15,
+        "name": "Entr'acte",
+        "symbol": "XV",
+        "slug": "15",
+        "description": "Intermission, the pause between acts. Time passing, the breath before the storm, transition, the in-between.",
+        "meaning": {
+          "upright": [
+            "Pause",
+            "Integration",
+            "Breath",
+            "Time to reflect",
+            "The between-space",
+            "Gathering strength",
+            "Necessary rest",
+            "Transition"
+          ],
+          "inverted": [
+            "Stuck in waiting",
+            "Paralysis",
+            "Inability to move forward",
+            "Suspended animation",
+            "The pause that never ends"
+          ]
+        },
+        "visual_content": "Empty stage, curtains, house lights, or a still moment - dawn or dusk, in-between light, anticipation"
+      },
+      {
+        "index": 16,
+        "arcana": "major",
+        "numeric_value": 16,
+        "name": "Climb Ev'ry Mountain",
+        "symbol": "XVI",
+        "slug": "16",
+        "description": "Mother Superior telling Maria to go back, to follow her authentic calling. The most direct statement of the film's thesis: seek your dream.",
+        "meaning": {
+          "upright": [
+            "Following your calling",
+            "Authentic guidance",
+            "Courage to pursue",
+            "Every path until you find your dream",
+            "Mentorship",
+            "Permission"
+          ],
+          "inverted": [
+            "Impossible demands",
+            "Standards too high",
+            "Climbing that destroys",
+            "Guidance as burden",
+            "Dreams weaponized"
+          ]
+        },
+        "visual_content": "A wise elder figure giving counsel, mountains rising behind, a path winding upward into mist, benediction and sending-forth"
+      },
+      {
+        "index": 17,
+        "arcana": "major",
+        "numeric_value": 17,
+        "name": "Something Good",
+        "symbol": "XVII",
+        "slug": "17",
+        "description": "Maria and the Captain in the gazebo (same place as Liesl's innocent romance), recognizing mature love. 'Somewhere in my youth or childhood, I must have done something good.'",
+        "meaning": {
+          "upright": [
+            "Mature love",
+            "Earned grace",
+            "Recognition of gift",
+            "Right timing",
+            "The universe conspiring",
+            "Genuine partnership",
+            "Integration"
+          ],
+          "inverted": [
+            "Undeserved",
+            "Guilt in happiness",
+            "Waiting for the other shoe to drop",
+            "Can't accept good",
+            "Suspicious of gift"
+          ]
+        },
+        "visual_content": "Two adults in the moonlit gazebo, equal and tender, architectural symmetry suggesting both the earlier scene and its transformation"
+      },
+      {
+        "index": 18,
+        "arcana": "major",
+        "numeric_value": 18,
+        "name": "Processional and Maria (The Wedding)",
+        "symbol": "XVIII",
+        "slug": "18",
+        "description": "The wedding ceremony, union, but also the moment the Nazis are searching for them. Completion and danger converging, joy against threat.",
+        "meaning": {
+          "upright": [
+            "Sacred union",
+            "Completion",
+            "Marriage",
+            "Commitment",
+            "Joy despite danger",
+            "Choosing love",
+            "Transformation complete"
+          ],
+          "inverted": [
+            "Ceremony interrupted",
+            "Danger at the door",
+            "Celebration cut short",
+            "Union under threat",
+            "Hunted",
+            "Nowhere safe"
+          ]
+        },
+        "visual_content": "Wedding ceremony in the abbey, bride and groom, but shadows lengthening, sense of urgency, beauty and threat intertwined"
+      }
+    ]
+  }
+}
