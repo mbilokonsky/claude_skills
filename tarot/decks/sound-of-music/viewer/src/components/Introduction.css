@@ -56,11 +56,17 @@
   color: #667eea;
 }
 
+.framework-intro {
+  margin-bottom: 1.5rem;
+  font-size: 1.05rem;
+  color: #666;
+}
+
 .dialectic-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .dialectic-grid .axis {
@@ -83,11 +89,17 @@
   color: var(--text-dark);
 }
 
+.suits-intro {
+  margin-bottom: 1.5rem;
+  font-size: 1.05rem;
+  color: #666;
+}
+
 .suits-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .suit-card {
@@ -122,10 +134,17 @@
   border-color: var(--color-whistles);
 }
 
+.suit-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
 .suit-symbol {
-  width: 80px;
-  height: 80px;
-  margin: 0 auto 1rem;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -137,53 +156,21 @@
 }
 
 .suit-card h4 {
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 0.25rem 0;
   font-size: 1.5rem;
-  text-align: center;
 }
 
 .suit-position {
-  text-align: center;
   font-weight: 600;
   color: #666;
-  font-size: 0.9rem;
-  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  margin: 0;
   font-style: italic;
 }
 
 .suit-description {
   line-height: 1.6;
-  margin-bottom: 1.5rem;
-}
-
-.suit-meanings {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.suit-meanings > div {
-  padding: 1rem;
-  background: rgba(255, 255, 255, 0.6);
-  border-radius: 6px;
-}
-
-.suit-meanings strong {
-  display: block;
-  margin-bottom: 0.5rem;
-  color: var(--text-dark);
-}
-
-.suit-meanings ul {
-  margin: 0;
-  padding-left: 1.25rem;
-  font-size: 0.9rem;
-  line-height: 1.6;
-}
-
-.suit-meanings li {
-  margin-bottom: 0.25rem;
+  font-size: 0.95rem;
 }
 
 .major-arcana-intro p {
@@ -192,29 +179,74 @@
   font-size: 1.05rem;
 }
 
-.visual-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
+.numbered-ranks p,
+.face-cards p {
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  font-size: 1.05rem;
 }
 
-.visual-note {
-  padding: 1.5rem;
-  background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%);
+.ranks-examples {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.rank-example {
+  padding: 1.25rem;
+  background: linear-gradient(135deg, #fff9e6 0%, #fff 100%);
   border-radius: 8px;
   border-left: 4px solid var(--color-major);
-}
-
-.visual-note h4 {
-  margin-top: 0;
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
-}
-
-.visual-note p {
   line-height: 1.6;
+}
+
+.rank-example strong {
+  color: var(--color-major);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.ranks-note,
+.faces-note {
+  font-style: italic;
+  color: #666;
   font-size: 0.95rem;
+  margin-top: 1.5rem;
+}
+
+.faces-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.face-card {
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 8px;
+  border: 2px solid var(--border-color);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.face-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.face-card h4 {
+  margin: 0 0 0.75rem 0;
+  color: var(--text-dark);
+  font-size: 1.25rem;
+}
+
+.face-card p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  color: #666;
 }
 
 .cta {
@@ -254,12 +286,21 @@
   }
 
   .suits-grid,
-  .dialectic-grid,
-  .visual-grid {
+  .dialectic-grid {
     grid-template-columns: 1fr;
   }
 
-  .suit-meanings {
+  .ranks-examples {
+    grid-template-columns: 1fr;
+  }
+
+  .faces-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .faces-grid {
     grid-template-columns: 1fr;
   }
 }
