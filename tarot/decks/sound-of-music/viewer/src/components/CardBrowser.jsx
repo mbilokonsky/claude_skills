@@ -45,7 +45,9 @@ function CardBrowser({ deckData }) {
   }, [deckData, filter, sortBy])
 
   const getCardImagePath = (slug) => {
-    return `/cards/${slug}.png`
+    // Convert slugs like "major-0" to "major-00" to match filenames
+    const paddedSlug = slug.replace(/-(\d)$/, '-0$1')
+    return `/cards/${paddedSlug}.png`
   }
 
   return (
