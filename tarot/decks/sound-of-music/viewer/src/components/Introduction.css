@@ -186,14 +186,14 @@
   font-size: 1.05rem;
 }
 
-.ranks-examples {
+.ranks-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   margin: 1.5rem 0;
 }
 
-.rank-example {
+.rank-item {
   padding: 1.25rem;
   background: linear-gradient(135deg, #fff9e6 0%, #fff 100%);
   border-radius: 8px;
@@ -201,10 +201,10 @@
   line-height: 1.6;
 }
 
-.rank-example strong {
+.rank-item strong {
   color: var(--color-major);
-  display: block;
-  margin-bottom: 0.5rem;
+  display: inline;
+  margin-right: 0.5rem;
 }
 
 .ranks-note,
@@ -290,7 +290,7 @@
     grid-template-columns: 1fr;
   }
 
-  .ranks-examples {
+  .ranks-list {
     grid-template-columns: 1fr;
   }
 

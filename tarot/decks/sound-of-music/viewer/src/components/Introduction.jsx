@@ -127,17 +127,35 @@ function Introduction({ deckData, onStartBrowsing }) {
           Each rank asks the same question across all four suits, but each suit interprets
           the question through its dialectical lens.
         </p>
-        <div className="ranks-examples">
-          <div className="rank-example">
+        <div className="ranks-list">
+          <div className="rank-item">
             <strong>Ace:</strong> What enters your life? What gift, what seed, what beginning?
           </div>
-          <div className="rank-example">
+          <div className="rank-item">
+            <strong>Two:</strong> What partnership forms? What duality, what balance, what tension?
+          </div>
+          <div className="rank-item">
             <strong>Three:</strong> What are you learning? What wisdom is taking root?
           </div>
-          <div className="rank-example">
+          <div className="rank-item">
+            <strong>Four:</strong> What sanctuary do you find? What rest, what foundation, what refuge?
+          </div>
+          <div className="rank-item">
+            <strong>Five:</strong> What challenges you? What loss, what struggle, what crisis?
+          </div>
+          <div className="rank-item">
+            <strong>Six:</strong> What harmony emerges? What convergence, what healing, what grace?
+          </div>
+          <div className="rank-item">
             <strong>Seven:</strong> What choice confronts you? Which path will you take?
           </div>
-          <div className="rank-example">
+          <div className="rank-item">
+            <strong>Eight:</strong> What becomes routine? What hardens, what ossifies, what repeats?
+          </div>
+          <div className="rank-item">
+            <strong>Nine:</strong> What nears completion? What approaches fulfillment, what almost arrives?
+          </div>
+          <div className="rank-item">
             <strong>Ten:</strong> What is complete? What cycle fulfilled, what journey ended?
           </div>
         </div>
