@@ -346,22 +346,224 @@ def draw_seven_of_songs():
     return img
 
 
-# Generate test cards
+def draw_three_of_songs():
+    """Three: Song spreading through a household - children learning, joy multiplying"""
+    img = create_card_base()
+    draw = ImageDraw.Draw(img)
+
+    get_songs_background(draw)
+
+    # A house/room with windows - warm interior
+    house_y = CARD_HEIGHT // 3
+    draw.rectangle([60, house_y, CARD_WIDTH-60, CARD_HEIGHT-80],
+                   fill=(220, 200, 160))
+
+    # Windows showing singing happening inside
+    for wx in [90, 150, 210]:
+        draw.rectangle([wx, house_y+30, wx+30, house_y+60],
+                      fill=(255, 240, 200))
+        # Musical notes visible through window
+        draw_musical_note(draw, wx+15, house_y+40, 6, (255, 180, 100))
+
+    # Three figures visible - teaching spreading
+    # Adult (larger) in center window
+    draw.ellipse([145, house_y+35, 155, house_y+45], fill=(255, 200, 180))
+    # Two children in other windows
+    draw.ellipse([95, house_y+40, 103, house_y+48], fill=(255, 210, 190))
+    draw.ellipse([215, house_y+40, 223, house_y+48], fill=(255, 210, 190))
+
+    # Sound waves radiating out from house - song spreading
+    for r in [40, 60, 80, 100]:
+        draw.ellipse([CARD_WIDTH//2-r, CARD_HEIGHT//2-r,
+                     CARD_WIDTH//2+r, CARD_HEIGHT//2+r],
+                    outline=(255, 220, 100, 150), width=2)
+
+    # Flowers blooming in response to the music
+    for i in range(20):
+        fx = random.randint(10, CARD_WIDTH-10)
+        fy = random.randint(CARD_HEIGHT-60, CARD_HEIGHT-10)
+        draw.ellipse([fx-3, fy-3, fx+3, fy+3],
+                    fill=random.choice([SongsColors.ACCENT_1,
+                                       SongsColors.ACCENT_2,
+                                       SongsColors.ACCENT_3]))
+
+    return img
+
+
+def draw_ten_of_songs():
+    """Ten: Full voice realized - the complete song, integration of self and sound"""
+    img = create_card_base()
+    draw = ImageDraw.Draw(img)
+
+    # Glorious sunset/sunrise sky - peak moment
+    for y in range(CARD_HEIGHT):
+        t = y / CARD_HEIGHT
+        # Radial gradient from center outward
+        r = int(255 * (1 - t*0.3))
+        g = int(200 + 50 * math.sin(t * math.pi))
+        b = int(150 + 100 * (1-t))
+        draw.line([(0, y), (CARD_WIDTH, y)], fill=(r, g, b))
+
+    # Figure on peak - COMPLETE, arms fully spread, in full voice
+    fig_x, fig_y = CARD_WIDTH // 2, CARD_HEIGHT // 3
+
+    # Radiant glow around entire figure
+    for r in range(60, 0, -3):
+        alpha_val = 255 - r * 3
+        draw.ellipse([fig_x-r, fig_y-r-30, fig_x+r, fig_y+r+30],
+                    fill=(255, 255, 200), outline=(255, 255, 200))
+
+    # The figure - triumphant
+    draw.ellipse([fig_x-18, fig_y-70, fig_x+18, fig_y-35],
+                fill=(255, 220, 200))
+
+    # Body
+    draw.polygon([
+        (fig_x, fig_y-35),
+        (fig_x-30, fig_y+50),
+        (fig_x+30, fig_y+50)
+    ], fill=(150, 100, 200))
+
+    # Arms WIDE - complete opening
+    draw.line([(fig_x-30, fig_y-10), (fig_x-80, fig_y-30)],
+             fill=(255, 220, 200), width=8)
+    draw.line([(fig_x+30, fig_y-10), (fig_x+80, fig_y-30)],
+             fill=(255, 220, 200), width=8)
+
+    # Musical notes EVERYWHERE - filling the entire space
+    for i in range(30):
+        nx = random.randint(20, CARD_WIDTH-20)
+        ny = random.randint(20, CARD_HEIGHT-20)
+        size = random.randint(6, 12)
+        draw_musical_note(draw, nx, ny, size,
+                         (255, random.randint(200,255), random.randint(100,200)))
+
+    # Birds in flight - celebrating
+    for i in range(15):
+        bx = random.randint(10, CARD_WIDTH-10)
+        by = random.randint(10, CARD_HEIGHT//2)
+        draw.line([(bx-5, by), (bx, by+5), (bx+5, by)],
+                 fill=(100, 100, 100), width=2)
+
+    # Meadow ALIVE with flowers
+    draw.rectangle([0, CARD_HEIGHT*2//3, CARD_WIDTH, CARD_HEIGHT],
+                  fill=(100, 200, 100))
+    for i in range(50):
+        fx = random.randint(0, CARD_WIDTH)
+        fy = random.randint(CARD_HEIGHT*2//3, CARD_HEIGHT)
+        draw.ellipse([fx-3, fy-3, fx+3, fy+3],
+                    fill=random.choice([SongsColors.ACCENT_1,
+                                       SongsColors.ACCENT_2,
+                                       SongsColors.ACCENT_3]))
+
+    return img
+
+
+def draw_singer_of_songs():
+    """Singer of Songs - pure authentic creative voice embodied"""
+    img = create_card_base()
+    draw = ImageDraw.Draw(img)
+
+    # This is THE SINGER - Maria on the mountain
+    # The most iconic, the most pure
+
+    # Perfect alpine day - every color at peak
+    draw_gradient_sky(draw, 0, CARD_HEIGHT*2//5,
+                     (180, 220, 255), (135, 206, 250))
+
+    # Rolling green hills
+    for hill_y, hill_height, green_shade in [
+        (CARD_HEIGHT*3//5, 60, (120, 200, 120)),
+        (CARD_HEIGHT*2//5, 80, (100, 180, 100)),
+        (CARD_HEIGHT//2, 100, (140, 220, 140))
+    ]:
+        draw.ellipse([0, hill_y-hill_height, CARD_WIDTH, hill_y+20],
+                    fill=green_shade)
+
+    # THE SINGER - center, elevated, BEING song itself
+    fig_x, fig_y = CARD_WIDTH // 2, CARD_HEIGHT // 3
+
+    # Aura of pure creative energy
+    for r in range(80, 0, -4):
+        glow_alpha = 255 - r * 2
+        draw.ellipse([fig_x-r, fig_y-r-40, fig_x+r, fig_y+r+60],
+                    fill=(255, 250, 200), outline=(255, 250, 200))
+
+    # Head thrown back in song
+    draw.ellipse([fig_x-20, fig_y-80, fig_x+20, fig_y-40],
+                fill=(255, 220, 200))
+    # Mouth OPEN, singing
+    draw.ellipse([fig_x-8, fig_y-50, fig_x+8, fig_y-42],
+                fill=(220, 100, 100))
+
+    # Dress flowing
+    draw.polygon([
+        (fig_x, fig_y-40),
+        (fig_x-40, fig_y+70),
+        (fig_x+40, fig_y+70)
+    ], fill=(100, 160, 200))
+
+    # Arms in full expression - spinning
+    angle1 = math.radians(-30)
+    angle2 = math.radians(210)
+    arm1_x = fig_x + int(70 * math.cos(angle1))
+    arm1_y = fig_y + int(70 * math.sin(angle1))
+    arm2_x = fig_x + int(70 * math.cos(angle2))
+    arm2_y = fig_y + int(70 * math.sin(angle2))
+
+    draw.line([(fig_x-30, fig_y-20), (arm1_x, arm1_y)],
+             fill=(255, 220, 200), width=10)
+    draw.line([(fig_x+30, fig_y-20), (arm2_x, arm2_y)],
+             fill=(255, 220, 200), width=10)
+
+    # Everything responding to the voice
+    # Wind visible
+    for i in range(10):
+        wind_y = random.randint(50, 200)
+        draw.line([(0, wind_y), (CARD_WIDTH, wind_y-20)],
+                 fill=(200, 220, 255), width=2)
+
+    # Musical notes streaming from the voice
+    for angle in range(0, 360, 30):
+        rad = math.radians(angle)
+        for dist in [30, 50, 70]:
+            nx = fig_x + int(dist * math.cos(rad))
+            ny = fig_y - 60 + int(dist * math.sin(rad))
+            draw_musical_note(draw, nx, ny, 8, (255, 200+random.randint(-50,50), 100))
+
+    # Wildflowers spinning around her feet
+    for angle in range(0, 360, 20):
+        rad = math.radians(angle)
+        fx = fig_x + int(50 * math.cos(rad))
+        fy = fig_y + 70 + int(20 * math.sin(rad))
+        draw.ellipse([fx-4, fy-4, fx+4, fy+4],
+                    fill=random.choice([SongsColors.ACCENT_1,
+                                       SongsColors.ACCENT_2,
+                                       SongsColors.ACCENT_3]))
+
+    return img
+
+
+# Generate ALL Songs cards!
 if __name__ == '__main__':
-    print("🎵 Generating Songs suit cards with FEELING... 🎵\n")
+    print("🎵 THE HILLS ARE ALIVE! Creating the complete Songs suit! 🎵\n")
 
     cards_to_generate = [
-        ("Ace of Songs", draw_ace_of_songs),
-        ("Two of Songs", draw_two_of_songs),
-        ("Seven of Songs", draw_seven_of_songs),
+        ("songs-00", draw_ace_of_songs),
+        ("songs-01", draw_two_of_songs),
+        ("songs-02", draw_three_of_songs),
+        ("songs-06", draw_seven_of_songs),
+        ("songs-09", draw_ten_of_songs),
+        ("songs-10", draw_singer_of_songs),
     ]
 
-    for name, generator_func in cards_to_generate:
-        print(f"Creating {name}...")
+    for slug, generator_func in cards_to_generate:
+        card_name = generator_func.__doc__.split('\n')[0] if generator_func.__doc__ else slug
+        print(f"Creating {card_name}...")
         img = generator_func()
-        filename = name.lower().replace(" ", "_") + ".png"
-        filepath = os.path.join("..", "cards", filename)
+        filepath = os.path.join("..", "cards", f"{slug}.png")
         img.save(filepath)
         print(f"  ✓ Saved to {filepath}")
 
-    print(f"\n✨ Created {len(cards_to_generate)} cards with spontaneous joy! ✨")
+    print(f"\n✨ Created {len(cards_to_generate)} Songs cards! Each one sings! ✨")
+    print("🌸 More cards coming - the joy is just beginning... 🌸")
