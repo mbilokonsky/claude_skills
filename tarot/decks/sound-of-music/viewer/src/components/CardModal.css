@@ -1,0 +1,297 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.modal-content {
+  background: white;
+  border-radius: 12px;
+  max-width: 1200px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  animation: modalSlideIn 0.3s ease-out;
+}
+
+@keyframes modalSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+  z-index: 1001;
+}
+
+.modal-close:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.modal-layout {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.modal-image {
+  position: sticky;
+  top: 2rem;
+  height: fit-content;
+}
+
+.modal-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.modal-details {
+  padding-right: 1rem;
+}
+
+.card-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid var(--color-major);
+}
+
+.card-header h2 {
+  margin: 0 0 1rem 0;
+  font-size: 2rem;
+  color: var(--text-dark);
+}
+
+.rank-badge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: var(--bg-light);
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  color: #666;
+}
+
+.rank-badge.major {
+  background: var(--color-major);
+  color: white;
+}
+
+.suit-badge {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.suit-name {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: var(--bg-light);
+  border-radius: 6px;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.card-description {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 8px;
+  border-left: 4px solid var(--color-major);
+}
+
+.card-description p {
+  margin: 0;
+  line-height: 1.8;
+  font-size: 1.05rem;
+  color: var(--text-dark);
+}
+
+.card-question {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #fff9e6 0%, #fff 100%);
+  border-radius: 8px;
+  border-left: 4px solid var(--color-major);
+}
+
+.card-question h3 {
+  margin: 0 0 1rem 0;
+  color: var(--color-major);
+  font-size: 1.25rem;
+}
+
+.question-text {
+  margin: 0;
+  font-size: 1.1rem;
+  font-style: italic;
+  line-height: 1.8;
+  color: var(--text-dark);
+}
+
+.card-meanings {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.meaning-section {
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 2px solid;
+}
+
+.meaning-section.upright {
+  background: linear-gradient(135deg, #e8f5e9 0%, #f1f8f2 100%);
+  border-color: #4caf50;
+}
+
+.meaning-section.inverted {
+  background: linear-gradient(135deg, #fce4ec 0%, #f8ecef 100%);
+  border-color: #e91e63;
+}
+
+.meaning-section h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.25rem;
+}
+
+.meaning-section.upright h3 {
+  color: #2e7d32;
+}
+
+.meaning-section.inverted h3 {
+  color: #c2185b;
+}
+
+.meaning-section ul {
+  margin: 0;
+  padding-left: 1.5rem;
+  line-height: 1.8;
+}
+
+.meaning-section li {
+  margin-bottom: 0.5rem;
+}
+
+.meaning-section p {
+  margin: 0;
+  line-height: 1.8;
+}
+
+.visual-description,
+.suit-info,
+.major-arcana-info {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  border: 2px solid var(--border-color);
+}
+
+.visual-description h3,
+.suit-info h3,
+.major-arcana-info h3 {
+  margin: 0 0 1rem 0;
+  color: var(--text-dark);
+  font-size: 1.25rem;
+}
+
+.suit-position {
+  font-weight: 700;
+  color: var(--color-major);
+  margin-bottom: 1rem;
+}
+
+.suit-description,
+.visual-description p,
+.suit-info p,
+.major-arcana-info p {
+  margin: 0 0 1rem 0;
+  line-height: 1.8;
+}
+
+.suit-info p:last-child,
+.major-arcana-info p:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .modal-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .modal-image {
+    position: static;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .modal-details {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal-overlay {
+    padding: 1rem;
+  }
+
+  .modal-content {
+    max-height: 95vh;
+  }
+
+  .modal-layout {
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .modal-image {
+    max-width: 300px;
+  }
+
+  .card-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .card-meanings {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
