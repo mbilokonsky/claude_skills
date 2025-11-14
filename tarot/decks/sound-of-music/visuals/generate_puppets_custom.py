@@ -130,7 +130,7 @@ def draw_seven_of_puppets():
     # Stage left: small puppet theater - what performance offers
     theater_x = CARD_WIDTH // 6
     draw.rectangle([theater_x-30, CARD_HEIGHT-120, theater_x+30, CARD_HEIGHT-40],
-                  outline=PuppetsColors.ACCENT, width=3)
+                  outline=PuppetsColors.SECONDARY, width=3)
     # Tiny audience silhouettes
     for i in range(5):
         ax = theater_x - 25 + i * 12
