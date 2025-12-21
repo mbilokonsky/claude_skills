@@ -142,46 +142,85 @@ For each suit, develop:
 
 ### Stage 3: Developing Major Arcana
 
-The Major Arcana is structured around an archetypal story that serves as the thematic equivalent of the Fool's Journey. The Major Arcana itself functions as a sort of suit for Major Arcana cards, and thus defines visual style, but each card within the Arcana functions as its own Rank.
+The Major Arcana consists of 22 cards numbered 0-21. These are generated using a structured approach that ensures both narrative coherence and deep archetypal resonance. The Major Arcana itself functions as a sort of suit (defining visual style), while each card functions as its own rank.
 
-#### 3a: Creating the Story
+#### 3a: Defining the Identities and Primes
 
-Develop an archetypal narrative that:
-- Reflects the central concepts and tensions of the deck's theme
-- Spans enough narrative territory to support 22 distinct aspects/cards
-- Makes evenly distributed use (directly or indirectly) of all four suits
-- Follows a recognizable pattern rather than a completely novel structure
+The Major Arcana is built from irreducible archetypal energies. Begin by defining these atoms; the remaining cards will be derived from their combinations.
 
-The story should be archetypal—not unique or surprising, but rather a canonical or emblematic version of narratives within this theme. Think of it as the "Hero's Journey" of this particular domain. Depending on the theme, an existing story may present itself. For instance, a Lord of the Rings themed deck might simply use the plot of Tolkien's trilogy *as* its story. But also consider the way that a more abstract theme may lend itself to a non-linear "story" - for instance, a deck about deleuzian philosophy might resist collapse into linear narrative, it's "story" manifesting as a series of unordered "plateaus". The key here is to be open to creative and theme-appropriate ways to back the Major Arcana.
+**The Identities (0 and 1):**
+- **Card 0** — The additive identity. The void, the precondition, pure potential before differentiation. In traditional tarot, this is The Fool. Define what "nothing yet" or "before the journey" means in this theme.
+- **Card 1** — The multiplicative identity. The unit of agency, the first act, the transparent operator that makes all further action possible. In traditional tarot, this is The Magician. Define what "becoming one who acts" means in this theme.
 
-**Structural guidance:**
-- Consider a three-act structure (similar to traditional tarot: Awareness → Integration → Transcendence), but also consider tuning or replacing that based on the needs of the theme and the emergent properties of the chosen dialectics and suits.
-- Identify key moments, turning points, characters, settings, and states of being
-- Ensure the story has sufficient texture to generate 22 meaningfully distinct aspects
+**The Eight Primes (2, 3, 5, 7, 11, 13, 17, 19):**
 
-Be sure to present the story to the user and request feedback before proceeding to 3b. Allow revision of plot points, character roles, or thematic emphasis.
+These are the irreducible archetypal energies of the deck. They cannot be "factored" into simpler components — they simply *are*. Each prime should:
+- Represent a fundamental, atomic experience or energy within the theme
+- Be capable of meaningful combination with other primes
+- Scale meaningfully when raised to powers (especially 2 and 3, which appear in many composites)
 
-#### 3b: Identifying Visual Style
+Define each prime as an archetype:
+- **2** — The first prime. Often represents duality, separation, or the fundamental binary within the theme. This is particularly load-bearing as it appears in many composites (4=2², 6=2×3, 8=2³, 10=2×5, 12=2²×3, 14=2×7, 16=2⁴, 18=2×3², 20=2²×5).
+- **3** — The second prime. Often represents synthesis, generativity, or offering. Also heavily load-bearing (6=2×3, 9=3², 12=2²×3, 15=3×5, 18=2×3², 21=3×7).
+- **5** — Third prime, appearing in composites 10, 15, 20.
+- **7** — Fourth prime, appearing in composites 14, 21.
+- **11** — Fifth prime. First prime in Act II. Represents something genuinely new that cannot be built from earlier primes.
+- **13** — Sixth prime. Traditionally the Death position. An irreducible transformation.
+- **17** — Seventh prime. First prime in Act III. Often represents hope or renewal after the composite-heavy middle journey.
+- **19** — Eighth and final prime. Near the end of the journey, an irreducible illumination or clarity.
 
-From the standpoint of `visual_style`, the major arcana functions as a sort of suit. Take a look at the visual style guidance from suit generation to figure out how to generate the visual style for the major arcana. If possible and appropriate, consider having the Major Arcana's visual style act as a sort of superset of suit styles - but not if doing so would lead to incoherence, or to a style that's hard to distinguish from the suits.
+Present the identities and primes to the user for feedback. These are the foundation — get them right before proceeding.
+
+**Note:** The mathematical structure (prime factorization) is scaffolding for generation. Present cards to the user by their names and meanings, not their numerical properties, unless the user specifically asks about the structure.
+
+#### 3b: Deriving the Composites
+
+Once the primes are defined, derive the eleven composite cards (4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20, 21) by meaningfully combining their prime factors.
+
+**Composite derivation:**
+| Card | Factors | Meaning emerges from... |
+|------|---------|------------------------|
+| 4 | 2² | Prime 2 squared — stabilized, structured, or intensified |
+| 6 | 2×3 | Prime 2 × Prime 3 — the combination of these energies |
+| 8 | 2³ | Prime 2 cubed — deep mastery or extreme expression |
+| 9 | 3² | Prime 3 squared — fulfillment or completion of this energy |
+| 10 | 2×5 | Prime 2 × Prime 5 |
+| 12 | 2²×3 | Structured Prime 2 × Prime 3 |
+| 14 | 2×7 | Prime 2 × Prime 7 |
+| 15 | 3×5 | Prime 3 × Prime 5 — often shadow territory |
+| 16 | 2⁴ | Prime 2 to the fourth — often excess, collapse, breakthrough |
+| 18 | 2×3² | Prime 2 × fulfilled Prime 3 |
+| 20 | 2²×5 | Structured Prime 2 × Prime 5 |
+| 21 | 3×7 | Prime 3 × Prime 7 — the final card, completion |
+
+For each composite:
+1. Consider what it means for these specific primes to combine in this theme
+2. Consider what it means for a prime to be squared, cubed, or raised to higher powers
+3. Name the card and define its meanings based on this combination
+
+The composites should feel *derived* — like natural consequences of the primes meeting. If a composite doesn't make sense as a combination of its factors, revisit either the composite or the primes it's built from.
+
+#### 3c: Verifying the Narrative Arc
+
+Once all 22 cards are defined, verify that they form a coherent story when read in sequence (0→21). The traditional three-act structure provides useful scaffolding:
+
+- **Act I (0-7)**: Contains four primes (2, 3, 5, 7) — prime-dense. The protagonist encounters fundamental, irreducible experiences.
+- **Act II (8-14)**: Contains two primes (11, 13) — composite-heavy. The earlier energies combine; complexity emerges. The few primes that appear represent genuinely new, unfactorable experiences.
+- **Act III (15-21)**: Contains two primes (17, 19) — composite-heavy. Culmination through combination, with late primes offering transcendent irreducibility.
+
+The arc should feel like a journey where you encounter atoms early, experience their combinations in the middle, and reach synthesis at the end.
+
+Present the complete 22-card sequence to the user. Allow reordering or renaming if the narrative doesn't flow, but note that changes to primes will cascade to their composite derivatives.
+
+#### 3d: Identifying Visual Style
+
+From the standpoint of `visual_style`, the major arcana functions as a sort of suit. Take a look at the visual style guidance from suit generation to figure out how to generate the visual style for the major arcana. If possible and appropriate, consider having the Major Arcana's visual style act as a sort of superset of suit styles — but not if doing so would lead to incoherence, or to a style that's hard to distinguish from the suits.
 
 ##### A note on symbols
-Note that the Major Arcana may optionally define its own symbol, like any other suit. If you can come up with a symbol that feels appropriate, feel free to include one, but this may prove challenging and so feel free not to. If you do include one, adhere to the guidance above for suit symbol generation.
+The Major Arcana may optionally define its own symbol. If you can come up with a symbol that feels appropriate, include one, but this may prove challenging. If you do include one, adhere to the guidance above for suit symbol generation.
 
-#### 3c: Defining the Major Arcana Ranks
-
-In general, your major arcana should have 22 cards. However, in some cases it may make sense to have more or fewer than 22 - for instance, a deck themed around Joyce's Ulysses may simply opt to treat each of the 19 episodes in the text as a Major Arcana rank. Variation here is okay if appropriate. Step through the story sequentially to identify X (22 or whatever) distinct aspects that will become ranks behind the Major Arcana cards, numbered 0 to X-1. Each aspect should:
-
-- Include a descriptive `name`
-- Should define a `description` which identifies which aspect of the story this rank represents
-  - This could be a specific moment, character, state, setting, or subplot in the story
-  - Have its own thematic weight beyond just advancing the plot
-- Identify meanings (upright and inverted) as per rank, but remember that Major Arcana ranks are 1:1 with cards so the meanings you come up with will only be applied once and can be more specific.
-
-Present the ranks to the user for feedback. Allow reordering, renaming, or thematic adjustment.
-
-#### 3d: Create the Major Arcana cards
-For each rank of the major arcana, go ahead and generate the card. Take a look at the notes at the end of `schema.md` for information on how to integrate the meanings and visual guidance from the rank and the suit (in this case, the major arcana is the suit, and has no meanings of its own).
+#### 3e: Create the Major Arcana cards
+For each of the 22 cards, generate the card data. Take a look at the notes at the end of `schema.md` for information on how to integrate the meanings and visual guidance from the rank and the suit (in this case, the major arcana is the suit, and has no meanings of its own).
 
 ### Stage 4: Constructing Minor Arcana
 
@@ -206,7 +245,22 @@ This stage has three substages:
 
 First, decide on a list of numbered ranks.
 
-For each numbered rank (1-10), define:
+**Optional: Prime Scaffolding**
+
+One approach to generating coherent numbered ranks is to use the same prime/composite structure from the Major Arcana, applied more lightly:
+
+- **Ace (1)** = Multiplicative identity — pure suit potential
+- **2, 3, 5, 7** = Prime ranks — irreducible questions or energies
+- **4 (2²), 6 (2×3), 8 (2³), 9 (3²), 10 (2×5)** = Composite ranks — derived from prime combinations
+
+If using this approach:
+1. Define the Ace as pure potential
+2. Define the four prime ranks (2, 3, 5, 7) as fundamental, irreducible questions the suit must answer
+3. Derive the composite ranks by combining their factors (e.g., 6 = "what happens when the 2-question meets the 3-question?")
+
+This is softer than the Major Arcana constraint — the suits are doing most of the structural work in the Minors, and the ranks provide a secondary axis of meaning. Use this approach if it helps generate coherent progressions, but don't force it if another structure fits the theme better.
+
+**For each numbered rank (1-10), define:**
 - **Description**: Name the question this rank asks. Describe the chosen abstraction in general terms that can be broadly applied but which respect the specific narrative role this rank represents.
 - **Meaning**: 3-6 upright and 3-6 inverted meanings for this rank. Consider the description, the theme in which we're operating, the nature of the major arcana story and the dialectical tensions we're drawing from to generate a list of creative, generative concepts. See the guidance for generating meaning for suits.
 - **Visual content description**: Abstract imagery that represents this phase (e.g., "two paths diverging" or "a structure under construction"). This should be specific enough that a generated visual could be recognized as an instance of this rank, but also general enough that the card itself has room to interpret the guidance through the meaning of the suit and other context.
