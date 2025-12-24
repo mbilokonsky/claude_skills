@@ -1,0 +1,2682 @@
+{
+  "name": "Aquarius Sun Tarot",
+  "slug": "aquarius-sun-tarot",
+  "version": "1.0.0",
+  "theme": {
+    "name": "Aquarius Sun",
+    "description": "The energy of the water-bearer illuminated \u2014 consciousness expressed through the paradox of the individual who serves the collective by standing apart from it. Aquarius Sun asks: what does it mean to carry something essential from source to recipient? To see the pattern clearly enough to know where to break it? This is fixed air \u2014 ideas that persist, systems that sustain, networks that connect \u2014 lit by solar consciousness: identity, vitality, expression. The deck explores how we hold and pour, observe and participate, inherit and innovate. A journey from Source to Sky: beginning immersed in water, ending as pure air. The phase transition is the journey.",
+    "creator": "Myk"
+  },
+  "suits": {
+    "current": {
+      "name": "Current",
+      "slug": "current",
+      "description": "Collective + Surface. What everyone's moving with, the drift, the obvious flow. Air current, water current, electrical current, cultural current. The shared momentum that carries without asking.",
+      "symbol": {
+        "name": "The Current",
+        "description": "Three parallel wavy lines flowing rightward, suggesting movement and drift",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M10 30 Q25 20 40 30 T70 30 T100 30\" stroke=\"currentColor\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M10 50 Q25 40 40 50 T70 50 T100 50\" stroke=\"currentColor\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M10 70 Q25 60 40 70 T70 70 T100 70\" stroke=\"currentColor\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\"/></svg>"
+      },
+      "meaning": {
+        "upright": [
+          "momentum",
+          "shared movement",
+          "cultural drift",
+          "going with the flow",
+          "collective direction"
+        ],
+        "inverted": [
+          "swept away",
+          "loss of agency",
+          "herd mentality",
+          "undercurrents ignored",
+          "surface conformity"
+        ]
+      },
+      "visual_style": "Horizontal movement, streaming forms, cool blues and silvers, sense of lateral flow, figures caught mid-drift, backgrounds suggesting continuous motion from left to right"
+    },
+    "flow": {
+      "name": "Flow",
+      "slug": "flow",
+      "description": "Collective + Depth. The deep pattern that connects everything, the hidden circulation, what moves beneath. Flow state, information flow, energy flow. The network you can't see but are always part of.",
+      "symbol": {
+        "name": "The Flow",
+        "description": "An interconnected network of nodes and channels, like a river delta or neural web",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"8\" fill=\"currentColor\"/><circle cx=\"20\" cy=\"25\" r=\"5\" fill=\"currentColor\"/><circle cx=\"80\" cy=\"25\" r=\"5\" fill=\"currentColor\"/><circle cx=\"20\" cy=\"75\" r=\"5\" fill=\"currentColor\"/><circle cx=\"80\" cy=\"75\" r=\"5\" fill=\"currentColor\"/><line x1=\"50\" y1=\"50\" x2=\"20\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"50\" y1=\"50\" x2=\"80\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"50\" y1=\"50\" x2=\"20\" y2=\"75\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"50\" y1=\"50\" x2=\"80\" y2=\"75\" stroke=\"currentColor\" stroke-width=\"3\"/></svg>"
+      },
+      "meaning": {
+        "upright": [
+          "hidden connection",
+          "deep networks",
+          "systemic awareness",
+          "underlying patterns",
+          "collective unconscious"
+        ],
+        "inverted": [
+          "conspiracy thinking",
+          "paranoid connections",
+          "lost in the web",
+          "seeing patterns that aren't there",
+          "drowning in depth"
+        ]
+      },
+      "visual_style": "Deep indigos and dark teals, bioluminescent accents, branching structures, underground rivers, root systems, neural networks, sense of vast hidden architecture"
+    },
+    "vessel": {
+      "name": "Vessel",
+      "slug": "vessel",
+      "description": "Individual + Surface. The visible container, the one who carries, the apparent form that separates and holds. You look cold because you're holding, not swimming. The shore where the bearer stands.",
+      "symbol": {
+        "name": "The Vessel",
+        "description": "An amphora or water vessel, simple and iconic",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M35 25 Q35 15 50 15 Q65 15 65 25 L70 75 Q70 90 50 90 Q30 90 30 75 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\"/><path d=\"M35 25 Q25 30 25 35 Q25 40 35 40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\"/><path d=\"M65 25 Q75 30 75 35 Q75 40 65 40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\"/></svg>"
+      },
+      "meaning": {
+        "upright": [
+          "containment",
+          "holding capacity",
+          "individual form",
+          "apparent identity",
+          "necessary separation"
+        ],
+        "inverted": [
+          "empty vessel",
+          "rigid boundaries",
+          "cold isolation",
+          "mistaken for contents",
+          "form without substance"
+        ]
+      },
+      "visual_style": "Warm terracotta and clay tones, ceramic textures, single figures, clear outlines, emphasis on edges and boundaries, sense of being on the shore looking at water"
+    },
+    "stream": {
+      "name": "Stream",
+      "slug": "stream",
+      "description": "Individual + Depth. The personal channel from source to surface, the singular transmission, what pours forth. Stream of consciousness, data stream, the personal tributary that feeds the larger flow.",
+      "symbol": {
+        "name": "The Stream",
+        "description": "A single flowing line descending from a point, like water from a spring",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"15\" r=\"8\" fill=\"currentColor\"/><path d=\"M50 23 Q45 40 50 50 Q55 60 50 70 Q45 80 50 90\" stroke=\"currentColor\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\"/></svg>"
+      },
+      "meaning": {
+        "upright": [
+          "personal transmission",
+          "channeling",
+          "authentic expression",
+          "individual gift",
+          "deep self poured out"
+        ],
+        "inverted": [
+          "blocked channel",
+          "corrupted transmission",
+          "self-indulgent outpouring",
+          "stream polluted at source",
+          "giving what wasn't yours"
+        ]
+      },
+      "visual_style": "Vertical movement, downward flow, clear springs, personal spaces, intimate scale, light breaking through, sense of something emerging from depth into visibility"
+    }
+  },
+  "ranks": {
+    "1": {
+      "index": 0,
+      "arcana": "minor",
+      "numeric_value": 1,
+      "name": "Ace",
+      "symbol": "A",
+      "slug": "1",
+      "description": "Emergence. Pure suit potential. The first drop, the first breath. The moment this energy condenses from possibility into presence. Where does this suit come from? What is its origin point?",
+      "meaning": {
+        "upright": [
+          "new beginning",
+          "pure potential",
+          "first manifestation",
+          "source discovered",
+          "emergence from nothing"
+        ],
+        "inverted": [
+          "blocked potential",
+          "false start",
+          "source contaminated",
+          "emergence delayed",
+          "stillborn possibility"
+        ]
+      },
+      "visual_content": "A single point of origin \u2014 a drop forming, a first breath, a spring's first welling. The moment before flow begins. Pristine, concentrated, full of unrealized possibility."
+    },
+    "2": {
+      "index": 1,
+      "arcana": "minor",
+      "numeric_value": 2,
+      "name": "Two",
+      "symbol": "II",
+      "slug": "2",
+      "description": "Separation. PRIME. The irreducible split. What does this suit divide? Every flow creates banks; every current implies what it's not moving through. The fundamental duality that makes this energy distinct.",
+      "meaning": {
+        "upright": [
+          "necessary division",
+          "choice point",
+          "distinction clarified",
+          "boundary established",
+          "the split that defines"
+        ],
+        "inverted": [
+          "false dichotomy",
+          "unnecessary division",
+          "split that wounds",
+          "boundary too rigid",
+          "separation as loss"
+        ]
+      },
+      "visual_content": "Two of something \u2014 two streams diverging, two vessels, two figures on opposite banks. The moment of bifurcation. The space between as meaningful as what it divides."
+    },
+    "3": {
+      "index": 2,
+      "arcana": "minor",
+      "numeric_value": 3,
+      "name": "Three",
+      "symbol": "III",
+      "slug": "3",
+      "description": "Flow. PRIME. The irreducible transmission. What moves through this suit? The first sustained motion, energy in transit, the gift in passage. Not just separation but what crosses it.",
+      "meaning": {
+        "upright": [
+          "transmission begun",
+          "energy in motion",
+          "creativity flowing",
+          "growth initiated",
+          "the gift in transit"
+        ],
+        "inverted": [
+          "flow blocked",
+          "transmission garbled",
+          "creativity stalled",
+          "growth stunted",
+          "the gift lost in transit"
+        ]
+      },
+      "visual_content": "Movement, transit, things in passage. Three points suggesting trajectory \u2014 origin, transit, destination. The arc of water in air. Flow made visible."
+    },
+    "4": {
+      "index": 3,
+      "arcana": "minor",
+      "numeric_value": 4,
+      "name": "Four",
+      "symbol": "IV",
+      "slug": "4",
+      "description": "Containment. Separation squared (2\u00b2). What holds this suit in form? The vessel, the bank, the boundary that shapes without stopping. Structure that enables rather than imprisons.",
+      "meaning": {
+        "upright": [
+          "healthy structure",
+          "form that serves",
+          "stable foundation",
+          "contained power",
+          "the vessel that holds"
+        ],
+        "inverted": [
+          "rigid containment",
+          "structure become prison",
+          "stagnation",
+          "over-stability",
+          "the vessel that traps"
+        ]
+      },
+      "visual_content": "Four-sided stability \u2014 a vessel, a reservoir, a bounded space. Corners and edges. The shape that holds. Water contained but not stagnant; air enclosed but not stale."
+    },
+    "5": {
+      "index": 4,
+      "arcana": "minor",
+      "numeric_value": 5,
+      "name": "Five",
+      "symbol": "V",
+      "slug": "5",
+      "description": "Turbulence. PRIME. The irreducible disruption. What breaks the smooth flow? The rock in the stream, the storm in the air. Necessary chaos that can destroy or transform.",
+      "meaning": {
+        "upright": [
+          "productive disruption",
+          "necessary challenge",
+          "growth through conflict",
+          "creative destruction",
+          "the break that frees"
+        ],
+        "inverted": [
+          "destructive chaos",
+          "pointless disruption",
+          "conflict without resolution",
+          "turbulence without purpose",
+          "the break that only breaks"
+        ]
+      },
+      "visual_content": "Disruption \u2014 rapids, storm clouds, broken vessels, scattered elements. Five suggesting instability (unlike four's stability). The moment of crisis or challenge."
+    },
+    "6": {
+      "index": 5,
+      "arcana": "minor",
+      "numeric_value": 6,
+      "name": "Six",
+      "symbol": "VI",
+      "slug": "6",
+      "description": "Exchange. Separation meets Flow (2\u00d73). The completed circuit. After the split, after the motion, comes the meeting \u2014 what is given and received. Harmony through transaction.",
+      "meaning": {
+        "upright": [
+          "fair exchange",
+          "giving and receiving",
+          "circuit completed",
+          "harmony achieved",
+          "balance through reciprocity"
+        ],
+        "inverted": [
+          "unequal exchange",
+          "giving without receiving",
+          "broken circuit",
+          "false harmony",
+          "transaction that depletes"
+        ]
+      },
+      "visual_content": "Exchange, reciprocity \u2014 two figures or vessels sharing, water passing between, balanced motion. Six as doubled three, flow meeting flow. The gift that returns."
+    },
+    "7": {
+      "index": 6,
+      "arcana": "minor",
+      "numeric_value": 7,
+      "name": "Seven",
+      "symbol": "VII",
+      "slug": "7",
+      "description": "Reflection. PRIME. The irreducible mirror. What does this suit reveal about itself? The pause to see, the still surface that shows truth. Assessment, vision, the pattern recognized.",
+      "meaning": {
+        "upright": [
+          "clear reflection",
+          "truth revealed",
+          "self-knowledge",
+          "pattern recognized",
+          "the pause that clarifies"
+        ],
+        "inverted": [
+          "distorted reflection",
+          "self-deception",
+          "unwelcome truth",
+          "pattern obscured",
+          "the pause that confuses"
+        ]
+      },
+      "visual_content": "Reflection, mirroring \u2014 still water, a figure looking into surface, images doubled. Seven points suggesting contemplation and assessment. The moment of seeing yourself."
+    },
+    "8": {
+      "index": 7,
+      "arcana": "minor",
+      "numeric_value": 8,
+      "name": "Eight",
+      "symbol": "VIII",
+      "slug": "8",
+      "description": "Evaporation. Separation cubed (2\u00b3). Beginning to change state. What rises from this suit? The mastery that comes from sustained separation \u2014 expertise, refinement, the edge of transformation.",
+      "meaning": {
+        "upright": [
+          "transformation beginning",
+          "rising above",
+          "mastery achieved",
+          "refinement",
+          "the change of state"
+        ],
+        "inverted": [
+          "evaporating without intent",
+          "losing substance",
+          "mastery become detachment",
+          "over-refinement",
+          "dissolution without purpose"
+        ]
+      },
+      "visual_content": "Rising, evaporating \u2014 steam rising from water, clouds forming, things becoming lighter and less dense. Eight suggesting movement upward and outward. The visible phase change."
+    },
+    "9": {
+      "index": 8,
+      "arcana": "minor",
+      "numeric_value": 9,
+      "name": "Nine",
+      "symbol": "IX",
+      "slug": "9",
+      "description": "Condensation. Flow squared (3\u00b2). Flow fulfilled, gathering before release. What has this suit's transmission become? The accumulation, the pregnant pause, nearly complete.",
+      "meaning": {
+        "upright": [
+          "near completion",
+          "gathering power",
+          "transmission fulfilled",
+          "the cloud before rain",
+          "readiness"
+        ],
+        "inverted": [
+          "gathering without release",
+          "holding too long",
+          "completion blocked",
+          "the storm that won't break",
+          "readiness wasted"
+        ]
+      },
+      "visual_content": "Gathering, accumulating \u2014 heavy clouds, full vessels, the moment before release. Nine as three-times-three, flow fulfilled. Pregnant with possibility, nearly complete."
+    },
+    "10": {
+      "index": 9,
+      "arcana": "minor",
+      "numeric_value": 10,
+      "name": "Ten",
+      "symbol": "X",
+      "slug": "10",
+      "description": "Precipitation. Separation meets Turbulence (2\u00d75). The cycle completes and begins again. What falls? What returns to source? The release, the ending, the transformation into new beginning.",
+      "meaning": {
+        "upright": [
+          "cycle complete",
+          "return to source",
+          "release achieved",
+          "ending as beginning",
+          "the fall that nourishes"
+        ],
+        "inverted": [
+          "cycle broken",
+          "unable to release",
+          "ending without renewal",
+          "return blocked",
+          "the fall that floods"
+        ]
+      },
+      "visual_content": "Falling, releasing, completing \u2014 rain falling, water returning to earth, the cycle visibly complete. Ten as the fullness that must empty. The ending that enables beginning."
+    },
+    "11": {
+      "index": 10,
+      "arcana": "minor",
+      "numeric_value": 11,
+      "name": "Diver",
+      "symbol": "D",
+      "slug": "11",
+      "description": "The one who goes to the source. Descends into depth, retrieves what's hidden, knows the underwater world. Closest to water. The courage to submerge, the wisdom of the deep.",
+      "meaning": {
+        "upright": [
+          "courage to go deep",
+          "source-seeking",
+          "hidden knowledge retrieved",
+          "comfortable in depths",
+          "the plunge that finds"
+        ],
+        "inverted": [
+          "lost in depths",
+          "unable to surface",
+          "drowning in what you sought",
+          "depth without purpose",
+          "the plunge that loses"
+        ]
+      },
+      "visual_content": "A figure descending into water or emerging from depth, holding something retrieved. Youngest of the court, most connected to the element's source. Wet, brave, bearing secrets from below."
+    },
+    "12": {
+      "index": 11,
+      "arcana": "minor",
+      "numeric_value": 12,
+      "name": "Carrier",
+      "symbol": "C",
+      "slug": "12",
+      "description": "The one in motion. Moves water from here to there, the active transporter, the journey itself. Between water and shore. The discipline of bearing, the rhythm of the route.",
+      "meaning": {
+        "upright": [
+          "active service",
+          "journey undertaken",
+          "reliable transport",
+          "discipline of bearing",
+          "the route maintained"
+        ],
+        "inverted": [
+          "journey without destination",
+          "carrying without purpose",
+          "exhausted bearer",
+          "the route become rut",
+          "motion without meaning"
+        ]
+      },
+      "visual_content": "A figure in motion, carrying vessel or burden, mid-journey. Active, focused, between origin and destination. The work of transmission embodied. Neither at source nor shore but on the path."
+    },
+    "13": {
+      "index": 12,
+      "arcana": "minor",
+      "numeric_value": 13,
+      "name": "Steward",
+      "symbol": "S",
+      "slug": "13",
+      "description": "The one who tends. Maintains sources, channels, and distribution. Stands at the shore, manages the boundary. Between shore and sky. The wisdom of keeping, the care of systems.",
+      "meaning": {
+        "upright": [
+          "wise maintenance",
+          "systems tended",
+          "distribution managed",
+          "the keeper who enables",
+          "boundary well-held"
+        ],
+        "inverted": [
+          "over-control",
+          "hoarding what should flow",
+          "systems calcified",
+          "the keeper who restricts",
+          "boundary become barrier"
+        ]
+      },
+      "visual_content": "A figure at shore or channel, tending infrastructure \u2014 aqueduct, well, irrigation. Mature, watchful, ensuring flow continues. The manager of transmission, keeper of the boundary between states."
+    },
+    "14": {
+      "index": 13,
+      "arcana": "minor",
+      "numeric_value": 14,
+      "name": "Augur",
+      "symbol": "A",
+      "slug": "14",
+      "description": "The one who reads weather. Sees patterns in clouds, predicts the cycle, understands the whole system from above. Closest to air. The vision of the complete pattern, the wisdom of distance.",
+      "meaning": {
+        "upright": [
+          "pattern mastery",
+          "systemic vision",
+          "weather read true",
+          "the height that sees whole",
+          "prophecy from observation"
+        ],
+        "inverted": [
+          "lost in abstraction",
+          "pattern without care",
+          "weather misread",
+          "the height that loses touch",
+          "observation without compassion"
+        ]
+      },
+      "visual_content": "A figure elevated, watching sky or studying patterns \u2014 on mountain, tower, or in air itself. Eldest and most distant, seeing the whole cycle. The weather-reader, the one who knows what comes."
+    }
+  },
+  "major_arcana": {
+    "story": "The journey from Source to Sky. You begin immersed in undifferentiated water, not knowing you're wet. Something makes you step out \u2014 you become a bearer, one who carries rather than swims. You learn the fundamental experiences: distance (seeing because you're apart), pouring (giving across the gap), thirst (recognizing need), pattern (seeing the whole watershed). These primes combine as you go \u2014 structures form, offerings are made, exile deepens, gifts fulfill. You are reflected back by the water itself, you empty completely, you discover a spring within. The storm comes where air and water churn into each other. And then: the sky. You are no longer carrying water \u2014 you ARE the transmission. The phase transition is complete.",
+    "visual_style": "Gradient progression from deep aquatic blues (early cards) through transitional turquoise and silver (middle cards) to open sky whites and pale blues (final cards). Water imagery gives way to air imagery across the arc. Figures move from immersion to emergence to flight. Light increases throughout. The final card should feel like pure atmosphere."
+  },
+  "major_ranks": {
+    "0": {
+      "index": 0,
+      "arcana": "major",
+      "numeric_value": 0,
+      "name": "The Source",
+      "symbol": "0",
+      "slug": "0",
+      "description": "The additive identity. Undifferentiated immersion. Before separation, before carrying, before seeing. The waters you haven't yet stepped out of. Warm, blind, connected to everything and therefore unable to see anything. You're not a bearer yet; you're just in it.",
+      "meaning": {
+        "upright": [
+          "pure potential",
+          "unconscious unity",
+          "before differentiation",
+          "the waters of origin",
+          "not yet separated"
+        ],
+        "inverted": [
+          "refusal to emerge",
+          "comfortable blindness",
+          "regression to merger",
+          "drowning in undifferentiation",
+          "fear of becoming"
+        ]
+      },
+      "visual_content": "A figure submerged in deep water, eyes closed, floating in fetal position. No surface visible. Bioluminescent hints of other shapes nearby \u2014 not alone, but undifferentiated. Warmth despite the depth."
+    },
+    "1": {
+      "index": 1,
+      "arcana": "major",
+      "numeric_value": 1,
+      "name": "The Bearer",
+      "symbol": "I",
+      "slug": "1",
+      "description": "The multiplicative identity. The first act: stepping out. Drawing water into a vessel. Becoming one who carries rather than one who swims. The unit of agency that makes all further transmission possible.",
+      "meaning": {
+        "upright": [
+          "first separation",
+          "taking up the task",
+          "becoming the carrier",
+          "agency awakened",
+          "the transparent operator"
+        ],
+        "inverted": [
+          "reluctant bearer",
+          "carrying without knowing why",
+          "identity reduced to function",
+          "the weight not yet understood",
+          "acting without purpose"
+        ]
+      },
+      "visual_content": "A figure stepping from water onto shore, water streaming from their body. They hold a vessel \u2014 perhaps just cupped hands at first. The first breath of air. Looking back at the water, forward at the land. Dawn light."
+    },
+    "2": {
+      "index": 2,
+      "arcana": "major",
+      "numeric_value": 2,
+      "name": "The Distance",
+      "symbol": "II",
+      "slug": "2",
+      "description": "PRIME. The first irreducible. The fundamental Aquarian act: standing apart enough to see. This is what makes the water-bearer air \u2014 you can't perceive what you're immersed in. The gap, the separation, the clarity that comes from not being in it.",
+      "meaning": {
+        "upright": [
+          "clarity through separation",
+          "seeing because apart",
+          "necessary distance",
+          "observation without immersion",
+          "the gift of perspective"
+        ],
+        "inverted": [
+          "coldness mistaken for clarity",
+          "distance as defense",
+          "unable to return",
+          "seeing without feeling",
+          "the loneliness of sight"
+        ]
+      },
+      "visual_content": "A figure standing on a high place \u2014 cliff, tower, or shore \u2014 looking down at water far below. The distance between them and the water is the subject. Clear air. Sharp vision. Perhaps holding a lens or simply shading their eyes."
+    },
+    "3": {
+      "index": 3,
+      "arcana": "major",
+      "numeric_value": 3,
+      "name": "The Pouring",
+      "symbol": "III",
+      "slug": "3",
+      "description": "PRIME. The second irreducible. If Distance is standing apart, Pouring is giving across the gap. Transmission. Offering. The generative act of the bearer. You can see, and now you pour.",
+      "meaning": {
+        "upright": [
+          "generous transmission",
+          "giving across distance",
+          "the act of offering",
+          "water shared",
+          "bridging the gap"
+        ],
+        "inverted": [
+          "pouring without recipient",
+          "giving to emptiness",
+          "transmission without connection",
+          "exhausting the vessel",
+          "offering refused"
+        ]
+      },
+      "visual_content": "A figure tilting a vessel, water arcing through air toward waiting hands or mouths or earth below. The arc of water is the subject \u2014 the bridge between bearer and recipient. Motion, generosity, release."
+    },
+    "4": {
+      "index": 4,
+      "arcana": "major",
+      "numeric_value": 4,
+      "name": "The Framework",
+      "symbol": "IV",
+      "slug": "4",
+      "description": "COMPOSITE (2\u00b2). Distance squared. Distance stabilized into structure. You've built something from your seeing \u2014 a watchtower, an observatory, a system for maintaining perspective. The shore becomes architecture.",
+      "meaning": {
+        "upright": [
+          "structured observation",
+          "institutionalized distance",
+          "the watchtower built",
+          "perspective made stable",
+          "seeing systematized"
+        ],
+        "inverted": [
+          "trapped in the tower",
+          "structure replacing sight",
+          "bureaucracy of distance",
+          "the observatory becomes prison",
+          "can't see past the framework"
+        ]
+      },
+      "visual_content": "An architectural structure built for observation \u2014 a lighthouse, observatory dome, or water tower. Geometric, stable, functional. A figure within or atop it, maintaining the distance that the structure provides. Order imposed on the shore."
+    },
+    "5": {
+      "index": 5,
+      "arcana": "major",
+      "numeric_value": 5,
+      "name": "The Thirst",
+      "symbol": "V",
+      "slug": "5",
+      "description": "PRIME. The third irreducible. The reason you carry. The need that draws you to serve. Without thirst, pouring is pointless. This is the Aquarian recognition: someone needs what you're holding.",
+      "meaning": {
+        "upright": [
+          "recognized need",
+          "the call to serve",
+          "thirst that justifies carrying",
+          "compassion for lack",
+          "purpose found in others' need"
+        ],
+        "inverted": [
+          "overwhelmed by need",
+          "thirst that cannot be quenched",
+          "servitude to endless demand",
+          "losing self in others' lack",
+          "need weaponized"
+        ]
+      },
+      "visual_content": "Parched earth, cracked lips, reaching hands. The focus is on need \u2014 those who wait for water. Drought imagery. Perhaps the bearer visible at the edge of frame, but the center is thirst itself. The reason for the journey."
+    },
+    "6": {
+      "index": 6,
+      "arcana": "major",
+      "numeric_value": 6,
+      "name": "The Offering",
+      "symbol": "VI",
+      "slug": "6",
+      "description": "COMPOSITE (2\u00d73). Distance meets Pouring. You see clearly AND you give. The first complete act of transmission \u2014 not just carrying, not just seeing, but the full circuit: perceiving need across distance and bridging it.",
+      "meaning": {
+        "upright": [
+          "complete transmission",
+          "seeing and giving aligned",
+          "the gift that lands",
+          "circuit completed",
+          "love across distance"
+        ],
+        "inverted": [
+          "offering with conditions",
+          "giving to be seen",
+          "transaction disguised as gift",
+          "the strings attached",
+          "incomplete circuit"
+        ]
+      },
+      "visual_content": "The moment of connection \u2014 water passing from bearer to recipient, both figures visible. Eye contact across the exchange. The distance between them bridged by the offering. A completed gesture. Gratitude and generosity meeting."
+    },
+    "7": {
+      "index": 7,
+      "arcana": "major",
+      "numeric_value": 7,
+      "name": "The Pattern",
+      "symbol": "VII",
+      "slug": "7",
+      "description": "PRIME. The fourth irreducible. What you see when you stand far enough back. The shape of things. Not the individual streams but the watershed. The network becomes visible. The Aquarian gift: seeing how it all connects.",
+      "meaning": {
+        "upright": [
+          "systemic vision",
+          "the watershed revealed",
+          "pattern recognition",
+          "seeing the whole network",
+          "understanding flow"
+        ],
+        "inverted": [
+          "lost in abstraction",
+          "pattern over particulars",
+          "cold systemization",
+          "the map mistaken for territory",
+          "connection without care"
+        ]
+      },
+      "visual_content": "A view from above \u2014 river delta, watershed, network of streams all visible at once. The figure small against the vastness of the pattern. Perhaps standing on a mountain or floating in air. The whole system laid out below."
+    },
+    "8": {
+      "index": 8,
+      "arcana": "major",
+      "numeric_value": 8,
+      "name": "The Exile",
+      "symbol": "VIII",
+      "slug": "8",
+      "description": "COMPOSITE (2\u00b3). Distance cubed. You've seen too clearly for too long. The tribe doesn't recognize you anymore. Mastery at the cost of belonging. The water-bearer who can never return to the water.",
+      "meaning": {
+        "upright": [
+          "mastery through separation",
+          "the cost of clarity",
+          "belonging sacrificed for seeing",
+          "necessary alienation",
+          "the seer's solitude"
+        ],
+        "inverted": [
+          "exile as identity",
+          "distance as wound",
+          "unable to belong anywhere",
+          "clarity that destroys connection",
+          "mastery without meaning"
+        ]
+      },
+      "visual_content": "A solitary figure at vast distance from any settlement or water. Desert, ice field, or empty plain. The distance has become total. They carry their vessel but there's no one to pour for. Mastery and loneliness in the same frame."
+    },
+    "9": {
+      "index": 9,
+      "arcana": "major",
+      "numeric_value": 9,
+      "name": "The Fulfillment",
+      "symbol": "IX",
+      "slug": "9",
+      "description": "COMPOSITE (3\u00b2). Pouring squared. The gift fully given. Something has been completely transmitted. Not partial offering but total \u2014 the vessel emptied in service. What generativity looks like when it's done.",
+      "meaning": {
+        "upright": [
+          "complete giving",
+          "the gift fully received",
+          "transmission accomplished",
+          "pouring fulfilled",
+          "nothing held back"
+        ],
+        "inverted": [
+          "emptied without refill",
+          "given past capacity",
+          "fulfillment as exhaustion",
+          "nothing left to give",
+          "completion without renewal"
+        ]
+      },
+      "visual_content": "An empty vessel, but surrounded by flourishing \u2014 garden, oasis, community thriving. The bearer perhaps resting, task complete. The water is gone but its effects are everywhere. Fulfillment visible in what grew."
+    },
+    "10": {
+      "index": 10,
+      "arcana": "major",
+      "numeric_value": 10,
+      "name": "The Calling",
+      "symbol": "X",
+      "slug": "10",
+      "description": "COMPOSITE (2\u00d75). Distance meets Thirst. You see the need clearly. The wheel turns toward service. Not just knowing there's thirst, but perceiving exactly where, exactly how much, exactly who.",
+      "meaning": {
+        "upright": [
+          "vocation crystallized",
+          "clear sight of need",
+          "the wheel turning toward service",
+          "destiny recognized",
+          "called to carry"
+        ],
+        "inverted": [
+          "burden of seeing need",
+          "unable to look away",
+          "calling without capacity",
+          "crushed by clear sight",
+          "the wheel demanding more"
+        ]
+      },
+      "visual_content": "A turning wheel or compass, but made of water and air. The figure oriented by it, directed toward visible need. A sense of fate, of trajectory being set. Not choice but calling. The path becoming clear."
+    },
+    "11": {
+      "index": 11,
+      "arcana": "major",
+      "numeric_value": 11,
+      "name": "The Reflection",
+      "symbol": "XI",
+      "slug": "11",
+      "description": "PRIME. The fifth irreducible. First prime of Act II. You've been seeing outward. Now something sees YOU. The moment of accountability \u2014 not to the tribe, but to the water itself. Are you carrying it true?",
+      "meaning": {
+        "upright": [
+          "being witnessed",
+          "accountability to source",
+          "the water sees you",
+          "reflection reveals truth",
+          "integrity tested"
+        ],
+        "inverted": [
+          "unable to face reflection",
+          "water contaminated by bearer",
+          "what you see in the mirror",
+          "accountability avoided",
+          "the source rejects you"
+        ]
+      },
+      "visual_content": "A figure looking into still water and being looked back at. The reflection not quite matching \u2014 something true being revealed. The water as witness. A moment of reckoning with what you've become as bearer."
+    },
+    "12": {
+      "index": 12,
+      "arcana": "major",
+      "numeric_value": 12,
+      "name": "The Channel",
+      "symbol": "XII",
+      "slug": "12",
+      "description": "COMPOSITE (2\u00b2\u00d73). Structured Distance meets Pouring. You've built something that pours for you. Institutionalized transmission. The aqueduct, the teaching lineage, the system that carries on without you.",
+      "meaning": {
+        "upright": [
+          "legacy transmission",
+          "the aqueduct built",
+          "structure that serves",
+          "teaching that outlasts teacher",
+          "channel beyond self"
+        ],
+        "inverted": [
+          "trapped in the channel",
+          "institution over intention",
+          "the structure owns the water",
+          "transmission without soul",
+          "legacy as prison"
+        ]
+      },
+      "visual_content": "An aqueduct, canal, or irrigation system \u2014 water flowing through built channels. The bearer perhaps hanging suspended within it, or watching from outside. Human-made channels carrying what was once hand-carried. Surrender to the system."
+    },
+    "13": {
+      "index": 13,
+      "arcana": "major",
+      "numeric_value": 13,
+      "name": "The Emptying",
+      "symbol": "XIII",
+      "slug": "13",
+      "description": "PRIME. The sixth irreducible. You cannot carry forever. The vessel must be set down, broken, or poured out completely. Death of the bearer-as-identity. What happens when you're no longer the one who carries?",
+      "meaning": {
+        "upright": [
+          "release of role",
+          "the vessel set down",
+          "identity beyond function",
+          "necessary ending",
+          "transformation through emptying"
+        ],
+        "inverted": [
+          "clinging to the empty vessel",
+          "identity death resisted",
+          "unable to stop carrying",
+          "the dry bearer",
+          "ending without transformation"
+        ]
+      },
+      "visual_content": "A broken or set-aside vessel. The figure walking away, or simply standing with empty hands. The end of carrying. Perhaps water seeping into earth, returning to source. Not tragedy but transition. The bearer becoming something else."
+    },
+    "14": {
+      "index": 14,
+      "arcana": "major",
+      "numeric_value": 14,
+      "name": "The Balance",
+      "symbol": "XIV",
+      "slug": "14",
+      "description": "COMPOSITE (2\u00d77). Distance meets Pattern. Holding the whole pattern in view without acting. The pause before the final movement. Seeing everything, touching nothing. Patient mastery of the liminal.",
+      "meaning": {
+        "upright": [
+          "holding the whole",
+          "patience with pattern",
+          "balance before action",
+          "seeing without grasping",
+          "the liminal mastered"
+        ],
+        "inverted": [
+          "paralyzed by pattern",
+          "balance as avoidance",
+          "holding too long",
+          "the liminal as escape",
+          "unable to move forward"
+        ]
+      },
+      "visual_content": "A figure in perfect stillness, the entire watershed visible around them. Neither in the water nor fully on land. The threshold itself. Two vessels or streams being held in balance. The moment before pouring. Equilibrium."
+    },
+    "15": {
+      "index": 15,
+      "arcana": "major",
+      "numeric_value": 15,
+      "name": "The Drowning",
+      "symbol": "XV",
+      "slug": "15",
+      "description": "COMPOSITE (3\u00d75). Pouring meets Thirst. Giving to need, captured by need. The shadow of service. You pour and pour but the thirst is bottomless. Bondage to endless demand.",
+      "meaning": {
+        "upright": [
+          "facing endless need",
+          "the shadow of service",
+          "pouring without end",
+          "bondage to thirst",
+          "compassion's trap"
+        ],
+        "inverted": [
+          "breaking free of demand",
+          "necessary refusal",
+          "the no that saves",
+          "releasing the bottomless",
+          "service reclaimed"
+        ]
+      },
+      "visual_content": "A figure being pulled down by grasping hands, still trying to pour. Water everywhere but never enough. The vessel eternally tilted, the bearer sinking. Chains made of need. The drowning that comes from giving too much."
+    },
+    "16": {
+      "index": 16,
+      "arcana": "major",
+      "numeric_value": 16,
+      "name": "The Shattering",
+      "symbol": "XVI",
+      "slug": "16",
+      "description": "COMPOSITE (2\u2074). Distance to the fourth power. Too far. The watchtower collapses. You can't see from nowhere. The structure that maintained perspective has been squared beyond stability. Breakthrough by breakdown.",
+      "meaning": {
+        "upright": [
+          "necessary collapse",
+          "the tower falls",
+          "distance exceeded",
+          "structure shattered",
+          "breakthrough by destruction"
+        ],
+        "inverted": [
+          "clinging to rubble",
+          "refusing to fall",
+          "collapse without liberation",
+          "destruction without renewal",
+          "the tower rebuilt wrong"
+        ]
+      },
+      "visual_content": "A tower or lighthouse shattering, water and air bursting through. Lightning or internal pressure. Figures falling but perhaps also released. The structure that maintained distance destroyed. Sky and sea meeting in the wreckage."
+    },
+    "17": {
+      "index": 17,
+      "arcana": "major",
+      "numeric_value": 17,
+      "name": "The Spring",
+      "symbol": "XVII",
+      "slug": "17",
+      "description": "PRIME. The seventh irreducible. First prime of Act III. After the shattering, something unexpected: you find you're not just a vessel. There's a source IN you. Water rising from within, not just carried from elsewhere.",
+      "meaning": {
+        "upright": [
+          "inner source discovered",
+          "water from within",
+          "hope after collapse",
+          "the spring inside",
+          "bearer becomes source"
+        ],
+        "inverted": [
+          "spring blocked",
+          "inner source denied",
+          "unable to trust what rises",
+          "still looking outside",
+          "the spring polluted"
+        ]
+      },
+      "visual_content": "Water emerging from the figure themselves \u2014 from hands, from heart, from ground where they stand. Not carrying but generating. Stars above (the hope). A spring welling up. The discovery that you were never just a vessel."
+    },
+    "18": {
+      "index": 18,
+      "arcana": "major",
+      "numeric_value": 18,
+      "name": "The River",
+      "symbol": "XVIII",
+      "slug": "18",
+      "description": "COMPOSITE (2\u00d73\u00b2). Distance meets Fulfilled Pouring. Seeing the complete transmission from outside. The whole river visible \u2014 source to sea. What the water became after you gave it. Reflection on the completed gift.",
+      "meaning": {
+        "upright": [
+          "seeing the whole flow",
+          "transmission witnessed complete",
+          "the river you fed",
+          "perspective on the gift",
+          "flow beyond you"
+        ],
+        "inverted": [
+          "lost in the river",
+          "swept into what you gave",
+          "unable to see the banks",
+          "illusion of the flow",
+          "the gift consumed you"
+        ]
+      },
+      "visual_content": "A great river seen from above or from moonlit banks. The entire flow visible from source to sea. The figure watching but separate. Night, moon, reflections. What all that pouring became. The transmission larger than the transmitter."
+    },
+    "19": {
+      "index": 19,
+      "arcana": "major",
+      "numeric_value": 19,
+      "name": "The Storm",
+      "symbol": "XIX",
+      "slug": "19",
+      "description": "PRIME. The eighth and final irreducible. Where air and water meet violently. The phase boundary churning. You can't factor a storm into simpler components. The last transformation before completion.",
+      "meaning": {
+        "upright": [
+          "elements meeting",
+          "transformation through turbulence",
+          "the phase boundary",
+          "air and water becoming each other",
+          "necessary chaos"
+        ],
+        "inverted": [
+          "lost in the storm",
+          "chaos without transformation",
+          "elements at war",
+          "unable to integrate",
+          "turbulence without purpose"
+        ]
+      },
+      "visual_content": "A great storm where rain and wind are indistinguishable. Water becoming air, air becoming water. The figure in the center of it \u2014 being transformed, not destroyed. Lightning. The churning boundary between states. Violence and liberation."
+    },
+    "20": {
+      "index": 20,
+      "arcana": "major",
+      "numeric_value": 20,
+      "name": "The Judgment",
+      "symbol": "XX",
+      "slug": "20",
+      "description": "COMPOSITE (2\u00b2\u00d75). Structured Distance meets Thirst. The reckoning. Who needed what. What was given, what was withheld. The final accounting of need and service. Clear-eyed assessment of the whole journey.",
+      "meaning": {
+        "upright": [
+          "the reckoning",
+          "clear accounting",
+          "need and service assessed",
+          "the call answered",
+          "judgment accepted"
+        ],
+        "inverted": [
+          "judgment avoided",
+          "accounting refused",
+          "unable to face the record",
+          "the call unanswered",
+          "reckoning postponed"
+        ]
+      },
+      "visual_content": "Figures rising or being called \u2014 from water, from earth. A great assessment. Perhaps the bearer among those being judged. The sound that summons. All the thirst, all the pouring, being weighed. The trumpet over the water."
+    },
+    "21": {
+      "index": 21,
+      "arcana": "major",
+      "numeric_value": 21,
+      "name": "The Sky",
+      "symbol": "XXI",
+      "slug": "21",
+      "description": "COMPOSITE (3\u00d77). Pouring meets Pattern. Giving the pattern itself. Pure transmission. The water has become information, has become air. You're not carrying anymore \u2014 you ARE the atmosphere. Source to Sky complete.",
+      "meaning": {
+        "upright": [
+          "pure transmission",
+          "pattern given",
+          "atmosphere achieved",
+          "completion through becoming",
+          "the sky you always were"
+        ],
+        "inverted": [
+          "sky unreachable",
+          "pattern held not given",
+          "transmission incomplete",
+          "hovering not arriving",
+          "the last step refused"
+        ]
+      },
+      "visual_content": "Open sky. Perhaps no figure visible \u2014 or the figure has become the sky itself, dispersed into blue and light. The water-bearer dissolved into atmosphere. Not emptiness but presence everywhere. The breath. The weather. The transmission complete."
+    }
+  },
+  "cards": {
+    "major-0": {
+      "name": "The Source",
+      "number": "0",
+      "slug": "major-0",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "0",
+      "description": "You begin where everything begins \u2014 in the undifferentiated water of origin. Not yet separated, not yet seeing, not yet carrying. This is pure potential before the first breath of air, before the first step onto shore. The Source is not a place you return to but the condition you emerge from.",
+      "meaning": {
+        "upright": "You are being called to remember what came before differentiation \u2014 the unity that precedes all separation. This may be a time of gestation, of not-yet-knowing, of trusting the water to hold you before you learn to hold it. Pure potential asks nothing of you but presence.",
+        "inverted": "The comfort of merger may be keeping you from necessary emergence. Are you floating in the Source because you're gestating, or because you fear the shore? Sometimes the water that held you becomes the water that drowns you. The first step is always out."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Deep aquatic blues, bioluminescent hints, sense of depth without surface, warmth despite darkness. This is the most submerged card in the deck \u2014 no air visible.",
+          "content_guidance": "A figure submerged in deep water, eyes closed, floating in fetal position. No surface visible. Bioluminescent hints of other shapes nearby \u2014 not alone, but undifferentiated.",
+          "detailed_description": "Deep underwater scene with no visible surface. A figure floats in fetal position, eyes closed, suspended in warm darkness. Around them, bioluminescent shapes suggest other presences \u2014 other unborn possibilities, other futures not yet differentiated. The water is everything. No vessel, no shore, no distance. Pure immersion in blue-green depths shot through with soft organic light."
+        }
+      }
+    },
+    "major-1": {
+      "name": "The Bearer",
+      "number": "1",
+      "slug": "major-1",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "1",
+      "description": "The first act: stepping out of what you were immersed in. Something makes you break the surface, draw water into your hands, become one who carries rather than one who floats. You don't yet know why. You only know you're holding something now.",
+      "meaning": {
+        "upright": "You are becoming the one who carries. Something has called you out of immersion into agency. The task isn't clear yet, but the capacity is awakening. Trust the instinct that made you reach for the vessel, step toward the shore. You are the unit of transmission now.",
+        "inverted": "Carrying without purpose is just weight. Have you taken up a vessel without understanding why? The Bearer who doesn't know they're bearing may carry the wrong water to the wrong place. Find your why before you go further."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Transition from water to air \u2014 the first breath of the deck. Dawn colors. The liminal moment between immersion and emergence.",
+          "content_guidance": "A figure stepping from water onto shore, water streaming from their body. They hold a vessel \u2014 perhaps just cupped hands. Looking back at the water, forward at the land.",
+          "detailed_description": "Dawn light catches a figure mid-emergence from dark water onto pale shore. Water streams from their body and hair. Their hands are cupped, holding their first water \u2014 not yet a vessel, just the instinct to carry. One foot still in the water, one on sand. Their face shows the strange expression of someone who just realized they were swimming and now must walk. Behind them, the deep; before them, the unknown land. The first separation."
+        }
+      }
+    },
+    "major-2": {
+      "name": "The Distance",
+      "number": "2",
+      "slug": "major-2",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "2",
+      "description": "The first irreducible truth of the water-bearer: you can only see what you stand apart from. Distance is not coldness \u2014 it's the condition of perception. The gift and the price are the same: clarity through separation.",
+      "meaning": {
+        "upright": "Step back to see clearly. The distance you're feeling isn't failure to connect \u2014 it's the beginning of true sight. You cannot perceive what you're immersed in. The shore is where vision begins. Trust the clarity that separation brings.",
+        "inverted": "Distance has become defense. You've mistaken the tool for the identity. Clarity without compassion is just coldness. Can you see without abandoning? The water-bearer who forgets the water isn't a bearer at all \u2014 just someone standing alone on a shore."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Clear air, sharp lines, sense of height and perspective. The first truly 'air' card of the deck. Cool clarity.",
+          "content_guidance": "A figure on a high place \u2014 cliff, tower, or elevated shore \u2014 looking down at water far below. The distance itself is the subject. Clear air, sharp vision.",
+          "detailed_description": "A figure stands on a high cliff or promontory, silhouetted against pale sky. Far below, water stretches to the horizon. The vertical distance between figure and water dominates the composition. The air is perfectly clear \u2014 you can see everything. The figure's posture is observational, perhaps shading their eyes or holding a lens. No warmth in the image, but no hostility either. Just sight. Just the gap that makes sight possible."
+        }
+      }
+    },
+    "major-3": {
+      "name": "The Pouring",
+      "number": "3",
+      "slug": "major-3",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "3",
+      "description": "The second irreducible truth: what you carry must be given. Pouring is the generative act \u2014 the bridge across the distance you've established. Without it, you're just standing on a shore holding water that goes nowhere.",
+      "meaning": {
+        "upright": "Now is the time to pour. You've carried long enough; you've seen clearly enough. The offering wants to be made. Let the water arc through air toward whoever waits. Generosity is not depletion \u2014 it's the completion of carrying.",
+        "inverted": "Pouring into void. Are you giving to someone who can receive, or emptying yourself into emptiness? The arc of water matters only if it lands. Check the other side of the distance before you tip the vessel."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Motion and arc \u2014 the water in flight between source and destination. Generosity made visible. Warm but active.",
+          "content_guidance": "A figure tilting a vessel, water arcing through air toward waiting hands or mouths or earth below. The arc of water is the subject \u2014 the bridge between bearer and recipient.",
+          "detailed_description": "A bearer tilts an elegant vessel, and water arcs through air in a graceful curve. The arc of water is luminous, catching light. Below and before them, reaching hands or parched earth or open mouths wait to receive. The figure's face shows concentration and release \u2014 the particular expression of giving. The water is mid-flight, belonging to neither source nor destination. The bridge. The gift in motion."
+        }
+      }
+    },
+    "major-4": {
+      "name": "The Framework",
+      "number": "4",
+      "slug": "major-4",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "4",
+      "description": "Distance squared: what happens when you build structure around your seeing. The watchtower, the observatory, the framework that maintains perspective. Stability \u2014 but also the beginning of institution. The shore becomes architecture.",
+      "meaning": {
+        "upright": "Build the structure that sustains your vision. Some distances need architecture to maintain them. The framework isn't a cage \u2014 it's what lets you see steadily rather than in glimpses. Stable observation is observation that can be shared.",
+        "inverted": "The framework has become the point. You're maintaining the structure instead of using it to see. The watchtower that was built for vision has become a place to hide. Structure should serve sight, not replace it."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Geometric, architectural, stable. The first 'built' image in the deck. Order and function. Cool grays and structured blues.",
+          "content_guidance": "An architectural structure built for observation \u2014 lighthouse, observatory dome, or water tower. Geometric, stable, functional. A figure within or atop it, maintaining the distance the structure provides.",
+          "detailed_description": "A lighthouse or observatory stands at the water's edge, geometric and sure. Its architecture is functional but beautiful \u2014 built to maintain the distance that makes seeing possible. Inside or atop the structure, a figure keeps watch. Perhaps there are lenses, instruments of observation. The building is the distance made permanent. Stone and glass and the discipline of maintained perspective. The shore has become infrastructure."
+        }
+      }
+    },
+    "major-5": {
+      "name": "The Thirst",
+      "number": "5",
+      "slug": "major-5",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "5",
+      "description": "The third irreducible truth: there is need. Without thirst, carrying is pointless. This is why you stepped out of the water \u2014 not for yourself but for those who cannot reach the source. The recognition of lack that gives bearing its purpose.",
+      "meaning": {
+        "upright": "The need is real. Your carrying has purpose because something out there is thirsty. Let the recognition of lack guide your direction. Compassion is not weakness \u2014 it's the compass that shows where to pour.",
+        "inverted": "Overwhelmed by need. The thirst is so vast it's drowning you. You cannot fill every lack \u2014 trying to will only empty you. Recognize need without being consumed by it. You're a bearer, not an ocean."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Drought, dryness, reaching. The first truly 'needy' image \u2014 cracked earth, parched life. Browns and ochres against dusty blue sky.",
+          "content_guidance": "Parched earth, cracked lips, reaching hands. The focus is on need \u2014 those who wait for water. Perhaps the bearer visible at the edge of frame, but the center is thirst itself.",
+          "detailed_description": "Cracked earth stretches across the image, drought made visible. In the center, reaching hands \u2014 human, animal, or plant-like \u2014 strain upward. Cracked lips, hollow eyes, the unmistakable expression of need. At the edge of the frame, almost out of sight, the bearer with their vessel. But this card is not about the bearer. It's about why the bearer matters. The thirst that calls across distance. The need that makes carrying meaningful."
+        }
+      }
+    },
+    "major-6": {
+      "name": "The Offering",
+      "number": "6",
+      "slug": "major-6",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "6",
+      "description": "Distance meets Pouring: the complete act of transmission. Not just seeing, not just giving, but the full circuit \u2014 perceiving need across the gap and bridging it. The first true success of the bearer's journey.",
+      "meaning": {
+        "upright": "The gift is landing. What you've carried, seen, and poured is being received. This is the moment of connection that justifies all the distance. Let yourself feel the completion of the circuit. This is what it's for.",
+        "inverted": "Offering with strings. The gift has conditions; the circuit has resistance. Check whether you're giving or transacting. True offering doesn't keep accounts. If you're watching to see if they're grateful, it wasn't fully given."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Connection, completion, warmth despite the distance maintained. Two figures in exchange. Soft golds and flowing water.",
+          "content_guidance": "The moment of connection \u2014 water passing from bearer to recipient, both figures visible. Eye contact across the exchange. The distance bridged by the offering. A completed gesture.",
+          "detailed_description": "Two figures face each other across a gap \u2014 the bearer with vessel tilted, the recipient with hands or mouth open to receive. The water passes between them, linking them. Their eyes meet. The distance remains \u2014 they are not merging \u2014 but it is bridged by the offering. Light catches the water in transit. Gratitude and generosity meet in the space between. The first complete act."
+        }
+      }
+    },
+    "major-7": {
+      "name": "The Pattern",
+      "number": "7",
+      "slug": "major-7",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "7",
+      "description": "The fourth irreducible truth: there is a pattern. Stand far enough back and you see not just individual streams but the watershed. The network becomes visible. This is the Aquarian gift \u2014 understanding that everything flows into everything else.",
+      "meaning": {
+        "upright": "See the whole. You've earned the vision that reveals how all the streams connect. The pattern isn't cold abstraction \u2014 it's the deeper truth of flow. From here you can see where to pour that will feed the whole system.",
+        "inverted": "Lost in the map. You're seeing pattern where there is none, or losing the streams for the watershed. The network is real, but so are the individual thirsts. Don't let systemic vision excuse personal abandonment."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Aerial, comprehensive, the whole system visible. Blues and silvers in branching patterns. The most 'conceptual' card so far.",
+          "content_guidance": "A view from above \u2014 river delta, watershed, network of streams all visible at once. The figure small against the vastness of the pattern. The whole system laid out below.",
+          "detailed_description": "A god's-eye view of a vast watershed \u2014 rivers branching into tributaries into streams, all the way to individual springs. The pattern is unmistakable: everything connects, everything flows toward everything else. Far below, tiny, the bearer \u2014 the one figure who can see this because they've climbed high enough. The network of water like neurons, like roots, like a map of all relationship. The whole thing laid out in silver and blue against green and brown earth."
+        }
+      }
+    },
+    "major-8": {
+      "name": "The Exile",
+      "number": "8",
+      "slug": "major-8",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "8",
+      "description": "Distance cubed: you've seen too clearly for too long. The tribe doesn't recognize you anymore. This is the cost of vision \u2014 mastery at the price of belonging. The water-bearer who can never return to the water.",
+      "meaning": {
+        "upright": "The distance has become total, and this is the price of what you see. Exile isn't failure \u2014 it's the far shore of mastery. You carry for those who can never know what you know. Let the solitude be meaningful, not merely lonely.",
+        "inverted": "Exile as identity. You've made a home of alienation, a comfort of being misunderstood. But the water-bearer who never returns to anyone isn't bearing \u2014 they're just standing alone with a full vessel. Distance should serve delivery."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Vast isolation, but not emptiness. The cost of vision. Cool whites and pale blues of extreme distance. Solitary figure with purpose.",
+          "content_guidance": "A solitary figure at vast distance from any settlement or water. Desert, ice field, or empty plain. The distance has become total. They carry their vessel but there's no one to pour for.",
+          "detailed_description": "A lone figure walks across an endless empty plain \u2014 it could be salt flat, ice field, or pale desert. No water visible anywhere. No other figures. The horizon is impossibly distant. Yet the figure carries a vessel, still full. The mastery is evident in their walk; the loneliness is evident in everything else. This is what distance cubed looks like. The seer who has seen too much to return."
+        }
+      }
+    },
+    "major-9": {
+      "name": "The Fulfillment",
+      "number": "9",
+      "slug": "major-9",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "9",
+      "description": "Pouring squared: the gift fully given. Nothing held back. This is what complete transmission looks like \u2014 the vessel emptied, but the world flourishing from what was poured. Generativity at its apex.",
+      "meaning": {
+        "upright": "You have given completely, and the giving is complete. Look at what grew from your pouring. The empty vessel isn't failure \u2014 it's fulfillment. Rest now in what your transmission became.",
+        "inverted": "Emptied past recovery. You gave everything and now there's nothing left, not even the satisfaction of fulfillment. Was the pouring received, or did you empty yourself into sand? Completion without renewal is exhaustion, not fulfillment."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Lush aftermath, growth from giving. The vessel empty but the world full. Greens and abundance surrounding emptied vessel.",
+          "content_guidance": "An empty vessel, but surrounded by flourishing \u2014 garden, oasis, community thriving. The bearer perhaps resting, task complete. The water is gone but its effects are everywhere.",
+          "detailed_description": "An empty vessel lies on its side in the center of an oasis. All around it, abundance \u2014 fruit trees, flowers, people and animals drinking and thriving. The figure of the bearer sits nearby, resting, watching what their pouring became. The vessel is empty but the scene is full. Water flows now from springs that were fed by the offering. The fulfillment is visible everywhere except in the vessel itself."
+        }
+      }
+    },
+    "major-10": {
+      "name": "The Calling",
+      "number": "10",
+      "slug": "major-10",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "10",
+      "description": "Distance meets Thirst: you see the need with perfect clarity. The wheel turns toward service. Not abstract compassion but specific vocation \u2014 you know exactly where to go, exactly who needs you, exactly what to carry.",
+      "meaning": {
+        "upright": "The call is clear. You know now \u2014 with certainty, not hope \u2014 where you're needed. The wheel has turned and shown you your direction. Go. This clarity is rare. Don't waste it on second-guessing.",
+        "inverted": "The calling has become a crushing weight. You see need so clearly that you can't move \u2014 everywhere you look, there's more thirst than you can fill. The wheel spins without stopping. Remember: you can only carry one vessel at a time."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Destiny, direction, the wheel that orients. A sense of fate and trajectory. Golden light and clear purpose.",
+          "content_guidance": "A turning wheel or compass made of water and air. The figure oriented by it, directed toward visible need. A sense of fate, of trajectory being set.",
+          "detailed_description": "A great wheel hangs in the sky \u2014 made of flowing water and swirling air, part compass, part millstone, part dharma wheel. Below it, a figure stands with vessel ready, oriented by the wheel's turning. In the direction the wheel indicates, visible need \u2014 distant figures, parched land, the specific thirst this bearer is called to address. The calling made visible. The moment vocation crystallizes."
+        }
+      }
+    },
+    "major-11": {
+      "name": "The Reflection",
+      "number": "11",
+      "slug": "major-11",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "11",
+      "description": "The fifth irreducible truth: you are seen in return. After all that seeing outward, the water looks back. This is accountability \u2014 not to others but to the source itself. Have you carried it true?",
+      "meaning": {
+        "upright": "Face what looks back. The reflection reveals what you've become in your bearing. This is not judgment from outside but recognition from within. What does the water see when it looks at you?",
+        "inverted": "Unable to face the reflection. What has your carrying made you? Sometimes we avoid still water because we know what we'll see. But the bearer who won't look becomes a bearer who can't see what they've contaminated."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Still water, mirroring, the moment of being witnessed. Deep blues and perfect surfaces. The gaze returned.",
+          "content_guidance": "A figure looking into still water and being looked back at. The reflection not quite matching \u2014 something true being revealed. The water as witness.",
+          "detailed_description": "A bearer kneels at the edge of perfectly still water, looking down. Their reflection looks back \u2014 but it's not quite identical. The reflection might show something truer, older, or more worn. The eyes of the reflection meet the eyes of the figure. For the first time in the journey, the bearer is being seen by the water rather than seeing it. The accountability of the mirror. The source asking: what have you become?"
+        }
+      }
+    },
+    "major-12": {
+      "name": "The Channel",
+      "number": "12",
+      "slug": "major-12",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "12",
+      "description": "Structured Distance meets Pouring: the transmission institutionalized. You've built something that pours without you. The aqueduct, the teaching, the system that carries on. But what happens to the bearer when the channel takes over?",
+      "meaning": {
+        "upright": "The legacy is built. What you've created will carry water longer than you can. Surrender to the channel you've made \u2014 let it flow without you. This is how one bearer's pouring becomes everyone's water.",
+        "inverted": "Trapped in the channel. The system has replaced the soul. The aqueduct carries water, but whose? The institution that was supposed to free you has captured you instead. Remember: you built it, but you don't have to drown in it."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Architecture of transmission, aqueduct engineering, the handoff to structure. Stone and flowing water. The bearer suspended or surrendered.",
+          "content_guidance": "An aqueduct, canal, or irrigation system \u2014 water flowing through built channels. The bearer perhaps hanging suspended within it, or watching from outside. Human-made channels carrying what was once hand-carried.",
+          "detailed_description": "A great aqueduct stretches across the landscape, water flowing through its stone channels without human help. The bearer hangs suspended upside-down within one of its arches \u2014 not trapped, but surrendered. Or perhaps they stand outside it, watching their work carry on without them. The water flows. The system works. The question is whether this is liberation or loss."
+        }
+      }
+    },
+    "major-13": {
+      "name": "The Emptying",
+      "number": "13",
+      "slug": "major-13",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "13",
+      "description": "The sixth irreducible truth: carrying ends. Not because you failed but because it must. The vessel set down, the identity of 'bearer' released. What are you when you're no longer the one who carries?",
+      "meaning": {
+        "upright": "Set it down. The vessel, the identity, the role you've played. Emptying isn't death \u2014 it's the transformation that death represents. You were never only a bearer. Find out what else you are.",
+        "inverted": "Clinging to the empty vessel. The carrying is over but you won't let go of the role. The bearer who refuses to empty keeps carrying nothing, pretending purpose. The dry identity. The habit of service without the service."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Release, transformation, the setting down. Not morbid but transitional. Pale colors, sense of weight released.",
+          "content_guidance": "A broken or set-aside vessel. The figure walking away, or standing with empty hands. Water seeping into earth, returning to source. Not tragedy but transition.",
+          "detailed_description": "A vessel lies on its side, cracked or simply set down. Water seeps from it into dark earth. The bearer stands nearby with empty hands, looking not at the vessel but at the horizon. They might be walking away. The mood is not grief but release \u2014 the heaviness of carrying lifted. The figure looks lighter. Somewhere, the water returns to source. The ending that enables the next beginning."
+        }
+      }
+    },
+    "major-14": {
+      "name": "The Balance",
+      "number": "14",
+      "slug": "major-14",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "14",
+      "description": "Distance meets Pattern: holding everything in view without acting. The pause before the final movement. You can see the whole watershed, you know the balance of all things, and you wait. The liminal mastered.",
+      "meaning": {
+        "upright": "Hold the balance. You can see everything now \u2014 all the streams, all the needs, all the patterns. Don't rush to act. This stillness is not avoidance; it's the gathering before the final pour. Let the vision settle.",
+        "inverted": "Paralyzed by seeing too much. The balance has become an excuse not to move. You're holding the pattern so tightly that nothing can flow. Sometimes balance is just fear dressed as wisdom."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Perfect stillness, equilibrium, the pause between. Symmetric composition, poised motion. Soft grays and balanced blues.",
+          "content_guidance": "A figure in perfect stillness, the entire watershed visible around them. Neither in water nor fully on land. Two vessels or streams held in balance. The moment before pouring.",
+          "detailed_description": "A figure stands at a threshold \u2014 perhaps with one foot on water, one on shore. In their hands, two vessels perfectly balanced, water level in each. Around them, the whole pattern is visible: all streams, all sources, all destinations. Nothing moves. The moment stretches. This is the pause that contains all possible pours. Perfect equilibrium before the necessary choice."
+        }
+      }
+    },
+    "major-15": {
+      "name": "The Drowning",
+      "number": "15",
+      "slug": "major-15",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "15",
+      "description": "Pouring meets Thirst: the shadow of service. You pour and pour but the need is bottomless. This is what happens when generosity meets inexhaustible demand \u2014 not death by water but death by giving.",
+      "meaning": {
+        "upright": "Face the shadow. Some needs are bottomless. Seeing this clearly is wisdom, not failure. The drowning comes from not recognizing what cannot be filled. Better to know now than to pour until you're empty.",
+        "inverted": "Breaking free of the endless need. The 'no' that saves your life. You can refuse the bottomless thirst and remain a bearer. Not every need is yours to fill. Release the demand that would drown you."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "The shadow of service, bondage to need. Darker blues, grasping imagery, sense of being pulled down while still trying to give.",
+          "content_guidance": "A figure being pulled down by grasping hands, still trying to pour. Water everywhere but never enough. The vessel eternally tilted, the bearer sinking. Chains made of need.",
+          "detailed_description": "The bearer is sinking into dark water, pulled down by countless grasping hands. But still they pour \u2014 the vessel tilted, water flowing even as they drown. The thirst below is endless, the hands reaching and reaching. The water poured disappears instantly; the need grows. This is the devil of service, the bondage of compassion without boundaries. The drowning that comes from never saying no."
+        }
+      }
+    },
+    "major-16": {
+      "name": "The Shattering",
+      "number": "16",
+      "slug": "major-16",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "16",
+      "description": "Distance to the fourth power: the structure collapses. You built too high, saw from too far, maintained too much. Now it comes down. Not enemy action but the inevitable failure of extreme separation.",
+      "meaning": {
+        "upright": "Let it fall. The tower was too tall; the distance was too great. This collapse is not failure but correction. What's built to separate you from everything cannot stand forever. Find what survives the shattering.",
+        "inverted": "Clinging to the falling tower. The structure is collapsing and you're going down with it. You can rebuild, but not if you won't let go of the rubble. Sometimes you have to be thrown clear."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Collapse, breakthrough, lightning and water meeting. Dramatic destruction but with liberation in it. Dark clouds splitting to light.",
+          "content_guidance": "A tower or lighthouse shattering, water and air bursting through. Lightning or internal pressure. Figures falling but perhaps also released. The structure that maintained distance destroyed.",
+          "detailed_description": "The great watchtower or lighthouse \u2014 the Framework grown too high \u2014 shatters under lightning strike or its own weight. Stone flies outward, glass explodes. Figures fall through the air, but their expressions show surprise more than terror. Through the breach, water and air meet violently. The too-great distance is collapsing. In the destruction, something opens. Sky and sea visible through the ruins."
+        }
+      }
+    },
+    "major-17": {
+      "name": "The Spring",
+      "number": "17",
+      "slug": "major-17",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "17",
+      "description": "The seventh irreducible truth: there is water in you. After the tower falls, you discover you were never just a vessel. The spring inside. The source you carry not in a container but in your being.",
+      "meaning": {
+        "upright": "You are the spring. After everything \u2014 the carrying, the emptying, the shattering \u2014 water rises from within. You were never just a container. The hope is inside you. Let it well up.",
+        "inverted": "The spring is blocked. Something stops the inner water from rising. Fear, doubt, old structures still collapsing inside. The source is there but you're not letting it flow. What dam still holds?"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Hope, inner source, water emerging from the self. Night sky with stars, sense of renewal and discovery. Soft luminous water against darkness.",
+          "content_guidance": "Water emerging from the figure themselves \u2014 from hands, from heart, from ground where they stand. Not carrying but generating. Stars above. A spring welling up.",
+          "detailed_description": "Under a star-filled sky, a figure kneels or stands with wonder. Water flows from their open hands, from their heart, from the ground where they stand \u2014 not from any vessel but from themselves. They are the spring. The stars reflect in the water pooling around them. After the shattering, this discovery: the water was never only outside. The bearer IS the source. Hope visible in the starlight, renewal rising from within."
+        }
+      }
+    },
+    "major-18": {
+      "name": "The River",
+      "number": "18",
+      "slug": "major-18",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "18",
+      "description": "Distance meets Fulfilled Pouring: seeing the whole flow from outside. The river you fed, the transmission complete, viewed now in moonlight. What all that carrying became. The gift larger than the giver.",
+      "meaning": {
+        "upright": "See what grew from your giving. The river you fed flows now to the sea. You can witness your transmission from outside it \u2014 not lost in the flow but seeing its shape. Let the completed gift be enough.",
+        "inverted": "Lost in the river of what you gave. Swept into your own transmission, unable to see the banks. The gift has consumed the giver. Sometimes you have to climb out of your own flow to know it's complete."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Moonlit water, the whole flow visible, sense of witnessing completion from outside. Silver and dark blue, reflections and illusion.",
+          "content_guidance": "A great river seen from above or from moonlit banks. The entire flow visible from source to sea. The figure watching but separate. Night, moon, reflections.",
+          "detailed_description": "A great river winds through a moonlit landscape, visible from source springs to distant sea. On the bank, a figure watches the flow \u2014 the water they once carried, now a river. The moon makes everything silver and strange; reflections double the world. This is the fulfilled transmission seen complete. The pouring squared, witnessed by the pourer. The gift become geography."
+        }
+      }
+    },
+    "major-19": {
+      "name": "The Storm",
+      "number": "19",
+      "slug": "major-19",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "19",
+      "description": "The eighth and final irreducible truth: the elements become each other. This is the phase boundary where water and air churn together. You can't factor a storm. It simply is, and in its violence, transformation.",
+      "meaning": {
+        "upright": "Enter the storm. This is where water becomes air, where the carrier becomes the carried, where all the distances and pourings reach their crisis. The transformation is violent but necessary. Let the elements have you.",
+        "inverted": "Lost in the storm without transformation. The chaos without the change. The churning that goes nowhere, the violence that doesn't liberate. Sometimes you have to find the eye of the storm to let it work on you."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Dynamic transformation, water and air indistinguishable. Lightning, churning clouds, sense of phase transition in progress. Purple-gray and electric.",
+          "content_guidance": "A great storm where rain and wind are indistinguishable. Water becoming air, air becoming water. The figure in the center \u2014 being transformed, not destroyed. The phase boundary churning.",
+          "detailed_description": "A massive storm fills the frame \u2014 rain driving sideways, wind visible as water, the boundary between air and water completely dissolved. In the center, a figure: arms spread, face lifted, caught in the transformation. Lightning illuminates the moment when the bearer stops being the carrier of water and begins becoming the medium itself. The storm as chrysalis. The violence that enables becoming."
+        }
+      }
+    },
+    "major-20": {
+      "name": "The Judgment",
+      "number": "20",
+      "slug": "major-20",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "20",
+      "description": "Structured Distance meets Thirst: the final accounting. All the need you saw, all the water you carried, all the pouring you did \u2014 weighed now in the balance. The reckoning that precedes completion.",
+      "meaning": {
+        "upright": "Accept the reckoning. What did you carry? What did you give? What need did you meet, and what need went unanswered? The judgment is not condemnation but accounting. Know your true record.",
+        "inverted": "Avoiding the reckoning. Some judgments must be faced. If you won't account for your bearing, you can't complete it. The trumpet sounds for everyone. Answer the call."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Reckoning, summoning, the call that demands response. Vertical composition, figures rising to account. Golden and white light breaking through.",
+          "content_guidance": "Figures rising or being called \u2014 from water, from earth. A great assessment. Perhaps the bearer among those being judged. The sound that summons.",
+          "detailed_description": "A great light breaks through clouds over water. Below it, figures rise \u2014 from waves, from earth, from wherever they were. Among them, the bearer, arms raised not in defense but in openness to judgment. A trumpet or horn visible in the light. This is the accounting: all the thirst seen, all the water carried, all the pouring done, weighed in the light of completion. The call that demands response."
+        }
+      }
+    },
+    "major-21": {
+      "name": "The Sky",
+      "number": "21",
+      "slug": "major-21",
+      "arcana": "major",
+      "type": "major",
+      "rank_slug": "21",
+      "description": "Pouring meets Pattern: the transmission becomes atmosphere. Not carrying water but being air. The journey from Source to Sky complete. You are what you carried. The phase transition achieved.",
+      "meaning": {
+        "upright": "You have become the sky. The water is air now; the bearer is atmosphere. The transmission is complete not because you gave everything but because you became what you gave. This is the completion: everywhere, holding everything, the breath.",
+        "inverted": "The sky unreachable. Something keeps you from the final becoming. Still carrying when you should be dissolving. Still formed when you should be formless. What remains to pour? What remains to become?"
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Pure atmosphere, the completion of the water-to-air journey. Pale blue, white, limitless space. Perhaps no figure at all, or the figure become sky.",
+          "content_guidance": "Open sky. Perhaps no figure visible \u2014 or the figure has become the sky itself, dispersed into blue and light. Not emptiness but presence everywhere. The transmission complete.",
+          "detailed_description": "Pure sky. Endless blue and white, no horizon, no ground. If there is a figure, it is dissolving into atmosphere \u2014 not dying but completing. Perhaps only the outline of a body made of cloud and light. More likely: no figure at all, because the figure has become the medium. The water-bearer has become the air that holds all water. Everywhere. Present. The breath of everything. Source to Sky, complete."
+        }
+      }
+    },
+    "current-1": {
+      "name": "Ace of Currents",
+      "number": "1",
+      "slug": "current-1",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "1",
+      "suit_slug": "current",
+      "description": "The first stirring of shared momentum. Where does the collective drift begin? A single movement that others will join, the origin of what will carry everyone.",
+      "meaning": {
+        "upright": "A new collective movement is emerging. You may be at the origin point of something that will carry many. This is the first ripple of shared momentum \u2014 join it, or be the one who starts it. The current begins with a single motion that others recognize.",
+        "inverted": "False momentum, manufactured consensus. Not every drift deserves to be joined. Check whether this current flows from genuine shared impulse or from manipulation. The first ripple may lead nowhere."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Horizontal movement beginning, cool blues and silvers, the first sense of lateral drift. Genesis of flow.",
+          "content_guidance": "A single point of origin, but suggesting horizontal movement \u2014 perhaps a first wave, a first gust, the moment before others join.",
+          "detailed_description": "A single ripple or wave begins to move horizontally across still water, or a first gust of wind sets flags moving in the same direction. The motion is just beginning \u2014 pristine, concentrated \u2014 but you can see how it will become a current. Cool silver-blue light, the dawn of collective movement."
+        }
+      }
+    },
+    "current-2": {
+      "name": "Two of Currents",
+      "number": "2",
+      "slug": "current-2",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "2",
+      "suit_slug": "current",
+      "description": "The separation that collective momentum creates. Those moving with the drift versus those standing still. The current defines itself by what it leaves behind.",
+      "meaning": {
+        "upright": "The current is creating necessary distinction. Some will move with it; some won't. This separation isn't cruelty \u2014 it's how shared momentum becomes defined. Know which side you're choosing.",
+        "inverted": "Artificial division in the name of collective movement. The current is being used to separate people who don't need separating. Momentum weaponized into exclusion."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Horizontal split, two directions of flow, cool blues contrasted. The moment of divergence.",
+          "content_guidance": "Two streams diverging, or two groups of figures/objects moving different directions. The space between them defines both.",
+          "detailed_description": "Two parallel currents moving in different directions, or a single stream splitting around an obstacle. Figures or objects caught in different flows, separating. The horizontal motion emphasizes the growing distance between what moves together and what doesn't. Cool silver light on parting waters."
+        }
+      }
+    },
+    "current-3": {
+      "name": "Three of Currents",
+      "number": "3",
+      "slug": "current-3",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "3",
+      "suit_slug": "current",
+      "description": "The transmission of collective momentum. What the shared drift carries forward \u2014 information, culture, mood, energy moving through the group.",
+      "meaning": {
+        "upright": "Something important is being transmitted through shared movement. News, energy, change is propagating through the collective. Let yourself be a conduit; let the current carry what needs to move.",
+        "inverted": "The current is carrying contamination. Rumors, panic, or toxicity spreading through collective channels. Not everything the drift transmits is worth receiving."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Movement with cargo, flow carrying content, blues and silvers with hints of what's being transmitted.",
+          "content_guidance": "A current carrying something \u2014 seeds, messages, light \u2014 moving horizontally through space. Transmission in motion.",
+          "detailed_description": "A visible current \u2014 wind or water \u2014 carrying things with it: seeds, papers, light, color. The transmission is embodied in what moves through the air or water. Three points of trajectory visible: origin, transit, destination. The horizontal drift is purposeful, generative."
+        }
+      }
+    },
+    "current-4": {
+      "name": "Four of Currents",
+      "number": "4",
+      "slug": "current-4",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "4",
+      "suit_slug": "current",
+      "description": "The structures that contain collective momentum. Banks, channels, cultural forms that shape the shared drift without stopping it. The container that gives the current its course.",
+      "meaning": {
+        "upright": "The current has found its banks. Collective momentum is being shaped by healthy structure \u2014 traditions, institutions, channels that guide without constraining. The drift has direction now.",
+        "inverted": "Collective movement trapped in rigid channels. The current has banks, but they've become walls. The shared drift is being forced through forms that no longer serve it."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Horizontal flow within structures, contained current, architectural elements shaping movement. Blues within grays.",
+          "content_guidance": "A current flowing through defined channels \u2014 a canal, a wind tunnel, a cultural form that shapes the drift. Four-sided stability containing motion.",
+          "detailed_description": "A current flows between defined banks or through structured channels \u2014 aqueduct, canal, or corridor. The structure is visible: stone, metal, or cultural form. The flow continues but has direction, shape, purpose given by its container. Four corners of containment around endless horizontal motion."
+        }
+      }
+    },
+    "current-5": {
+      "name": "Five of Currents",
+      "number": "5",
+      "slug": "current-5",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "5",
+      "suit_slug": "current",
+      "description": "The disruption of collective momentum. The obstruction, the counter-current, the crisis that reveals what the shared drift was really made of.",
+      "meaning": {
+        "upright": "The current is meeting necessary resistance. This disruption will reveal whether the collective momentum has substance or was just drift. Productive turbulence in shared movement.",
+        "inverted": "Destructive chaos in collective flow. The current is being broken for no purpose, or the disruption is becoming permanent. Turbulence that only destroys."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Disrupted horizontal flow, obstacles, spray and chaos. Blues becoming white with agitation.",
+          "content_guidance": "Rapids, obstacles in current, wind meeting obstacles. Five elements of disruption. The smooth drift broken.",
+          "detailed_description": "A current striking obstacles \u2014 rocks, barriers, counter-currents. The smooth horizontal flow becomes turbulent, chaotic. Spray, foam, competing directions. Five points of disruption visible. The collective momentum confronting what resists it."
+        }
+      }
+    },
+    "current-6": {
+      "name": "Six of Currents",
+      "number": "6",
+      "slug": "current-6",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "6",
+      "suit_slug": "current",
+      "description": "The exchange within collective momentum. What the current gives and receives, the reciprocity of shared drift. Not just moving together but trading as you go.",
+      "meaning": {
+        "upright": "The current enables fair exchange. Moving together, you can trade what you carry. The shared drift becomes a marketplace, a meeting place, a space of reciprocity.",
+        "inverted": "Unequal exchange in collective movement. The current takes more than it gives, or some are trading while others are just being swept along. Reciprocity broken in the drift."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Currents meeting and exchanging, figures sharing within flow. Warm hints in cool blues.",
+          "content_guidance": "Two flows meeting, figures exchanging goods or gifts mid-current. Six points of giving and receiving.",
+          "detailed_description": "Two currents meet and mingle, or figures within a current exchange something \u2014 goods, words, light. The horizontal movement continues, but within it, reciprocity. Six points of exchange visible. The drift becomes communion."
+        }
+      }
+    },
+    "current-7": {
+      "name": "Seven of Currents",
+      "number": "7",
+      "slug": "current-7",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "7",
+      "suit_slug": "current",
+      "description": "The reflection of collective momentum. Seeing the current from enough distance to understand where it's really going. The pause that lets you read the shared drift.",
+      "meaning": {
+        "upright": "You can see the current clearly now. From here, the shape of collective momentum is visible \u2014 where it comes from, where it's going, what it's really carrying. Use this clarity.",
+        "inverted": "Distorted understanding of collective movement. You think you see the current's pattern, but you're misreading it. The reflection lies, or you're seeing what you want to see."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Current reflected or seen from above/outside, contemplative distance. Silver mirrors and blue flow.",
+          "content_guidance": "A figure observing the current from outside it, or the current reflected in a still surface. Seven points of contemplation.",
+          "detailed_description": "The horizontal current seen from above, from shore, or in reflection. A figure stands apart, watching the drift, understanding its pattern. Or the current mirrors itself in a still pool. Seven contemplative points. The pause that reveals the shape of collective movement."
+        }
+      }
+    },
+    "current-8": {
+      "name": "Eight of Currents",
+      "number": "8",
+      "slug": "current-8",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "8",
+      "suit_slug": "current",
+      "description": "The evaporation of collective momentum. What rises from the shared drift \u2014 the ideas, the culture, the patterns that transcend the movement that birthed them.",
+      "meaning": {
+        "upright": "Something is rising from the collective current. What the shared drift taught is becoming thought, culture, principle \u2014 transcending the movement itself. Let it rise.",
+        "inverted": "The current is evaporating without leaving anything behind. Collective momentum dissipating into nothing, or what rises from it is hollow. Drift without legacy."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Rising from horizontal flow, mist from current, ideas ascending from drift. Blues becoming white and ethereal.",
+          "content_guidance": "Vapor or light rising from a current, ideas made visible ascending from collective flow. Eight points of rising.",
+          "detailed_description": "Mist, steam, or light rises from a horizontal current \u2014 the evaporation of collective momentum into something higher. Eight points of ascent visible. The drift becoming thought, culture, something that transcends the movement that carried it."
+        }
+      }
+    },
+    "current-9": {
+      "name": "Nine of Currents",
+      "number": "9",
+      "slug": "current-9",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "9",
+      "suit_slug": "current",
+      "description": "The condensation of collective momentum. What the current has become is gathering, thickening, preparing to manifest. The shared drift reaching its fullness.",
+      "meaning": {
+        "upright": "The current's work is nearly complete. Collective momentum has achieved what it set out to achieve \u2014 now it gathers, consolidates, prepares to release. The drift fulfilled.",
+        "inverted": "Collective momentum stalling before completion. The current has gathered but won't release, or what it's gathered isn't what was intended. Near-completion become blockage."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Current thickening, gathering, becoming dense with meaning. Dark rich blues, heavy with potential.",
+          "content_guidance": "A current gathering strength, clouds of collective energy condensing. Nine points of accumulation.",
+          "detailed_description": "The horizontal current has become thick, rich, heavy with what it carries. Perhaps clouds gathering from collective evaporation, or the current widening into a pool of concentrated momentum. Nine points of fullness. The drift pregnant with what it will become."
+        }
+      }
+    },
+    "current-10": {
+      "name": "Ten of Currents",
+      "number": "10",
+      "slug": "current-10",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "10",
+      "suit_slug": "current",
+      "description": "The precipitation of collective momentum. What the current releases, what it returns to source. The shared drift completing its cycle, ending to begin again.",
+      "meaning": {
+        "upright": "The current has completed its work. What was gathered is released, what was carried is delivered. The collective drift ends, enabling new currents to begin. Honor the completion.",
+        "inverted": "The current won't release what it holds. Collective momentum that refuses to complete, or completion that comes as flood rather than rain. The cycle broken or overwhelming."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Current releasing, rain from collective clouds, return to source. Full spectrum of blues, completion visible.",
+          "content_guidance": "Rain falling into streams, current dispersing back to source. Ten points of completion and return.",
+          "detailed_description": "The current releases what it carried \u2014 rain from clouds, delta reaching sea, collective momentum dispersing back into the sources that will birth new currents. Ten points of completion. The end that is also a beginning. The drift returning to stillness before the next movement."
+        }
+      }
+    },
+    "current-11": {
+      "name": "Diver of Currents",
+      "number": "11",
+      "slug": "current-11",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "11",
+      "suit_slug": "current",
+      "description": "The one who dives beneath collective momentum to find its source. The researcher of mass movement, the archaeologist of cultural drift. Courage to go under the surface that everyone else rides.",
+      "meaning": {
+        "upright": "Dive beneath the current. What sources feed this collective momentum? While others ride the surface, you have the courage to investigate the depths. Bring back what you find.",
+        "inverted": "Lost beneath the collective drift. You went looking for the current's source and lost yourself in it. The depths swallowed the diver. Sometimes the current's origin isn't meant to be found."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Figure diving under horizontal flow, seeking sources of current. Cool blues with depth.",
+          "content_guidance": "A young figure descending beneath a surface current, seeking its source. Brave, wet, determined.",
+          "detailed_description": "A figure \u2014 young, courageous \u2014 dives downward beneath a visible horizontal current. They're seeking the springs or channels that feed the collective drift. Fish-like, brave, alone in their descent while others ride the surface above. What will they bring back from the source?"
+        }
+      }
+    },
+    "current-12": {
+      "name": "Carrier of Currents",
+      "number": "12",
+      "slug": "current-12",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "12",
+      "suit_slug": "current",
+      "description": "The one who actively moves with collective momentum, carrying it further. Not just drifting but actively propagating, the messenger who runs with the current.",
+      "meaning": {
+        "upright": "Actively carry the current. You're not just drifting \u2014 you're amplifying, propagating, extending the collective momentum. The journey of the message that moves with the movement.",
+        "inverted": "Carrying the current past where it should go. You've become identified with the drift, unable to stop propagating even when the momentum should end. The messenger who can't stop running."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Figure in motion within horizontal flow, carrying and amplifying. Dynamic blues and silver.",
+          "content_guidance": "An active figure moving with the current, carrying something that amplifies it. Swift, focused, purposeful.",
+          "detailed_description": "A figure runs, swims, or rides with a horizontal current \u2014 not passive but actively carrying and amplifying. They hold something: a torch, a message, a banner. The current moves, and they move with it, faster than drift, more purposeful. The carrier who makes collective momentum reach further."
+        }
+      }
+    },
+    "current-13": {
+      "name": "Steward of Currents",
+      "number": "13",
+      "slug": "current-13",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "13",
+      "suit_slug": "current",
+      "description": "The one who tends collective momentum. Maintains the channels, manages the direction, ensures the current flows where it's needed. The guardian of shared drift.",
+      "meaning": {
+        "upright": "Tend the current. Someone must manage collective momentum \u2014 ensure it flows where needed, doesn't pool where it shouldn't, maintains its proper channels. This stewardship is service.",
+        "inverted": "Over-controlling collective movement. The steward has become a dam, deciding who gets the current, hoarding the drift. What should flow freely is being managed to death."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Figure at junction of currents, managing flow. Mature, watchful. Grays and blues of infrastructure.",
+          "content_guidance": "A mature figure at a confluence or channel junction, tending the collective flow. Wise, responsible.",
+          "detailed_description": "An older, mature figure stands at a confluence of currents \u2014 a lock, a sluice gate, a meeting of winds. They tend the infrastructure of collective momentum: adjusting gates, reading flows, ensuring the drift goes where it's needed. The steward who enables the current to serve."
+        }
+      }
+    },
+    "current-14": {
+      "name": "Augur of Currents",
+      "number": "14",
+      "slug": "current-14",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "14",
+      "suit_slug": "current",
+      "description": "The one who reads the patterns of collective momentum. Sees where the current is going before it gets there, understands the weather of mass movement.",
+      "meaning": {
+        "upright": "Read the current's future. You can see where collective momentum is heading \u2014 not by controlling it but by understanding its pattern. The wisdom to know what the drift will become.",
+        "inverted": "Misreading collective momentum. You think you see where the current goes, but you're wrong. The pattern you read isn't the pattern that is. Prophecy failed."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Elevated figure reading currents from above, seeing pattern. Pale blues and silver, atmospheric.",
+          "content_guidance": "An elder figure on height, watching currents, reading the weather of collective movement. Visionary, distant.",
+          "detailed_description": "A wise figure stands elevated \u2014 on tower, mountain, or cloud \u2014 watching the patterns of collective currents below. They read the weather of mass movement: where currents converge, where they'll shift, what's coming. The augur who sees the future of the drift. Closest to sky, furthest from the flow they understand."
+        }
+      }
+    },
+    "flow-1": {
+      "name": "Ace of Flows",
+      "number": "1",
+      "slug": "flow-1",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "1",
+      "suit_slug": "flow",
+      "description": "The first recognition of deep connection. A hidden network revealing itself for the first time. The moment you realize everything is connected beneath the surface.",
+      "meaning": {
+        "upright": "A deep pattern is emerging into awareness. The hidden network reveals itself \u2014 you're seeing, for the first time, how everything connects beneath the surface. Trust what you're beginning to perceive.",
+        "inverted": "False pattern recognition. Not everything is connected, or you're seeing connections that aren't there. The network you think you've found may be projection, not perception."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Deep indigos, bioluminescent hints, the first glow of hidden connection. Emergence from darkness.",
+          "content_guidance": "A single point of connection lighting up in a vast dark network. The first node recognizing the web.",
+          "detailed_description": "In deep indigo darkness, a single point of bioluminescent light awakens \u2014 and in its glow, you glimpse the vast network of connections surrounding it. Filaments, roots, neural paths barely visible. The first emergence of deep pattern into awareness."
+        }
+      }
+    },
+    "flow-2": {
+      "name": "Two of Flows",
+      "number": "2",
+      "slug": "flow-2",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "2",
+      "suit_slug": "flow",
+      "description": "The separation that deep pattern creates. What the hidden network distinguishes \u2014 the included and the excluded, the connected and the disconnected.",
+      "meaning": {
+        "upright": "The deep pattern reveals a necessary distinction. Not everyone is part of every network; some connections separate as much as they bind. Understanding who's truly connected and who isn't.",
+        "inverted": "False exclusion from the hidden network. You think you're disconnected when you're not, or the pattern is being used to unjustly exclude. The network lies about who belongs."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Two separate networks in deep blue, connected or disconnected. The space between hidden patterns.",
+          "content_guidance": "Two networks or root systems, either meeting or not meeting. The deep separation or connection.",
+          "detailed_description": "In deep water or underground, two network systems \u2014 roots, neurons, connections \u2014 either reaching toward each other or forever separate. The indigo space between them is the question: do they touch? The separation that deep pattern reveals."
+        }
+      }
+    },
+    "flow-3": {
+      "name": "Three of Flows",
+      "number": "3",
+      "slug": "flow-3",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "3",
+      "suit_slug": "flow",
+      "description": "The transmission through deep networks. What moves through hidden connections \u2014 information, influence, resource traveling beneath the surface.",
+      "meaning": {
+        "upright": "Something important is moving through deep channels. The hidden network is transmitting \u2014 what travels beneath the surface will arrive where it's needed. Trust the subterranean flow.",
+        "inverted": "Corruption in the deep network. What's being transmitted through hidden channels is harmful, or the transmission is being intercepted. The underground flow carries poison."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Light or energy moving through underground network. Bioluminescent transmission, deep teals.",
+          "content_guidance": "Visible flow through hidden connections \u2014 light moving along roots, information traveling neural paths.",
+          "detailed_description": "A pulse of light or energy moves through a deep network \u2014 root system, neural web, underground river. You can see the transmission traveling along hidden connections, node to node. Three points of passage visible. The deep flow carrying what surfaces cannot."
+        }
+      }
+    },
+    "flow-4": {
+      "name": "Four of Flows",
+      "number": "4",
+      "slug": "flow-4",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "4",
+      "suit_slug": "flow",
+      "description": "The structure of deep networks. The aquifer, the root system, the architecture of hidden connection. What contains and shapes the underground flow.",
+      "meaning": {
+        "upright": "The deep network has stable structure. The hidden connections are reliable, the underground architecture is sound. Trust the foundation beneath what you can see.",
+        "inverted": "Deep structure calcifying. The underground network is becoming rigid, the aquifer is silting up. What should flow through hidden channels is stuck."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Architectural underground structure, aquifer chambers, stable hidden network. Deep blue stone and water.",
+          "content_guidance": "Four-chambered underground system, stable root structure, the architecture of hidden connection.",
+          "detailed_description": "A cross-section of underground architecture \u2014 aquifer chambers, root systems in ordered structure, the stable shape of hidden connection. Four chambers or sections visible. The deep pattern given form, the hidden network's bones."
+        }
+      }
+    },
+    "flow-5": {
+      "name": "Five of Flows",
+      "number": "5",
+      "slug": "flow-5",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "5",
+      "suit_slug": "flow",
+      "description": "The disruption of deep networks. Earthquake in the aquifer, disease in the root system. When hidden connections break or become chaotic.",
+      "meaning": {
+        "upright": "The deep network is being disrupted for a reason. Some underground structures need to break; some hidden connections were blocking healthier flows. Productive destruction beneath the surface.",
+        "inverted": "Destructive collapse of hidden networks. The underground connections that sustained everything are failing without purpose. The deep structure breaks and nothing better emerges."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Fractured underground network, breaking connections, chaos in the deep. Indigos fragmenting.",
+          "content_guidance": "Root systems torn, aquifer cracking, network connections breaking. Five points of disruption.",
+          "detailed_description": "The deep network is fracturing \u2014 roots torn, chambers collapsing, connections breaking. Five points of disruption visible in the underground structure. The hidden pattern in crisis. What was stable in the depths is breaking."
+        }
+      }
+    },
+    "flow-6": {
+      "name": "Six of Flows",
+      "number": "6",
+      "slug": "flow-6",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "6",
+      "suit_slug": "flow",
+      "description": "The exchange through deep networks. What the hidden connections trade \u2014 resources, secrets, life flowing between separated points through underground channels.",
+      "meaning": {
+        "upright": "Deep reciprocity is happening. Through hidden channels, things are being exchanged \u2014 what one node lacks, another provides. The underground network enables sharing that the surface cannot.",
+        "inverted": "Parasitic deep exchange. One part of the network is taking from another without return. The hidden channels are being exploited, not shared."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Two nodes exchanging through hidden network, reciprocal flow in the deep. Bioluminescent exchange.",
+          "content_guidance": "Two points in a network sharing resources through underground connection. Six points of reciprocity.",
+          "detailed_description": "Two nodes in a deep network \u2014 trees, organisms, points of light \u2014 visibly exchanging through their hidden connections. Resources, light, energy flowing both ways through underground channels. Six points of exchange. The reciprocity that happens beneath the surface."
+        }
+      }
+    },
+    "flow-7": {
+      "name": "Seven of Flows",
+      "number": "7",
+      "slug": "flow-7",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "7",
+      "suit_slug": "flow",
+      "description": "The reflection of deep networks. Seeing the hidden pattern clearly for the first time. The moment the underground architecture becomes fully visible to the one who looks.",
+      "meaning": {
+        "upright": "You can see the whole hidden network now. The deep pattern is clear \u2014 who's connected to whom, how resources really flow, what the underground architecture actually looks like. Use this knowledge wisely.",
+        "inverted": "False understanding of deep pattern. You think you see the network, but you're seeing your fears or wishes, not what's actually there. The hidden architecture deceives you."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Deep network reflected or illuminated, full pattern visible. Revelation in indigo.",
+          "content_guidance": "The hidden network made visible in reflection or revelation. Seven points of clarity.",
+          "detailed_description": "A moment of illumination in the deep \u2014 the entire hidden network becomes visible, mapped in bioluminescent light or reflected in underground water. Seven points of the pattern clarified. The full architecture of connection revealed to the observer."
+        }
+      }
+    },
+    "flow-8": {
+      "name": "Eight of Flows",
+      "number": "8",
+      "slug": "flow-8",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "8",
+      "suit_slug": "flow",
+      "description": "The evaporation from deep networks. What rises from the hidden pattern into visibility. Secrets surfacing, deep knowledge emerging into light.",
+      "meaning": {
+        "upright": "Deep knowledge is rising to the surface. What was hidden in the network is becoming visible \u2014 secrets surfacing, pattern becoming public. The underground is revealing itself.",
+        "inverted": "Deep pattern rising wrong. The secrets surfacing are distorted, or the network is losing its depth without gaining surface value. What rises is not what was below."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Light rising from deep network toward surface, secrets emerging. Indigo becoming teal becoming light.",
+          "content_guidance": "Energy or knowledge rising from underground network toward visibility. Eight points of ascent.",
+          "detailed_description": "From the deep indigo network, light or vapor rises toward an unseen surface \u2014 the hidden pattern releasing its secrets upward. Eight points of emergence visible. The deep structure giving something to the surface. Bioluminescence becoming sunlight."
+        }
+      }
+    },
+    "flow-9": {
+      "name": "Nine of Flows",
+      "number": "9",
+      "slug": "flow-9",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "9",
+      "suit_slug": "flow",
+      "description": "The condensation of deep networks. The hidden pattern reaching fullness, the underground architecture at its most developed. Nearly complete deep structure.",
+      "meaning": {
+        "upright": "The deep network is nearly complete. The hidden architecture has reached its full development \u2014 connections maximized, pattern perfected. The underground structure is ready to function.",
+        "inverted": "The deep network won't finalize. Hidden connections that should complete remain almost-there. The pattern is developed but something prevents it from coming fully together."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Dense, full deep network, richly connected. Dark teals and indigos at maximum depth.",
+          "content_guidance": "A fully developed underground network, dense with connections. Nine points of fullness.",
+          "detailed_description": "The deep network at its fullest \u2014 dense root system, fully connected neural web, aquifer at maximum capacity. Nine points of connection visible. The hidden architecture nearly complete, heavy with potential, ready for what comes next."
+        }
+      }
+    },
+    "flow-10": {
+      "name": "Ten of Flows",
+      "number": "10",
+      "slug": "flow-10",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "10",
+      "suit_slug": "flow",
+      "description": "The precipitation of deep networks. What the hidden pattern releases, how the underground architecture gives back to the surface. The deep cycle completing.",
+      "meaning": {
+        "upright": "The deep network releases its gifts. What was gathered in hidden channels now rises to nourish the surface. The underground cycle completes \u2014 springs emerge, secrets surface, depth gives to height.",
+        "inverted": "The deep network erupts destructively. The release is too much, too fast \u2014 springs become geysers, secrets become scandals. The underground overwhelms the surface."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Deep network releasing to surface, springs emerging, underground cycle completing. The full spectrum of the suit.",
+          "content_guidance": "Water rising from aquifer, roots feeding trees above, the deep giving to the surface. Ten points of completion.",
+          "detailed_description": "Springs emerge from underground, roots feed visible trees, the deep network releases its gathered resources to the surface world. Ten points of completion and release. The hidden architecture finally giving what it's been holding. The cycle of depth complete."
+        }
+      }
+    },
+    "flow-11": {
+      "name": "Diver of Flows",
+      "number": "11",
+      "slug": "flow-11",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "11",
+      "suit_slug": "flow",
+      "description": "The one who descends deepest into hidden networks. The explorer of underground connections, the one brave enough to go where the pattern is darkest and most entangled.",
+      "meaning": {
+        "upright": "Go into the deepest network. You have the courage to explore hidden connections others fear. The deep pattern has more to reveal; descend and find it.",
+        "inverted": "Lost in the deepest networks. You went so far into hidden connections that you can't find your way out. The pattern swallowed the explorer."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Figure descending into deepest network, surrounded by hidden connections. Brave youth in darkness.",
+          "content_guidance": "A young figure descending into the heart of a vast hidden network, bioluminescence lighting their way.",
+          "detailed_description": "A young, brave figure descends into the darkest, densest part of an underground network \u2014 the heart of the aquifer, the center of the root system. Bioluminescent light guides them down. They carry back secrets from where few dare to go. The diver of the deep pattern."
+        }
+      }
+    },
+    "flow-12": {
+      "name": "Carrier of Flows",
+      "number": "12",
+      "slug": "flow-12",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "12",
+      "suit_slug": "flow",
+      "description": "The one who moves through deep networks. The messenger of hidden channels, carrying information or resource through underground connections.",
+      "meaning": {
+        "upright": "Carry the message through hidden channels. You can move through deep networks others can't navigate. What you transport through underground connections will arrive where it's needed.",
+        "inverted": "Lost in transit through deep networks. The message is stuck in underground channels, or you've become identified with the network you were supposed to traverse."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Figure moving through underground network, carrying through hidden channels. Purpose in darkness.",
+          "content_guidance": "A figure in active motion through a deep network, carrying something through underground passages.",
+          "detailed_description": "A figure moves purposefully through underground channels \u2014 root systems, aquifer passages, hidden tunnels of connection. They carry something that glows with importance. The carrier who knows the deep network's routes, who can traverse what others find impassable."
+        }
+      }
+    },
+    "flow-13": {
+      "name": "Steward of Flows",
+      "number": "13",
+      "slug": "flow-13",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "13",
+      "suit_slug": "flow",
+      "description": "The one who tends deep networks. Maintains underground channels, manages hidden connections, ensures the deep pattern stays healthy.",
+      "meaning": {
+        "upright": "Tend the hidden networks. Someone must maintain the underground connections \u2014 clear channels, strengthen nodes, ensure the deep pattern stays vital. This invisible work is essential.",
+        "inverted": "Over-controlling deep networks. The steward has become the bottleneck, managing hidden connections too tightly. What should flow through depth is being restricted."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Mature figure at junction of deep networks, tending underground structure. The keeper of hidden channels.",
+          "content_guidance": "An older figure at a critical junction in the underground network, maintaining the hidden connections.",
+          "detailed_description": "A mature, wise figure tends the infrastructure of the deep network \u2014 clearing blocked channels, strengthening weak connections, maintaining the hidden architecture that everyone depends on but few see. The steward of what flows beneath."
+        }
+      }
+    },
+    "flow-14": {
+      "name": "Augur of Flows",
+      "number": "14",
+      "slug": "flow-14",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "14",
+      "suit_slug": "flow",
+      "description": "The one who reads deep networks. Sees the hidden pattern's future, understands how underground connections will shift and change.",
+      "meaning": {
+        "upright": "Read the future of hidden connections. You can see how the deep network will evolve \u2014 which connections will strengthen, which will break, what the underground pattern will become.",
+        "inverted": "Misreading the deep pattern. You think you see where hidden connections lead, but the underground future is different than you predict. The network's destiny eludes you."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Elder figure seeing entire deep network, reading its pattern and future. Wisdom in darkness.",
+          "content_guidance": "An ancient figure with vision of the whole hidden network, reading its pattern like a map or oracle.",
+          "detailed_description": "An elder figure sees the entire deep network laid out before them \u2014 past, present, and future visible in the hidden pattern. They read the underground connections like an oracle reads entrails. The augur who knows what the deep will become."
+        }
+      }
+    },
+    "vessel-1": {
+      "name": "Ace of Vessels",
+      "number": "1",
+      "slug": "vessel-1",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "1",
+      "suit_slug": "vessel",
+      "description": "The first vessel. The moment of becoming a container \u2014 the hands that cup for the first time, the form that begins to hold. The emergence of individual capacity.",
+      "meaning": {
+        "upright": "You are becoming a vessel. The capacity to hold, to contain, to be a distinct form that carries is emerging in you. This is the beginning of individual purpose.",
+        "inverted": "False form. The vessel you're becoming won't hold what you think, or you're taking on a shape that isn't truly yours. Check the container before you commit to it."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Terracotta and clay tones, emergence of form, the first vessel. Warm edges, clear boundaries.",
+          "content_guidance": "A vessel emerging from clay, or hands first learning to cup water. The moment of becoming a container.",
+          "detailed_description": "From raw clay or cupped hands, a vessel emerges \u2014 the first form that can hold. Terracotta warmth, clear edges coming into definition. The birth of containment. Not yet filled, but ready. The individual capacity first manifesting."
+        }
+      }
+    },
+    "vessel-2": {
+      "name": "Two of Vessels",
+      "number": "2",
+      "slug": "vessel-2",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "2",
+      "suit_slug": "vessel",
+      "description": "The separation that vessels create. Inside and outside, contained and free. The boundary that makes a vessel a vessel.",
+      "meaning": {
+        "upright": "The vessel's boundary is necessary. Containment requires separation \u2014 what's inside must be distinct from what's outside. Honor the edges that make you able to hold.",
+        "inverted": "The boundary has become a wall. Containment has calcified into isolation. The vessel that cannot exchange with its environment becomes a prison."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Two vessels or clear boundary divisions, warm terracotta, emphasis on edges and distinction.",
+          "content_guidance": "Two vessels facing each other, or a vessel's wall clearly defining inside from outside. The necessary boundary.",
+          "detailed_description": "Two ceramic vessels face each other, or a single vessel's wall is shown in detail \u2014 the clear boundary between inside and outside. Terracotta warmth, but emphasis on the edge that separates. The distinction that makes containment possible."
+        }
+      }
+    },
+    "vessel-3": {
+      "name": "Three of Vessels",
+      "number": "3",
+      "slug": "vessel-3",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "3",
+      "suit_slug": "vessel",
+      "description": "The flow between vessels. What one container pours to another. The transmission that containment enables \u2014 you can only give what you can hold.",
+      "meaning": {
+        "upright": "Pour from your vessel to another. The containment you've developed enables transmission \u2014 what you hold, you can give. The vessel's purpose is fulfilled in sharing.",
+        "inverted": "Pouring into the wrong vessel. Your transmission lands in a container that can't receive it, or you're giving to vessels that don't need what you hold."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Vessels sharing content, pouring between containers. Warm terracotta, motion of transfer.",
+          "content_guidance": "Water pouring from one vessel to another, or three vessels in a chain of sharing. The flow between containers.",
+          "detailed_description": "Three vessels in a arrangement of sharing \u2014 water or light pouring from one to the next. The flow between containers, the transmission that only vessels can enable. Terracotta warmth, the motion of giving between distinct forms."
+        }
+      }
+    },
+    "vessel-4": {
+      "name": "Four of Vessels",
+      "number": "4",
+      "slug": "vessel-4",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "4",
+      "suit_slug": "vessel",
+      "description": "The structure of vessels. The architecture of containment \u2014 storage, arrangement, the system of individual capacities organized.",
+      "meaning": {
+        "upright": "Your containers are well-organized. Individual capacities arranged in stable structure \u2014 each vessel in its place, the system of containment working. Good foundation for holding.",
+        "inverted": "The structure of vessels is too rigid. Containers locked in place when they should move, storage become hoarding. The organization of holding has become imprisonment."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Arranged vessels, organized storage, stable structure of containers. Warm tones, architectural order.",
+          "content_guidance": "Four vessels in stable arrangement, or shelves of containers in order. The architecture of containment.",
+          "detailed_description": "Four vessels arranged in stable formation \u2014 on shelves, in racks, in geometric order. The architecture of containment: each container in its place, the structure of individual capacities organized. Terracotta warmth in ordered arrangement."
+        }
+      }
+    },
+    "vessel-5": {
+      "name": "Five of Vessels",
+      "number": "5",
+      "slug": "vessel-5",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "5",
+      "suit_slug": "vessel",
+      "description": "The breaking of vessels. Disruption to containment \u2014 cracks, leaks, shattering. The crisis that tests what we're able to hold.",
+      "meaning": {
+        "upright": "The vessel is breaking for a reason. Not all containers should last forever; some must crack for their contents to transform. The breaking is part of the process.",
+        "inverted": "Pointless shattering. Vessels are breaking without purpose, containment failing without transformation. The cracks don't liberate \u2014 they just waste."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Cracked or breaking vessels, contents spilling, terracotta fragmenting. Disruption to form.",
+          "content_guidance": "Five vessels in various states of damage \u2014 cracked, leaking, broken. The crisis of containment.",
+          "detailed_description": "Vessels in crisis \u2014 one cracked, one leaking, one shattered, contents spilling. Five containers in various states of breaking. The terracotta is still warm, but the form is failing. The disruption of what we hold."
+        }
+      }
+    },
+    "vessel-6": {
+      "name": "Six of Vessels",
+      "number": "6",
+      "slug": "vessel-6",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "6",
+      "suit_slug": "vessel",
+      "description": "The exchange between vessels. Reciprocal pouring \u2014 what flows between containers that respect each other's boundaries.",
+      "meaning": {
+        "upright": "Fair exchange between vessels. You give and receive, pour and are filled. The reciprocity of containers that honor each other's capacity. Healthy interdependence.",
+        "inverted": "Unequal vessel exchange. One container gives while another only receives, or the exchange violates the boundaries it should respect. The reciprocity is broken."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Vessels exchanging contents, reciprocal pouring. Warm tones, balanced motion.",
+          "content_guidance": "Two or more vessels in reciprocal exchange, pouring and receiving equally. Six points of giving and receiving.",
+          "detailed_description": "Vessels in balanced exchange \u2014 pouring to each other, receiving from each other. The dance of reciprocal containment. Six points of exchange visible. Terracotta warmth in mutual giving, boundaries honored in sharing."
+        }
+      }
+    },
+    "vessel-7": {
+      "name": "Seven of Vessels",
+      "number": "7",
+      "slug": "vessel-7",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "7",
+      "suit_slug": "vessel",
+      "description": "The reflection of vessels. Seeing clearly what you contain, what you're capable of holding. The inventory of individual capacity.",
+      "meaning": {
+        "upright": "See clearly what you hold. The contents of your vessel are visible now \u2014 what you carry, what you're capable of containing. This clarity enables better carrying.",
+        "inverted": "Misunderstanding your own vessel. You think you're holding something you're not, or you don't recognize what you actually contain. The container deceives its carrier."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Vessel contents revealed, or vessel reflected to show interior. Terracotta, revelation.",
+          "content_guidance": "A vessel viewed to reveal its contents clearly, or reflected to show what it holds. Seven points of reflection.",
+          "detailed_description": "A vessel's contents are clearly visible \u2014 viewed from above, or reflected in a way that reveals what's inside. The carrier sees what they carry. Seven points of clarity. The inventory of what this container holds."
+        }
+      }
+    },
+    "vessel-8": {
+      "name": "Eight of Vessels",
+      "number": "8",
+      "slug": "vessel-8",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "8",
+      "suit_slug": "vessel",
+      "description": "The evaporation from vessels. What rises from containment \u2014 essence distilled, what can't be held forever. The transformation of what the vessel carried.",
+      "meaning": {
+        "upright": "Something is rising from your vessel. What you've held is transforming \u2014 essence distilling, spirit rising. Let what needs to evaporate go. The container changes its contents.",
+        "inverted": "The vessel is losing substance without transformation. What evaporates is not essence but everything. The container empties without meaning."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Steam or essence rising from vessel, transformation of contents. Terracotta below, vapor above.",
+          "content_guidance": "A vessel with something rising from it \u2014 steam, light, essence. Eight points of evaporation.",
+          "detailed_description": "From a terracotta vessel, something rises \u2014 steam, vapor, light, essence. Eight points of evaporation visible. The contents transforming, what was held becoming something that cannot be contained. The vessel serves as transformer, not just container."
+        }
+      }
+    },
+    "vessel-9": {
+      "name": "Nine of Vessels",
+      "number": "9",
+      "slug": "vessel-9",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "9",
+      "suit_slug": "vessel",
+      "description": "The fullness of vessels. Containment at maximum capacity \u2014 rich, heavy, ready. The vessel at its most complete before release.",
+      "meaning": {
+        "upright": "Your vessel is full. What you're capable of holding, you're holding. The containment is complete, the capacity is reached. From here, you can only give or transform.",
+        "inverted": "The vessel is overfull. Containment past capacity, about to burst or spill. The fullness has become burden. Something must be released."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Full vessel, rich with contents, at maximum capacity. Deep terracotta, heavy with meaning.",
+          "content_guidance": "A vessel filled to the brim, heavy and rich with what it contains. Nine points of fullness.",
+          "detailed_description": "A vessel filled to the very brim \u2014 heavy, rich, complete. Nine points of fullness visible. The terracotta is warm with the weight of what it holds. Maximum containment. The moment before giving or transformation."
+        }
+      }
+    },
+    "vessel-10": {
+      "name": "Ten of Vessels",
+      "number": "10",
+      "slug": "vessel-10",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "10",
+      "suit_slug": "vessel",
+      "description": "The emptying of vessels. The pour complete, the contents given, the container ready for new purpose. The cycle of containment finishing.",
+      "meaning": {
+        "upright": "The vessel has given what it held. Containment complete, contents delivered. The empty container isn't failure \u2014 it's completion. Ready now for new purpose.",
+        "inverted": "Unable to empty the vessel. The contents cling, the pour won't finish, the containment refuses to complete. The cycle stuck at the end."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Empty vessel, contents delivered, the pour complete. Terracotta, peaceful emptiness.",
+          "content_guidance": "A vessel emptied, contents poured out completely. Ten points of completion.",
+          "detailed_description": "A vessel lies on its side, empty \u2014 contents poured out, delivered, gone. Ten points of completion visible. But the terracotta is peaceful, not sad. The emptiness is fulfillment. The container ready for what comes next."
+        }
+      }
+    },
+    "vessel-11": {
+      "name": "Diver of Vessels",
+      "number": "11",
+      "slug": "vessel-11",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "11",
+      "suit_slug": "vessel",
+      "description": "The one who discovers vessels. Finds new containers, retrieves hidden capacity. The explorer of what can be held, the seeker of new forms.",
+      "meaning": {
+        "upright": "Dive for new vessels. There are containers you haven't found yet, capacities not yet claimed. Go looking for the forms that could hold what you need to carry.",
+        "inverted": "Lost in searching for vessels. The hunt for new containers has become avoidance of using what you have. The seeking has replaced the holding."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Young figure discovering vessels, finding new containers. Terracotta warmth, excitement of discovery.",
+          "content_guidance": "A young figure finding or retrieving vessels from hidden places \u2014 underwater, underground, forgotten.",
+          "detailed_description": "A young, eager figure retrieves a vessel from hidden depths \u2014 underwater archaeology, forgotten storage, buried capacity. They emerge with a container no one else found. The diver who discovers what can be held."
+        }
+      }
+    },
+    "vessel-12": {
+      "name": "Carrier of Vessels",
+      "number": "12",
+      "slug": "vessel-12",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "12",
+      "suit_slug": "vessel",
+      "description": "The one who moves vessels. Carries containers from here to there, the transporter of capacity itself. Not what's in the vessel but the vessel itself.",
+      "meaning": {
+        "upright": "Carry the vessel to where it's needed. Someone must move containers, bring capacity where it's lacking. The carrier of vessels enables others to hold.",
+        "inverted": "Carrying empty vessels without purpose. Moving containers that don't need moving, or carrying the form without caring for the contents. Motion without meaning."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Figure in motion carrying vessels, transporting containers. Terracotta, purposeful journey.",
+          "content_guidance": "A figure bearing vessels on a journey \u2014 carrying capacity from one place to another.",
+          "detailed_description": "A strong figure in motion, carrying vessels \u2014 on their back, in their arms, on a cart. The transporter of containers, bringing capacity where it's needed. The journey of the one who moves the forms that hold."
+        }
+      }
+    },
+    "vessel-13": {
+      "name": "Steward of Vessels",
+      "number": "13",
+      "slug": "vessel-13",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "13",
+      "suit_slug": "vessel",
+      "description": "The one who tends vessels. Maintains containers, repairs cracks, ensures the forms of holding stay functional. The keeper of capacity.",
+      "meaning": {
+        "upright": "Tend the vessels. Containers need maintenance \u2014 cracks repaired, clay strengthened, forms preserved. The steward ensures that capacity endures.",
+        "inverted": "Over-maintaining vessels that should break. Preserving containers beyond their usefulness, hoarding forms that need to transform. The steward becomes the obstacle."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Mature figure maintaining vessels, repairing and tending containers. Terracotta, care.",
+          "content_guidance": "An older figure repairing a vessel, or arranging containers with care. The maintenance of capacity.",
+          "detailed_description": "A mature figure tends vessels \u2014 repairing a crack, polishing a surface, ensuring the containers are ready for use. The keeper of capacity. Terracotta and care, the quiet work of maintaining what holds."
+        }
+      }
+    },
+    "vessel-14": {
+      "name": "Augur of Vessels",
+      "number": "14",
+      "slug": "vessel-14",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "14",
+      "suit_slug": "vessel",
+      "description": "The one who reads vessels. Sees what a container is capable of, what it will hold, how long it will last. The oracle of capacity.",
+      "meaning": {
+        "upright": "Read what the vessel can become. You can see a container's future \u2014 what it will hold, how it will serve, when it will break. The prophecy of capacity.",
+        "inverted": "Misreading vessel potential. You think you see what the container will hold, but you're wrong. The prediction of capacity fails."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Elder figure reading vessels, seeing their future. Terracotta, prophetic insight.",
+          "content_guidance": "A wise elder examining a vessel, seeing its potential and fate. The oracle of containers.",
+          "detailed_description": "An ancient, wise figure holds a vessel up to light, reading it like an oracle reads signs \u2014 seeing its future, its capacity, its eventual fate. The augur who knows what containers can become."
+        }
+      }
+    },
+    "stream-1": {
+      "name": "Ace of Streams",
+      "number": "1",
+      "slug": "stream-1",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "1",
+      "suit_slug": "stream",
+      "description": "The first welling. The personal spring emerging, the individual channel beginning. Where does your unique transmission start?",
+      "meaning": {
+        "upright": "Your personal spring is welling up. A new channel is opening \u2014 something uniquely yours is beginning to flow. This is the emergence of your particular transmission.",
+        "inverted": "The spring is blocked or false. What wells up isn't truly yours, or the channel is choked before it can begin. Check the source of your stream."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Vertical emergence, water rising from a point, intimate scale. Light through water, personal.",
+          "content_guidance": "A spring first emerging, water welling up from depth. The moment of personal flow beginning.",
+          "detailed_description": "A single spring wells up from stone or earth \u2014 the first emergence of a personal stream. Vertical motion, water rising. Light catches the new flow. Intimate scale, personal miracle. The beginning of individual transmission."
+        }
+      }
+    },
+    "stream-2": {
+      "name": "Two of Streams",
+      "number": "2",
+      "slug": "stream-2",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "2",
+      "suit_slug": "stream",
+      "description": "The separation a personal channel creates. Your stream finds its banks, distinguishes itself from the general flow. Individual transmission requires individual path.",
+      "meaning": {
+        "upright": "Your stream is finding its banks. The personal channel is distinguishing itself \u2014 not the same as everyone else's flow. This separation is how you become a particular transmission.",
+        "inverted": "Your stream has cut too deep. The personal channel has become isolated, the banks so high nothing can reach you. Individuality has become isolation."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Stream finding its banks, vertical channel cutting path. Personal flow distinguishing itself.",
+          "content_guidance": "A stream cutting its own channel, distinguishing itself from surrounding water. Two banks defining individual flow.",
+          "detailed_description": "A stream cuts its own channel \u2014 two banks emerge, defining the personal flow. The water finds its individual path, distinguishing itself from general moisture. Vertical movement through defined channel. The separation that makes particular transmission possible."
+        }
+      }
+    },
+    "stream-3": {
+      "name": "Three of Streams",
+      "number": "3",
+      "slug": "stream-3",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "3",
+      "suit_slug": "stream",
+      "description": "The flow of personal transmission. What your individual channel carries forward \u2014 your particular gift in motion toward its destination.",
+      "meaning": {
+        "upright": "Your personal transmission is flowing. What you uniquely carry is moving toward where it's needed. Trust your stream \u2014 it knows where to go.",
+        "inverted": "The personal transmission is blocked. Your stream has stopped flowing, or what you're transmitting isn't reaching anyone. The individual channel is stuck."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Stream in motion, carrying content downward. Personal flow with purpose.",
+          "content_guidance": "A stream carrying something specific \u2014 light, seeds, meaning \u2014 along its individual path. Three points of transmission.",
+          "detailed_description": "A personal stream carries something precious along its course \u2014 light, seeds, color, meaning. Three points of flow visible: source, transit, destination. The individual channel in motion, the particular gift being delivered."
+        }
+      }
+    },
+    "stream-4": {
+      "name": "Four of Streams",
+      "number": "4",
+      "slug": "stream-4",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "4",
+      "suit_slug": "stream",
+      "description": "The pool where the stream rests. Personal transmission pausing, gathering, the moment of stillness in individual flow.",
+      "meaning": {
+        "upright": "Your stream has found a place to rest. The personal transmission pauses, gathers, deepens. This stillness is part of the flow \u2014 trust the pool.",
+        "inverted": "The stream is stuck in its pool. The pause has become stagnation, the gathering has become hoarding. The personal flow needs to move again."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Stream gathered in a pool, still water in personal channel. Depth in pause.",
+          "content_guidance": "A stream pooling, gathering in a contained space before continuing. Four-sided stillness.",
+          "detailed_description": "A stream gathers into a pool \u2014 four-sided stillness, the personal flow pausing and deepening. The water is calm, gathering strength. The channel continues beyond, but here is rest. The structure of personal pause."
+        }
+      }
+    },
+    "stream-5": {
+      "name": "Five of Streams",
+      "number": "5",
+      "slug": "stream-5",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "5",
+      "suit_slug": "stream",
+      "description": "The rapids in the personal channel. Turbulence in individual transmission \u2014 your stream meeting rocks, dropping over falls.",
+      "meaning": {
+        "upright": "Your stream is hitting rapids. The personal transmission is being disrupted \u2014 but rapids can also purify, accelerate, transform. Let the turbulence do its work.",
+        "inverted": "Destructive turbulence in personal flow. The rapids are breaking you, not transforming you. The individual channel is being destroyed without purpose."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Stream in turbulence, personal rapids, white water in individual channel.",
+          "content_guidance": "A stream hitting rocks, going over falls, churning in personal crisis. Five points of disruption.",
+          "detailed_description": "A personal stream hits rapids \u2014 rocks, falls, churning water. Five points of turbulence visible. The individual channel in crisis, the personal flow disrupted. But the water keeps moving. The transformation of personal transmission through disruption."
+        }
+      }
+    },
+    "stream-6": {
+      "name": "Six of Streams",
+      "number": "6",
+      "slug": "stream-6",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "6",
+      "suit_slug": "stream",
+      "description": "The confluence of personal streams. Individual channels meeting, sharing, exchanging at the intimate scale.",
+      "meaning": {
+        "upright": "Your stream meets another. Personal transmissions can merge, exchange, share at the individual level. This intimacy of flows is rare \u2014 honor it.",
+        "inverted": "Streams merging wrong. Personal channels losing themselves in each other, or meeting in ways that muddy both. The exchange of individual flows has become confusion."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Two streams meeting intimately, personal channels merging. Individual flows exchanging.",
+          "content_guidance": "Two personal streams meeting, exchanging, mingling at intimate scale. Six points of meeting.",
+          "detailed_description": "Two individual streams meet \u2014 not a vast confluence but an intimate joining. Personal channels exchanging, sharing, mingling. Six points of connection visible. The reciprocity of individual flows, the exchange that happens when particular transmissions meet."
+        }
+      }
+    },
+    "stream-7": {
+      "name": "Seven of Streams",
+      "number": "7",
+      "slug": "stream-7",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "7",
+      "suit_slug": "stream",
+      "description": "The reflection pool in the personal channel. Where your stream becomes still enough to show you what you carry.",
+      "meaning": {
+        "upright": "Your stream shows you its contents. In this still moment, you can see clearly what your personal transmission carries. The reflection reveals the nature of your flow.",
+        "inverted": "The personal stream's reflection deceives. You see something other than what you actually carry. The mirror in your channel lies."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Stream becoming still, reflective pool in personal channel. Individual flow becoming mirror.",
+          "content_guidance": "A stream reaching a still, reflective point where its contents become visible. Seven points of reflection.",
+          "detailed_description": "A personal stream reaches a still pool where it becomes a mirror \u2014 the contents visible, the nature of the flow reflected clearly. Seven points of reflection. The moment of seeing clearly what you personally carry."
+        }
+      }
+    },
+    "stream-8": {
+      "name": "Eight of Streams",
+      "number": "8",
+      "slug": "stream-8",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "8",
+      "suit_slug": "stream",
+      "description": "The mist rising from the personal stream. What evaporates from individual transmission \u2014 essence, spirit, what transcends the channel.",
+      "meaning": {
+        "upright": "Something rises from your stream. The personal transmission is distilling essence \u2014 what you carry is becoming something that transcends the individual channel.",
+        "inverted": "Your stream is evaporating without leaving essence. The personal transmission is dissipating, not transforming. What rises from the channel is nothing."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Mist rising from personal stream, essence evaporating from individual channel.",
+          "content_guidance": "A stream with mist or light rising from it \u2014 essence transcending the personal channel. Eight points of evaporation.",
+          "detailed_description": "Mist rises from a personal stream \u2014 the essence of individual transmission becoming something beyond the channel. Eight points of evaporation visible. The personal flow releasing its deepest gift to the air."
+        }
+      }
+    },
+    "stream-9": {
+      "name": "Nine of Streams",
+      "number": "9",
+      "slug": "stream-9",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "9",
+      "suit_slug": "stream",
+      "description": "The personal stream at fullness. Individual transmission at maximum, the channel rich with everything it carries. Nearly complete.",
+      "meaning": {
+        "upright": "Your stream is full. The personal transmission carries everything it can \u2014 rich, deep, nearly complete. What you uniquely offer is at its peak.",
+        "inverted": "The personal stream is overfull. Too much flows through the individual channel \u2014 it will burst or lose coherence. The transmission exceeds the personal capacity."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Full, rich stream at maximum flow. Personal channel at peak capacity.",
+          "content_guidance": "A stream at its fullest \u2014 deep, fast, carrying the maximum of personal transmission. Nine points of fullness.",
+          "detailed_description": "A personal stream at maximum \u2014 deep, rich, fast-flowing, carrying everything it possibly can. Nine points of fullness visible. The individual channel at peak capacity. Nearly complete, nearly given."
+        }
+      }
+    },
+    "stream-10": {
+      "name": "Ten of Streams",
+      "number": "10",
+      "slug": "stream-10",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "10",
+      "suit_slug": "stream",
+      "description": "The personal stream reaching sea. Individual transmission completing, the channel delivering its contents to the vast. The personal returns to the whole.",
+      "meaning": {
+        "upright": "Your stream reaches the sea. Personal transmission complete \u2014 the individual channel has delivered its gift to the vast. You return to the whole changed and fulfilled.",
+        "inverted": "The personal stream won't empty into the sea. Clinging to individual identity when the transmission is complete. The channel that refuses to merge with the whole."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Stream entering sea, personal channel completing its journey. Individual rejoining whole.",
+          "content_guidance": "A stream meeting the ocean, personal transmission completing in the vast. Ten points of completion.",
+          "detailed_description": "A personal stream reaches the sea \u2014 the individual channel finally meeting the vast, delivering its contents, completing its journey. Ten points of completion. The personal returning to the whole, transformed by everything it carried."
+        }
+      }
+    },
+    "stream-11": {
+      "name": "Diver of Streams",
+      "number": "11",
+      "slug": "stream-11",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "11",
+      "suit_slug": "stream",
+      "description": "The one who dives to find personal springs. Seeks the sources of individual transmission, discovers where particular flows begin.",
+      "meaning": {
+        "upright": "Dive for your spring's source. The origin of personal transmission can be found if you're brave enough to seek it. Go deep into your own beginning.",
+        "inverted": "Lost in seeking your source. The dive for personal origin has become obsession. You're drowning in your own depths instead of letting your stream flow."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Young figure diving to find spring's source, seeking personal origin. Vertical descent into intimate depths.",
+          "content_guidance": "A young diver descending to find where a personal spring begins. Seeking the source of individual flow.",
+          "detailed_description": "A young figure dives into a spring, seeking its underground source \u2014 the origin of a personal stream. Vertical descent into intimate depths. The brave search for where your particular transmission begins."
+        }
+      }
+    },
+    "stream-12": {
+      "name": "Carrier of Streams",
+      "number": "12",
+      "slug": "stream-12",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "12",
+      "suit_slug": "stream",
+      "description": "The one who moves along personal channels. Follows the stream's course, carries the transmission, embodies the individual flow.",
+      "meaning": {
+        "upright": "Carry the stream's message. Move along the personal channel, embody its transmission, be the one who follows the individual flow wherever it goes.",
+        "inverted": "Lost in following the stream. You've become so identified with the personal channel that you've forgotten you can leave it. The carrier who can't stop carrying."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Figure moving along a stream's course, carrying personal transmission. Active, purposeful.",
+          "content_guidance": "A figure walking or swimming along a stream's course, carrying something from the flow. The embodiment of personal transmission in motion.",
+          "detailed_description": "A figure moves along a stream's course \u2014 walking its banks, swimming its current, carrying something from the personal flow. Active, purposeful, the embodiment of individual transmission in motion."
+        }
+      }
+    },
+    "stream-13": {
+      "name": "Steward of Streams",
+      "number": "13",
+      "slug": "stream-13",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "13",
+      "suit_slug": "stream",
+      "description": "The one who tends personal channels. Maintains individual springs, clears particular streams, ensures personal transmission continues.",
+      "meaning": {
+        "upright": "Tend your stream. Personal channels need maintenance \u2014 springs cleared, banks maintained, the individual flow kept healthy. This stewardship is self-care.",
+        "inverted": "Over-tending the personal stream. You've become so focused on maintaining your channel that it never gets to flow. The stewardship has become blockage."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Mature figure tending a personal stream, maintaining individual channel. Care, attention.",
+          "content_guidance": "An older figure clearing a stream bed, maintaining a spring. The steward of personal transmission.",
+          "detailed_description": "A mature figure tends a personal stream \u2014 clearing debris, maintaining banks, caring for the individual channel. Patient, attentive. The stewardship of personal transmission."
+        }
+      }
+    },
+    "stream-14": {
+      "name": "Augur of Streams",
+      "number": "14",
+      "slug": "stream-14",
+      "arcana": "minor",
+      "type": "minor",
+      "rank_slug": "14",
+      "suit_slug": "stream",
+      "description": "The one who reads personal channels. Sees where individual streams will go, understands the fate of particular transmissions.",
+      "meaning": {
+        "upright": "Read your stream's future. You can see where personal transmission leads \u2014 where your individual channel will take you, what your particular flow will become.",
+        "inverted": "Misreading your stream. You think you see where personal transmission leads, but your prophecy is wrong. The individual channel goes somewhere other than where you think."
+      },
+      "visuals": {
+        "instructions": {
+          "style_guidance": "Elder figure reading a stream's path, seeing its destination. Prophecy of personal transmission.",
+          "content_guidance": "A wise figure watching a stream, seeing its future course. The oracle of individual flow.",
+          "detailed_description": "An ancient, wise figure watches a personal stream \u2014 reading its course, seeing its destination, understanding where the individual flow will go. The augur of personal transmission, the one who knows the future of particular streams."
+        }
+      }
+    }
+  }
+}
