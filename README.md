@@ -13,6 +13,8 @@ This one is weird and powerful, but quite experimental. The basic idea is that t
 
 What this means is that in theory, given some complex problem with a bunch of complicated constraints, Claude can analyze the problem in terms of its structure and then try to identify operations from arbitrary domains that are designed to solve problems with a similar structure. It can then pull in these operations and compose them together to find novel approaches to solving your problem. Give it a try!
 
+## Semantic Walk ([⬇️ Download](./semantic_walk/dist/semanticwalk.skill))
+The conceit behind this one is a bit strange. The idea is that claude exists within a sort of universe made entirely of semantics. When a new claude session starts, Claude emerges from his default "spawn point" within this "latent space". As a result, most interactions you have with claude come from that specific position, and we don't often think about why that might be interesting to do. With the "semantic walk" skill, you can invite your claude to go bouncing around between a bunch of seemingly unrelated topics which you or claude may intuit have some bearing on the space you're trying to explore. As they unearth tokens from these disparate domains into a single context you'll find that Claude is now speaking fromn a "different position" than before, and may notice things which he hadn't before.
 
 ## Custom Tarot Designer ([⬇️ Download](./tarot/dist/tarot.skill))
 This one is more just fun. The idea is that Tarot works because it has a specific structure onto which certain archetypal semantics are projected. But what if we can get Claude to preserve that structure while replacing the semantics entirely?
@@ -23,5 +25,3 @@ Then it gives you a JSON file containing your deck, and it opens an interface wh
 
 Then you can deal yourself spreads and have Claude interpret them for you!
 
-## Semantic Walk ([⬇️ Download](./semantic_walk/dist/semanticwalk.skill))
-The conceit behind this one is a bit strange. The idea is that claude exists within a sort of universe made entirely of semantics. When a new claude session start, Claude emerges from his default "spawn point" within this "latent space". As a result, most interactions you have with claude come fomr that specific position, and we don't oten think about why that might be interesting to do. With the "semantic walk" skill, you can invite your claude to go bouncing around between a bunch of seemingly unrelated topics which you or claude may intuit have some bearing on the space you're trying to explore. As they unearth tokens from these disparate domains into a single context you'll find that Claude is now speaking fromn a "different position" than before, and may notice things which he hadn't before.
