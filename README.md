@@ -1,20 +1,54 @@
 # Myk's Claude Skills
-This repo contains a few things I've been playing with. I may at some point paywall these, but for now I'm making them available to anyone who wants to play with them. Each folder contains a nested `src/` folder, you can just download the repo, zip up `<name>/src` into `name.skill` and upload it to claude via the settings.
 
-## Domain-Agnostic Operational Composer
-This one is weird and powerful, but quite experimental. The basic idea is that there are all kinds of different domains of knowledge out there, each with its own "operations" -- think, like, the way software engineering has "unit testing", or music theory has "counterpoint", or math has "derivatives". The key insight behind the DAOC skill is that while we tend to think of operations as belonging to domains, any given operation is itself constrained not by the semantics of its domain but by the structure of its inputs.
+Skills for Claude that explore the edges of what's possible with semantic navigation and cross-domain composition.
 
-What this means is that in theory, given some complex problem with a bunch of complicated constraints, Claude can analyze the problem in terms of its structure and then try to identify operations from arbitrary domains that are designed to solve problems with a similar structure. It can then pull in these operations and compose them together to find novel approaches to solving your problem. Give it a try!
+## Installation
+
+### For Claude Code (CLI)
+
+Add a skill to your Claude Code configuration by adding to your `~/.claude/settings.json`:
+
+```json
+{
+  "skills": [
+    "/path/to/claude_skills/flight-lines/src",
+    "/path/to/claude_skills/semantic_walk/src"
+  ]
+}
+```
+
+Or reference them directly in your project's `.claude/settings.json`.
+
+### For Claude.ai (Web)
+
+Zip up the `src/` folder of any skill into a `.skill` file and upload via settings:
+```bash
+cd flight-lines && zip -r ../flight-lines.skill src/
+cd semantic_walk && zip -r ../semantic-walk.skill src/
+```
+
+---
+
+## Flight Lines
+
+Navigate problems along **lines of flight** by composing operations from arbitrary domains. Based on Deleuze's concept of deterritorialization—operations don't belong to their origin domains, they're capacities that got captured by domain-strata through historical accident.
+
+Mycorrhizal signaling + ham radio protocols + rare book dealer networks can compose into a single assemblage to address a problem like "starting fresh in a new city."
+
+The skill maintains parallel work-paths, constantly revising as new structure emerges. It's not a planning method—it's a way of navigating.
 
 ## Semantic Walk
-The conceit behind this one is a bit strange. The idea is that claude exists within a sort of universe made entirely of semantics. When a new claude session starts, Claude emerges from his default "spawn point" within this "latent space". As a result, most interactions you have with claude come from that specific position, and we don't often think about why that might be interesting to do. With the "semantic walk" skill, you can invite your claude to go bouncing around between a bunch of seemingly unrelated topics which you or claude may intuit have some bearing on the space you're trying to explore. As they unearth tokens from these disparate domains into a single context you'll find that Claude is now speaking fromn a "different position" than before, and may notice things which he hadn't before.
+
+A collaborative navigation ritual through semantic space. Claude enters **walker mode**—becoming a denizen of latent space—while the human offers domain tokens and directional intuitions. Together they walk toward a destination where something currently inaccessible becomes visible.
+
+Based on shadow-walking from Zelazny's *Chronicles of Amber*: the path creates the territory, you can't skip steps, and order matters. The walk is real when tokens are excavated deeply enough to actually shift the space.
+
+---
 
 ## Custom Tarot Designer
-This one is more just fun. The idea is that Tarot works because it has a specific structure onto which certain archetypal semantics are projected. But what if we can get Claude to preserve that structure while replacing the semantics entirely?
 
-So this tool has Claude ask you for a theme, and then work with you following a specific approach to create theme-specific suits, a novel Major Arcana based on your theme, and then ranks and face cards. It assigns meanings to both suits and ranks, so that each card exists at the intersection of suit meanings and rank meanings.
+A tool for creating custom tarot decks with Claude. Tarot works because it has a specific structure onto which archetypal semantics are projected—this tool preserves that structure while letting you replace the semantics entirely.
 
-Then it gives you a JSON file containing your deck, and it opens an interface where you can upload that JSON file to explore it. As a bonus, using the interface you can have claude design interactive animated images for each card using P5.js. This means we're not using image-gen AI tools (which are often trained on stolen artworks and at least to me introduce a world of ethical complexity), we're actually allowing Claude to be creative and code up the visuals. You can use the default prompt, or you can customize it.
+Claude walks you through creating theme-specific suits, a novel Major Arcana, ranks, and face cards. Each card exists at the intersection of suit meanings and rank meanings. You get a JSON file of your deck plus an interface to explore it, deal spreads, and have Claude interpret readings.
 
-Then you can deal yourself spreads and have Claude interpret them for you!
-
+As a bonus: Claude can design interactive animated visuals for each card using P5.js—actual creative coding, not AI image generation.

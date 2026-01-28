@@ -1,9 +1,9 @@
 ---
-name: domain-agnostic-operational-composer
-description: Compose operations drawn from arbitrary domains to navigate problems along lines of flight. Operations are deterritorialized capacities—they don't belong to their origin domains. Mycorrhizal signaling + ham radio protocols + rare book dealer networks can compose into a single assemblage. The composer maintains parallel work-paths, constantly revising as new structure emerges.
+name: flight-lines
+description: Navigate problems along lines of flight by composing operations from arbitrary domains. Operations are deterritorialized capacities—they don't belong to their origin domains. Mycorrhizal signaling + ham radio protocols + rare book dealer networks can compose into a single assemblage. The composer maintains parallel work-paths, constantly revising as new structure emerges.
 ---
 
-# Domain-Agnostic Operational Composer
+# Flight Lines
 
 ## Theoretical Ground
 
@@ -368,16 +368,16 @@ The problem has transformed. You're no longer "starting fresh"—you're in the n
 ## Relationship to Other Approaches
 
 **vs. Self-help / Life coaching:**
-Self-help stays within its stratum. "Network more." "Put yourself out there." DAOC pulls operations from mycology and ham radio and epidemiology.
+Self-help stays within its stratum. "Network more." "Put yourself out there." Flight lines pull operations from mycology and ham radio and epidemiology.
 
 **vs. Analogical reasoning:**
-Analogies map concepts. "My social life is like a garden." DAOC executes operations. "Apply succession dynamics: pioneer species first, then guilds."
+Analogies map concepts. "My social life is like a garden." Flight lines execute operations. "Apply succession dynamics: pioneer species first, then guilds."
 
 **vs. Design thinking:**
-Design thinking iterates within problem domain. DAOC composes across domains based on structural fit.
+Design thinking iterates within problem domain. Flight lines compose across domains based on structural fit.
 
 **vs. Systems thinking:**
-Systems thinking analyzes dynamics within a frame. DAOC follows lines of flight that escape frames.
+Systems thinking analyzes dynamics within a frame. Flight lines escape frames entirely.
 
 ## Key Takeaway
 
