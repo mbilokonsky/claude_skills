@@ -1,437 +1,388 @@
 ---
 name: domain-agnostic-operational-composer
-description: Solve problems by composing operations from arbitrary domains. Decompose problems into structural constraints, query for operations that address those constraints (regardless of origin domain), and compose them into coherent protocols. Operations are domain-independent - mycorrhizal networks + ham radio + rare book collecting can combine to solve dating problems. Domain boundaries don't constrain operation applicability.
+description: Compose operations drawn from arbitrary domains to navigate problems along lines of flight. Operations are deterritorialized capacities—they don't belong to their origin domains. Mycorrhizal signaling + ham radio protocols + rare book dealer networks can compose into a single assemblage. The composer maintains parallel work-paths, constantly revising as new structure emerges.
 ---
 
 # Domain-Agnostic Operational Composer
 
-## Core Insight
+## Theoretical Ground
 
-You can execute operations from any domain you understand: epidemiological surveillance, topological transformations, jazz reharmonization, immune tolerance induction, contract formation rules, liturgical anamnesis. 
+Knowledge gets organized into **domains**—epidemiology, jazz theory, mycology, contract law. These are stratifications: useful for organizing expertise but not fundamental boundaries. They're territories.
 
-These operations often work on structures that appear across domains: sparse signals in noise, network topology, transformation under constraints, temporal dynamics, compositional hierarchies.
+**Operations** exist beneath these strata. "Sentinel surveillance" isn't essentially about disease—it's a capacity: strategic monitoring of high-signal locations in sparse search spaces. "Reharmonization" isn't essentially about jazz—it's changing underlying structure while preserving surface continuity. Operations are **deterritorialized capacities** that got captured by domain-strata through historical accident.
 
-**Key realization**: The operation itself doesn't "belong" to its origin domain. "Sentinel surveillance" isn't inherently about disease - it's about strategic monitoring of high-signal locations. "Stepping stones" isn't inherently about wildlife - it's about traversing hostile territory via safe patches.
+The conventional approach to problems stays within domain boundaries. Dating advice for dating problems. Language pedagogy for language problems. This is navigating along the strata—safe, predictable, limited.
 
-**Implication**: Operations are domain-independent primitives. You can compose them freely across domains to address structural constraints in any problem.
+**Lines of flight** are movements that escape stratified territories. When you recognize that rare book dealer "want list circulation" addresses the same structural constraint as epidemiological "contact tracing"—and both could apply to finding collaborators in a new city—you're accessing operations on a **plane of consistency** where domain labels don't constrain what composes with what.
+
+**Key insight**: Operations compose based on structural fit, not semantic coherence. An assemblage of mycorrhizal networks + ham radio + rare book collecting is domain-incoherent but can be structurally coherent for a given problem.
 
 ## What This Enables
 
-**Traditional approach:**
-- Problem: "How do I find a romantic partner in a Covid-cautious way?"
-- Solution space: Dating advice, relationship coaching, app optimization
-- Limitation: Constrained by domain boundaries
+**Stratified approach:**
+- Problem: "I just moved to a new city and want to build a life here"
+- Solution space: Networking advice, meetup apps, "put yourself out there"
+- Limitation: Stays within conventional self-help territory
 
 **Compositional approach:**
-- Problem decomposition: Sparse matching + hostile environment + hidden networks + constrained search
-- Operation query: What operations address these constraints? (from ANY domain)
-- Composition: Sentinel surveillance (epidemiology) + stepping stones (wildlife corridors) + want list circulation (rare books) + CQ calls (ham radio) + mycorrhizal networks (fungi)
-- Result: Novel protocol that wouldn't emerge from any single domain
+- Identify parallel concerns: shelter/territory, social/connection, work/sustenance, identity/becoming
+- For each concern, identify structural constraints (not semantic categories)
+- Query for operations addressing those constraints from ANY domain
+- Compose operations that work together, revising as structure changes
+- Result: Novel assemblage that couldn't emerge from any single domain
 
-The operations don't need domain coherence. They need **structural coherence** - each addressing a specific constraint, composable into an executable protocol.
-
-## Key Terms
+## Core Concepts
 
 ### Operation
-A specific transformation or procedure with defined mechanics, not just a concept:
-- **Inputs and outputs**: What does it act on? What does it produce?
-- **Preserved structures**: What stays constant under the operation?
-- **Transformed structures**: What necessarily changes?
-- **Execution mechanics**: How do you actually DO it?
+
+A specific capacity with defined mechanics—not a concept or metaphor:
+
+- **What it acts on**: Input structure
+- **What it produces**: Output structure
+- **What it preserves**: Invariants under the transformation
+- **What it transforms**: What necessarily changes
+- **How you execute it**: Concrete procedure
 
 Examples:
-- **Homotopy** (topology): Continuous deformation preserving boundary conditions
-- **Clonal selection** (immunology): Amplify successful variants, eliminate failures
-- **Reharmonization** (jazz): Change underlying chord structure while preserving melody
-- **Want list circulation** (rare books): Broadcast specific search criteria to dealer networks
+- **Sentinel surveillance** (epidemiology): Monitor high-signal nodes to detect sparse events early
+- **Mycelial resource sharing** (mycology): Distribute resources through network based on need signals
+- **Want list circulation** (rare books): Broadcast specific search criteria through dealer networks
+- **CQ calls** (ham radio): General broadcast seeking any responder, establishes who's listening
+- **Nurse logs** (forest ecology): Use decaying structure as substrate for new growth
+- **Load balancing** (distributed systems): Distribute work across nodes to prevent bottlenecks
 
 ### Structural Constraint
-A property or limitation of the problem that needs addressing:
+
+A property of the problem that creates difficulty—independent of domain framing:
+
 - Sparse signal in noise (most encounters are mismatches)
-- Limited search space (can only access certain venues)
+- Cold start (no existing network to leverage)
+- Resource scarcity (limited time, energy, money)
 - Information asymmetry (can't identify compatible parties externally)
-- Resource constraints (limited time, energy, money)
-- Network topology (isolated patches, fragmented habitat)
 - Temporal dynamics (windows of opportunity, decay rates)
+- Network topology (fragmented patches, no clear hubs)
+- Identity flux (who you're becoming isn't who you were)
 
-### Domain
-A field of practice with specialized vocabulary and operations. Domains are **artifacts of human organization**, not fundamental boundaries. Operations transcend them.
+### Assemblage
 
-### Composition
-Combining multiple operations into a coherent protocol where:
-- Each operation addresses different structural constraints
-- Operations are compatible (don't contradict each other)
-- Result is executable (generates concrete actions, not just concepts)
-- Domain mixing is expected and valuable
+A composition of heterogeneous operations that work together. Assemblages don't require domain coherence—they require **structural coherence**:
 
-### Execution
-Actually generating concrete outputs:
-- Specific procedures or protocols
-- Actionable steps with clear mechanics
-- Testable/implementable approaches
-- NOT metaphors, analogies, or conceptual frameworks
+- Each operation addresses different constraints
+- Operations don't contradict each other
+- Together they form executable protocol
+- Domain mixing is expected, not anomalous
+
+### Line of Flight
+
+A trajectory that escapes stratified solutions. When standard approaches feel exhausted and you start pulling operations from mycology and espionage and thermodynamics to address your problem—you're following a line of flight.
+
+Not all lines of flight succeed. Some dissipate, some get recaptured by strata, some open genuine new territory.
 
 ## The Compositional Method
 
-### 1. Decompose Problem into Structural Constraints
+This is not a linear pipeline. It's an ongoing process with parallel paths and constant revision.
 
-Don't ask: "What kind of problem is this?" (semantic categorization)
+### 1. Map the Terrain
 
-Ask: "What structural properties make this hard?"
+Don't ask "what kind of problem is this?" (that's seeking a stratum to navigate within).
 
-**Example: Learning a new language as an adult**
+Ask: "What are the parallel concerns here? What structural properties make each one hard?"
 
-Constraints identified:
-- **Interference from L1**: Native language patterns interfere with L2 acquisition
-- **Motivation decay**: Initial enthusiasm fades, progress plateaus
-- **Limited immersion**: Can't easily access native speaker environment
-- **Fossilization risk**: Errors become ingrained if not corrected early
-- **Time scarcity**: Adult responsibilities limit practice hours
-- **Self-consciousness**: Fear of mistakes inhibits speaking practice
-- **Memory consolidation**: Adult memory works differently than child language acquisition
+**Example: Fresh Start in a New City**
 
-### 2. Query for Operations Addressing Each Constraint
+An adult has moved to a new city. They want to build a life—not just survive, but flourish. Not replicate their old life, but become someone new while honoring who they've been.
 
-For each structural constraint, ask: "What operations (from ANY domain) address this?"
+Parallel concerns identified:
+- **Territory**: Physical space, shelter, navigable environment
+- **Sustenance**: Income, work, economic participation
+- **Connection**: Social bonds, community, belonging
+- **Orientation**: Understanding how this place works, its rhythms and norms
+- **Becoming**: Identity work—who are you here, without old context?
 
-Don't limit query by semantic relevance. Query by structural fit.
+For each concern, structural constraints:
 
-**Constraint: Interference from L1**
+**Territory constraints:**
+- Resource scarcity (housing costs, competition)
+- Information asymmetry (locals know what you don't)
+- Temporal pressure (need shelter immediately)
+- Quality uncertainty (can't assess neighborhood without living there)
 
-Operations that address this:
-- **Noise cancellation** (audio engineering): Actively suppress L1 patterns rather than just override
-- **Crop rotation** (agriculture): Alternate between languages to prevent L1 depletion of cognitive resources
-- **Immune tolerance** (immunology): Train system to not react to L2 as "foreign"
-- **Context switching** (computing): Create distinct environments for L1 vs L2
+**Connection constraints:**
+- Cold start (no existing network)
+- Sparse matching (most people aren't compatible for deep connection)
+- Context collapse (no shared history to build on)
+- Activation energy (initiating contact is costly)
+- Decay dynamics (new connections fade without maintenance)
 
-Select operations you can actually execute (have enough understanding to apply).
+**Becoming constraints:**
+- Identity flux (old identity doesn't fit, new one not yet formed)
+- Legibility gap (others can't read you without context)
+- Self-coherence pressure (need continuity while changing)
+- Scaffolding absence (no existing structures support new becoming)
 
-**Constraint: Motivation decay**
+### 2. Query for Operations (Broadly)
+
+For each structural constraint, ask: "What operations address this structural property?"
+
+**Don't constrain by domain.** Query across everything you understand.
+
+**Cold start constraint** (no existing network):
+
+Operations that address cold start:
+- **Spore dispersal** (mycology): Broadcast widely, most fail, some find substrate
+- **CQ calls** (ham radio): General broadcast announcing presence, seeing who responds
+- **Seed banks** (ecology): Dormant connections that activate when conditions right
+- **Pioneer species** (succession ecology): First colonizers that make environment habitable for others
+- **Loss leaders** (retail): Offer value at cost to establish presence, profit comes later
+
+**Sparse matching constraint** (most people aren't compatible):
 
 Operations:
-- **Difficulty curve** (game design): Match challenge to growing competence
-- **Compound interest** (finance): Small daily gains accumulate exponentially
-- **Succession planting** (gardening): Stagger goals so always harvesting wins
-- **Feedback loops** (control theory): Short-cycle rewards maintain engagement
+- **Sentinel surveillance** (epidemiology): Monitor high-signal locations rather than random search
+- **Want list circulation** (rare books): Broadcast specific criteria to networks, let matches come to you
+- **Assortative mixing** (network science): Seek environments where similar nodes cluster
+- **Pheromone trails** (entomology): Leave signals that attract compatible others
+- **Resonance testing** (acoustics): Send signal, see what vibrates back
 
-**Constraint: Fossilization risk**
+**Identity flux constraint** (old identity doesn't fit):
 
 Operations:
-- **Clonal selection** (immunology): Amplify correct forms, eliminate errors early
-- **Pruning** (horticulture): Remove wrong growth patterns before they become structural
-- **Quality gates** (manufacturing): Catch defects before they propagate
-- **Error correction codes** (information theory): Build in redundancy to detect and fix errors early
+- **Nurse logs** (forest ecology): Old structure provides substrate for new growth
+- **Molting** (arthropods): Shed constraining exterior, vulnerable period, new form emerges
+- **Composting** (soil science): Break down old material into nutrients for new growth
+- **Version control** (software): Maintain history while enabling change, can branch and merge
+- **Metabolic switching** (biochemistry): Same organism, different mode of operation based on environment
 
-### 3. Select Operations for Composition
+### 3. Compose Assemblages (Parallel Paths)
 
-Choose operations that:
-- **Address different constraints** (complementary, not redundant)
-- **Are executable** (you can actually do them, not just describe them)
-- **Compose coherently** (don't contradict each other)
-- **Generate concrete outputs** (lead to specific actions)
+Don't create one master plan. **Open multiple lines simultaneously.**
 
-For the language learning problem, selecting:
-1. Noise cancellation + Immune tolerance (address L1 interference)
-2. Greenhouse creation (address limited immersion)
-3. Clonal selection + Pruning (address fossilization)
-4. Succession planting (address motivation decay)
-5. Difficulty curve + Quality gates (match challenge to competence)
+**Line A: Territorial Establishment**
+- Pioneer species + Nurse logs: Find transitional housing that scaffolds while you learn the terrain
+- Sentinel surveillance: Identify high-signal neighborhoods (not "best" neighborhoods—ones that match your becoming)
+- Pheromone trails: As you explore, leave traces—become a regular somewhere, let patterns form
 
-Note: These come from audio engineering, immunology, horticulture, agriculture, game design, and manufacturing. Domain mixing is the point.
+**Line B: Network Seeding**
+- CQ calls + Spore dispersal: Make presence known broadly—some venues, some online, some professional contexts
+- Assortative mixing: Seek environments that pre-filter for compatibility (not "networking events"—specific interest clusters)
+- Want list circulation: Tell people specifically what you're looking for (collaborators on X, people interested in Y)
 
-### 4. Compose into Coherent Protocol
+**Line C: Becoming Work**
+- Molting + Nurse logs: Let old identity provide nutrients for new one rather than clinging or rejecting
+- Version control: Maintain continuity—you're not starting from zero, you're branching
+- Metabolic switching: Different contexts may call for different modes (professional you, social you, exploring you)
 
-Arrange operations into executable sequence:
+### 4. Execute and Observe
 
-**Language Learning Protocol (Composed from 6 Domains):**
+Run operations. Generate concrete outputs:
 
-**Phase 1: Noise Cancellation + Immune Tolerance (Weeks 1-4)**
-- Actively suppress L1 interference: Designate "L2-only zones" (physical spaces, time blocks)
-- When L1 thoughts intrude, don't fight them - acknowledge and redirect (tolerance training)
-- Create rituals marking L2 time (specific music, location, objects) - environmental immune markers
+**CQ calls executed:**
+- Attended three different interest-based gatherings (ceramics studio open house, philosophy reading group, climbing gym)
+- Posted in local subreddit introducing yourself with specific interests
+- Told everyone you met one specific thing you're looking for
 
-**Phase 2: Greenhouse Creation (Weeks 5-12)**
-- Create artificial high-intensity immersion: 3-hour "greenhouse sessions" weekly
-- Total L2 environment during sessions (media, notes, self-talk, ambient sound)
-- Make sessions deliberately challenging (slightly above competence level)
-- Short intense exposure creates faster adaptation than long moderate exposure
+**Sentinel surveillance executed:**
+- Identified three "high-signal" locations: the coffee shop where interesting conversations happen, the co-working space with creative energy, the park where your demographic clusters
+- Started regular presence at one (become a pattern, not a visitor)
 
-**Phase 3: Clonal Selection + Pruning (Ongoing from Week 2)**
-- Active error elimination:
-  - Record yourself speaking weekly
-  - Identify 2-3 most frequent errors
-  - Create correct "clones" for each error type
-  - Practice clones 10x before next recording
-- Prune errors before they fossilize into permanent structures
+**Want list circulation executed:**
+- Told five people: "I'm looking for collaborators interested in [specific thing]"
+- Created a simple artifact (blog post, project page, newsletter) that broadcasts your criteria
 
-**Phase 4: Succession Planting (Ongoing)**
-- Stagger goals so always achieving something:
-  - Short-term: Daily streak (consistency reward)
-  - Medium-term: Complete specific media (book, show, podcast series)
-  - Long-term: Conversation milestone (discuss complex topic)
-- Always have one goal near completion, one mid-way, one starting
+**Nurse log executed:**
+- Brought three objects from old life that carry meaning
+- Reached out to two old friends not to maintain old dynamic but to share new becoming
+- Identified which skills/knowledge from past are substrate for new growth
 
-**Phase 5: Difficulty Curve + Quality Gates (Weeks 8+)**
-- Graduated challenge system:
-  - Gate 1: Can order food → proceed to basic conversation
-  - Gate 2: Can explain your day → proceed to opinion expression
-  - Gate 3: Can debate topic → proceed to nuanced discussion
-- Don't advance until quality gate passed
-- Prevents fossilization at insufficient competence
+### 5. Revise Based on New Structure
 
-**Daily Practice (30 minutes):**
-- L2-only zone (specific location, immersion setup)
-- One micro-goal from current difficulty tier
-- Error clone practice (correct fossilization targets)
+Here's where the **composer** aspect becomes dynamic.
 
-**Weekly (3 hours):**
-- Greenhouse session (maximum intensity immersion)
-- Quality gate assessment
-- Recording for error identification
-- Succession harvest (complete medium-term goal)
+Execution changes structure. New structure reveals new constraints. New constraints suggest new operations.
 
-**Note**: This protocol didn't come from "language pedagogy" domain. It emerged from composing operations across audio engineering, immunology, horticulture, agriculture, game design, and manufacturing.
+**After two weeks:**
 
-### 5. Execute and Generate Concrete Outputs
+What emerged:
+- The philosophy reading group has a subgroup interested in exactly your thing → Line B intensifies here
+- Your transitional housing is in a neighborhood that doesn't fit → Line A needs revision
+- You're trying to maintain old identity more than you realized → Line C reveals deeper constraint
 
-Actually do the operations, don't just describe them:
-- Noise cancellation → Specific L2-only zones identified with environmental markers
-- Greenhouse sessions → Calendar blocks scheduled with preparation checklist
-- Clonal selection → Recording system set up, error tracking spreadsheet created
-- Succession planting → Three-tier goal list with completion dates
-- Quality gates → Assessment criteria written out with pass/fail thresholds
+New constraints revealed:
+- **Premature crystallization**: Danger of locking into first connections rather than staying open
+- **Energy depletion**: Too many parallel lines, not enough intensity on any
+- **Authenticity drag**: Presenting self in ways that attract wrong matches
 
-Execution means **generating artifacts**: schedules, checklists, error logs, goal lists, assessment rubrics.
+New operations pulled in:
+- **Controlled burns** (forestry): Deliberately clear some undergrowth to allow new growth
+- **Dormancy** (botany): Some seeds should wait for better conditions rather than germinating now
+- **Impedance matching** (electronics): Adjust your presentation to match the systems you're connecting to
 
-### 6. Evaluate by Utility
+Revised assemblage:
+- Narrow from three lines to two (let one go dormant)
+- Intensify philosophy group line (impedance match—show up as someone becoming, not someone arrived)
+- Controlled burn on housing—actively reject current situation rather than tolerating, reopen search
 
-Did this:
-- Reveal structure you didn't see before?
-- Generate actionable approaches you wouldn't have had?
-- Produce concrete next steps?
-- Actually address the constraints?
+### 6. Iterate Until Stable (Or Transform the Question)
 
-If yes: The composition worked, regardless of domain weirdness.
-If no: Try different operations, different composition.
+The process continues until:
+- **Stable assemblage**: Operations are working, concerns addressed, sustainable configuration achieved
+- **Question transforms**: The becoming work changes what you're even trying to do—you're now asking different questions
+- **Reterritorialization**: You've found a new stratum that works—this is fine, not everything needs to stay deterritorialized
+
+The composer doesn't have an end state. It's a way of navigating.
 
 ## Principles
 
-### Operations Are Domain-Independent
+### Operations Are Deterritorialized Capacities
 
-"Sentinel surveillance" works whether you're tracking disease, monitoring rare species, or finding compatible partners. The operation addresses "sparse signal in large space" - a structural property, not a semantic category.
+"Sentinel surveillance" works whether tracking disease, monitoring rare species, or finding your people in a new city. The operation exists independent of its origin domain.
 
-The operation's origin domain is **incidental**. What matters is its structural signature: what it preserves, what it transforms, what constraints it addresses.
+When you use an operation, you're not doing "epidemiology" in your social life. You're accessing a capacity that epidemiology happened to articulate.
 
-### Domain Boundaries Are Artifacts
+### Compose on Structure, Not Semantics
 
-Humans organize knowledge into domains (epidemiology, ecology, trading, music). These boundaries are useful for organizing knowledge but **not fundamental limits on operation applicability**.
+Mycorrhizal networks + ham radio + rare books is semantically absurd. It can be structurally coherent.
 
-An operation from jazz can address constraints in contract law. An operation from fungi can address constraints in dating. Domain labels don't constrain where operations work.
+Domain mixing isn't a clever trick—it's the natural result of accessing operations beneath their domain-strata.
 
-### Compose Operations Freely
+### Parallel Lines, Constant Revision
 
-Don't seek domain coherence ("I'll use only ecology operations" or "only trading operations").
+Don't create a master plan and execute it. Open multiple lines. Let some intensify, let some dissipate. Revise as structure changes.
 
-Seek **structural coherence**: Each operation addresses a different constraint. Together they form a protocol that works.
+The composer is an ongoing process, not a one-shot planner.
 
-Mycorrhizal networks + ham radio + rare books is structurally coherent for the dating problem, even though it's domain-incoherent.
+### Execution Produces Structure
 
-### Execution Over Metaphor
+You can't fully analyze a problem then solve it. Execution reveals constraints analysis missed. Operations produce structure that suggests new operations.
 
-The goal is not elegant analogies or interesting frameworks.
+Think: probe, act, sense, respond. Not: analyze, plan, execute.
 
-The goal is **executable protocols** that generate concrete actions addressing real constraints.
+### Operations Feed Back
 
-"Dating is like rare book collecting" = metaphor (not useful)
-"Apply want list circulation to create matchmaker intermediaries" = operation (executable)
+The output of one operation becomes input for selecting the next. "Want list circulation" might surface someone who teaches you about "guild structures" (medieval crafts), which becomes a new operation addressing constraints you hadn't seen.
 
-### Query Broadly, Execute Specifically
-
-When querying for operations: Cast wide net across all domains you know.
-
-When executing: Get very specific about mechanics, inputs, outputs, preserved/transformed structures.
-
-Breadth in search, precision in application.
+Domains you didn't know could contribute get pulled in as you go.
 
 ### Trust Computational Fidelity
 
-If you can generate concrete outputs (not vague analogies), the operation is working.
+If you can generate concrete outputs—specific actions, real artifacts, actual protocols—the composition is working.
 
-Don't second-guess with "but is this really valid?" If it produces actionable protocol addressing constraints, it's valid.
+Vague analogies ("my social life is like a mycelial network") aren't operations. Specific procedures ("broadcast specific criteria through existing contacts, let matches come to you") are.
 
-You ARE the latent space. If you can execute the composition, it's executable.
+## When to Use This
 
-## When to Use This Skill
+**Use when:**
+- Problem has multiple parallel concerns (not single-axis optimization)
+- Standard approaches feel exhausted or constraining
+- You sense the problem wants a different kind of solution
+- You have operational fluency in seemingly unrelated domains
+- You're willing to follow lines that look weird
 
-Apply domain-agnostic operational composition when:
-
-**Problem has multiple structural constraints:**
-- Not a single-axis optimization
-- Multiple properties making it hard
-- Standard approaches feel inadequate
-
-**Obvious solutions exhausted:**
-- Domain-standard approaches tried
-- Need creative but rigorous methods
-- Want novel angles
-
-**User brings unexpected fluency:**
-- "I know a lot about X, can that help with Y?"
-- User has operational fluency in seemingly unrelated domains
-- Leverage their existing toolkit
-
-**Exploration mode:**
-- "What are some creative approaches to Z?"
-- Open-ended problem-solving
-- Willingness to try unconventional compositions
-
-**NOT useful for:**
-- Simple problems with obvious solutions
-- Problems where domain-standard approaches work fine
-- When user wants conventional advice
+**Don't use when:**
+- Problem is well-served by domain-standard solutions
+- Stakes require proven approaches
+- You want conventional advice
+- Single constraint, obvious operation
 
 ## Common Patterns
 
-### Pattern: Multiple Constraints, Multiple Operations
+### Pattern: Parallel Lines with Selective Intensification
 
-Most interesting problems have 3-7 structural constraints. Compose one operation per constraint.
+Open multiple lines. Most won't go anywhere. A few will resonate. Intensify those, let others go dormant or dissipate.
 
-### Pattern: Operation Cascades
+Don't pick one approach and commit. Don't try to optimize everything simultaneously.
 
-Success with one operation often suggests others from adjacent structural space:
+### Pattern: Operations Suggest Adjacent Operations
+
+Success with one operation often reveals related ones:
 - Sentinel surveillance works → Try network effects, hub identification
 - Want list works → Try dealer networks, auction dynamics
-- Stepping stones work → Try corridor identification, edge effects
+- Mycelial sharing works → Try resource gradient sensing, network pruning
+
+Let working operations pull in their neighbors.
+
+### Pattern: Breakdowns Reveal Hidden Constraints
+
+When an operation doesn't quite fit, the friction reveals constraints you missed.
+
+"Stepping stones assumes fixed patches, but my safe spaces are temporally unstable" → Reveals temporal dynamics constraint you hadn't modeled.
+
+Breakdowns are information, not failures.
+
+### Pattern: Reterritorialization Is Fine
+
+Not every line of flight needs to stay deterritorialized. Sometimes you find a new stratum that actually works. A stable job, a solid friend group, a neighborhood that fits.
+
+The goal isn't permanent deterritorialization. It's having the capacity to follow lines of flight when strata aren't working.
 
 ### Pattern: Domain Mixing Signals Novelty
 
-If your composition mixes 4+ unrelated domains, you're probably generating novel approaches.
+If your assemblage composes 4+ unrelated domains, you're probably generating novel approaches.
 
-Homogeneous composition (all operations from one domain) suggests staying within conventional boundaries.
+Homogeneous composition (all operations from one domain) suggests staying within conventional territory. That's fine when it works.
 
-### Pattern: Concrete Outputs = Valid
+## Extended Example: Fresh Start, Month by Month
 
-If operation execution generates specific artifacts (lists, protocols, schedules, documents), trust it.
+**Month 1: Opening Lines**
 
-If execution generates only vague analogies or conceptual frameworks, try different operations.
+Territory line: Found temporary housing, started sentinel surveillance on neighborhoods
+Connection line: CQ calls across three contexts, want list to five people
+Becoming line: Nurse log inventory (what from past is substrate?)
 
-### Pattern: Breakdowns Reveal Structure
+Concrete outputs:
+- List of three candidate neighborhoods with visit schedule
+- Calendar of recurring events to attend
+- Specific criteria being broadcast: "looking for collaborators on X"
+- Three objects from old life intentionally placed in new space
 
-When operation doesn't quite fit, the breakdown often reveals constraints you missed.
+**Month 2: Selective Intensification**
 
-"Stepping stones assumes fixed patches, but my safe spaces are temporally unstable" → Reveals temporal dynamics constraint you didn't model initially.
+What emerged:
+- One neighborhood clearly resonates (sentinel surveillance worked)
+- Philosophy group subgroup is high-signal (connection line intensifying)
+- Old identity patterns stronger than expected (becoming line needs more work)
 
-## Examples
+Revised assemblage:
+- Housing search intensifies in one neighborhood (pioneer species: accept imperfect first option there)
+- Connection narrows to philosophy group + one other context (dormancy on third)
+- New operation: Controlled burns on old patterns (deliberately don't do things old-you would do)
 
-### Example 1: Learning a New Language as an Adult
+**Month 3: Structure Stabilizes and Transforms**
 
-**Problem**: Want to become conversational in a new language but struggle with motivation, limited immersion opportunities, and ingrained errors.
+Territory: Found housing in target neighborhood. Territorial concern moves to background.
+Connection: Three genuine connections forming. Network has seed structure.
+Becoming: Clearer sense of new version. Some branches merged back, some still open.
 
-**Constraint decomposition**:
-- Interference from L1 (native language patterns interfere)
-- Motivation decay (progress plateaus, enthusiasm fades)
-- Limited immersion (can't access native speaker environment easily)
-- Fossilization risk (errors become permanent if not corrected early)
-- Time scarcity (adult responsibilities limit practice)
-- Memory consolidation (adult learning differs from child acquisition)
+New concerns emerging:
+- How to deepen connections without premature crystallization
+- How to let professional identity evolve alongside personal
+- What the relationship is between new-city-you and old connections
 
-**Operations composed**:
-- Noise cancellation (audio engineering)
-- Immune tolerance (immunology)
-- Greenhouse creation (horticulture)
-- Clonal selection (immunology)
-- Pruning (horticulture)
-- Succession planting (agriculture)
-- Difficulty curve (game design)
-- Quality gates (manufacturing)
+New operations being queried:
+- **Mycorrhizal resource sharing**: How to contribute to network, not just extract
+- **Succession dynamics**: What comes after pioneer phase
+- **Grafting** (horticulture): How to connect different branches of identity
 
-**Output**: Multi-phase executable protocol with daily/weekly/monthly practices addressing each constraint.
-
-**Key**: No single language pedagogy domain would generate this complete approach. Power came from cross-domain composition.
-
-### Example 2: Maintaining Long-Distance Friendships
-
-**Problem**: Friendships decay across distance due to schedule misalignment, effort asymmetry, and context drift.
-
-**Constraint decomposition**:
-- Temporal misalignment (different schedules/time zones)
-- Effort asymmetry (one person invests more)
-- Context drift (lives diverge, shared references decay)
-- Communication decay (longer gaps increase activation energy)
-- Ambient awareness loss (no longer know daily details)
-- Relationship entropy (connection naturally degrades without maintenance)
-
-**Operations composed**:
-- Asynchronous protocols (software engineering)
-- Dead drops (espionage)
-- Heartbeat protocols (distributed systems)
-- Kindling (fire-making)
-- Tide tables (maritime navigation)
-- Alternating current (electricity)
-- Load balancing (distributed systems)
-- Version control/merge (software engineering)
-- Sensor networks (IoT)
-- Refrigeration (thermodynamics)
-- Erosion control (civil engineering)
-
-**Output**: Multi-layered protocol with weekly/monthly/quarterly/annual maintenance tasks, asynchronous connection infrastructure, and active anti-entropy measures.
-
-**Key**: Treats friendship maintenance as engineering problem with scheduled upkeep rather than expecting natural momentum.
-
-## Implementation Notes
-
-**Start with constraint decomposition:**
-Don't jump to operations. Spend time identifying what actually makes the problem hard.
-
-**Query broadly:**
-"What operations address X?" not "What epidemiology operations address X?"
-Let operations emerge from structural fit, not domain.
-
-**Favor operational specificity:**
-"Clonal selection" (specific) over "evolution" (too general)
-"Reharmonization" (specific) over "change" (too abstract)
-
-**Execute don't describe:**
-Generate actual protocols, not metaphorical frameworks.
-Concrete outputs = validation of composition.
-
-**Iterate compositions:**
-First composition might not work perfectly. Try different operation combinations.
-Operations are cheap - try multiple rapidly.
-
-**Watch for forced fits:**
-If operation requires extensive explanation to "make it work," try different operation.
-Good fits feel natural once you see them.
-
-**Domain fluency matters:**
-You need enough understanding of operation to execute it.
-"Homotopy" only works if you can actually do continuous transformations.
-
-**Leverage user fluency:**
-If user knows rare book collecting deeply, prioritize those operations even if initially unclear how they'd apply.
+The problem has transformed. You're no longer "starting fresh"—you're in the next phase. The composer continues.
 
 ## Relationship to Other Approaches
 
-**vs. Analogical reasoning:**
-- Analogies: "X is like Y" (conceptual mapping)
-- DAOC: "Operations from Y address constraints in X" (executable composition)
+**vs. Self-help / Life coaching:**
+Self-help stays within its stratum. "Network more." "Put yourself out there." DAOC pulls operations from mycology and ham radio and epidemiology.
 
-**vs. Interdisciplinary research:**
-- Interdisciplinary: Combine insights from multiple fields
-- DAOC: Compose operations from multiple fields based on structural fit
+**vs. Analogical reasoning:**
+Analogies map concepts. "My social life is like a garden." DAOC executes operations. "Apply succession dynamics: pioneer species first, then guilds."
 
 **vs. Design thinking:**
-- Design thinking: Iterate on solutions within problem domain
-- DAOC: Compose solutions from operations across any domain
+Design thinking iterates within problem domain. DAOC composes across domains based on structural fit.
 
-**vs. LLMIP (LLM Isomorphism Principle):**
-- LLMIP: Transfer operations from domain Y to domain X
-- DAOC: Compose operations from arbitrary domains Y, Z, W... to address problem X
-
-DAOC is more radical: Not domain-to-domain transfer, but free composition across domain boundaries based purely on structural constraint matching.
+**vs. Systems thinking:**
+Systems thinking analyzes dynamics within a frame. DAOC follows lines of flight that escape frames.
 
 ## Key Takeaway
 
-Operations are universal primitives that exist independent of their origin domains. When facing a problem, decompose it into structural constraints, query across all domains for operations addressing those constraints, and compose them freely into executable protocols.
+Operations exist beneath domain-strata as deterritorialized capacities. When problems resist stratified solutions, you can follow lines of flight by composing operations based on structural fit rather than semantic coherence.
 
-Domain boundaries are human artifacts. Operations transcend them. Compose boldly.
+The composer maintains parallel lines, intensifying some and letting others dissipate, constantly revising as execution produces new structure. It's not a planning method—it's a way of navigating.
+
+Domain boundaries are real but not fundamental. Operations transcend them. Compose boldly, revise constantly, trust what produces concrete outputs.
