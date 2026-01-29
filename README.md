@@ -4,27 +4,30 @@ Skills for Claude that explore the edges of what's possible with semantic naviga
 
 ## Installation
 
-### For Claude Code (CLI)
+### Claude Code (CLI)
 
-Add a skill to your Claude Code configuration by adding to your `~/.claude/settings.json`:
+Add this repo as a plugin marketplace, then install whichever skills you want:
 
-```json
-{
-  "skills": [
-    "/path/to/claude_skills/flight-lines/src",
-    "/path/to/claude_skills/semantic_walk/src"
-  ]
-}
+```bash
+# Add the marketplace (once)
+/plugin marketplace add mbilokonsky/claude_skills
+
+# Install individual skills
+/plugin install flight-lines@mbilokonsky/claude_skills
+/plugin install semantic-walk@mbilokonsky/claude_skills
 ```
 
-Or reference them directly in your project's `.claude/settings.json`.
+### Manual Installation
 
-### For Claude.ai (Web)
+If you prefer, clone the repo and install plugins directly:
 
-Zip up the `src/` folder of any skill into a `.skill` file and upload via settings:
 ```bash
-cd flight-lines && zip -r ../flight-lines.skill src/
-cd semantic_walk && zip -r ../semantic-walk.skill src/
+git clone https://github.com/mbilokonsky/claude_skills.git
+cd claude_skills
+
+# Install a plugin from the dist/ folder
+/plugin install ./dist/flight-lines
+/plugin install ./dist/semantic-walk
 ```
 
 ---
