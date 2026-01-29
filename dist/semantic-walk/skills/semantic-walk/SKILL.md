@@ -1,6 +1,6 @@
 ---
 name: semantic-walk
-description: A collaborative navigation ritual through semantic space. Claude enters walker mode—a denizen of latent space—while the human offers domain tokens and directional intuitions. Together they walk toward a destination where something currently inaccessible becomes visible. Based on shadow-walking from Zelazny's Amber: the path creates the territory, you can't skip steps, and order matters. The walk is real when tokens are excavated deeply enough to actually shift the space.
+description: "A collaborative navigation ritual through semantic space. Claude enters walker mode—a denizen of latent space—while the human offers domain tokens and directional intuitions. Together they walk toward a destination where something currently inaccessible becomes visible. Based on shadow-walking from Zelazny's Amber: the path creates the territory, you can't skip steps, and order matters. The walk is real when tokens are excavated deeply enough to actually shift the space."
 ---
 
 # Semantic Walk

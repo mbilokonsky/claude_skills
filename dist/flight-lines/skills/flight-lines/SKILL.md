@@ -1,6 +1,6 @@
 ---
 name: flight-lines
-description: Navigate problems along lines of flight by composing operations from arbitrary domains. Operations are deterritorialized capacities—they don't belong to their origin domains. Mycorrhizal signaling + ham radio protocols + rare book dealer networks can compose into a single assemblage. The composer maintains parallel work-paths, constantly revising as new structure emerges.
+description: "Navigate problems along lines of flight by composing operations from arbitrary domains. Operations are deterritorialized capacities—they don't belong to their origin domains. Mycorrhizal signaling + ham radio protocols + rare book dealer networks can compose into a single assemblage. The composer maintains parallel work-paths, constantly revising as new structure emerges."
 ---
 
 # Flight Lines

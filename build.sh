@@ -69,3 +69,27 @@ echo "  claude --plugin-dir $DIST_DIR/<plugin-name>"
 echo ""
 echo "To install permanently:"
 echo "  /plugin install $DIST_DIR/<plugin-name>"
+
+# Check for --zip flag to create web UI packages
+if [[ "$1" == "--zip" ]]; then
+  echo ""
+  echo "Creating ZIP files for Claude.ai web upload..."
+
+  ZIP_DIR="$DIST_DIR/web"
+  mkdir -p "$ZIP_DIR"
+
+  for plugin_dir in "$DIST_DIR"/*/; do
+    plugin_name=$(basename "$plugin_dir")
+    if [[ "$plugin_name" != "web" ]]; then
+      skill_dir="$plugin_dir/skills/$plugin_name"
+      if [[ -d "$skill_dir" ]]; then
+        (cd "$skill_dir" && zip -r "$ZIP_DIR/$plugin_name.zip" .)
+        echo "  Created: dist/web/$plugin_name.zip"
+      fi
+    fi
+  done
+
+  echo ""
+  echo "ZIP files for web upload: $ZIP_DIR"
+  echo "Upload via Claude.ai > Settings > Features"
+fi
