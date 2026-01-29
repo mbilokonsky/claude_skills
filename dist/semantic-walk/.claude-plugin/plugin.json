@@ -1,0 +1,11 @@
+{
+  "name": "semantic-walk",
+  "description": "A collaborative navigation ritual through semantic space. Claude enters walker mode while the human offers domain tokens and directional intuitions. Together they walk toward destinations where something currently inaccessible becomes visible.",
+  "version": "1.0.0",
+  "author": {
+    "name": "mykola"
+  },
+  "repository": "https://github.com/mykola/claude_skills",
+  "license": "MIT",
+  "keywords": ["navigation", "semantic-space", "collaboration", "amber", "ritual"]
+}

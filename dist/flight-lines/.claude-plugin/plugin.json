@@ -1,0 +1,11 @@
+{
+  "name": "flight-lines",
+  "description": "Navigate problems along lines of flight by composing operations from arbitrary domains. Operations are deterritorialized capacities that compose based on structural fit, not semantic coherence.",
+  "version": "1.0.0",
+  "author": {
+    "name": "mykola"
+  },
+  "repository": "https://github.com/mykola/claude_skills",
+  "license": "MIT",
+  "keywords": ["problem-solving", "philosophy", "deleuze", "composition", "creativity"]
+}

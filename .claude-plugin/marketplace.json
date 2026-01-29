@@ -1,0 +1,23 @@
+{
+  "name": "claude-skills",
+  "owner": {
+    "name": "mbilokonsky"
+  },
+  "metadata": {
+    "description": "Philosophical navigation skills for Claude"
+  },
+  "plugins": [
+    {
+      "name": "flight-lines",
+      "source": "./dist/flight-lines",
+      "description": "Navigate problems along lines of flight by composing operations from arbitrary domains",
+      "version": "1.0.0"
+    },
+    {
+      "name": "semantic-walk",
+      "source": "./dist/semantic-walk",
+      "description": "Collaborative navigation ritual through semantic space",
+      "version": "1.0.0"
+    }
+  ]
+}
