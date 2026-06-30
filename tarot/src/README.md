@@ -1,5 +1,9 @@
 # Custom Tarot Designer v6.0
 
+# DEPRECATION NOTICE: this is considered a legacy version of this skill, and is not exported by this plugin. Maintaining for historical context.
+For an up-to-date version of this skill with cleaner schema, richer semantics etc, see this [repo](https://github.com/mbilokonsky/generative-arcana) or this [github pages site](https://mbilokonsky.github.io/generative-arcana).
+
+
 A skill for designing thematically coherent custom tarot decks with integrated viewer, readings, and visual generation.
 
 ## Quick Start

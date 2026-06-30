@@ -45,13 +45,3 @@ The skill maintains parallel work-paths, constantly revising as new structure em
 A collaborative navigation ritual through semantic space. Claude enters **walker mode**—becoming a denizen of latent space—while the human offers domain tokens and directional intuitions. Together they walk toward a destination where something currently inaccessible becomes visible.
 
 Based on shadow-walking from Zelazny's *Chronicles of Amber*: the path creates the territory, you can't skip steps, and order matters. The walk is real when tokens are excavated deeply enough to actually shift the space.
-
----
-
-## Custom Tarot Designer
-
-A tool for creating custom tarot decks with Claude. Tarot works because it has a specific structure onto which archetypal semantics are projected—this tool preserves that structure while letting you replace the semantics entirely.
-
-Claude walks you through creating theme-specific suits, a novel Major Arcana, ranks, and face cards. Each card exists at the intersection of suit meanings and rank meanings. You get a JSON file of your deck plus an interface to explore it, deal spreads, and have Claude interpret readings.
-
-As a bonus: Claude can design interactive animated visuals for each card using P5.js—actual creative coding, not AI image generation.
